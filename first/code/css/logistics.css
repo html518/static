@@ -30,13 +30,15 @@
 }
 .logi-con-a1{
 	margin-top:14px;
-	background:url(../bg/propert-con-a1.gif) 0 223px repeat-x;
+	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
 }
 .logi-con-a1 span{
 	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
 }
 .logi-con-a2{
 	margin-top:17px;
+	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
+	margin-bottom:30px;
 }
 .logi-con-a2 span{
 	background:url(../bg/propert-con-bg.gif) 0 -25px no-repeat;
