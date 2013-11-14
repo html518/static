@@ -1,0 +1,24 @@
+.newsbody {
+	width: 930px;
+	font: 14px 微软雅黑,宋体,arial;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.newsbody h1 {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+.newsbody-date {
+	width: 930px;
+	text-align: center;
+	border-bottom: 1px dotted #b6b6b6; 
+}
+.newsbody-con {
+	width: 930px;
+	text-align: center;
+}
+.newsbody-con p {
+	text-indent: 2em;
+	text-align: left;
+}
