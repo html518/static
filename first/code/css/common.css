@@ -1,5 +1,5 @@
 /* reset by luda */
-body,span,img,h1,h2,h3,var,strong,em,dl,dd,dt,ul,ol,li,table,tr,th,td,a,p {
+body,span,img,h1,h2,h3,var,strong,em,dl,dd,dt,ul,ol,li,table,tr,th,td,a {
 	margin: 0;
 	padding: 0;
 }
@@ -12,9 +12,6 @@ a {
 img {
 	border: none;
 	vertical-align: top;
-}
-var,em {
-	font-style: normal;
 }
 /* clear folat */
 .cf:before,

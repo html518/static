@@ -1,0 +1,43 @@
+/* logistics by taoyanran*/
+.logi-con div{
+	float:left;
+	width:935px;
+	height:224px;
+	margin-left:11px;
+	display:inline;
+}
+.logi-con img{
+	float:left;
+}
+.logi-con span{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	line-height:24px;
+	text-indent:12px;
+	width:156px;
+	height:25px;
+	margin-left:13px;
+}
+.logi-con p{
+	float:left;
+	width:646px;
+	font-size:14px;
+	line-height:18px;
+	margin-left:21px;
+	margin-top:12px;
+}
+.logi-con-a1{
+	margin-top:14px;
+	background:url(../bg/propert-con-a1.gif) 0 223px repeat-x;
+}
+.logi-con-a1 span{
+	background:url(../bg/propert-con-bg.gif) 0 1px no-repeat;
+}
+.logi-con-a2{
+	margin-top:17px;
+}
+.logi-con-a2 span{
+	background:url(../bg/propert-con-bg.gif) 0 -24px no-repeat;
+}

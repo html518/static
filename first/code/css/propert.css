@@ -1,0 +1,66 @@
+/* propert by taoyanran */
+
+.prop-con{
+	background:#fff;
+	width:962px;
+	margin:0 auto;
+}
+p{
+	margin:0;
+	padding:0;
+}
+.prop-con-br{
+	float:left;
+	font-size:14px;
+	line-height:22px;
+	margin-left:15px;
+	margin-top:13px;
+	margin-right:24px;
+	color:#333;
+	text-indent:35px;
+}
+.prop-con div{
+	float:left;
+	width:929px;
+	height:130px;
+	margin-left:17px;
+	background:url(../bg/propert-con-a1.gif) 0 0 repeat-x;
+}
+.prop-con div img{
+	float:left;
+	margin-top:8px;
+}
+.prop-con div span{
+	float:left;
+	width:156px;
+	height:25px;
+	margin-left:12px;
+	margin-top:8px;
+	line-height:24px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+}
+.prop-con-a4{
+	background:url(../bg/propert-con-bg.gif) 0 1px no-repeat;
+}
+.prop-con-a5{
+	background:url(../bg/propert-con-bg.gif) 0 -24px no-repeat;
+}
+.prop-con-a3{
+	background:url(../bg/propert-con-bg.gif) 0 -49px no-repeat;
+}
+.prop-con-a2{
+	background:url(../bg/propert-con-bg.gif) 0 -74px no-repeat;
+}
+.prop-con-a1{
+	background:url(../bg/propert-con-bg.gif) 0 -99px no-repeat;
+}
+.prop-con div p{
+	float:left;
+	width:742px;
+	margin-top:17px;
+	margin-left:18px;
+	font-size:14px;
+	color:#333;
+}

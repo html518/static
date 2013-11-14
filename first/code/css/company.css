@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* company by taoyanran */
 .comp-pro{
 	padding:0;
@@ -34,6 +35,7 @@
 	font-size:14px;
 	color:#333;
 	margin-top:11px;
+	width:920px;
 }
 .comp-ser{
 	float:left;
@@ -49,4 +51,7 @@
 	margin-top:6px;
 	color:#333;
 	font-size:14px;
+	clear:both;
 }
+=======
+>>>>>>> 增加通用css
