@@ -1,0 +1,89 @@
+/* cult 企业文化 */
+var,em {
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+}
+.cult {
+	font-size: 12px;
+	margin: 27px 0 0 49px;
+}
+img {
+	padding: 17px 16px 17px 18px; 
+	border: 1px solid #d3d2ce;
+	background-color: #f7f7f5;
+	vertical-align: top;
+}
+.pic-t {
+	width: 257px;
+	height: 562px;
+	position: relative;
+}
+.pic-t a {
+	float: left; 
+}
+.first {
+	margin-bottom: 45px;
+}
+span {
+	padding: 0 1px 1px;
+	background-color: #f7f7f5;
+	position: absolute;
+	left: 302px;
+	top: 0;
+	/*margin-left: -999999px;*/
+}
+.cult-pbg {
+	width: 523px;
+	height: 70px;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	background: url(../images/cult-pbg.gif) 0 0 no-repeat;
+	position: absolute;
+	bottom: 18px;
+	left: 20px;
+}
+.cult-pinfo {
+	width: 480px;
+	height: 38px;
+	line-height: 14px;
+	color: #fff;
+	position: absolute;
+	bottom: 33px;
+	left: 47px;  
+}
+.cult-pinfo strong {
+	width: 450px;
+	margin-bottom: 12px;
+	float: left;
+}
+.cult-pinfo em {
+	margin-right: 37px;
+	float: left;
+}
+.pic-b {
+	float: left;
+	margin-top:42px;
+	position: relative;
+}
+.pic-b a {
+	float: left;
+	margin-right:45px;
+}
+.pic-b  span {
+	top: -604px;
+}
+a:hover {
+	border: 0 none;
+}
+a:hover span {
+	margin-left: 0;
+}
+.pic-gd {
+	width: 859px;
+	height: 20px;
+	float: left;
+	margin: 20px 1px 36px 1px; 
+	background: url(../images/cult-gdbg.gif) 0 0 no-repeat;
+}

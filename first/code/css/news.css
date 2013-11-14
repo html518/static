@@ -1,0 +1,77 @@
+/* news新闻中心 */
+var,em {
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+	border: 0 none;
+}
+.news {
+	width: 950px; 
+	font-size: 14px;
+}
+ul,li {
+	margin: 0;
+	padding: 0; 
+}
+ul {
+	margin: 0 0 0 21px;
+	width: 929px;
+	list-style-type: none;
+}
+li {
+	height: 40px;
+	line-height: 39px;
+	background: url(../images/point.gif) 0 bottom repeat-x;
+}
+li em {
+	width: 763px;	
+	height: 39px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	background: url(../images/news-jiantou.gif) 0 center no-repeat;
+}
+li a {
+	color: #404040;
+	float: left;
+	margin-left: 16px;	
+}
+li var {
+	width: 21px;
+	float: left;
+	margin-left: 10px;
+	background: url(../images/news-hotbg.gif) 0 center no-repeat;
+}
+li span {
+	font-family: 微软雅黑;
+	color: #333333;
+	float: right;
+	margin-right: 57px;
+}
+.fy {
+	width: 201px;
+	height: 17px;
+	float: right;
+	margin: 12px 0px 0 0;  
+}
+.fy a {
+	width: 17px;
+	height: 17px;
+	font-family: arial; font-weight: bold;
+	color: #9dd3e2;
+	text-align: center;
+	display: block;
+	float: left;
+	margin-left: 23px;
+	display: inline;
+}
+.fy-up {
+	background: url(../images/news-fybg.gif) 0 0 no-repeat;
+}
+.fy-down {
+	background: url(../images/news-fybg.gif) 0 -17px no-repeat;
+}
+.fy-num:hover {
+	background: url(../images/news-numbg.gif) 0 0 no-repeat;
+}
