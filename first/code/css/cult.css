@@ -9,24 +9,20 @@
 	background-color: #f7f7f5;
 	vertical-align: top;
 }
-.cult-t {
+.cult-t-l {
 	width: 257px;
 	height: 562px;
-	position: relative;
+	float: left;
 }
-.cult-t a {
-	float: left; 
-}
-.first {
+.cult-tl-first {
 	margin-bottom: 45px;
 }
-.cult span {
+.cult-t-r {
 	padding: 0 1px 1px;
 	background-color: #f7f7f5;
-	position: absolute;
-	left: 302px;
-	top: 0;
-	/*margin-left: -999999px;*/
+	float: left;
+	margin-left: 44px;
+	position: relative;
 }
 .cult-pbg {
 	width: 523px;
@@ -59,20 +55,10 @@
 .cult-b {
 	float: left;
 	margin-top:42px;
-	position: relative;
 }
-.cult-b a {
+.cult-b img {
 	float: left;
-	margin-right:45px;
-}
-.cult-b span {
-	top: -604px;
-}
-.cult a:hover {
-	border: 0 none;
-}
-.cult a:hover span {
-	margin-left: 0;
+	margin-right: 45px;
 }
 .cult-gd {
 	width: 859px;
