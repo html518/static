@@ -1,7 +1,13 @@
 /* 物流仓储中心 libin*/
+.good {
+	padding-top: 18px;
+	padding-bottom: 56px;
+}
 .good p {
 	font-size: 14px;
-	margin: 18px 0 34px 50px;
+	color: #333333;
+	line-height: 20px;
+	margin: 0 0 34px 50px;
 }
 .good-pict {
 	text-align: center;
