@@ -29,7 +29,7 @@
 	height: 70px;
 	filter:alpha(opacity=50);
 	opacity: 0.5;
-	background: url(../images/cult-pbg.gif) 0 0 no-repeat;
+	background: url(../bg/cult-pbg.gif) 0 0 no-repeat;
 	position: absolute;
 	bottom: 18px;
 	left: 20px;
@@ -66,5 +66,5 @@
 	float: left;
 	margin: 20px 1px 0 1px; 
 	padding-bottom: 36px;
-	background: url(../images/cult-gdbg.gif) 0 0 no-repeat;
+	background: url(../bg/cult-gdbg.gif) 0 0 no-repeat;
 }
