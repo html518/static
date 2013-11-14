@@ -1,1 +1,46 @@
 /* boatman by taoyanran*/
+.boat-a{
+	float:left;
+	margin-left:11px;
+	margin-top:14px;
+}
+.boat-b{
+	float:left;
+	width:656px;
+	height:420px;
+	margin-left:21px;
+	margin-top:15px;
+}
+.boat-con-b1{
+	height:95px;
+	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
+}
+.boat-con-b2{
+	height:120px;
+	margin-top:10px;
+	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
+}
+.boat-con-b3{
+	height:141px;
+	margin-top:9px;
+	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
+}
+.boat-b span{
+	float:left;
+	width:156px;
+	height:25px;
+	line-height:24px;
+	font-size:14px;
+	color:#fff;
+	text-indent:13px;
+	background:url(../bg/propert-con-bg.gif) 0 1px no-repeat;
+}
+.boat-con-b2 span,.boat-con-b3 span{
+	background:url(../bg/propert-con-bg.gif) 0 -24px no-repeat;
+}
+.boat-b p{
+	float:left;
+	font-size:14px;
+	color:#333;
+	width:656px;
+}
