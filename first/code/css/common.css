@@ -1,0 +1,138 @@
+/* reset */
+body,span,img,h1 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px 微软雅黑,宋体,arial;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+/* clear folat */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+/* 网站主宽 */
+.main {
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 11px;
+	background: #000 url(../bg/bg.gif) 0 0 repeat;
+}
+/* 全站公用头 */
+.header-bg {
+	height: 76px;
+	background: url(../bg/header_bg.gif) 0 0 repeat-x;
+}
+.header-logo {
+	padding: 17px 0 0 13px;
+}
+.header-logo a img {
+	width: 257px;
+	height: 40px;
+}
+.nav {
+	background: url(../bg/nav_bg.gif) 0 -33px repeat-x;
+	margin-bottom: 11px;
+}
+.nav-bg-l {
+	background: url(../bg/nav_bg.gif) 0 0 no-repeat;
+}
+.nav-bg-r {
+	height: 33px;
+	background: url(../bg/nav_bg.gif) 100% -66px no-repeat;
+}
+.nav-con {
+	width: 810px;
+	height: 33px;
+	margin: 0 auto;
+}
+.nav-con span {
+	height: 33px;
+	line-height: 33px;
+	padding: 0 16px;
+	float: left;
+}
+.nav-con a {
+	color: #fff;
+}
+.nav-on-bg {
+	background: url(../bg/nav_on_bg.gif) 0 -33px repeat-x;
+	float: left;
+}
+.nav-on-bg-l {
+	background: url(../bg/nav_on_bg.gif) 0 0 no-repeat;
+}
+.nav-on-bg-r {
+	height: 33px;
+	line-height: 33px;
+	padding: 0 16px;
+	background: url(../bg/nav_on_bg.gif) 100% -66px no-repeat;
+	float: left;
+}
+/* 子网页内容 */
+.common-sub-con {
+	width: 962px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+/* 子网页公用栏目头 */
+.common-sub-hd {
+	background: url(../bg/common_sub_hd.gif) 0 -39px repeat-x;
+}
+.common-sub-hd-l {
+	background: url(../bg/common_sub_hd.gif) 0 0 no-repeat;
+}
+.common-sub-hd-r {
+	height: 23px;
+	background: url(../bg/common_sub_hd.gif) 100% -78px no-repeat;
+	padding-top: 16px
+}
+.common-sub-hd-r span {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+	margin-left: 35px;
+}
+/* 子网页公用栏目尾 */
+.common-sub-ft {
+	background-color: #fff;
+}
+.common-sub-ft-l {
+	background: url(../bg/common_sub_ft.gif) 0 0 no-repeat;
+}
+.common-sub-ft-r {
+	height: 2px;
+	background: url(../bg/common_sub_ft.gif) 100% -2px no-repeat;
+	overflow: hidden;
+}
+/* 全站公用尾 */
+.footer {
+	width: 962px;
+	height: 59px;
+	background-color: #303338;
+	margin: 0 auto;
+	padding-top: 28px;
+	margin-top: 10px;
+}
+.footer div {
+	text-align: center;
+	color:#fff;
+}
+.footer div a{
+	color:#fff;
+}
