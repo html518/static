@@ -75,6 +75,7 @@ img {
 }
 .nav-on-bg-l {
 	background: url(../bg/nav_on_bg.gif) 0 0 no-repeat;
+	float: left;
 }
 .nav-on-bg-r {
 	height: 33px;
