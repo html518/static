@@ -9,7 +9,7 @@
 	color:#fff;
 	line-height:28px;
 }
-.comp-con h2{
+.comp-con h1{
 	float:left;
 	width:963px;
 	height:22px;
@@ -19,39 +19,21 @@
 	text-align:center;
 	color:#333;	
 }
-.comp-pos{
+
+.comp-con strong{
 	float:left;
-	width:800px;
-	height:18px;
 	margin-left:48px;
-	font-weight:bold;
 	color:#333;
 	font-size:14px;
-	margin-top:16px;
 }
 .comp-con p{
 	float:left;
 	margin-left:20px;
 	font-size:14px;
 	color:#333;
-	margin-top:11px;
 	width:920px;
+	text-indent:2em;
+	display:inline;
+	margin-bottom:34px;
 }
-.comp-ser{
-	float:left;
-	margin-left:48px;
-	margin-top:36px;
-	color:#333;
-	font-size:14px;
-	font-weight:bold;
-}
-.comp-ser-con{
-	float:left;
-	margin-left:48px;
-	margin-top:6px;
-	color:#333;
-	font-size:14px;
-	clear:both;
-}
-=======
 >>>>>>> 增加通用css
