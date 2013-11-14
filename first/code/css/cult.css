@@ -78,6 +78,7 @@
 	width: 859px;
 	height: 20px;
 	float: left;
-	margin: 20px 1px 36px 1px; 
+	margin: 20px 1px 0 1px; 
+	padding-bottom: 36px;
 	background: url(../images/cult-gdbg.gif) 0 0 no-repeat;
 }
