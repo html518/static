@@ -1,21 +1,10 @@
 /* news新闻中心 */
-var,em {
-	font-style: normal;
-}
-a {
-	text-decoration: none;
-	border: 0 none;
-}
 .news {
-	width: 950px; 
+	width: 930px; 
 	font-size: 14px;
-}
-ul,li {
-	margin: 0;
-	padding: 0; 
+	margin-left: 21px;  
 }
 ul {
-	margin: 0 0 0 21px;
 	width: 929px;
 	list-style-type: none;
 }
@@ -52,8 +41,8 @@ li span {
 .fy {
 	width: 201px;
 	height: 17px;
-	float: right;
-	margin: 12px 0px 0 0;  
+	float: right; 
+	margin: 12px 0px 16px 0; 
 }
 .fy a {
 	width: 17px;
