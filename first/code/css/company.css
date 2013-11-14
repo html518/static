@@ -1,0 +1,56 @@
+body,p,span,h1,h2,h3,strong,var,em{
+	margin:0;
+	padding:0;
+	width:963px;
+}
+.comp-pro{
+	padding:0;
+	margin:0;
+	float:left;
+	font-size:12px;
+	margin-left:26px;
+	color:#fff;
+	line-height:28px;
+}
+.comp-con h2{
+	float:left;
+	width:963px;
+	height:22px;
+	font-size:14px;
+	line-height:22px;
+	margin-top:15px;
+	text-align:center;
+	color:#333;	
+}
+.comp-pos{
+	float:left;
+	width:800px;
+	height:18px;
+	margin-left:48px;
+	font-weight:bold;
+	color:#333;
+	font-size:14px;
+	margin-top:16px;
+}
+.comp-con p{
+	float:left;
+	margin-left:20px;
+	font-size:14px;
+	color:#333;
+	margin-top:11px;
+}
+.comp-ser{
+	float:left;
+	margin-left:48px;
+	margin-top:36px;
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+}
+.comp-ser-con{
+	float:left;
+	margin-left:48px;
+	margin-top:6px;
+	color:#333;
+	font-size:14px;
+}
