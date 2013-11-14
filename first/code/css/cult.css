@@ -9,24 +9,24 @@ a {
 	font-size: 12px;
 	margin: 27px 0 0 49px;
 }
-img {
+.cult img {
 	padding: 17px 16px 17px 18px; 
 	border: 1px solid #d3d2ce;
 	background-color: #f7f7f5;
 	vertical-align: top;
 }
-.pic-t {
+.cult-t {
 	width: 257px;
 	height: 562px;
 	position: relative;
 }
-.pic-t a {
+.cult-t a {
 	float: left; 
 }
 .first {
 	margin-bottom: 45px;
 }
-span {
+.cult span {
 	padding: 0 1px 1px;
 	background-color: #f7f7f5;
 	position: absolute;
@@ -62,25 +62,25 @@ span {
 	margin-right: 37px;
 	float: left;
 }
-.pic-b {
+.cult-b {
 	float: left;
 	margin-top:42px;
 	position: relative;
 }
-.pic-b a {
+.cult-b a {
 	float: left;
 	margin-right:45px;
 }
-.pic-b  span {
+.cult-b span {
 	top: -604px;
 }
-a:hover {
+.cult a:hover {
 	border: 0 none;
 }
-a:hover span {
+.cult a:hover span {
 	margin-left: 0;
 }
-.pic-gd {
+.cult-gd {
 	width: 859px;
 	height: 20px;
 	float: left;
