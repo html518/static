@@ -33,10 +33,10 @@
 	font-size:14px;
 	color:#fff;
 	text-indent:13px;
-	background:url(../bg/propert-con-bg.gif) 0 1px no-repeat;
+	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
 }
 .boat-con-b2 span,.boat-con-b3 span{
-	background:url(../bg/propert-con-bg.gif) 0 -24px no-repeat;
+	background:url(../bg/propert-con-bg.gif) 0 -25px no-repeat;
 }
 .boat-b p{
 	float:left;

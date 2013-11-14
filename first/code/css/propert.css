@@ -42,19 +42,19 @@ p{
 	font-size:14px;
 }
 .prop-con-a4{
-	background:url(../bg/propert-con-bg.gif) 0 1px no-repeat;
+	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
 }
 .prop-con-a5{
-	background:url(../bg/propert-con-bg.gif) 0 -24px no-repeat;
+	background:url(../bg/propert-con-bg.gif) 0 -25px no-repeat;
 }
 .prop-con-a3{
-	background:url(../bg/propert-con-bg.gif) 0 -49px no-repeat;
+	background:url(../bg/propert-con-bg.gif) 0 -50px no-repeat;
 }
 .prop-con-a2{
-	background:url(../bg/propert-con-bg.gif) 0 -74px no-repeat;
+	background:url(../bg/propert-con-bg.gif) 0 -75px no-repeat;
 }
 .prop-con-a1{
-	background:url(../bg/propert-con-bg.gif) 0 -99px no-repeat;
+	background:url(../bg/propert-con-bg.gif) 0 -100px no-repeat;
 }
 .prop-con div p{
 	float:left;
