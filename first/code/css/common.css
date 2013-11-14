@@ -1,4 +1,4 @@
-/* reset */
+/* reset by luda */
 body,span,img,h1 {
 	margin: 0;
 	padding: 0;
@@ -25,14 +25,14 @@ img {
 .cf {
     *zoom: 1;
 }
-/* 网站主宽 */
+/* 网站主宽 by luda */
 .main {
 	width: 980px;
 	margin: 0 auto;
 	padding-bottom: 11px;
 	background: #000 url(../bg/bg.gif) 0 0 repeat;
 }
-/* 全站公用头 */
+/* 全站公用头 by luda */
 .header-bg {
 	height: 76px;
 	background: url(../bg/header_bg.gif) 0 0 repeat-x;
@@ -83,13 +83,13 @@ img {
 	background: url(../bg/nav_on_bg.gif) 100% -66px no-repeat;
 	float: left;
 }
-/* 子网页内容 */
+/* 子网页内容 by luda */
 .common-sub-con {
 	width: 962px;
 	background-color: #fff;
 	margin: 0 auto;
 }
-/* 子网页公用栏目头 */
+/* 子网页公用栏目头 by luda */
 .common-sub-hd {
 	background: url(../bg/common_sub_hd.gif) 0 -39px repeat-x;
 }
@@ -108,7 +108,7 @@ img {
 	color: #fff;
 	margin-left: 35px;
 }
-/* 子网页公用栏目尾 */
+/* 子网页公用栏目尾 by luda */
 .common-sub-ft {
 	background-color: #fff;
 }
@@ -120,7 +120,7 @@ img {
 	background: url(../bg/common_sub_ft.gif) 100% -2px no-repeat;
 	overflow: hidden;
 }
-/* 全站公用尾 */
+/* 全站公用尾 by luda */
 .footer {
 	width: 962px;
 	height: 59px;
