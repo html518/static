@@ -1,24 +1,21 @@
-div,h3,p,table,th,td {
-	padding:0;
-	margin: 0;
-}
-div {
+/*  cont 联系我们*/
+.cont {
 	font-family: tahoma;
 	color: #333333;
 	text-align: center;
 }
-h3 {
+.cont h3 {
 	font-size: 18px;
 	font-weight: normal;
 	font-family: 微软雅黑;
 	margin-top: 19px;
 	margin-bottom: 17px;
 }
-p span {
+.cont p span {
 	font-size: 16px;
 	margin-right: 24px;
 }
-.point {
+.cont-point {
 	width: 929px;
 	height: 1px;
 	line-height: 1px;
@@ -26,26 +23,26 @@ p span {
 	margin: 14px auto 25px;
 	background: url(../images/point.gif) 0 0 repeat-x;
 }
-table {
+.cont-tab {
 	font-size: 14px;
 	margin: 0 auto; width: 849px;height: 210px;
 	border-collapse:collapse;
 	border: 1px solid #318c5f;
 	margin-bottom: 178px;
 }
-th {
+.cont-tab th {
 	background-color: #318c5f;
 	color: #fff;
 }
-th,td {
+.cont-tab th,.cont-tab td {
 	height: 33px;
 	width: 257px;
 	border: 1px solid #318c5f;
 }
-table .last-th {
+.cont-last-th {
 	width: 331px;
 }
-table td div {
+.cont-tab div {
 	height: 33px;
 	line-height: 33px;
 	overflow: hidden;
