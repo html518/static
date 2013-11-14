@@ -12,12 +12,11 @@ p{
 .prop-con-br{
 	float:left;
 	font-size:14px;
-	line-height:22px;
 	margin-left:15px;
-	margin-top:13px;
 	margin-right:24px;
 	color:#333;
 	text-indent:35px;
+	padding:22px;
 }
 .prop-con div{
 	float:left;
