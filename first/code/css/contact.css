@@ -24,26 +24,23 @@
 	background: url(../bg/point.gif) 0 0 repeat-x;
 }
 .cont-tab {
+	width: 849px;
+	height: 210px;
 	font-size: 14px;
-	margin: 0 auto; width: 849px;height: 210px;
+	margin: 0 auto; 
 	border-collapse:collapse;
 	border: 1px solid #318c5f;
 	margin-bottom: 178px;
 }
 .cont-tab th {
+	height: 33px;
 	background-color: #318c5f;
 	color: #fff;
 }
 .cont-tab th,.cont-tab td {
-	height: 33px;
 	width: 257px;
 	border: 1px solid #318c5f;
 }
-.cont-last-th {
+.cont-tab .cont-last-th {
 	width: 331px;
-}
-.cont-tab div {
-	height: 33px;
-	line-height: 33px;
-	overflow: hidden;
 }
