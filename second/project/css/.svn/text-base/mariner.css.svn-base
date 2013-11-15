@@ -1,0 +1,59 @@
+.mariner {
+	min-height: 475px;
+	_height:475px;
+	background: #fff;
+}
+.mariner dl{
+	width:940px;
+	padding-top:15px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.mariner dl dt{
+	height:420px;
+	width:268px;
+	float:left;
+	margin-right:12px;
+}
+.mariner dl dt img{
+	height:176px;
+	width:260px;
+	overflow:hidden;
+}
+.mariner dl dd{
+	width:655px;
+	float:left;
+	margin-bottom:10px;
+	padding-bottom: 10px;
+}
+.mariner dl dd a {
+	float: left;
+	width: 144px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 12px;
+	color: #fff;
+	font-size: 14px;
+}
+.mariner dl dd a:hover {
+	color:#fff;
+}
+.mariner-d1 a{
+	background: url(../images/manage.png) 0 0 no-repeat;
+}
+.mariner-d2 a{
+	background: url(../images/manage.png) 0 -25px no-repeat;
+}
+.mariner dl dd p{
+	float: left;
+	width: 650px;
+	margin-top:12px;
+	font-size:14px;
+	line-height: 24px;
+	margin-left:5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}

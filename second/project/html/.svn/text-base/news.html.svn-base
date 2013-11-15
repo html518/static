@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>新闻中心</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/news.css" />	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="tit cf">
+				<a href="#" title="logo"></a>
+				<h1>中远（北京）实业有限公司</h1>
+				<p>&nbsp;</p>
+			</div>
+			<div class="nav cf">
+				<a href="../index.html" title="首页">首页</a>
+				<a href="panorama.html" title="公司简介">公司简介</a>
+				<a href="manage.html" title="物业管理">物业管理</a>
+				<a href="guarantee.html" title="后勤保障">后勤保障</a>
+				<a href="mariner.html" title="船员中心">船员中心</a>
+				<a href="goods.html" title="物流仓储中心">物流仓储中心</a>
+				<a class="one" href="news.html" title="新闻中心">新闻中心</a>
+				<a href="culture.html" title="企业文化">企业文化</a>
+				<a href="news-content.html" title="招聘信息">招聘信息</a>
+				<a href="us.html" title="联系我们">联系我们</a>
+			</div>
+		</div>
+		<div class="con news-center cf">
+			<h3 class="com-title cf"><span></span><em>新闻中心</em></h3>
+			<ul>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司组织举办投资管理操作实践培训">香远北京公司组织举办投资管理操作实践培训</a><span>2011-12-23</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司召开2012年工作务虚会精心筹划明年工作">香远北京公司召开2012年工作务虚会精心筹划明年工作</a><span>2011-12-22</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香港集团张良总裁一行莅临香远北京公司视察工作">香港集团张良总裁一行莅临香远北京公司视察工作</a><span>2011-12-21</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司领导拜访中散总公司主要领导">香远北京公司领导拜访中散总公司主要领导</a><span>2011-12-20</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司积极参加香港集团职工运动会取得优异成绩">香远北京公司积极参加香港集团职工运动会取得优异成绩</a><span>2011-12-19</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司安委办组织各单位对幸福大厦消防演习进行现场观摩和座谈交流活动">香远北京公司安委办组织各单位对幸福大厦消防演习进行现场观摩和座谈交流活动</a><span>2011-12-18</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司组织举办投资管理操作实践培训">香远北京公司组织举办投资管理操作实践培训</a><span>2011-12-23</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司召开2012年工作务虚会精心筹划明年工作">香远北京公司召开2012年工作务虚会精心筹划明年工作</a><span>2011-12-22</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香港集团张良总裁一行莅临香远北京公司视察工作">香港集团张良总裁一行莅临香远北京公司视察工作</a><span>2011-12-21</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司领导拜访中散总公司主要领导">香远北京公司领导拜访中散总公司主要领导</a><span>2011-12-20</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司积极参加香港集团职工运动会取得优异成绩">香远北京公司积极参加香港集团职工运动会取得优异成绩</a><span>2011-12-19</span></li>
+				<li class="border-btm cf"><var class="list-ico"> </var><a href="#" title="香远北京公司安委办组织各单位对幸福大厦消防演习进行现场观摩和座谈交流活动">香远北京公司安委办组织各单位对幸福大厦消防演习进行现场观摩和座谈交流活动</a><span>2011-12-18</span></li>
+			</ul>
+			<div class="news-center-btn">
+				<a class="pageup" href="#" title="上一页"></a>
+				<a class="btn-num" href="#">1</a>
+				<a class="btn-num" href="#">2</a>
+				<a class="btn-num" href="#">3</a>
+				<a class="pagedown" href="#" title="下一页"></a>
+			</div>
+		</div>
+		<div class="footer">
+			<div>
+				<span>版权所有@2009：</span>
+				<a href="#">香远（北京）责任有限公司</a>
+			</div>
+			<div>
+				<span>技术支持</span>
+				<a href="#">中远网络（北京）有限公司</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

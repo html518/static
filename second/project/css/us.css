@@ -1,0 +1,53 @@
+.contact {
+	height: 564px;
+	background: #fff;
+}
+.contact-tit {
+	width: 942px;
+	margin: 0 auto;
+}
+.contact .contact-tit h2 {
+	height: 20px;
+	line-height: 20px;
+	margin-top: 18px;
+	font-size: 18px;
+	text-align: center;
+}
+.contact .contact-tit p {
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	text-align: center;
+}
+.contact .contact-table {
+	width: 930px;
+	height: 241px;
+	margin: 0 auto;
+	padding-top: 25px; 
+}
+.contact table {
+	width: 850px;
+	height: 240px;
+	margin: 0 auto;
+	border: 1px solid #318c5f;
+	border-collapse:collapse;	
+}
+.contact thead {
+	height: 35px;
+	color: #fff;
+	background: #318c5f;
+}
+.contact .contact-table tr {
+	height: 34px;
+}
+.contact .contact-table td {
+	width: 258px;
+	text-align: center;
+	border-top: 1px solid #318c5f;
+	border-right: 1px solid #318c5f;
+	font-size: 14px;
+}
+.contact th {
+	text-align: center;
+	font-size:14px;
+}

@@ -1,0 +1,170 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,p,table,caption,th,td,strong,b,var,span,a,em{padding:0;margin:0;font-size: 12px;font-family:"Microsoft YaHei",sans-serif,Arial,'宋体';}
+table {border-spacing: 0;}
+img {border: none;vertical-align: top;}
+a {text-decoration: none;color: #333333;cursor: hand;cursor: pointer;}
+a:hover{text-decoration: underline;color: #b80000;}
+ul,ol,dl,li {list-style-type: none;}
+strong,b {font-weight: normal;}
+var,em {font-style: normal;}
+.cf:before,.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+/* reset end */
+/*通用框架开始*/
+.wrapper {
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+	background: url(../images/wrapper.jpg) 0 0 repeat;
+}
+.header {
+	width: 980px;
+	height: 110px;
+}
+.con,.footer {
+	width: 960px;
+}
+.con {
+	margin: 9px auto 0; 
+}
+.footer {
+	height: 62px;
+	margin: 9px auto;	
+	padding-top: 26px;
+	text-align: center;
+	background-color: #303338;
+	color: #fff;
+}
+/*通用框架结束*/
+/*通用顶部开始*/
+.tit {
+	height: 42px;
+	background: url(../images/headerbac.jpg) 0 0 repeat-x;
+	padding: 16px 6px 10px 13px; 
+	margin-bottom: 4px;
+}
+.tit,.tit a,.tit h1,.tit p {
+	overflow: hidden;
+}
+.tit a {
+	width: 46px;
+	height: 42px;
+	float: left;
+	background: url(../images/index-bac.gif) 0 -114px no-repeat;
+	margin-right: 6px;
+}
+.tit h1 {
+	width: 300px;
+	font-size: 18px;
+	padding: 5px 0 0 1px;
+}
+.tit p {
+	width: 205px;
+	height: 10px;
+	float: left;
+	background: url(../images/index-bac.gif) -29px -3px no-repeat;
+}
+.nav {
+	height: 33px;
+	padding: 5px 0 0 88px;
+	background: url(../images/navbac.jpg) 0 0 repeat-x;
+}
+.nav a {
+	float: left;
+	height: 32px;
+	padding: 0 16px;
+	color: #fff;
+	line-height: 32px;
+}
+.one {
+	border-top: none;
+	padding: 0 15px;
+	background: url(../images/navh.jpg) 0 0 repeat-x;
+	margin-top: -1px;
+	height: 32px;
+	color: #fff;
+	text-decoration: none;
+}
+.nav a:active {
+	background: url(../images/navh.jpg) 0 0 repeat-x;
+}
+.nav a:hover {
+	text-decoration: none;
+	color:#fff;
+}
+/*通用顶部结束*/
+/*通用底部开始*/
+.footer a {
+	color: #fff;
+}
+.footer a:hover {
+	color: #fff;
+}
+.footer div {
+	width: 960px;
+	height: 17px;
+	overflow: hidden;
+}
+/*通用底部结束*/
+/* 通用的二级页内容 */
+.panorama,.guarantee,.manage,.news,.news-center,.news-detail,.mariner,.goods,.culture,.contact {
+	padding-top: 12px;
+}
+.panorama .com-title,.guarantee .com-title,.manage .com-title,.news .com-title,.news-detail .com-title,.news-center .com-title,.mariner .com-title,.goods .com-title,.contact .com-title,.culture .com-title {
+	width: 942px;
+}
+/* 通用的二级页内容 */
+/* 通用的标题 */
+.border-btm {
+	background:url(../images/border.jpg) bottom repeat-x;
+}/* 圆点下划线 */
+.list-ico {/*加空var标签*/
+	float:left;
+	width:6px;
+	height:9px;
+	background:url(../images/index-bac.gif) 0 -75px no-repeat;
+	margin:10px 10px 10px 0;
+}
+.com-title {
+	background:#303338;
+	height:27px;
+	line-height:28px;
+	margin:0 auto;
+	color:#fff;
+	overflow: hidden;
+}
+.com-title span {
+	float:left;
+	width:18px;
+	height:27px;
+	margin-right:6px;
+	overflow: hidden;
+	background:url(../images/index-bac.gif) 0 -35px no-repeat;
+}
+.com-title em {
+	float:left;
+	width:100px;
+	overflow:hidden;
+}
+.com-title a {
+	float:right;
+	background:url(../images/more.jpg) 0 0 no-repeat;
+	margin:9px;
+	width:25px;
+	height:8px;
+	overflow: hidden;
+}
+.non-bg {
+	background:#fff;
+	color:#333;
+}/* 背景为白色的标题 */
+.more-wht {
+	float:right;
+	margin:6px 15px 15px 0;
+	background:url(../images/more.jpg) 0 -8px no-repeat;
+	height:8px;
+	width:25px;
+	overflow: hidden;
+}
+/* 通用的标题结束 */

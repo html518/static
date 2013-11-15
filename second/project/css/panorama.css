@@ -1,0 +1,38 @@
+.panorama {
+	min-height: 557px;
+	_height:557px;
+	background: #fff;
+}
+.panorama-con {
+	width:920px;
+	margin-left:16px;
+	overflow:hidden;
+}
+.panorama h2 {
+	width:478px;
+	height:44px;
+	line-height:44px;
+	margin:0 auto;
+	font-size:16px;
+	color:#333;
+}
+.panorama-con2 {
+	width:920px;
+	height:auto;
+	margin-top:15px;
+}
+.panorama-con2 h3,.panorama-con2 p,.panorama-con3 h3,.panorama-con3 p {
+	text-indent:2em;
+	line-height:24px;
+	margin-top:5px;
+	color:#333;
+	font-size:14px;
+}
+.panorama-con .panorama-con2 p,.panorama-con .panorama-con3 p {
+	margin-top:0;
+}
+.panorama-con3 {
+	width:920px;
+	height:auto;
+	margin-top:24px;
+}

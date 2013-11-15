@@ -1,0 +1,33 @@
+.goods {
+	min-height:504px;
+	_height:504px;
+	background:#fff;
+	overflow:hidden;
+}
+.goods p {
+	font-size:14px;
+	color:#333;
+	margin:13px 0 34px 40px;
+}
+.goods-con-h {
+	width: 337px;
+	height: 147px;
+	margin: 0 auto;
+}
+.goods-con-h img {
+	width:337px;
+	height:147px;
+	overflow: hidden;
+}
+.goods-con-f {
+	width:630px;
+	margin-top:12px;
+	margin-left:180px;
+	overflow:hidden;
+}
+.goods-con-f img {
+	width:273px;
+	height:188px;
+	margin: 0 20px;
+	overflow: hidden;
+}

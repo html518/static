@@ -1,0 +1,77 @@
+.culture {
+	height: 1004px;
+	background: #fff;
+}
+.culture .cul-box {
+	position: relative;
+	width: 862px;
+	height: 902px;
+	margin: 15px auto 0;
+	overflow: auto;
+}
+.culture .cul-con {
+	width: 1165px;
+	height: 868px;
+}
+.cul-left div,.cul-right div,.cul-conter div {
+	width: 222px;
+	height: 223px;
+	border: 1px solid #d1d0cc;
+	background: #f7f7f5;
+	padding: 17px 16px 17px 18px; 
+	overflow: hidden;
+}
+.cul-left img,.cul-right img,.cul-conter img {
+	width: 221px;
+	height: 222px;
+	overflow: hidden;
+}
+.culture .cul-con .cul-conter-m img {
+	width: 523px;
+	height: 526px;
+	overflow: hidden;
+}
+.culture .cul-con .cul-conter-m {
+	width: 522px;
+	height: 527px;
+	position: relative;
+}
+.cul-con .cul-left,.cul-con .cul-right,.cul-con .cul-conter {
+	float: left;
+	height: 868px;
+	width: 258px;
+}
+.culture .cul-con .cul-conter div {
+	float: left;
+}
+.cul-left,.cul-conter {
+	margin-right: 45px;
+}
+.culture .cul-con .cul-conter {
+	width: 559px;
+}
+.cul-con .tp {
+	margin-top: 45px;
+}
+.cul-con .tp-rt {
+	margin-right: 43px;
+}
+.cul-conter-m div {
+	position: absolute;
+	bottom: 17px;
+	left: 18px;
+	z-index: 1;
+	background: #000;
+	opacity: 0.4; 
+	_filter:alpha(opacity=40);
+	width: 522px;
+	height: 70px;
+	padding: 0;
+}
+.cul-conter-m span {
+	position: absolute;
+	left: 44px;
+	bottom: 40px;
+	z-index: 2;
+	color: #fff;
+}

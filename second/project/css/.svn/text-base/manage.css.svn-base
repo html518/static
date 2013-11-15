@@ -1,0 +1,74 @@
+.manage {
+	min-height: 775px;
+	_height:775px;
+	background: #fff;
+}
+.manage .manage-c {
+	width:905px;
+	margin:15px auto 0;
+	text-indent:36px;
+	height:55px;
+	font-size:14px;
+	overflow:hidden;
+}
+.manage dl{
+	height:125px;
+	width:916px;
+	padding-top:7px;
+	margin-left:18px;
+	float:left;
+	display:inline;
+}
+.manage dl dt{
+	height:103px;
+	width:156px;
+	float:left;
+	margin-right:10px;
+}
+.manage dl dt img{
+	height:103px;
+	width:156px;
+	overflow:hidden;
+	display:inline;
+	
+}
+.manage dl dd{
+	width:738px;
+	float:left;
+}
+.manage dl dd .manage-img1,.manage dl dd .manage-img2,.manage dl dd .manage-img3,.manage dl dd .manage-img4,.manage dl dd .manage-img5{
+	display:block;
+	height:25px;
+	width:156px;
+	line-height:24px;
+	text-align:center;
+	color:white;
+	font-size:14px;
+}
+.manage dl dd .manage-img1{
+	background: url(../images/manage.png) 0 0 no-repeat;
+}
+.manage dl dd .manage-img2{
+	background: url(../images/manage.png) 0 -25px no-repeat;
+}
+.manage dl dd .manage-img3{
+	background: url(../images/manage.png) 0 -50px no-repeat;
+}
+.manage dl dd .manage-img4{
+	background: url(../images/manage.png) 0 -75px no-repeat;
+}
+.manage dl dd .manage-img5{
+	background: url(../images/manage.png) 0 -100px no-repeat;
+}
+.manage dl dd p{
+	margin-top:10px;
+	width:738px;
+	height:45px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	line-height:24px;
+	font-size:14px;
+}

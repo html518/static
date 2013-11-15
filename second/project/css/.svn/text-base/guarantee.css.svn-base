@@ -1,0 +1,56 @@
+.guarantee {
+	min-height: 555px;
+	_height:555px;
+	background: #fff;
+}
+.guarantee dl{
+	height:225px;
+	width:940px;
+	padding-top:15px;
+	margin-left:10px;
+	float:left;
+	display:inline;
+}
+.guarantee dl dt{
+	height:203px;
+	width:268px;
+	float:left;
+	margin-right:12px;
+}
+.guarantee dl dt img{
+	height:203px;
+	width:268px;
+	overflow:hidden;
+	display:inline;
+	
+}
+.guarantee dl dd{
+	width:655px;
+	float:left;
+}
+.guarantee dl dd .guarantee-img1,.guarantee dl dd .guarantee-img2{
+	display:block;
+	height:25px;
+	width:156px;
+	line-height:24px;
+	text-indent:12px;
+	color:white;
+	font-size:14px;
+}
+.guarantee dl dd .guarantee-img1{
+	background: url(../images/manage.png) 0 0 no-repeat;
+}
+.guarantee dl dd .guarantee-img2{
+	background: url(../images/manage.png) 0 -25px no-repeat;
+}
+.guarantee dl dd p{
+	margin-top:10px;
+	font-size:14px;
+	margin-left:5px;
+	line-height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}

@@ -1,0 +1,56 @@
+.news-center {
+	background: #fff;
+}
+.news-center ul {
+}
+.news-center li {
+	height:40px;
+	margin-left:21px;
+	width:929px;
+	line-height:40px;
+	vertical-align:middle;
+}
+.news-center .list-ico {/*覆盖原来的list-ico,margin不对*/
+	margin:17px 10px 14px 0;
+}
+.news-center li a {
+	float:left;
+	overflow:hidden;
+	font-size:14px;
+	width:670px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.news-center li span {
+	float:right;
+	width:70px;
+	text-align:center;
+}
+.news-center-btn {
+	width:195px;
+	float:right;
+	margin-top:1px;
+}
+.news-center-btn a {
+	width:17px;
+	height:17px;
+	float:left;
+	margin:11px;
+	color:#9dd3e2;
+	font-weight:bold;
+	font-family:arial;
+	line-height:18px;
+	overflow:hidden;
+	text-align:center;
+}
+.news-center-btn .pageup {
+	background:url(../images/news-center-btn-bg.gif) 0 0 no-repeat;
+}
+.news-center-btn .pagedown {
+	background:url(../images/news-center-btn-bg.gif) 0 -34px no-repeat;
+}
+.news-center-btn .btn-num:hover {
+	background:url(../images/news-center-btn-bg.gif) 0 -17px no-repeat;
+	text-decoration:none;
+	color:#9dd3e2;
+}
