@@ -170,7 +170,7 @@ strong{
 	display:inline;
 	margin-left:9px;
 }
-.prop-t strong{
+.prop-t h2{
 	font-size:12px;
 	color:#fff;
 	float:left;
@@ -204,7 +204,7 @@ strong{
 }
 .index-prop-main ul span{
 	position:absolute;
-	top:13px;
+	top:15px;
 	right:4px;
 }
 .index-prop-main ul span a{
@@ -215,9 +215,11 @@ strong{
 }
 .index-prop-main ul strong{
 	font-size:12px;
-	height:33px;
+	height:20px;
+	width:132px;
 	float:left;
-	margin-top:10px;
+	overflow:hidden;
+	margin-top:13px;
 }
 .index-prop-main ul strong a{
 	color:#34373c;
@@ -326,8 +328,8 @@ strong{
 	overflow:hidden;
 }
 /*后勤保障*/
-.index-logi .prop-t strong,.index-boatman .prop-t strong,
-.index-good .prop-t strong{
+.index-logi .prop-t h2,.index-boatman .prop-t h2,
+.index-good .prop-t h2{
 	color:#000;
 }
 /*最新动态*/
