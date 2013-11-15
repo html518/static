@@ -227,7 +227,10 @@ strong{
 	margin-top:5px;
 }
 .index-prop-main ul em img{
-	float:left;
+	float: left;
+	width: 40px;
+	height: 31px;
+	border: 1px solid #36393d;
 	margin-right:6px;
 	vertical-align:middle;
 }
@@ -260,27 +263,18 @@ strong{
 	padding-left:29px;
 	background:url(../images/notice.gif) 0 center no-repeat;
 }
-.notice a{
+.notice span a{
 	font-size:12px;
-	width:806px;
-	float:left;
-	margin-left:46px;
-	margin-top:9px;
-}
-.notice a span{
-	width:408px;
-	height:15px;
-	overflow:hidden;
-}
-.notice a span,.notice a em{
 	color:#1f1f1f;
-	float:left;
+	margin-right:46px;
 }
-.notice a em{
-	margin-left:153px;
-	width:221px;
-	height:15px;
+.notice span{
+	width:805px;
+	height:35px;
+	line-height:35px;
+	margin-left:46px;
 	overflow:hidden;
+	float: left;
 }
 /*关于我们*/
 .aboutus .prop-con{
