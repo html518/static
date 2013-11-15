@@ -162,7 +162,7 @@ li{
 	margin-left:5px;
 }
 .prop-t{
-	width:190px;
+	width:190px;height:23px;
 	float:left;
 	display:inline;
 	margin-left:9px;
@@ -286,6 +286,9 @@ li{
 	margin-left:6px;
 	display:inline;
 }
+.aboutus dl dt{
+	height:135px;
+}
 .aboutus dl dt,.aboutus dl dd{
 	float:left;
 }
@@ -297,7 +300,7 @@ li{
 	overflow:hidden;
 	margin-left:9px;
 	display:inline;
-	margin-top:12px;
+	margin-top:10px;
 }
 /*后勤保障*/
 .index-logi dl,.index-boatman dl,.index-good dl{
@@ -306,19 +309,16 @@ li{
 	float:left;
 	margin-left:6px;
 	display:inline;
-	margin-top:14px;
-}
-.index-logi dl dt,.index-boatman dl dt,.index-good dl dt{
-	margin-bottom:9px;
+	margin-top:11px;
 }
 .index-logi dl dd,.index-boatman dl dd,.index-good dl dd{
 	height:50px;
 	width:202px;
 	margin-left:3px;
-	line-height:16px;
+	line-height:17px;
+	margin-top:10px;
 	overflow:hidden;
 }
-
 /*后勤保障*/
 .index-logi .prop-t strong,.index-boatman .prop-t strong,
 .index-good .prop-t strong{
