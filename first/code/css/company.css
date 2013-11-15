@@ -1,16 +1,11 @@
-<<<<<<< HEAD
 /* company by taoyanran */
 .comp-pro{
-	padding:0;
-	margin:0;
-	float:left;
 	font-size:12px;
 	margin-left:26px;
 	color:#fff;
 	line-height:28px;
 }
 .comp-con h1{
-	float:left;
 	width:963px;
 	height:22px;
 	font-size:14px;
@@ -19,21 +14,16 @@
 	text-align:center;
 	color:#333;	
 }
-
 .comp-con strong{
-	float:left;
 	margin-left:48px;
 	color:#333;
 	font-size:14px;
 }
 .comp-con p{
-	float:left;
 	margin-left:20px;
 	font-size:14px;
 	color:#333;
 	width:920px;
 	text-indent:2em;
-	display:inline;
 	margin-bottom:34px;
 }
->>>>>>> 增加通用css
