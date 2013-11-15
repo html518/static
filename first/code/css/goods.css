@@ -4,10 +4,12 @@
 	padding-bottom: 56px;
 }
 .good p {
+	width: 915px;
 	font-size: 14px;
 	color: #333333;
+	text-indent: 2em;
 	line-height: 20px;
-	margin: 0 0 34px 50px;
+	margin: 0 25px 34px 22px;
 }
 .good-pict {
 	text-align: center;
