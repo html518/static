@@ -1,4 +1,7 @@
 /* boatman by taoyanran*/
+.boat-con{
+	padding-bottom:44px;
+}
 .boat-a{
 	float:left;
 	margin-left:11px;
@@ -7,29 +10,18 @@
 .boat-b{
 	float:left;
 	width:656px;
-	height:420px;
 	margin-left:21px;
-	margin-top:15px;
+	margin-top:5px;
 }
-.boat-con-b1{
-	height:95px;
-	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
-}
-.boat-con-b2{
-	height:120px;
-	margin-top:10px;
-	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
-}
-.boat-con-b3{
-	height:141px;
-	margin-top:9px;
+.boat-b div{
+	padding-bottom:17px;
+	padding-top:10px;
 	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
 }
 .boat-b span{
-	float:left;
+	display:block;
 	width:156px;
-	height:25px;
-	line-height:24px;
+	line-height:25px;
 	font-size:14px;
 	color:#fff;
 	text-indent:13px;
@@ -39,9 +31,8 @@
 	background:url(../bg/propert-con-bg.gif) 0 -25px no-repeat;
 }
 .boat-b p{
-	float:left;
 	font-size:14px;
 	color:#333;
-	width:656px;
-	margin-top:12px;
+	margin-left:7px;
+	padding-top:12px;
 }
