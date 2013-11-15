@@ -16,16 +16,18 @@
 .news-list li em {
 	width: 763px;	
 	height: 39px;
-	display: block;
 	float: left;
-	white-space: nowrap;
-	overflow: hidden;
 	background: url(../bg/news-jiantou.gif) 0 center no-repeat;
 }
 .news-list li a {
 	color: #404040;
 	float: left;
-	margin-left: 16px;	
+	margin-left: 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 763px;
+	width: expression(this.offsetWidth > 760 ? '760px': true); 
 }
 .news-list li var {
 	width: 21px;
