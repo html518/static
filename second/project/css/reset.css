@@ -1,4 +1,4 @@
-/* reset */
+﻿/* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,p,table,caption,th,td,strong,b,var,span,a,em{padding:0;margin:0;font-size: 12px;font-family:"Microsoft YaHei",sans-serif,Arial,'宋体';}
 table {border-spacing: 0;}
 img {border: none;vertical-align: top;}
@@ -21,6 +21,7 @@ var,em {font-style: normal;}
 .header {
 	width: 980px;
 	height: 110px;
+	background: #fff;
 }
 .con,.footer {
 	width: 960px;
