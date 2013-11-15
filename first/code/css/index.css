@@ -11,6 +11,9 @@ li{
 	margin-right:15px;
 	background:url(../images/more1.jpg) 0 0 no-repeat;
 }
+strong{
+	font-weight:normal;
+}
 /*首页整体布局byduanlin*/
 .index-main{
 	width:960px;
@@ -201,23 +204,32 @@ li{
 }
 .index-prop-main ul span{
 	position:absolute;
-	top:16px;
+	top:13px;
 	right:4px;
+}
+.index-prop-main ul span a{
+	float:left;
 	height:10px;
 	width:7px;
 	background:url(../images/prop-strong.gif) 0 0 no-repeat;
 }
-.index-prop-main ul a{
-	color:#34373c;
+.index-prop-main ul strong{
 	font-size:12px;
 	height:33px;
 	float:left;
+	margin-top:10px;
+}
+.index-prop-main ul strong a{
+	color:#34373c;
+}
+.index-prop-main ul em{
+	float:left;
 	margin-top:5px;
 }
-.index-prop-main ul a img{
+.index-prop-main ul em img{
+	float:left;
 	margin-right:6px;
 	vertical-align:middle;
-	
 }
 /*公告*/
 .index-main .notice{
