@@ -1,26 +1,13 @@
 /* propert by taoyanran */
-
-.prop-con{
-	background:#fff;
-	width:962px;
-	margin:0 auto;
-}
-p{
-	margin:0;
-	padding:0;
-}
 .prop-con-br{
-	float:left;
 	font-size:14px;
 	margin-left:15px;
 	margin-right:24px;
 	color:#333;
 	text-indent:35px;
-	padding:22px;
+	padding:18px 19px 22px 22px;
 }
 .prop-con div{
-	float:left;
-	width:929px;
 	height:130px;
 	margin-left:17px;
 	background:url(../bg/propert-con-a1.gif) 0 0 repeat-x;
@@ -32,10 +19,9 @@ p{
 .prop-con div span{
 	float:left;
 	width:156px;
-	height:25px;
 	margin-left:12px;
 	margin-top:8px;
-	line-height:24px;
+	line-height:25px;
 	text-align:center;
 	color:#fff;
 	font-size:14px;
