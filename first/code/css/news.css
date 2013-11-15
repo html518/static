@@ -26,8 +26,8 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
-	max-width: 763px;
-	width: expression(this.offsetWidth > 760 ? '760px': true); 
+	max-width: 715px;
+	width: expression(this.offsetWidth > 715 ? '715px': true); 
 }
 .news-list li var {
 	width: 21px;
