@@ -140,7 +140,7 @@ li{
 .slide-main .slide-btn{
 	position:absolute;
 	right:17px;
-	bottom:5px;
+	bottom:10px;
 }
 .slide-main .slide-btn a{
 	height:17px;
@@ -162,12 +162,10 @@ li{
 	margin-left:5px;
 }
 .prop-t{
-	width:190px;
-	height:23px;
+	width:190px;height:23px;
 	float:left;
 	display:inline;
 	margin-left:9px;
-	overflow: hidden;
 }
 .prop-t strong{
 	font-size:12px;
@@ -311,7 +309,7 @@ li{
 	float:left;
 	margin-left:6px;
 	display:inline;
-	margin-top:10px;
+	margin-top:11px;
 }
 .index-logi dl dd,.index-boatman dl dd,.index-good dl dd{
 	height:50px;
