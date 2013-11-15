@@ -1,10 +1,8 @@
 /* logistics by taoyanran*/
 .logi-con div{
-	float:left;
 	width:935px;
 	height:224px;
 	margin-left:11px;
-	display:inline;
 }
 .logi-con img{
 	float:left;
@@ -14,17 +12,15 @@
 	font-size:14px;
 	font-weight:bold;
 	color:#fff;
-	line-height:24px;
+	line-height:25px;
 	text-indent:12px;
 	width:156px;
-	height:25px;
 	margin-left:13px;
 }
 .logi-con p{
 	float:left;
 	width:646px;
 	font-size:14px;
-	line-height:18px;
 	margin-left:21px;
 	margin-top:12px;
 }

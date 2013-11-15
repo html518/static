@@ -6,6 +6,7 @@
 	float:left;
 	margin-left:11px;
 	margin-top:14px;
+	display:inline;
 }
 .boat-b{
 	float:left;
@@ -25,6 +26,7 @@
 	font-size:14px;
 	color:#fff;
 	text-indent:13px;
+	font-weight:bold;
 	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
 }
 .boat-con-b2 span,.boat-con-b3 span{
