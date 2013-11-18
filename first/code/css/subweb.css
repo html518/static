@@ -1,6 +1,5 @@
 /* 公司简介 by taoyanran */
 .comp-con h1{
-	width:963px;
 	font-size:14px;
 	line-height:22px;
 	margin-top:15px;
@@ -81,44 +80,50 @@
 	color:#333;
 }
 /* 后勤保障 by taoyanran*/
-.logi-con div{
+.logi-con dl{
 	width:935px;
+	height:auto !important;
 	height:224px;
+	min-height:224px;
 	margin-left:11px;
 }
-.logi-con img{
+.logi-con dl img{
 	float:left;
 }
-.logi-con span{
+.logi-con-hd{
 	float:left;
 	font-size:14px;
-	font-weight:bold;
-	color:#fff;
 	line-height:25px;
 	text-indent:12px;
 	width:156px;
 	margin-left:13px;
 }
-.logi-con p{
+.logi-con-hd a{
+	color:#fff;
+}
+.logi-con-hd a:hover{
+	color:#cd0200;
+}
+.logi-con dd{
 	float:left;
 	width:646px;
 	font-size:14px;
 	margin-left:21px;
 	margin-top:12px;
 }
-.logi-con-a1{
+.logi-con-property{
 	margin-top:14px;
 	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
 }
-.logi-con-a1 span{
+.logi-con-prop{
 	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
 }
-.logi-con-a2{
+.logi-con-motorcade{
 	margin-top:17px;
 	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
 	margin-bottom:30px;
 }
-.logi-con-a2 span{
+.logi-con-moto{
 	background:url(../bg/propert-con-bg.gif) 0 -25px no-repeat;
 }
 /* 船员中心 by taoyanran*/
