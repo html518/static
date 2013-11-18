@@ -50,12 +50,7 @@
 	text-align:center;
 	line-height:25px;
 	font-size:14px;
-}
-.prop-con-hd a{
 	color:#fff;
-}
-.prop-con-hd a:hover{
-	color:#cd0200;
 }
 .prop-con-work{
 	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
@@ -100,12 +95,7 @@
 	text-indent:12px;
 	width:156px;
 	margin-left:13px;
-}
-.logi-con-hd a{
 	color:#fff;
-}
-.logi-con-hd a:hover{
-	color:#cd0200;
 }
 .logi-con dd{
 	float:left;
@@ -158,14 +148,8 @@
 	line-height:25px;
 	font-size:14px;
 	text-indent:13px;
-	font-weight:bold;
 	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
-}
-.boat-con-boatan-hd a{
 	color:#fff;
-}
-.boat-con-boatan-hd a:hover{
-	color:#cd0200;
 }
 .boat-con-guest .boat-con-boatan-hd,.boat-con-seat .boat-con-boatan-hd{
 	background:url(../bg/propert-con-bg.gif) 0 -25px no-repeat;
