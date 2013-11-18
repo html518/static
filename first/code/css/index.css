@@ -317,6 +317,10 @@ strong{
 	display:inline;
 	margin-top:10px;
 }
+.aboutus dl dd a:hover{
+	color:#333;
+	text-decoration:none;
+}
 /*后勤保障*/
 .index-logi dl,.index-boatman dl,.index-good dl{
 	width:205px;
@@ -338,6 +342,11 @@ strong{
 	height:135px;
 	width:205px;
 	overflow:hidden;
+}
+.index-logi dd a:hover,.index-boatman dd a:hover,
+.index-good dd a:hover{
+	color:#404040;
+	text-decoration:none;
 }
 /*后勤保障*/
 .index-logi .prop-t h2,.index-boatman .prop-t h2,
