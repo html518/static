@@ -379,10 +379,8 @@ strong{
 	float: left;
 	border-bottom:1px dotted #b6b6b6;
 	background:url(../images/news-li.gif) 0 center no-repeat;
-	
 }
 .recent-news ul li a{
-	color:#4d4d4d;
 	font-size:12px;
 	float:left;
 	text-overflow: ellipsis;
@@ -390,10 +388,6 @@ strong{
 	overflow: hidden;
 	max-width:430px;
 	width:expression(this.offsetWidth > 430 ? '430px': true)
-}
-.recent-news ul li a:hover{
-	color: #cd0200;
-	text-decoration: underline;
 }
 .recent-news ul span{
 	font-size:12px;
