@@ -17,7 +17,7 @@ strong{
 /*首页整体布局byduanlin*/
 .index-main{
 	width:960px;
-	margin-left:10px;
+	margin:0 auto;
 }
 .index-main .slide{
 	width:730px;
