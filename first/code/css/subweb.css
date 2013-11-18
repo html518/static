@@ -347,6 +347,7 @@
 	font-family: tahoma;
 	color: #333333;
 	text-align: center;
+	padding-bottom: 50px;
 }
 .cont h3 {
 	font-size: 18px;
@@ -370,7 +371,6 @@
 }
 .cont-tab {
 	width: 849px;
-	height: 210px;
 	font-size: 14px;
 	margin: 0 auto; 
 	border-collapse:collapse;
@@ -383,6 +383,8 @@
 }
 .cont-tab th,.cont-tab td {
 	width: 257px;
+	height: 33px;
+	line-height: 25px;
 	border: 1px solid #318c5f;
 }
 .cont-tab .cont-last-th {
