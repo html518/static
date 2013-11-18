@@ -130,37 +130,42 @@
 .boat-con{
 	padding-bottom:44px;
 }
-.boat-a{
+.boat-photo{
 	float:left;
 	margin-left:11px;
 	margin-top:14px;
 	display:inline;
 }
-.boat-b{
+.boat-referral{
 	float:left;
 	width:656px;
 	margin-left:21px;
 	margin-top:5px;
 }
-.boat-b div{
+.boat-referral dl{
 	padding-bottom:17px;
 	padding-top:10px;
 	background:url(../bg/propert-con-a1.gif) 0 100% repeat-x;
 }
-.boat-b span{
+.boat-con-boatan-hd{
 	display:block;
 	width:156px;
 	line-height:25px;
 	font-size:14px;
-	color:#fff;
 	text-indent:13px;
 	font-weight:bold;
 	background:url(../bg/propert-con-bg.gif) 0 0px no-repeat;
 }
-.boat-con-b2 span,.boat-con-b3 span{
+.boat-con-boatan-hd a{
+	color:#fff;
+}
+.boat-con-boatan-hd a:hover{
+	color:#cd0200;
+}
+.boat-con-guest .boat-con-boatan-hd,.boat-con-seat .boat-con-boatan-hd{
 	background:url(../bg/propert-con-bg.gif) 0 -25px no-repeat;
 }
-.boat-b p{
+.boat-referral dd{
 	font-size:14px;
 	color:#333;
 	margin-left:7px;
