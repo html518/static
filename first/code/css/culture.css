@@ -4,10 +4,16 @@
 	margin: 27px 0 0 49px;
 }
 .cult img {
+	width: 221px;
+	height: 222px;
 	padding: 17px 16px 17px 18px; 
 	border: 1px solid #d3d2ce;
 	background-color: #f7f7f5;
 	vertical-align: top;
+}
+.cult .cult-t-r img {
+	width: 524px;
+	height: 526px;
 }
 .cult-t-l {
 	width: 257px;
