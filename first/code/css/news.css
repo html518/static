@@ -36,10 +36,10 @@
 	background: url(../bg/news-hotbg.gif) 0 center no-repeat;
 }
 .news-list li span {
-	font-family: 微软雅黑;
+	font-family: "微软雅黑";
 	color: #333333;
 	float: right;
-	margin-right: 57px;
+	margin-right: 10px;
 }
 .fy {
 	width: 201px;
@@ -50,7 +50,8 @@
 .fy a {
 	width: 17px;
 	height: 17px;
-	font-family: arial; font-weight: bold;
+	font-family: arial; 
+	font-weight: bold;
 	color: #9dd3e2;
 	text-align: center;
 	display: block;
