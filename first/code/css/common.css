@@ -74,6 +74,7 @@ var,em {
 }
 .nav-con a {
 	color: #fff;
+	text-decoration: none;
 }
 .nav-con span.nav-on-bg {
 	background: url(../bg/nav_on.gif) 100% -1px no-repeat;

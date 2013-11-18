@@ -219,7 +219,6 @@
 	background: url(../bg/news-jiantou.gif) 0 center no-repeat;
 }
 .news-list li a {
-	color: #404040;
 	float: left;
 	margin-left: 16px;
 	text-overflow: ellipsis;
