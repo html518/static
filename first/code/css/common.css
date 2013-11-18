@@ -104,10 +104,15 @@ var,em {
 }
 */
 /* 子网页内容 by luda */
-.common-sub-con {
+.common-sub-wrapper {
 	width: 962px;
 	background-color: #fff;
 	margin: 0 auto;
+}
+.common-sub-con {
+	height: auto !important;
+	height: 395px;
+	min-height: 395px;
 }
 /* 子网页公用栏目头 by luda */
 .common-sub-hd {
