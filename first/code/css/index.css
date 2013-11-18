@@ -228,13 +228,6 @@ strong{
 	overflow:hidden;
 	margin-top:13px;
 }
-.index-prop-main ul strong a{
-	color:#5a5d61;
-}
-.index-prop-main ul strong a:hover{
-	color: #cd0200;
-	text-decoration: underline;
-}
 .index-prop-main ul em{
 	float:left;
 	margin-top:5px;
@@ -278,12 +271,7 @@ strong{
 }
 .notice span a{
 	font-size:12px;
-	color:#3a3a3a;
 	margin-right:153px;
-}
-.notice span a:hover{
-	color: #cd0200;
-	text-decoration: underline;
 }
 .notice span{
 	width:805px;
