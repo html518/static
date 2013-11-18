@@ -8,7 +8,12 @@ body {
 	background: #000 url(../bg/bg.gif) 0 0 repeat;
 }
 a {
+	color: #404040;
 	text-decoration: none;
+}
+a:hover {
+	color: #cd0200;
+	text-decoration: underline;
 }
 img {
 	border: none;
