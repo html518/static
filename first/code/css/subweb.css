@@ -299,13 +299,16 @@
 }
 .newsbody-con {
 	width: 930px;
-	text-align: center;
 }
 .newsbody-con p {
 	line-height: 24px;
 	text-indent: 2em;
 	text-align: left;
 	margin: 11px 0;
+}
+.newsbody-con img {
+	display: block;
+	margin: 0 auto;
 }
 /* 企业文化 by libin*/
 .cult {
