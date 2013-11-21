@@ -281,7 +281,7 @@
 	font-weight: normal;
 	text-align: center;
 }
-.newsbody-date {
+.newsbody-info {
 	width: 930px;
 	height: 24px;
 	line-height: 24px;
@@ -290,11 +290,11 @@
 	border-bottom: 1px dotted #b6b6b6; 
 	padding-bottom: 8px;
 }
-.newsbody-date a {
+.newsbody-info a {
 	color: #000; 
 	margin-right: 4px;
 }
-.newsbody-date span {
+.newsbody-info span {
 	margin-left: 
 }
 .newsbody-con {

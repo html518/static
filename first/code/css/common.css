@@ -76,11 +76,15 @@ var,em {
 	color: #fff;
 	text-decoration: none;
 }
-.nav-con span.nav-on-bg {
+.nav-con a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.nav-con span.nav-selected {
 	background: url(../bg/nav_on.gif) 100% -1px no-repeat;
 	padding: 0;
 }
-.nav-on-bg a {
+.nav-selected a {
 	background: url(../bg/nav_on.gif) -149px -1px no-repeat;
 	height: 33px;
 	line-height: 33px;
