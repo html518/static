@@ -3,7 +3,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,p,table,caption,th,td,strong,b,var,span,a,em
 table {border-spacing: 0;}
 img {border: none;vertical-align: top;}
 a {text-decoration: none;color: #333333;cursor: hand;cursor: pointer;}
-a:hover{text-decoration: underline;color: #b80000;}
+a:hover{text-decoration: underline;}
 ul,ol,dl,li {list-style-type: none;}
 strong,b {font-weight: normal;}
 var,em {font-style: normal;}
@@ -16,6 +16,7 @@ var,em {font-style: normal;}
 	width: 980px;
 	height: 100%;
 	margin: 0 auto;
+	padding-bottom: 9px;
 	background: url(../images/wrapper.jpg) 0 0 repeat;
 }
 .header {
@@ -31,7 +32,7 @@ var,em {font-style: normal;}
 }
 .footer {
 	height: 62px;
-	margin: 9px auto;	
+	margin: 9px auto 0;	
 	padding-top: 26px;
 	text-align: center;
 	background-color: #303338;
@@ -54,6 +55,8 @@ var,em {font-style: normal;}
 	float: left;
 	background: url(../images/index-bac.gif) 0 -114px no-repeat;
 	margin-right: 6px;
+	font-size: 0;
+	line-height: 0;
 }
 .tit h1 {
 	width: 300px;
@@ -61,7 +64,7 @@ var,em {font-style: normal;}
 	padding: 5px 0 0 1px;
 }
 .tit p {
-	width: 205px;
+	width: 210px;
 	height: 10px;
 	float: left;
 	background: url(../images/index-bac.gif) -29px -3px no-repeat;
@@ -77,6 +80,7 @@ var,em {font-style: normal;}
 	padding: 0 16px;
 	color: #fff;
 	line-height: 32px;
+	cursor: pointer;
 }
 .one {
 	border-top: none;
@@ -86,13 +90,15 @@ var,em {font-style: normal;}
 	height: 32px;
 	color: #fff;
 	text-decoration: none;
-}
-.nav a:active {
-	background: url(../images/navh.jpg) 0 0 repeat-x;
+	border: 1px solid red;
+	border-top: 1px solid #ecb8be;
 }
 .nav a:hover {
 	text-decoration: none;
 	color:#fff;
+}
+.nav a:active {
+	cursor: pointer;
 }
 /*通用顶部结束*/
 /*通用底部开始*/
@@ -118,14 +124,19 @@ var,em {font-style: normal;}
 /* 通用的二级页内容 */
 /* 通用的标题 */
 .border-btm {
-	background:url(../images/border.jpg) bottom repeat-x;
+	background:url(../images/border.jpg) 0 bottom repeat-x;
 }/* 圆点下划线 */
+.border-top {
+	background:url(../images/border.jpg) 0 top repeat-x;
+}
 .list-ico {/*加空var标签*/
 	float:left;
 	width:6px;
 	height:9px;
-	background:url(../images/index-bac.gif) 0 -75px no-repeat;
-	margin:10px 10px 10px 0;
+	background:url(../images/index-bac.gif) 0 -65px no-repeat;
+	padding-top:10px;
+	margin-right: 10px;
+	overflow: hidden;
 }
 .com-title {
 	background:#303338;
@@ -151,10 +162,18 @@ var,em {font-style: normal;}
 .com-title a {
 	float:right;
 	background:url(../images/more.jpg) 0 0 no-repeat;
-	margin:9px;
+	margin:9px 12px;
 	width:25px;
 	height:8px;
 	overflow: hidden;
+}
+li em {	
+	float:left;
+	width:21px;
+	height:11px;
+	background:url(../images/common-hot2.gif) 0 0 no-repeat;
+	margin-left:5px;
+	margin-top: 5px;
 }
 .non-bg {
 	background:#fff;

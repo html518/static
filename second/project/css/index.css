@@ -36,9 +36,12 @@
 .index-panorama,.index-news,.index-us,.index-guarantee,.index-mariner,.index-goods,.index-trends {
 	float: left;
 }
-.index-us,.index-guarantee,.index-mariner {
+.index-us{
 	margin-right: 8px;
 }
+.index-guarantee,.index-mariner {
+	margin-right: 9px;
+} 
 .index-trends,.index-contact {
 	margin-top: 9px;
 }
@@ -48,7 +51,7 @@
 /*首页二级布局结束*/
 /* panorama */
 .index-panorama{
-	height:259px;
+	height:258px;
 	width:724px;
 	padding-top: 8px;
 	padding-left: 6px;
@@ -69,6 +72,7 @@
 	top:0;
 	background:rgba(255,255,255,0.5) none repeat scroll !important;
 	filter:alpha(opacity=50);
+	background:white; filter:Alpha(opacity=50);
 }
 .index-panorama-f{
 	height:37px;
@@ -79,6 +83,7 @@
 	top:230px;
 	filter:alpha(opacity=50);
 	padding-left:647px;
+	background:white; filter:Alpha(opacity=50);
 }
  .index-panorama-f a{
 	float:left;
@@ -86,27 +91,28 @@
 	height:17px;
 	width:17px;
 	text-align:center;
-	line-height:16px;
+	line-height:17px;
 	margin-top:8px;
 	margin-right:7px;
 }
 .index-panorama-f a:hover{
 	background: url(../images/big.gif) 0 0 no-repeat;
 	color:white;
+	text-decoration:none;
 }
 /* panorama end */
 /* index-manage start*/
-.index-manage h3 {
+.index-manage .com-title {
 	width: 210px;
 }
-.index-manage div{
+.index-manage div {
 	width: 205px;
 	height: 219px;
 	padding-top: 5px;
 	padding-left: 5px;
 	overflow: hidden;
 }
-.index-manage-c {
+.index-manage-c dl {
 	width: 205px;
 	height: 41px;
 	padding-top: 4px;
@@ -130,8 +136,13 @@
 }
 .index-manage-c dd a {
 	float: left;
+	height:25px;
+	width:145px;
+	overflow:hidden;
 }
 .index-manage-c dd span {
+	font-size:0;
+	line-height:0;
 	float: right;
 	width: 7px;
 	height: 10px;
@@ -180,10 +191,10 @@
 }
 /* index-news end */
 /* index-us index-guarantee index-mariner index-goods */
-.index-us h3 {
+.index-us .com-title {
 	width: 267px;
 }
-.index-guarantee h3,.index-mariner h3,.index-goods h3 {
+.index-guarantee .com-title,.index-mariner .com-title,.index-goods .com-title {
 	width: 210px;
 }
 .index-us img {
@@ -215,13 +226,14 @@
 }
 /* index-us index-guarantee index-mariner index-goods end */
 /* index-trends */
-.index-trends h3 {
+.index-trends .com-title {
 	width: 722px;
 }
 .index-trends ul {	
 	width:709px;
 	height: 191px;
 	margin:0 auto;
+	padding-top: -1px;
 	overflow: hidden;
 }
 .index-trends ul li {
@@ -230,20 +242,18 @@
 	vertical-align: top;
 	overflow: hidden;
 }
-.index-trends li img{
-	float: left;
-	margin-left:5px; 
-	margin-top:5px;
-}
 .index-trends li a {	
 	float:left;
-	width:590px;
-	height: 32px;
-	line-height: 32px;
-	overflow:hidden;
+	height:32px;
+	line-height:32px;
 }
 .index-trends li a strong {
 	float: left;
+	max-width:590px;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	width:expression(this.offsetWidth > 590 ? '590px': true);
+	overflow:hidden;
 }
 .index-trends li a:hover strong {
 	text-decoration: underline;
@@ -255,7 +265,7 @@
 }
 /* index-trends end */
 /* index-us */
-.index-contact h3 {
+.index-contact .com-title {
 	width: 210px;
 }
 .index-contact-con {
