@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>if，for练习和函数乘积求和</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<input type = "text" value = "x值" id = "name1" />
+			<input type = "text" value = "y值" id = "name2" />
+			<input type = "button" value = "求和" id = "btn1" />
+			<input type = "button" value = "乘积" id = "btn2" />
+		</fieldset>
+	</form>
+	<div>计算的值为：“<span id="text"></span>”</div>
+</body>
+<script type="text/javascript">
+//====================================================求和和乘积===============================================
+	var name1 = document.getElementById("name1");
+	var name2 = document.getElementById("name2");
+	var btn1 = document.getElementById("btn1");
+	var btn2 = document.getElementById("btn2");
+	var text = document.getElementById("text");
+	function add(x,y){
+		for (var i = x,z = 0; i <= y; i++) {
+			z = z + i;
+		};
+		text.innerHTML = z;
+	}
+	function ade(x,y){
+		for (var i = x,k = 1; i <= y; i++) {
+			k = k * i;
+		};
+		text.innerHTML = k;
+	}
+	btn1.onclick = function (){
+		x = parseInt(name1.value);
+		y = parseInt(name2.value);
+		add(x,y);
+	}
+	btn2.onclick = function (){
+		x = parseInt(name1.value);
+		y = parseInt(name2.value);
+		ade(x,y);
+	}
+	//================================================杨辉三角===================================================
+	var n = prompt ("请输入冥数:",9);
+	n = n - 0;
+	var a1 = [1,1],a2 = [1,1];
+	print("<div style = 'text-align:center'>")
+	print(1);
+	print("<br />");
+	for (var i = 2; i <= n; i++) {
+		print(1);
+		for (var j = 1; j < i - 1; j++) {
+			a2[j] = a1[j - 1] + a1[j];
+			print(a2[j]);
+		};
+		a2[j] = 1;
+		for (var k = 0; k <= j; k++) {
+			a1[k] = a2[k];
+		};
+		print(1);
+		print("<br />");
+	};
+	print("</div>")
+	function print(v){
+		if (typeof v == "number") {
+			var w = 40;
+			if (n > 30) {
+				w = (n - 30) + 40;			
+			};
+			var s = '<span style = "padding:4px 2px;display:inline-block;text-align:center;width:'+w+'px;">'+v+'</span>';
+			document.write(s);
+		}else{
+			document.write(v);
+		};
+	}
+</script>
+</html>
