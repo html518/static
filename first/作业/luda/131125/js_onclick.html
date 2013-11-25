@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>JavaScript测试-onclick事件</title>
+	<meta name="description" content="" />
+</head>
+<body>
+<ul id="x">
+	<li>这是一个li标签</li>
+	<li>这是一个li标签</li>
+	<li>这是一个li标签</li>
+	<li>这是一个li标签</li>
+	<li>这是一个li标签</li>
+	<li>这是一个li标签</li>
+	<li>这是一个li标签</li>
+</ul>
+<script>
+	var lis = document.getElementById('x').getElementsByTagName('li');
+	for (var i = 0; i <= lis.length; i++){
+		lis[i].index = i+1;
+		lis[i].onclick = function() {
+			if ((this.index) % 2 == 0){
+				alert("这是第"+this.index+"条li。"+"是偶数行！");
+			} else {
+				alert("这是第"+this.index+"条li。"+"是奇数行！");
+			}
+		}
+	}
+</script>
+</body>
+</html>
