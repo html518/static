@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的主页</title>
+	<meta name="description" content=" "/>
+	<link rel="stylesheet" type="text/css" href="css/.css" />
+	<!--<script src="js/test.js" />-->
+		
+</head>
+<body>
+	<ul id="con">
+		<li>123</li>
+		<li>123</li>
+		<li>123</li>
+		<li>123</li>
+		<li>123</li>
+		<li>123</li>
+		<li>123</li>	 
+	</ul>
+	<script>
+		//n个li，点谁弹谁的下标
+		var abc = document.getElementById("con");
+
+		var aaa = abc.getElementsByTagName("li");
+		var i = 0;
+		for (var i = 0;i <=7 ; i++){ 
+			aaa[i].onclick = function(){
+				alert("0");
+			}
+		}
+	</script>
+</body>
+</html>
