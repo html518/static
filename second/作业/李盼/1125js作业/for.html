@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'/>
+  <title></title>
+  <script>
+	//1到10的和
+/*	var ind = 0;
+	for(var i = 0;i < 10; i++){
+		ind=ind+(i+1);
+	}
+	alert(ind);
+	var ind = 0;
+	function add(x,y){
+		for(var i = x; i < y;i++){
+			ind=ind+i+1;
+		}
+		return(ind);
+	}
+	var a = add(0,10);
+	alert(a);
+*/
+	function text(){
+		x = 10;
+		function add(){
+			x = 20;
+			function add2(){
+				var x = 30;
+				alert(x);
+			}
+			add2();
+			alert(x);
+		}
+		add();
+		alert(x);
+	}
+	text();
+	var arr="abcdefg";
+	if(arr.indexOf("bed">0)){
+		alert(arr);
+	}
+  </script>
+</head>
+<body>
+ 
+</body>
+</html>
+
+

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<title></title>
+	<style>
+	li{ list-style:none; height:20px; width:100px; background:red; border:1px solid green;margin-bottom:1px;}
+	</style>
+	<script>
+	window.onload=function(){
+		var aLi=document.getElementById("oUl").getElementsByTagName("li");
+		for(var i = 0; i<aLi.length; i++){
+			aLi[i].index=i;
+			if(i%2==0){
+				aLi[i].onclick=function(){
+					alert(this.index);
+				}
+			}
+			else{
+				aLi[i].ondblclick=function(){
+					alert(this.index);
+				}
+			}
+		}
+	}
+	</script>
+</head>
+<body>
+	<ul id="oUl">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+	</ul>
+</body>
+</html>
+
+
