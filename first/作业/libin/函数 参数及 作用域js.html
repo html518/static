@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8" />
+	<title>函数 参数及 作用域js</title>
+</head>
+<body>
+	<div></div>
+	<script>
+
+		var tt = "aa";
+		function test() {
+			alert(tt);
+			var tt = "ff";
+		};
+		test();
+
+		var tt = "aa";
+		function test() {
+			alert(tt);
+			tt = "ff";
+		};
+		test();
+	</script>
+</body>
+</html>

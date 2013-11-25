@@ -1,0 +1,44 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8" />
+	<title>work 练习 </title>
+</head>
+<body>
+	<ol>
+		<li>sdfasdf</li>
+		<li>1231231</li>
+		<li>adasd</li>
+		<li>12321312</li>
+		<li>asdasda</li>
+		<li>123123</li>
+		<li>asdasd</li>
+	</ol>
+	<script>
+
+		var lis = document.getElementsByTagName("li");
+		
+		/*
+		for(var i = 0; i < lis.length; i++) {
+			lis[i].index = i + 1;
+			alert(lis[i].index);
+			lis[i].onclick = function() {
+				alert("第" + this.index + "个li");	//alert("第" + lis[i].index + "个li");  // 这里”不能用lis[i].index“
+			};
+		};
+		*/
+
+		for(var i = 0; i < lis.length; i++) {
+			lis[i].index = i + 1;
+			if(lis[i].index % 2 != 0) {
+				lis[i].onclick = function() {
+					alert("点击的是第" + this.index + "个li")
+				};
+			}else {
+				lis[i].ondblclick = function() {
+					alert("双击的是第" + this.index + "个li");
+				};
+			};
+		};
+	</script>
+</body>
+</html>

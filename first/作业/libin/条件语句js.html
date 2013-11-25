@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>条件语句js</title>
+	<meta name="description" content="" />
+</head>
+<body>
+	<div></div>
+	<script type="text/javascript">
+		// 条件语句 : if语句  、 switch语句
+		var i = 10;
+
+		if(i < 25) {
+			alert("i=" + i + "小于25");
+		};
+		
+		// 这里的if不能用大写，js是分大小写的。所以会出现js错误，前面的js代码不执行。在ie6下会弹出javascript错；其他的不弹，但没效果。
+		/*
+		If(i < 25) {	
+			alert("这里的if不能用大写，js是分大小写的。");
+		};
+		*/
+
+		if(i > 25) {
+			alert("i=" + i + "大于25");
+		}else if(i < 5) {
+			alert("i=" + i + "小于5");
+		}else {
+			alert("i=" + i + "小于25" + "且大于5");
+		};
+		/*注意：
+		*只有当if后的条件为true时，紧跟在if后的语句(块)才会执行；
+		*这里的if和else不能用大写，js是分大小写的。否则：出现js错误，前面的js代码不执行。在ie6下会弹出javascript错；其他的不弹，但没效果。
+		*if条件可是 任意表达式，而且对这个表达式求值不一定是bool类型；而ECMAScript会自动调用Boolean()转换函数将这个表达式的结果转换为bool类型值。
+		*if和else后的语句最好是代码块，用“{ }”括起来；并且“{”要与if和else在同一行。原因：在实际中，一般都用压缩工具，由于压缩解词方式不同，可能会造成编码错误。
+		*/
+
+		switch(i) {
+			case 5:
+				alert("i=5");
+				break;
+			case 8:
+				alert("i=8");
+				break;
+			case 10: 
+				alert("i=10");
+				break;
+			case 12: 
+				alert("i=12");
+				break;
+			default: 
+				alert("other");
+		};
+
+		switch("hello world") {
+			case "hello":
+				alert("hello");
+				break;
+			case "hello" + "world":
+				alert("helloworld");
+				break;
+			case "hello " + "world":
+				alert("hello world");
+				break;
+			case "bye": 
+				alert("bye");
+				break;
+			default: 
+				alert("other");
+		};
+
+		switch(true) {
+			case i < 5:
+				alert("i<5");
+				break;
+			case i > 5 && i < 25:
+				alert("i > 5 且 i < 25:");
+				break;
+			case i > 25:
+				alert("i>25");
+				break;
+			default: 
+				alert("other");
+		};
+
+		/*注意：
+		*这里的switch不能用大写，js是分大小写的。
+		*当switch后的表达式等于case后的值时，就执行其后的代码块。
+		*break关键字会导致代码执行流跳出switch语句；如果省略break，就会导致执行完当前case后，就继续执行下一个case。
+		*default用于表达式不匹配前面任何一个case时，就执行default机动代码。
+		*switch语句中可以使用任何数据类型（在其他编程语言中只能用数值），无论字符串还是对象等都没问题；每个case值可是常量、变量、表达式。
+		*/
+	</script>
+</body>
+</html>

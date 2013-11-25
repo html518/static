@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>循环语句js</title>
+	<meta name="description" content="" />
+</head>
+<body>
+	<div></div>
+	<script type="text/javascript">
+     
+		// 循环语句 : while语句、do-while语句、for语句、for-in语句
+		var i = 0;
+		
+		while(i < 5) {
+			alert(i);
+			i++;
+		}; 
+		/*
+		*while语句属于前测试循环语句；在循环体内的代码被执行之前，就会对出口条件求值；所以，循环体内的代码有可能永远不会执行。
+		*/
+		 
+		var a = 0;
+		do {
+			a++;
+			alert(a);
+		}while(a < 5);	// 比较 a<0 条件下的结果  
+		/*
+		*do-while语句属于后测试循环语句；即只有在循环体内的代码被执行之后，才会对出口条件求值；即循环体内的代码至少会被执行一次。
+		*/
+	 	
+		var num = 5;
+		for(var i = 0; i < num; i++) {	// 当num=0 时，只执行一次循环体内代码。看比较两次效果。
+			alert(i);
+		};
+		alert(i); 
+		/*
+		*for语句属于前测试循环语句；但具有在执行循环前初始化变量和定义循环后要执行代码的能力。
+		*执行流程： 语句1在循环(代码块)开始前执行；语句2 是 定义运行循环(代码块)的条件；语句3 在循环(代码块)已被执行之后执行。
+		*只有当语句2返回true的情况下才会进入for循环，因此有可能不会执行循环体中的代码。
+		*由于ECMAScript中不存在块级作用域，因此在循环内部定义的变量也可以在外部访问到。
+		*注意：使用for循环时，死循环的发生。
+		*/
+
+		var person = {
+			fname:"john",
+			lname:"doe",
+			age:25
+		};
+		for(x in person) {
+			alert(x + "/" + person[x]);
+		};
+		/*
+		*for-in语句是一种标准的迭代语句，可以用来循环遍历对象的属性。
+		*这里的person是对象。通过for-in循环来显示BOM中window对象的所有属性。每次执行循环时，都会将person对象中存在的一个属性名赋值给变量x。（这里的x 就是指 person中的一个属性名。）
+		*
+		*
+		*/
+	</script>
+</body>
+</html>

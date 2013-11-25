@@ -1,0 +1,121 @@
+<!doctype html> 
+<head>
+	<meta charset="UTF-8" /> 
+	<title>Document</title>
+</head>
+<body>
+	<div></div>
+	<script>
+		
+		var a = 2;
+		var b = 3;
+		var c = (a < b) && (a = 5);   // 这里结果： c为5
+		alert(c); 
+
+		var a = 2;
+		var b = 3;
+		var c = (a = 5) && (a > b);   // 这里结果： c为true
+		alert(c);
+
+		var a1 = 4;
+		var b1 = 3;
+		var c1 = (a1 < b1) && (a1 = 5);   // 这里结果： c为false
+		alert(c1);
+		
+		var a1 = 4;
+		var b1 = 3;
+		var c1 = (a1 < b1) || (a1 = 5);   // 这里结果： c为5
+		alert(c1);
+		
+		var a1 = 4;
+		var b1 = 3;
+		var c1 = (a1 = 5) || (a1 < b1);   // 这里结果： c为5
+		alert(c1);
+
+		var i = 4;
+		var j;
+		j = i++;
+		/*
+		* j = i; i = i+1;	
+		*/
+		alert(j);
+
+		var i1 = 4;
+		var j1 = ++i1;
+		/*
+		* i1 = i1+1; j1 = i1;
+		*/
+		alert(j1); 
+
+		var a = 5;
+		var b = 1;
+		alert(a);
+		if(false || ((true && true)||(a=3)) {
+			alert(a);
+		};	
+	</script> 
+	<script>
+		
+		var sum = 0;  // 这里必须先赋值为0，不能只声明而没初始化，否则下面“sum += i;”即“sum = sum + i;”,弹出错误“NaN”。
+		for(var i = 1; i < 6 ; i++) {
+			sum += i;
+		};
+		alert(sum);
+		
+		var sum = 0;  
+		for(var i = 1; i < 100 ; i++) {
+			if(i % 2 == 1) {
+				sum += i;
+			};
+		};
+		alert(sum);
+				
+		var sum1 = 0;   
+		for(var i = 1; i < 100 ; i++) {
+			if(i % 3 == 0) {
+				sum1 += i;
+			};
+			//console.log(i);
+		};
+		alert(sum1);
+
+		var x = 1;
+		switch(x) {
+			case 1:
+				alert(x);
+				 break;
+				//continue;	  //continue只能在循环中有效。
+			case 1:
+				alert(x);
+		};
+		
+		function test() {
+			var x = 0;
+			x++;
+			alert(x);
+		};
+		test();
+
+		
+		var test1 = function() {   //这是匿名函数，不推荐
+			var x = 0;
+			x++;
+			alert(x);
+		};
+		test1();
+		
+		var x = 11;
+		var y = 12;
+		function add(x, y) {  //形参 （声明的函数）
+			// alert(x + y);
+			return x + y;
+		};
+		add(x, y);   //实参 （调用）
+		// add(x,y,10,10,10,11);   //实参 （调用）；后面的个数必须“大于等于”被调用的函数的参数个数。
+
+		var aa = add(5, 10);
+		alert(aa);
+		
+	</script>
+</body>
+</html> 

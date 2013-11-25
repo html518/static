@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>js练习</title>
+	<meta name="description" content="" />
+</head>
+<body>
+	<div></div>
+	<script type="text/javascript">
+		// 计算闰年
+		var year = 2000;
+		function gYear(year) {
+			if((year % 400 ==0) || (year % 4 ==0 && year % 100 != 0)) {
+				alert(year + "是闰年");
+			}else {
+				alert(year + "是闰年");
+			};
+		};
+		gYear(year);
+		
+		// 两个数从小的到大的之间的数的和
+		function getSum(x, y) {
+			var gSum = 0;
+			if(x == y) {
+				gSum = x + y;
+			}else if(x < y) {
+				for(; x <= y; x++) {
+					gSum += x;
+				};
+			}else {
+				for(; x >= y; y++) {
+					gSum += y;
+				};
+			};
+			return gSum;
+		};
+		//var getS = getSum(-2, 2);
+		//alert(getS);
+
+		function getMul(a, b) {
+			var gMul = 1;
+			if(a == b) {
+				gMul = a * b;
+			}else if(a < b) {
+				for(; a <= b; a++) {
+					gMul *= a;
+				};
+			}else {
+				for(; a >= b; b++) {
+					gMul *= b;
+				};
+			};
+			return gMul;
+		};
+		//alert(getMul(1, 5));
+		// alert(gMul);  // 由于变量作用域的原因，外部不能调用函数里（局部的变量）的变量。
+		
+		// 两个数的减法，（大的减小的）
+		function getMinus(a1, b1) {
+			var gMinus = 0;
+			if(a1 >= b1) {
+				gMinus = a1 - b1;
+			}else {
+				gMinus = b1 - a1;
+			};
+			return gMinus;
+		};
+		
+		// 两个数的除法，（大的除小的）
+		function getDivision(a2, b2) {
+			var gDi = 0;
+			if(a2 >= b2) {
+				gDi = a2 / b2;
+			}else {
+				gDi = b2 / a2;
+			};
+			return gDi;
+		};
+		
+		// 加、减、乘、除 四种运算
+		function getNum(xx, yy, operate) {
+			switch(operate) {
+				case "+":
+					alert(getSum(xx, yy));
+					break;
+				case "-":
+					alert(getMinus(xx, yy));
+					break;
+				case "*":
+					alert(getMul(xx, yy));
+					break;
+				case "/":
+					alert(getDivision(xx, yy));
+					break;
+				case "%":
+					alert();
+					break;
+				default:
+					alert(operate + "不是运算符");
+			};
+		};
+		getNum(4, 2, '/');
+		//getNum(xx, yy, operate);
+	</script>
+</body>
+</html>
