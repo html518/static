@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>My HomePage</title>
+	<meta name="description" content="" />
+	<style>
+		ul {
+			list-style-type:none;
+		}
+		li {
+			border:1px solid #333;
+		}
+	</style>
+</head>
+<body>
+	<ul id="ul1">
+		<li>11111111111</li>
+		<li>22222222222</li>
+		<li>33333333333</li>
+		<li>44444444444</li>
+		<li>55555555555</li>
+		<li>66666666666</li>
+		<li>77777777777</li>
+		<li>88888888888</li>
+		<li>99999999999</li>
+	</ul>
+	<script>
+	/*写一个函数累加x到y的值。
+	function test(x, y) {
+		var result = 0;
+		for (var i = x; i <= y; i++) {
+			result+=i;
+		}
+		return result;
+	}
+	var r = test(0, 200);
+	alert(r);
+	//*/
+	/*99乘法表
+	for (var i = 1; i <= 9; i++) {
+		for (var j = 1; j <= i; j++) {
+			document.write(j+"*"+i+"="+i*j+"&nbsp;");
+		} 
+		document.write("<br />");
+	}
+	//*/
+	/*
+	var result = 1;
+	function chengfa(x, y) {
+		for (; x <= y; x++) {
+			result*=x;
+		}
+		return result;
+	}
+	var r = chengfa(1,5);
+	alert(r);
+	//*/
+	/* 求数组中最大的数字
+	var arr=[-111,-1111111,-300,-334,55555,-26,-67,-18,9999];
+	function max_arr(a) {
+		var _max = a[0];
+		for (var i = 0; i < a.length; i++) {
+			if (a[i] > _max) {
+				_max = a[i];
+			}
+		}
+		return _max;
+	}
+	var r = max_arr(arr);
+	alert('MAX Number is:'+r);
+	//*/
+	//*******************************************************************************
+	/*作业1.li事件绑定
+	//get ul & li ID
+	var lis = document.getElementById("ul1").getElementsByTagName("li");
+	for (var i = 0; i < lis.length; i++) {
+		lis[i].index = i;
+		lis[i].onclick = function() {
+			alert(this.index+1);
+	}
+	}
+	//*/
+	/*作业2.li奇数行单击，偶数行双击
+	var lis = document.getElementById("ul1").getElementsByTagName("li");
+	for (var i = 0; i < lis.length; i++) {
+		lis[i].index = i;
+		if ((i+1) % 2 == 1) {
+			lis[i].onclick = function() {
+				alert('奇数行');
+			}
+		} else {
+			lis[i].ondblclick = function() {
+				alert('偶数行');
+			}
+		}
+	}
+	//*/
+	</script>
+</body>
+</html>
