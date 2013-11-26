@@ -21,12 +21,17 @@
 	<script>
 		//n个li，点谁弹谁的下标
 		var abc = document.getElementById("con");
-
 		var aaa = abc.getElementsByTagName("li");
-		var i = 0;
-		for (var i = 0;i <=7 ; i++){ 
-			aaa[i].onclick = function(){
-				alert("0");
+		for (var a = 0;a  < aaa.length ;a++ ){
+			aaa[a].index = a; 
+			if (a % 2 == 0){
+				aaa[a].onclick = function(){
+					alert(this.index);
+				};	
+			}else{
+				aaa[a].ondblclick = function(){
+					alert(this.index);
+				};
 			}
 		}
 	</script>
