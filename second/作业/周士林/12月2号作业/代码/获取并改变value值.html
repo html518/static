@@ -1,0 +1,42 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>获取并改变value值</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<style type="text/css">
+		p span {
+			display: block;
+			margin: 10px ;
+		}
+		</style>
+	</head>
+	<body>
+		<form id="fm">
+			<fieldset>
+				<input type="text"	value="小尼说..."/>
+				<input type="button" value="小尼"/>
+				<input type="text" value="小玛说..."/>
+				<input type="button" value="小玛"/>
+			</fieldset>
+		</form>
+		<p id="text">
+		</p>
+	</body>
+	<script type="text/javascript">
+	var ipt = document.getElementById("fm").getElementsByTagName("input");
+	var text = document.getElementById("text");
+	ipt[1].onclick = function (){
+		var oP = document.createElement("span");
+        var oText = document.createTextNode("小尼说:" + ipt[0].value);
+        oP.appendChild(oText);
+        text.appendChild(oP);
+	}
+	ipt[3].onclick = function (){
+		var oP = document.createElement("span");
+        var oText = document.createTextNode("小玛说:" + ipt[2].value);
+        oP.appendChild(oText);
+        text.appendChild(oP);
+	}
+	</script>
+	</html>	

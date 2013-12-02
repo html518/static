@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东tab切换</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<style type="text/css">
+	.box {
+		width: 260px;
+		height: 263px;
+		position: relative;
+		margin: 20px auto 0;
+	}
+	.box ul {
+		padding: 0 0 8px;
+		border-bottom: 10px solid #ccc;
+		width: 100%;
+		height: 22px;
+	}
+	.box ul li {
+		float: left;
+		width: 50px;
+		height: 20px;
+		border: 1px solid #fff;
+		color: #99f;
+		line-height: 20px;
+		text-align: center;
+		background: #ccc;
+		cursor: pointer;
+	}
+	.box p {
+		position: absolute;
+		top: 20px;
+		border-bottom: 10px solid red;
+		width: 20%;
+		height: 10px; 		
+	}
+	.box p span {
+		float: left;
+		position: absolute;
+		top: 0;
+		left: 20px;
+		width: 0px;
+		height: 0px;
+		border:5px solid #000; 
+		border-color:transparent transparent #f00  transparent;
+		border-style:dashed dashed solid dashed;
+		line-height: 0;
+	}
+	.box div {
+		display: none;
+	}
+	.box .show {
+		display: block;
+		overflow: hidden;
+	}
+	.box .show img,.box div {
+		width: 100%;
+		height: 200px;
+	}
+	.box .sel {
+		background: #99e;
+		color: #fff;
+	}
+	</style>
+</head>
+<body>
+<div class="box" id="box">
+	<ul class="cf" id="tit">
+		<li class="sel">一</li>
+		<li>二</li>
+		<li>三</li>
+		<li>四</li>
+		<li>五</li>
+	</ul>
+	<p id="tit_btm">
+		<span></span>
+	</p>
+	<div class="show"><img src="images/1.jpg" title="xx" alt="xx" /></div>
+	<div><img src="images/2.jpg" title="xx" alt="xx" /></div>
+	<div><img src="images/3.jpg" title="xx" alt="xx" /></div>
+	<div><img src="images/4.jpg" title="xx" alt="xx" /></div>
+	<div><img src="images/5.jpg" title="xx" alt="xx" /></div>
+</div>
+</body>
+<script src="Tween.js"></script>
+<script type="text/javascript">
+	/* 功能封装函数开始	*/
+	function add(anav,bnav) {
+		var tits = document.getElementById(anav).getElementsByTagName("li"),
+			con = document.getElementById(anav).getElementsByTagName("div"),
+			btm = document.getElementById(bnav),		
+			time = null,
+			len = tits.length;	
+
+		for (var i = 0; i < len; i++) {
+
+			tits[i].index = i;
+			tits[i].onmouseover = function (){
+
+				clearInterval(time);
+				clock(52*(this.index));
+
+				for (var j = 0; j < len; j++) {
+
+					if (this == tits[j]) {
+						tits[j].className = "sel";
+						con[j].className = "show";
+					}else {
+						tits[j].className = "";
+						con[j].className = "";
+					};
+				};
+			}
+		};
+		btm.style.left = 0;
+		function clock(end) {
+			clearInterval(time);
+			b = parseInt(btm.style.left);
+			c = end - b;
+			var n = 0,
+			d = 20;
+
+			time = setInterval(function () {
+
+				n++;
+				btm.style.left = tw.tw2(n,b,c,d)+'px';
+				if ( n>=d ) {
+					clearInterval(time);
+				};
+			},40)
+		}
+		var tw = {
+			Linear: function(n,b,c,d){ 
+				return c*t / d + b; 
+			},
+			tw2: function(t,b,c,d,s){
+				if (s == undefined) s = 1.70158;
+				return c*((t = t/d - 1)*t*((s + 1)*t + s) + 1) + b;
+			}
+		}
+	}
+	/* 功能封装函数结束	*/
+	add("box","tit_btm");
+	/*
+	传入两个参数值，分别模块ID名。
+	*/
+</script>
+</html>

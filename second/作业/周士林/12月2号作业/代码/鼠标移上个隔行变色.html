@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鼠标移上隔行变色</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<style type="text/css">
+	li {
+		width: 100px;
+		height: 50px;
+		border: 1px solid #99f;
+		border-radius: 5px;
+	}
+	</style>
+</head>
+<body>
+	<ul id="col">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</body>
+<script type="text/javascript">
+	var lis = document.getElementById("col").getElementsByTagName("li");
+	for (var i = 0; i < lis.length; i++) {
+		//方法一
+		//lis[i].index = i;
+		lis[i].onmouseover = function (){
+			//方法一
+			//lis[this.index].style.background = (this.index%2 != 0)?"#e99":"#99f";
+			for (var j = 0; j < lis.length; j++) {
+				if (lis[j] == this) {
+					lis[j].style.background = ((j + 1)%2 != 0)?"#e99":"#99f";
+				};
+			};
+		}
+	};
+</script>
+</html>

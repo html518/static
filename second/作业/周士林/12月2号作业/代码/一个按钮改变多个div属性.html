@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>一个按钮改变多个div属性</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<style type="text/css">
+	input {
+		display: block;
+		margin: 0 auto;
+	}
+	div {
+		float: left;
+		width: 100px;
+		height: 100px;
+		border: 1px solid #99f;
+		border-radius: 100px;
+		line-height: 100px;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<input type="button" value="点我" id="btn" />
+	<div>❤</div>
+	<div>❤</div>
+	<div>❤</div>
+	<div>❤</div>
+	<div>❤</div>
+	<div>❤</div>
+	<div>❤</div>
+	<div>❤</div>
+</body>
+<script type="text/javascript">
+	var btn = document.getElementById("btn");
+	var divs = document.getElementsByTagName("div");
+	btn.onclick = function (){
+		divs[0].style.border = "10px solid red";
+		divs[0].style.color = "#99f";
+		divs[1].style.background = "#99f";
+		divs[1].style.color = "#fff";
+		divs[2].style.width = 200 + "px";
+		divs[2].style.color = "#bbf";
+		divs[3].style.height = 200 + "px";
+		divs[3].style.color = "#ccf";
+		divs[4].style.display = "none";
+		divs[4].style.color = "#ddf";
+		divs[5].style.fontSize = 26 + "px";
+		divs[5].style.color = "#99e";
+		divs[6].style.marginLeft = 100 + "px";
+		divs[6].style.textShadow = "5px 5px 5px #FF0000"
+		divs[7].style.boxShadow = "10px 10px 5px #888888;"
+		divs[7].style.color = "#ee9";
+	}
+</script>
+</html>

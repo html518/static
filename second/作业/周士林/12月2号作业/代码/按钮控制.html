@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>按钮控制</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+	form {
+		text-align: center;
+		padding: 50px 0;
+	}
+	.box { 
+		width: 300px;
+		height: 300px;
+		background: #ccc;
+		text-align: center;
+		line-height: 300px;
+		border: 20px solid #99f;
+		margin: 0 auto; 
+		font-size: 100px;
+		color: red;
+		border-radius: 300px;
+		text-decoration: line-through;
+		border-style: dashed;
+	}
+	</style>
+</head>
+<body>
+	<form id="fm">
+		<fieldset>
+			<input type="text" value="输入要改变的数值" />
+			<input type="button" value="改变宽高" />
+			<input type="button" value="改变边框大小" />
+			<input type="button" value="改变形状" />
+			<input type="button" value="改变其内文本大小" />
+			<input type="button" value="改变行高" />
+			<input type="button" value="改变背景颜色" />
+			<input type="button" value="改变文本颜色" />
+			<input type="button" value="改变边框样式" />
+			<input type="button" value="改变文本描绘" />
+			<input type="button" value="改变边框颜色" />			
+		</fieldset>
+	</form>
+	<div class="box" id="box">
+		❤
+	</div>
+</body>
+<script type="text/javascript">
+	var btns = document.getElementById("fm").getElementsByTagName("input");
+	var box = document.getElementById("box");
+	for (var i = 0; i < btns.length; i++) {
+		btns[i].index = i;
+		btns[i].onclick = function (){
+			add(this.index);
+		}
+	};
+	function add(nmb) {
+		var nber = btns[0].value;
+		var stl = ["width","borderWidth","borderRadius","fontSize","lineHeight","background","color","borderStyle","textDecoration","borderColor"];
+		for (var i = 0; i < btns.length; i++) {
+			if ((i + 1) == nmb) {
+				var a = stl[i];
+				if (i <= 4) {
+					box.style[a] = nber + "px";
+				}else {
+					box.style[a] = nber;
+				};
+			};
+		};
+	};
+</script>
+</html>

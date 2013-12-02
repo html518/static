@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多个按钮控制一个div</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<style type="text/css">
+	body {
+		text-align: center;
+	}
+	div {
+		width: 100px;
+		height: 100px;
+		background: #ccc;
+		margin: 0 auto;
+	}
+	</style>
+</head>
+<body>
+	<form id="fm">
+		<fieldset>
+			<input type = "button" value = "变宽" />
+			<input type = "button" value = "变高" />
+			<input type = "button" value = "变背景色" />
+			<input type = "button" value = "变边框" />
+			<input type = "button" value = "改变形状" />
+		</fieldset>
+	</form>
+	<div id="box"></div>
+</body>
+<script type="text/javascript">
+	var btn = document.getElementById("fm").getElementsByTagName("input");
+	var box = document.getElementById("box");
+	var a = 0;
+	btn[0].onclick = function (){
+		box.style.width = 200 + "px";
+	}
+	btn[1].onclick = function (){
+		box.style.height = 200 + "px";
+	}
+	btn[2].onclick = function (){
+		box.style.background = "#99f";
+	}
+	btn[3].onclick = function (){
+		box.style.border = "5px solid red";
+	}
+	btn[4].onclick = function (){
+		box.style.borderRadius = 100 + "px";
+	}
+</script>
+</html>
