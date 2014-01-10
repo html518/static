@@ -12,13 +12,14 @@
 	</style>
 </head>
 <body>
-	<div class="hon-box">
+	<div class="hon-box" id="hon-boxm">
 		<div class="hon-box-top">
 			<div class="hon-current">您的位置:<a href="../index.html" title="">首页</a>&gt&gt荣誉</div>
 		</div>
 		<div class="hon-box-middle">
 			<div class="hon-middle-content">
-				<div class="hon-content-img">
+				<div class="hon-content-img" id="hon-content">
+					<div class="hon-img-block" id="hon-block"></div>
 					<a href="#" title="荣誉图"><img src="../images/hon-img1-1.jpg" width="204" height="145" alt="荣誉图" title="荣誉图" /></a>
 					<a href="#" title="荣誉图"><img src="../images/hon-img1-2.jpg" width="170" height="145" alt="荣誉图" title="荣誉图" /></a>
 					<a href="#" title="荣誉图"><img src="../images/hon-img1-3.jpg" width="142" height="145" alt="荣誉图" title="荣誉图" /></a>
@@ -65,6 +66,31 @@
 <script src="../js/tween.js"></script>
 <script src="../js/base.js"></script>
 <script>
+	var honCont = document.getElementById("hon-content");
+	var contImg = honCont.getElementsByTagName("a");
+	var honBlock = document.getElementById("hon-block");
+	var honBoxm = document.getElementById("hon-boxm")
+
+	for(var i=0;i<contImg.length;i++){
+		contImg[i].onmouseover=function(e){
+			
+			var e = event || window.event;
+			var honX = e.clientX;
+			var honY = e.clientY;
+			var honL = (honBlock.offsetWidth)/2;
+			var honT = (honBlock.offsetHeight)/2;
+			var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+			honBlock.style.display="block";
+			honBlock.style.left=(honX-honL)+"px";
+			honBlock.style.top=(honY-52-honT+scrollTop)+"px";
+			
 	
+		
+		}
+	
+	
+	
+	}
+		
 </script>
 </html>
