@@ -1,2 +1,77 @@
 @charset "UTF-8";
 /* 荣誉墙 */
+
+
+.hon-box{
+	width:1000px;
+	margin:52px auto;
+	background:#fafbfb;
+	overflow:hidden;
+}
+.hon-box-top{
+	width:1000px;
+	height:63px;
+	background:url(../images/hon-btbj.jpg) no-repeat 0px 0px
+}
+.hon-current{
+	color:#b5b5b5;
+	float:right;
+	padding:40px 32px 0 0;
+}
+.hon-current a{
+	color:#b5b5b5;
+}
+.hon-box-middle{
+	width:1000px;
+	background:url(../images/hot-bjs.jpg) repeat-y;
+	overflow:hidden
+}
+.hon-box-bottom{
+	width:1000px;
+	height:2px;
+	background:url(../images/hon-btbj.jpg) no-repeat 0px -63px;
+	text-indent:-9999999px;
+}
+.hon-middle-content{
+	width:931px;
+	border:#dcdcdc 1px solid;
+	overflow:hidden;
+	margin:10px auto 73px 
+}
+.hon-content-img{
+	width:931px;
+	overflow:hidden;
+}
+.hon-content-img img{
+	float:left;
+	margin:13px 0 7px 13px
+}
+.hon-content-fanye{
+	width:105px;
+	height:24px;
+	float:right;
+	margin:90px 59px 14px 0;
+}
+.hon-content-fanye span{
+	float:left;
+	height:24px;
+	line-height:24px;
+	font-size:14px;
+	color:#727272;
+	padding:0 2px
+}
+.pref a{
+	width:24px;
+	height:24px;
+	float:left;
+	background:url(../images/pic.gif) no-repeat -60px -130px;
+	margin:0 5px 0 7px;	
+	display:block
+}
+.next a{
+	width:24px;
+	height:24px;
+	float:left;
+	background:url(../images/pic.gif) no-repeat 0px -130px;
+	display:block;
+}
