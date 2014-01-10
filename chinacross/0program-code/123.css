@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* 视频 */
+.video-head{
+	height:50px;
+	background:#eff5fa;
+}
+.video-wrap-con{
+	background:#eff5fa;
+	height:1135px;
+}
+.video-con-h{
+	position:absolute;
+	height:20px;
+	width:240px;
+	background:url(../images/video-h.jpg) 0 0 no-repeat;
+	left:-1px;
+	top:-20px;
+}
+.video-con{
+	position:relative;
+	width:998px;
+	height:1115px;
+	margin:0 auto;
+	border:1px solid #e3e5e7;
+	background:#fafbfb;
+}
+.video-con-nav{
+	height:30px;
+	width:935px;
+	margin:0 auto;
+	margin-top:10px;
+	border-bottom:4px solid #bbbaba;
+}
+.video-con-nav h3{
+	float:left;
+	width:85px;
+	height:30px;
+	line-height:30px;
+	color:#de3d25;
+	font-size:19px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:4px solid #e6492d;
+}
+.video-con-nav span{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-right:20px;
+	background:url(../images/pic.gif) -100px -30px no-repeat;
+}
+.video-con-nav div{
+	float:right;
+	height:30px;
+	line-height:30px;
+	margin-right:30px;
+}
+.video-con-nav div a{
+	float:left;
+	color:#c6c7c7;
+}
