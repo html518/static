@@ -5,17 +5,120 @@
 	<title>越野中国—详细列表页</title>
 	<link rel="icon" href="../favicon.ico" />
 	<link rel="stylesheet" href="../css/common.css" />
-	<style>
-
-	</style>
+	<link rel="stylesheet" href="../css/detail.css" />
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	<script src="../js/tween.js"></script>
+	<script src="../js/base.js"></script>
 </head>
 <body>
-	
+	<div class="det-centercon">
+		<div class="det-topstyle"></div>
+		<div class="det-con">
+			<div class="det-contop">
+				<div class="det-title">
+					<span>详情列表页</span>
+				</div>
+				<div class="det-nowloca">
+					<a href="detail.html">图集</a>
+					<span>&gt;&gt;</span>
+					<a href="../index.html">首页</a>
+					<span>您的位置:</span>
+				</div>
+			</div>
+			<div class="det-conleft">
+				<div class="det-slider">
+					<div class="det-sliderprev"></div>
+					<div class="det-slidermod" id = "det-slidermod">
+						<ul>
+							<li class="det-slider1"><img src="../images/det-slider1.jpg" alt="det-slider1" title="det-slider1" /></li>
+							<li><img src="../images/det-slider2.jpg" alt="det-slider2" title="det-slider2" /></li>
+							<li><img src="../images/det-slider3.jpg" alt="det-slider3" title="det-slider3" /></li>
+							<li><img src="../images/det-slider4.jpg" alt="det-slider4" title="det-slider4" /></li>
+							<li><img src="../images/det-slider5.jpg" alt="det-slider5" title="det-slider5" /></li>
+						</ul>
+					</div>
+					<div class="det-slidernext"></div>
+				</div>
+				<div class="det-small">
+					<div class="det-smallprev"></div>
+					<div class="det-smallpic" id="det-smallpic">
+						<ul>
+							<li class="det-smallpic1"><img src="../images/det-slider1.jpg" alt="det-slider1" title="det-slider1" /></li>
+							<li><img src="../images/det-slider2.jpg" alt="det-slider2" title="det-slider2" /></li>
+							<li><img src="../images/det-slider3.jpg" alt="det-slider3" title="det-slider3" /></li>
+							<li><img src="../images/det-slider4.jpg" alt="det-slider4" title="det-slider4" /></li>
+							<li><img src="../images/det-slider5.jpg" alt="det-slider5" title="det-slider5" /></li>
+						</ul>
+					</div>
+					<div class="det-smallnext"></div>
+				</div>
+				<div class="det-essay">
+					<div>
+						<p>2011年度最大型的越野汽车“无人区穿越”活动：北京——甘肃省敦煌，2500公里左右为行驶路段；敦煌——新疆罗布泊湖心——哈密，1250公里左右为罗布泊无人区穿越路段；哈密——内蒙古额济纳，800公里左右为黑戈壁无人区穿越路段；额济纳——北京1700公里左右为行驶线路段。途经北京、河北、山西、陕西、宁夏、甘肃、新疆、内蒙古等八个省市自治区。活动将历时十五天左右。参与活动的人员众多，有68人，其中女队员为12人；年龄最大的为57岁，最小的为20岁；这其中有父女、夫妻和亲兄弟等多对搭档。他们均是各行业的优秀人士，其中还有新闻工作者、国家级专业裁判和赛车手等。是2011年度我们已知的国内最大型的越野汽车穿越和挑战活动。</p>
+						<p>在组织本次活动之初，我们就与中国盲文图书馆协商组织一次关爱边疆地区盲人工作的公益活动，最后，我们选定了哈密市，这个有着众多民族，并且能和谐共进的美丽城市。当经过近十天，经过八千里路云和月的艰难行程之后，我们把中国盲文图书馆提供的爱心传递的物资——盲文书籍交到哈密地区残疾人联合会、兵团十三师残联和哈密地区盲人协会领导及盲人朋友手里时，我们共同感受到了那种血浓于水的爱之力量，那种中华民族大家庭的难以言表的亲情。在现场，大家都流下了激动的眼泪，这让我想起诗人艾青曾经说过的一句话：为什么我的眼里常含泪水？因为我对这土地爱得深沉。</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="det-topright">
+				<div class="det-righttitle">
+					<span class="det-showpic">摄影照片</span>
+					<span class="det-change">换一组</span>
+				</div>
+				<ul>
+					<li><img src="../images/det-slider1.jpg" alt="det-slider1" title="det-slider1" /></li>
+					<li><img src="../images/det-slider2.jpg" alt="det-slider2" title="det-slider2" /></li>
+					<li><img src="../images/det-slider3.jpg" alt="det-slider3" title="det-slider3" /></li>
+					<li><img src="../images/det-slider4.jpg" alt="det-slider4" title="det-slider4" /></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+		var sliderlis = document.getElementById("det-slidermod").getElementsByTagName("li");
+		var smalllis = document.getElementById("det-smallpic").getElementsByTagName("li");
+		var page = 0;
+		function next(){
+			page++;
+			if (page >= sliderlis.length-1){
+				page = sliderlis.length-1;
+			}
+			$(".det-slidermod li").css("zIndex","-10");
+			$(".det-smallpic li").css("border","2px solid #fff");
+			sliderlis[page].style.zIndex = "10"
+			smalllis[page].style.border = "2px solid red"
+		}
+		function prev(){
+			page--;
+			if (page < 0){
+				page = 0;
+			}
+			$(".det-slidermod li").css("zIndex","-10");
+			$(".det-smallpic li").css("border","2px solid #fff");
+			sliderlis[page].style.zIndex = "10"
+			smalllis[page].style.border = "2px solid red"
+		}
+		$(".det-sliderprev").click(function(){
+			prev();
+		})
+		$(".det-slidernext").click(function(){
+			next();
+		})
+		$(".det-smallprev").click(function(){
+			prev();
+		})
+		$(".det-smallnext").click(function(){
+			next();
+		})
+		$(".det-smallpic li").each(function(i){
+			$(this).click(function(){
+				window.page = i;
+				$(".det-slidermod li").css("zIndex","-10");
+				$(".det-smallpic li").css("border","2px solid #fff");
+				$(this).css("border","2px solid red")
+				sliderlis[page].style.zIndex = "10"
+			})
+		})
+	</script>
 </body>
-<script src="../js/jquery-1.10.2.min.js"></script>
-<script src="../js/tween.js"></script>
-<script src="../js/base.js"></script>
-<script>
-	
-</script>
 </html>
