@@ -1,2 +1,246 @@
 @charset "UTF-8";
 /* 装备与改装 */
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+}
+.equ-con{
+	width: 1200px;
+	margin: 0 auto;
+	background: #eff5fa;
+	padding-bottom:30px;
+}
+/***	大图滚动部分	***/
+.equ-outer{
+	width: 1200px;
+	height: 488px;
+	position: relative;
+}
+.equ-slider table,.equ-slider{
+	width: 1200px;
+	height: 488px;
+	overflow: hidden;
+}
+.equ-sliderprev,.equ-slidernext{
+	position: absolute;
+	width: 57px;
+	height: 57px;
+	top: 215px;
+	z-index: 10;
+}
+.equ-sliderprev{
+	left: 0;
+	background: url("../images/equ-left.png") 0 0 no-repeat;
+}
+.equ-slidernext{
+	right: 0;
+	background: url("../images/equ-right.png") 0 0 no-repeat;
+	
+}
+/***	户外用品部分	***/
+.equ-outdoor{
+	width: 1002px;
+	margin: 55px auto 0;
+	overflow: hidden;
+	background: #f7f9fa;
+	border:1px solid #e5;
+}
+.equ-topstyle{
+	width: 1002px;
+	height: 21px;
+	background: url("../images/equ-topbg.png") 0 0 no-repeat;
+}
+.equ-outdoorcon{
+	width: 1000px;
+	height: 685px;
+	border: 1px solid #e3e5e7;
+	border-top: none;
+}
+.equ-toptitle{
+	width: 931px;
+	height: 28px;
+	margin: 0 auto;
+	border-bottom: 4px solid #bbbaba;
+	position: relative;
+}
+.equ-toptitle span{
+	position: absolute;
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	padding-left: 43px;
+	bottom: -4px;
+	color: #e6492d;
+	background: url("../images/equ-bg1.png") 0 -30px no-repeat;
+	border-bottom: 4px solid #e6492d;
+}
+/***	户外--相册	***/
+.equ-photomod{
+	width: 958px;
+	height:620px;
+	margin: 5px auto;
+	overflow: hidden;
+}
+.equ-photo{
+	width: 455px;
+	height: 283px;
+	float: left;
+	margin-left: 16px;
+	margin-top: 20px;
+	background: url("../images/equ-o.png") 0 0 no-repeat;
+	background-position: 393px 244px;
+	 -moz-border-radius:  10px;
+    -webkit-border-radius:  10px;
+    border-radius: 10px;
+}
+.equ-phototheme{
+	float: left;
+	width: 16px;
+	height: 258px;
+	margin-top: 12px;
+	margin-left: 29px;
+	font-size: 16px;
+	color: #ccc7ba;
+	font-family: 楷体;
+	text-align: center;
+	line-height: 20px;
+	overflow:hidden;
+}
+.equ-photoshow{
+	float: right;
+	width: 375px;
+	height: 232px;
+	background: #fff;
+	margin: 12px 11px auto auto;
+	box-shadow: 0px 0px 8px #999;
+}
+.equ-photoshow img{
+	width: 357px;
+	height: 214px;
+	margin: 7px auto auto 8px;
+}
+/***	装备改装部分	***/
+.equ-converhead{
+	border:1px solid #e5e5e5;
+	border-top:none;
+}
+.equ-converhead .equ-converthem{
+	background: url("../images/equ-bg1.png") 0 0 no-repeat;
+}
+.equ-converted{
+	width: 931px;
+	height: 314px;
+	margin: 0 auto;
+	position: relative;
+	border-top: 1px dashed #999;
+}
+.equ-convercross{
+	border-top: none;
+}
+.equ-bg2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+}
+.equ-bg4{
+	position: absolute;
+	bottom: 0px;
+	right: 329px;
+	z-index: 10;
+}
+.equ-converdiv{
+	width: 490px;
+	height: 282px;
+	float: left;
+}
+.equ-converpic{
+	width: 368px;
+	height: 268px;
+	margin-left: 60px;
+	position: relative;
+	background: url("../images/equ-equipbg1.jpg") 0 0 no-repeat;
+}
+.equ-converpic span a{
+	position: absolute;
+	right: 30px;
+	bottom: 25px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #595756;
+}
+.equ-converpic img{
+	width: 319px;
+	height: 177px;
+	margin-top: 30px;
+	margin-left: 25px;
+}
+.equ-convercon{
+	float: left;
+	width: 437px;
+	height: 282px;
+}
+.equ-convercon li{
+	color: #3d3b3b;
+	height: 24px;
+	font-size: 16px;
+	margin-left: 60px;
+	list-style: disc;
+	margin-top: 5px;
+}
+.equ-convercon .equ-convertitle{
+	list-style: none;
+}
+.equ-convercon a{
+	display:block;
+	font-size: 22px;
+	line-height: 24px;
+	font-style: bold;
+	height: 24px;
+	margin-top: 90px;
+	margin-bottom: 10px;
+	color: #3d3b3b;
+}
+/***	其它	***/
+.equ-otherhead{
+	height:280px;
+	width:1000px;
+	background: #f7f9fa;
+}
+.equ-otherhead span{
+	background: url("../images/equ-bg1.png") 0 -68px no-repeat;
+}
+.equ-otherpic{
+	margin-left: 35px;
+	margin-bottom: 50px;
+}
+.equ-otherpic li{
+	float: left;
+	width: 225px;
+	height: 160px;
+	margin-left: 7px;
+	margin-top: 27px;
+	text-align: center;
+	list-style:none;
+	box-shadow: 0px 0px 8px #999;
+}
+.equ-otherpic li img{
+	box-shadow: 0px 0px 8px #999;
+}
+.equ-otherpic h2 a{
+	display:block;
+	color: #999;
+	font-size: 14px;
+	width:225px;
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis; 
+}
+.equ-otherpic h2 a:hover{
+	color:#000;
+}

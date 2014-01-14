@@ -5,17 +5,168 @@
 	<title>越野中国—装备与改装</title>
 	<link rel="icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/common.css" />
-	<style>
-		
-	</style>
+	<link rel="stylesheet" href="css/equip.css" />
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/tween.js"></script>
+	<script src="js/base.js"></script>
 </head>
 <body>
-	
+	<div class="equ-con">
+		<div class="equ-outer">
+			<div class="equ-slider">
+				<div class="equ-sliderprev"></div>
+				<div class="equ-slidernext"></div>
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td><img src="images/equ-slider1.jpg"></td>
+						<td><img src="images/equ-slider2.jpg"></td>
+						<td><img src="images/equ-slider3.jpg"></td>
+						<td><img src="images/equ-slider4.jpg"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="equ-outdoor">
+			<div class="equ-topstyle"></div>
+			<div class="equ-outdoorcon">
+				<div class="equ-toptitle">
+					<div>
+						<span>户外用品</span>
+					</div>
+				</div>
+				<div class="equ-photomod">
+					<div class="equ-photo equ-photfir">
+						<div class="equ-phototheme">
+							<span>|</span><br/>
+							<span>|</span>
+							<span>工欲善其事<br/>，必先利其器</span>
+						</div>
+						<div class="equ-photoshow"><img src="images/equ-outdoor1.jpg"></div>
+					</div>
+					<div class="equ-photo equ-photfir">
+						<div class="equ-phototheme">
+							<span>|</span><br/>
+							<span>|</span>
+							<span>不一样的精彩</span>
+						</div>
+						<div class="equ-photoshow"><img src="images/equ-outdoor2.jpg"></div>
+					</div>
+					<div class="equ-photo equ-photfir">
+						<div class="equ-phototheme">
+							<span>改变世界<br/>,未来<br/>！</span>
+						</div>
+						<div class="equ-photoshow"><img src="images/equ-outdoor3.jpg"></div>
+					</div>
+					<div class="equ-photo equ-photfir">
+						<div class="equ-phototheme">
+							<span>|</span><br/>
+							<span>|</span>
+							<span>欢迎进入<br/>！</span>
+						</div>
+						<div class="equ-photoshow"><img src="images/equ-outdoor4.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="equ-outdoor equ-converhead">
+			<div class="equ-topstyle"></div>
+			<div class="equ-toptitle">
+				<div>
+					<span class="equ-converthem">装备改装</span>
+				</div>
+			</div>
+			<div class="equ-">
+				<div class="equ-converted equ-convercross">
+					<img src="images/equ-cover.png" class="equ-bg2"/>
+					<div class="equ-converdiv">
+						<div class="equ-converpic">
+							<a href="html/equipdetail.html"><img src="images/equ-equip4.jpg" /></a>
+							<span><a href="html/equipdetail.html">东方越野车会</a></span>
+						</div>
+					</div>
+					<ul class="equ-convercon">
+						<li class="equ-convertitle"><h2><a href="html/equipdetail.html">越野</a></h2></li>
+						<li>改装</li>
+						<li>越野</li>
+						<li>房车</li>
+					</ul>
+				</div>
+				<div class="equ-converted">
+					<img src="images/equ-cover.png" class="equ-bg4"/>
+					<ul class="equ-convercon">
+						<li class="equ-convertitle"><h2><a href="html/equipdetail.html">保险和理赔服务</a></h2></li>
+						<li>汽车维修和救援服务</li>
+						<li>钣金喷漆服务</li>
+						<li>汽车配件供应</li>
+					</ul>
+					<div class="equ-converdiv">
+						<div class="equ-converpic">
+							<a href="html/equipdetail.html"><img src="images/equ-equip3.jpg" /></a>
+							<span><a href="html/equipdetail.html">四海车房汽车服务店</a></span>
+						</div>
+					</div>
+				</div>
+				<div class="equ-converted">
+					<img src="images/equ-cover.png" class="equ-bg2"/>
+					<div class="equ-converdiv">
+						<div class="equ-converpic">
+							<a href="html/equipdetail.html"><img src="images/equ-equip2.jpg" /></a>
+							<span><a href="html/equipdetail.html">郑雄改装</a></span>
+						</div>
+					</div>
+					<ul class="equ-convercon">
+						<li class="equ-convertitle"><h2><a href="html/equipdetail.html">天生的改车手</a></h2></li>
+						<li>哪些车型适合该改装越野车</li>
+						<li>北京2020越野吉普车改装</li>
+						<li>越野车改装后性能升级</li>
+					</ul>
+				</div>
+				<div class="equ-converted">
+					<img src="images/equ-cover.png" class="equ-bg4"/>
+					<ul class="equ-convercon">
+						<li class="equ-convertitle"><h2><a href="html/equipdetail.html">专业模型改装</a></h2></li>
+						<li>儿时的梦想</li>
+						<li>男人的小玩具</li>
+						<li>真车的缩小版</li>
+					</ul>
+					<div class="equ-converdiv">
+						<div class="equ-converpic">
+							<a href="html/equipdetail.html"><img src="images/equ-equip1.jpg" /></a>
+							<span><a href="html/equipdetail.html">北京酷乐派遥控模型</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="equ-outdoor equ-otherhead">
+			<div class="equ-topstyle"></div>
+			<div class="equ-toptitle">
+				<div>
+					<span>其它</span>
+				</div>
+			</div>
+			<ul class="equ-otherpic">
+				<li class="equ-antu">
+					<a href="html/equipdetail.html"><img src="images/equ-else2.jpg" /></a>
+					<h2><a href="html/equipdetail.html">鞍途道乐</a></h2>
+				</li>
+				<li class="equ-yifeiquan">
+					<a href="html/equipdetail.html"><img src="images/equ-else1.jpg" /></a>
+					<h2><a href="html/equipdetail.html">伊飞泉自行车</a></h2>
+				</li>
+				<li class="equ-xiniudun">
+					<a href="html/equipdetail.html"><img src="images/equ-else3.jpg" /></a>
+					<h2><a href="html/equipdetail.html">犀牛盾</a></h2>
+				</li>
+				<li class="equ-kyb">
+					<a href="html/equipdetail.html"><img src="images/equ-else4.jpg" /></a>
+					<h2><a href="html/equipdetail.html">日本KYB减震器</a></h2>
+				</li>
+			</ul>
+		</div>
+	</div>	
+	<script>
+		slider($(".equ-slider"), 4, {scrollLeft : 1200}, 5000, "" , $(".equ-sliderprev"), $(".equ-slidernext"));
+	</script>
 </body>
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/tween.js"></script>
-<script src="js/base.js"></script>
-<script>
-	
-</script>
 </html>
