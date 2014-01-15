@@ -44,10 +44,9 @@
 	margin: 55px auto 0;
 	overflow: hidden;
 	background: #f7f9fa;
-	border:1px solid #e5;
 }
 .equ-topstyle{
-	width: 1002px;
+	width: 1000px;
 	height: 21px;
 	background: url("../images/equ-topbg.png") 0 0 no-repeat;
 }
@@ -100,6 +99,7 @@
 	height: 258px;
 	margin-top: 12px;
 	margin-left: 29px;
+	display:inline;
 	font-size: 16px;
 	color: #ccc7ba;
 	font-family: 楷体;
@@ -122,6 +122,13 @@
 }
 /***	装备改装部分	***/
 .equ-converhead{
+	width:1002px;
+}
+.equ-convername{
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+}
+.equ-converconmod{
 	border:1px solid #e5e5e5;
 	border-top:none;
 }
@@ -208,13 +215,23 @@
 	height:280px;
 	width:1000px;
 	background: #f7f9fa;
+	border-top:none;
+}
+.equ-othername{
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
 }
 .equ-otherhead span{
 	background: url("../images/equ-bg1.png") 0 -68px no-repeat;
 }
+.equ-otherphoto{
+	border:1px solid #e5e5e5;
+	border-top:none;
+}
 .equ-otherpic{
 	margin-left: 35px;
 	margin-bottom: 50px;
+	height:220px;
 }
 .equ-otherpic li{
 	float: left;
