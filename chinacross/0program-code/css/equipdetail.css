@@ -338,3 +338,21 @@
 	margin:0 auto;
 	border-bottom:4px solid #bbbaba;
 }
+
+/****/
+.ceight-pic-con1 {
+	position: relative;
+	width: 691px;
+	height: 300px;
+	margin: 20px 0 0 150px;
+}
+.ceight-pic-con1 li {
+	overflow: hidden;
+	position: absolute;
+	top: 26px;
+	right: 0;
+	z-index: 1;
+	height: 190px;
+	width: 200px;
+	box-shadow: 0 0 6px #888;
+} 

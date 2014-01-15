@@ -134,7 +134,15 @@
 			<div class="edet-con-nav">
 				<h3><span></span>精彩案例展示</h3>
 			</div>
-			<div>李彬</div>
+			<div>
+				<ul class="ceight-pic-con1">
+					<li><img src="../images/equip1.jpg" alt="pic" title="pic" /></li>
+					<li><img src="../images/equip2.jpg" alt="pic" title="pic" /></li>
+					<li><img src="../images/equip3.jpg" alt="pic" title="pic" /></li>
+					<li><img src="../images/equip4.jpg" alt="pic" title="pic" /></li>
+					<li><img src="../images/equip5.jpg" alt="pic" title="pic" /></li>
+				</ul> 
+			</div>
 		</div>
 	</div>
 </body>
@@ -149,5 +157,140 @@
 		//$(".edet-kage").animate({"top" : ind * 70 + "px"}, 300,"swing");
 		$(".edet-kage span").animate({"top" : ind * 70 + 35 + "px"}, 300,"swing"); 
 	}
+
+		/****/
+	// 初始化图片滚动显示
+	resetImgScroll();
+
+	$(".ceight-pic-con1 li").click(imgScrollAll);
+
+	// 图片滚动
+	var clickTimeNum = 0;		// 限制鼠标点击速度的变量。
+	function imgScrollAll() {
+		if(clickTimeNum > 0){
+			return false;
+		}
+		if ($(this).css("right") != "150px"){
+			imgScroll(this);
+			// 判断滚动方向
+			if ($(this).css("right") === "0px"){
+				imgScrollLeft(this);
+			} else {
+				imgScrollRight(this);
+			}
+			// 判断滚动到第一张还是最后一张
+			if ($(this).html() == $(".ceight-pic-con1 li:first").html()){
+				imgScrollFirst();
+			} else if ($(this).html() == $(".ceight-pic-con1 li:last").html()){
+				imgScrollLast();
+			}
+		}
+		// 限制鼠标点击速度最快每500ms点击一次
+		clickTimeNum ++;
+		setTimeout(function(){
+			clickTimeNum = 0;
+		},500);
+	}
+	// 初始化图片滚动显示
+	function resetImgScroll() {
+		$(".ceight-pic-con1 li").css("display" , "none");
+		$(".ceight-pic-con1 li:last").show().css("right" , "490px");
+		$(".ceight-pic-con1 li:last").prev().show().css({
+			width : 391,
+			height : 244,
+			zIndex : 100,
+			right : 150,
+			top : 0
+		});
+		$(".ceight-pic-con1 li:last").prev().prev().show();
+	}
+	// 图片滚动（图片放大居中）
+	function imgScroll(tag) {
+		$(tag).css("zIndex", 100).animate({
+			width : 391,
+			height : 244,
+			right : 150,
+			top : 0
+		},500);
+	}
+	// 图片向左滚动
+	function imgScrollLeft(tag) {
+		$(tag).next().css("zIndex", 5).animate({
+			width : 200,
+			height : 190,
+			right : 490,
+			top : 26
+		},500);
+		$(tag).next().next().css("zIndex", 3).animate({
+			right : 300,
+			opacity : 0
+		},500,function(){
+			$(tag).next().next().css("display" , "none")
+		});
+		$(tag).prev().css({
+			right : "-150px",
+			display : "block",
+			opacity : 0
+		}).animate({
+			right : 0,
+			opacity : 1
+		},500);
+	}
+	// 图片向右滚动
+	function imgScrollRight(tag) {
+		$(tag).prev().css("zIndex", 5).animate({
+			width : 200,
+			height : 190,
+			right : 0,
+			top : 26
+		},500);
+		$(tag).prev().prev().css("zIndex", 3).animate({
+			right : 490,
+			opacity : 0
+		},500,function(){
+			$(tag).prev().prev().css("display" , "none")
+		});
+		$(tag).next().css({
+			right : "490px",
+			display : "block",
+			opacity : 0
+		}).animate({
+			right : 490,
+			opacity : 1
+		},500);
+	}
+	// 图片滚动到第一张时，将最后一张移到到第一张之前。
+	function imgScrollFirst() {
+		$(".ceight-pic-con1").prepend($(".ceight-pic-con1 li:last").outer());
+		$(".ceight-pic-con1 li:first").css({
+			right : "490px",
+			display : "block",
+			opacity : 0
+		}).animate({
+			right : 0,
+			opacity : 1
+		},500);
+		$(".ceight-pic-con1 li:last").remove();
+		$(".ceight-pic-con1 li").click(imgScrollAll);
+	}
+	// 图片滚动到最后一张时，将第一张移到最后一张之后。
+	function imgScrollLast() {
+		$(".ceight-pic-con1").append($(".ceight-pic-con1 li:first").outer());
+		$(".ceight-pic-con1 li:last").css({
+			right : "490px",
+			display : "block",
+			opacity : 0
+		}).animate({
+			right : 490,
+			opacity : 1
+		},500);
+		$(".ceight-pic-con1 li:first").remove();
+		$(".ceight-pic-con1 li").click(imgScrollAll);
+	}
+
+	// jQuery库增加outerHTML功能；
+	$.fn.outer = function(){
+		return $('<div/>').append(this.clone()).html();
+	};
 </script>
 </html>
