@@ -364,7 +364,7 @@
 		width: 987px;
 		height: 427px;
 		opacity: 0.5;
-		background: url("images/map.png") 0 0 no-repeat;
+		background: url("../images/bra-subj-map.png") 0 0 no-repeat;
 	}
 	.bra-con-subject dt , .bra-con-subject dd {
 		overflow: hidden;
