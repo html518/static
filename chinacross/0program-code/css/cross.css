@@ -1,2 +1,819 @@
 @charset "UTF-8";
 /* 越野中国 */
+/* 地图 */
+.cf:before,.cf:after{
+	content:" ";
+	display:table;
+}
+.cf:after{
+	clear:both;
+}
+.cf{
+	*zoom:1;
+}
+/* 通用部分 */
+.cro-activity,.cro-share,.cro-pic,.cro-made,.cro-report{
+	width:1000px;
+	margin:0 auto;
+}
+.cro-combody{
+	height:100%;
+	background:url(../images/cro-combac.jpg) 0 0 repeat-y;
+}
+.cro-comhead{
+	height:100%;;
+	background:url(../images/cro-combac.jpg) -1000px 0 no-repeat;
+}
+.cro-comfoot{
+	height:100%;
+	background:url(../images/cro-combac.jpg) -2000px bottom no-repeat;
+}
+.cro-comfoot h2{
+	width:934px;
+	height:30px;
+	margin:0 auto;
+	border-bottom:4px solid #bbbaba;
+}
+.cro-comfoot h2 span{
+	float:left;
+	color:#e6492d;
+	border-bottom:4px solid #e6492d;
+}
+.cro-comfoot h2 em{
+	height:30px;
+	float:left;
+}
+.cro-comfoot h2 strong{
+	float:left;
+	height:30px;
+	line-height:30px;
+	padding:0 4px 0 10px;
+	font-size:18px;
+	font-weight:bold;
+	overflow:hidden;
+}
+.cro-comfoot h2 var{
+	float:right;
+	width:42px;
+	height:10px;
+	margin-top:13px;
+	background:url(../images/cro-bac.png) 0 -70px no-repeat;
+}
+/* 通用部分结束 */
+.cro-wrapper{
+	width:1200px;
+	margin:0 auto;
+	background-color:#eff5fa;
+} 
+/* 激情呈现 */
+.cro-map{
+	position:relative;
+	width:100%;
+	height:515px;
+	margin-bottom:56px;
+	background:url(../images/cro-map.jpg) 0 0 no-repeat;	
+}
+.cro-title,.cro-text,.cro-big,.cro-small1,.cro-small2,.cro-small3,.cro-small4{
+	position:absolute;
+}
+.cro-title img,.cro-text img,.cro-big img,.cro-small1 img,.cro-small2 img,.cro-small3 img,.cro-small4 img{
+	overflow:hidden;
+	border-radius:1px;
+}
+.cro-title{
+	left:108px;
+	top:38px;
+	z-index:0;
+}
+.cro-title img{
+	width:317px;
+	height:84px;
+}
+.cro-text{
+	left:99px;
+	top:148px;
+	z-index:0;
+}
+.cro-text img{
+	width:223px;
+	height:125px;
+}
+.cro-big{
+	right:379px;
+	top:18px;
+	z-index:0;
+}
+.cro-big img{
+	width:206px;
+	height:152px;
+}
+.cro-small1{
+	left:357px;
+	top:185px;
+}
+.cro-small2{
+	left:508px;
+	top:336px;
+	z-index:0;
+}
+.cro-small3{
+	left:582px;
+	top:260px;
+	z-index:10;
+}
+.cro-small4{
+	right:281px;
+	top:180px;
+}
+.cro-small1 img,.cro-small2 img,.cro-small3 img,.cro-small4 img{
+	width:120px;
+	height:97px;
+}
+.cro-map button{
+	width:143px;
+	height:47px;
+	padding:2px 0 0 11px;
+	border:none;
+	border-radius:4px;
+	outline:none;	
+}
+.cro-icon{
+	position:absolute;
+	left:106px;
+	bottom:24px;
+}
+.cro-xinlang{
+	position:absolute;
+	left:260px;
+	bottom:24px;
+}
+.cro-icon em{
+	float:left;
+	width:36px;
+	height:36px;
+	background:url(../images/cro-bac.png) 0 0 no-repeat;
+}
+.cro-xinlang em{
+	float:left;
+	width:34px;
+	height:34px;
+	background:url(../images/cro-bac.png) 0 -36px no-repeat;
+}
+.cro-map button span{
+	float:right;
+	height:36px;
+	line-height:36px;
+	padding-right:17px;
+	color:#e6492d;
+	font-size:16px;
+}
+.cro-big .cro-tit{
+	height:35px;
+	top:105px;
+}
+.cro-big .cro-tit h3{
+	height:35px;
+	line-height:35px;
+}
+.cro-big .cro-tit em{
+	margin:8px 10px 0 0 ;
+}
+.cro-tit{
+	position:absolute;
+	width:100%;
+	height:20px;
+	background:#f8fbff;
+	top:67px;
+	display:none;
+}
+.cro-tit h3{
+	height:20px;
+	line-height:20px;
+	padding-left:8px;
+}
+.cro-tit h3 span{
+	float:left;
+	width:70px;
+	color:#9ea0a2;
+	overflow:hidden;
+}
+.cro-tit h3 em{
+	float:right;
+	width:18px;
+	height:18px;
+	margin:1px 6px 0 0;
+	background:url(../images/cro-bac.png) right -125px no-repeat;
+}
+.cro-big:hover .cro-tit{
+	display:block;
+}
+.cro-small1:hover .cro-tit{
+	display:block;
+}
+.cro-small2:hover .cro-tit{
+	display:block;
+}
+.cro-small3:hover .cro-tit{
+	display:block;
+}
+.cro-small4:hover .cro-tit{
+	display:block;
+}
+/* 官方活动 */
+.cro-activity{
+	height:345px;
+	margin-bottom:54px;
+}
+.cro-activity h2{
+	padding-top:27px;
+	margin-bottom:20px;
+}
+.cro-activity h2 em{	
+	width:33px;
+	height:30px;
+	background:url(../images/cro-bac.png) 0 -80px no-repeat;
+}
+.cro-activity h3 em{
+	float:left;
+	width:9px;
+	height:18px;
+}
+.cro-activity h3 span{
+	float:left;
+	width:88px;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	font-size:16px;
+	background:#f6f8fa;
+	overflow:hidden;
+}
+.cro-car{
+	float:left;
+	width:357px;
+	margin-left:39px;
+}
+.cro-car h3{
+	height:18px;
+	background:#e7ebf2;
+}
+.cro-car h3 em{
+	background:#7bb2f6;
+}
+.cro-car dl{
+	height:92px;
+	padding:15px;
+}
+.cro-car dt{
+	float:left;
+	width:116px;
+	height:76px;
+}
+.cro-car dt img{
+	width:116px;
+	height:76px;
+}
+.cro-car dd{
+	float:left;
+	margin-left:20px;
+	margin-top:8px;
+}
+.cro-car dd h4{
+	width:100px;
+	height:20px;
+	line-height:20px;
+	padding-left:1px;
+	font-size:16px;
+	overflow:hidden;
+}
+.cro-car dd strong{
+	float:left;
+	height:16px;
+	line-height:16px;
+	color:#7d7f82;
+	font-size:14px;
+	overflow:hidden;
+}
+.cro-car dd span{
+	padding-left:1px;
+	margin-right:18px;
+	color:#c4c4c4;
+}
+.cro-own{
+	float:left;	
+	width:282px;
+	margin-left:5px;
+}
+.cro-own h3{
+	height:18px;
+	background:#f0ede5;
+}
+.cro-own h3 em{
+	background:#f6da7b;
+}
+.cro-own ul{
+	padding-top:15px;
+}
+.cro-own li{
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	overflow:hidden;
+}
+.cro-own li span{
+	padding-left:5px;
+	color:#55575a;
+}
+.cro-challenges{
+	float:left;	
+	width:274px;
+	margin-left:15px;
+}
+.cro-challenges h3{
+	height:18px;
+	background:#e7dbe1;
+}
+.cro-challenges h3 em{
+	background:#f67bb8;
+}
+.cro-challenges dl{
+	width:224px;
+	margin:0 auto;
+	padding-top:19px;
+	overflow:hidden;
+}
+.cro-challenges dt{
+	width:224px;
+	height:120px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.cro-challenges dt img{
+	width:224px;
+	height:120px;
+	overflow:hidden;
+}
+.cro-challenges dd{
+	height:28px;
+	line-height:28px;
+	overflow:hidden;
+}
+.cro-challenges dd h4{
+	font-size:16px;
+	color:#313234;
+	padding-left:2px;
+}
+.cro-challenges dd span{
+	font-size:14px;
+	color:#7d7f82;
+}
+/* 官方活动结束 */
+/* 精彩分享 */
+.cro-share{
+	height:925px;
+	margin-bottom:50px;
+}
+.cro-share h2{
+	height:33px;
+	padding-top:30px;
+}
+.cro-share h2 em{
+	width:28px;
+	padding-top:3px;
+	background:url(../images/cro-bac.png) right 0 no-repeat;
+}
+.cro-share h2 strong{
+	padding-top:3px;
+}
+.cro-share h2 i{
+	float:right;
+	width:93px;
+	height:32px;
+	margin-right:20px;
+	background:url(../images/cro-bac.png) 0 bottom no-repeat;
+}
+.cro-share-con{
+	width:916px;
+	height:854px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.cro-share-con dl{
+	height:150px;
+	padding-top:20px;
+	border-bottom:1px dotted #dbdbdb;
+}
+.cro-share-con dl dt{
+	float:left;
+	width:196px;
+	height:126px;
+	margin-right:15px;
+	overflow:hidden;
+}
+.cro-share-con dt img{
+	width:196px;
+	height:126px;
+}
+.cro-share-con dd{
+	float:left;
+	width:560px;
+	overflow:hidden;
+}
+.cro-share-con dd em{
+	font-size:18px;
+	color:#e6492d;
+}
+.cro-share-con dd strong{
+	font-size:18px;
+	color:#424242;
+	font-weight:bold;
+}
+.cro-share-con dd p{
+	width:654px;
+	line-height:26px;
+	font-size:14px;
+	color:#787878;
+}
+.cro-share-con .cro-msg{
+	height:30px;
+	line-height:30px;
+	margin-top:12px;
+}
+.cro-share-con dd span{
+	margin-right:20px;
+	color:#d1d1d2;
+	font-size:12px;
+}
+/* 精彩分享结束 */
+/* 风云榜 */
+.cro-rank{
+	width:1000px;
+	margin:0 auto 69px;
+}
+.cro-notice{
+	float:left;
+	position:relative;
+	width:358px;
+	height:415px;
+	background:#f6f8fa;
+}
+.cro-notice-top span{
+	display:block;
+	width:358px;
+	height:19px;
+	background:url(../images/cro-combac.jpg) -1000px 0 no-repeat;
+}
+.cro-notice-con{
+	width:356px;
+	height:393px;
+	border:1px solid #e5e5e5;
+	border-top:none;
+}
+.cro-notice-con h2{
+	width:320px;
+	height:28px;
+	margin:0 auto;
+	border-bottom:4px solid #bbbaba;
+}
+.cro-notice-con h2 span{
+	float:left;
+	color:#e6492d;
+	border-bottom:4px solid #e6492d;
+}
+.cro-notice-con h2 em{
+	float:left;
+	width:26px;
+	height:28px;
+	background:url(../images/cro-bac.png) 0 -110px no-repeat;
+}
+.cro-notice-con h2 strong{
+	float:left;
+	height:28px;
+	line-height:28px;
+	padding:0 2px 0 8px;
+	font-size:18px;
+	font-weight:bold;
+	overflow:hidden;
+}
+.cro-notice-con h2 var{
+	float:right;
+	width:42px;
+	height:10px;
+	margin-top:13px;
+	background:url(../images/cro-bac.png) 0 -70px no-repeat;
+}
+.cro-notibac{
+	position:absolute;
+	width:286px;
+	height:341px;
+	left:32px;
+	top:58px;
+	z-index:0;
+	background:url(../images/cro-notibac.png) 0 0 no-repeat;
+}
+.cro-noticon{
+	position:absolute;
+	width:268px;
+	height:331px;
+	left:40px;
+	top:65px;
+	z-index:10;
+	background:url(../images/cro-noticon.png) 0 0 no-repeat;
+}
+/* 风云榜结束 */
+/* 线路排名 */
+.cro-ranking{
+	float:left;
+	width:636px;
+	height:415px;
+	margin-left:6px;
+	background:#f6f8fa;
+}
+.cro-ranking-top{
+	width:636px;
+	height:19px;
+	background:url(../images/cro-combac.jpg) -1000px 0 no-repeat;
+}
+.cro-ranking-con{
+	width:634px;
+	height:393px;
+	border:1px solid #e5e5e5;
+	border-top:none;
+}
+.cro-ranking-con h2{
+	width:590px;
+	height:28px;
+	margin:0 auto;
+	border-bottom:4px solid #bbbaba;
+}
+.cro-ranking-con h2 span{
+	float:left;
+	color:#e6492d;
+	border-bottom:4px solid #e6492d;
+}
+.cro-ranking-con h2 em{
+	float:left;
+	width:41px;
+	height:28px;
+	background:url(../images/cro-bac.png) -30px -120px no-repeat;
+}
+.cro-ranking-con h2 strong{
+	float:left;
+	height:28px;
+	line-height:28px;
+	padding:0 2px 0 10px;
+	font-size:18px;
+	font-weight:bold;
+	overflow:hidden;
+}
+.cro-ranking-con h2 var{
+	float:right;
+	width:42px;
+	height:10px;
+	margin-top:13px;
+	background:url(../images/cro-bac.png) 0 -70px no-repeat;
+}
+.cro-tab{
+	width:588px;
+	height:330px;
+	margin:0 auto;
+	padding-top:1px;
+	border:1px solid #dad9d9;
+	font-size:14px;
+	overflow:hidden;
+}
+.cro-tab .cro-tab-tit{
+	width:100%;
+	height:28px;
+	background:#e4e8ea;
+	color:#777778;	
+}
+.cro-tab .cro-tab-tit span{
+	float:left;
+	width:110px;
+	height:23px;
+	line-height:23px;
+	padding-top:2px;
+	text-align:center;
+	color:#a9abac;
+	border-right:1px solid #cfcfcf;
+}
+.cro-tab .cro-tab-tit .show{
+	color:#f81f05;
+	border-bottom:2px solid #f9826c;
+	border-right:0;
+	background:#f6f8fa
+}
+.cro-tab .cro-tab-con ul{
+	padding:12px 0 0 20px;
+}
+.cro-tab .cro-tab-con li{	
+	height:22px;
+	padding-top:10px;
+	padding-right:
+}
+.cro-tab .cro-tab-con em{
+	float:left;
+	width:18px;
+	height:12px;
+	line-height:12px;
+	margin-top:3px;
+	text-align:center;
+	font-size:12px;
+	color:white;
+	background:#cdcdcd;
+}
+.cro-tab .cro-tab-con span{
+	float:left;
+	width:470px;
+	height:32px;
+	margin-left:5px;
+	color:#797677;
+	overflow:hidden;
+}
+.cro-tab .cro-tab-con i{
+	color:#bbbbbc;
+}
+/* 图集 */
+.cro-pic{
+	height:375px;
+	margin-bottom:56px;
+}
+.cro-pic h2{
+	padding-top:21px;
+}
+.cro-pic h2 em{
+	width:33px;
+	background:url(../images/cro-bac.png) right -33px no-repeat;
+}
+.cro-pics {
+	width: 934px;
+	height: 318px;
+	margin: 0 auto;
+}
+.cro-pics span {
+	float: left;
+	width: 32px;
+	height: 50px;
+	margin-top: 128px;
+	font: normal bold 46px "sans-self";
+	color: #d8d8d8;
+	text-align: center;
+	cursor: pointer;
+}
+.cro-pics .cro-pics-rightbtn {
+	float: right;
+}
+.cro-pics-outer {
+	width: 868px;
+	height: 258px;
+	margin: 0 auto;
+	padding: 25px 0 35px;
+	overflow: hidden;
+}
+.cro-pics-outer ul {
+	width: 1968px;
+}
+.cro-pics-outer li {
+	position: relative;
+	float: left;
+	top: 10px;
+	width: 201px;
+	height: 230px;
+	margin: 0 8px;
+	background: url("../images/cross-album-frame.jpg") 0 0 no-repeat;
+}
+.cro-pics-outer li strong {
+	position: absolute;
+	top: -7px ;
+	left: 8px;
+	z-index: 2;
+	width: 30px;
+	height: 85px;
+	background: url("../images/cro-bac.png") -45px 0 no-repeat;
+}
+.cro-pics-outer li i {
+	position: absolute;
+	top: -17px ;
+	left: 70px;
+	z-index: 2;
+	width: 31px;
+	height: 30px;
+	background: url("../images/cro-bac.png") -45px -85px no-repeat;
+	display:none;
+}
+.cro-pics-outer li a {
+	position: absolute;
+	left: 8px;
+	top: 12px;
+	width: 185px;
+	height: 172px;
+	overflow: hidden;
+}
+.cro-pics-outer li img {
+	width: 202px;
+	height: 195px;
+}
+/* 越野中国量身定制 */
+.cro-made{
+	height:345px;
+	margin-bottom:42px;
+}
+.cro-made h2{
+	padding-top:29px;
+	height:33px;
+}
+.cro-made h2 em{
+	width:28px;
+	padding-top:3px;
+	background:url(../images/cro-bac.png) right -63px no-repeat;
+}
+.cro-made-con{
+	width:945px;
+	padding-top:25px;
+	padding-left:8px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.cro-made-con dl{
+	float:left;
+	width:226px;
+	height:211px;
+	margin-left:8px;
+	border:1px solid #dddfe1;
+ }
+ .cro-made-con dt{
+	width:225px;
+	height:120px;
+	padding:1px 0 0 1px;
+	margin-bottom:22px;
+	overflow:hidden;
+ }
+ .cro-made-con dt img{
+	width:224px;
+	height:120px;
+}
+.cro-made-con dd h3{
+	width:100px;
+	height:28px;
+	line-height:28px;
+	padding-left:24px;
+	font-size:14px;
+	color:#717273;
+	overflow:hidden;
+}
+.cro-made-con dd p{
+	width:224px;
+	line-height:26px;
+	padding-left:24px;
+	font-size:12px;
+	color:#959799;
+}
+/* 相关报道 */
+.cro-report{
+	height:395px;
+}
+.cro-report h2{
+	padding-top:22px;
+}
+.cro-report h2 em{
+	width:26px;
+	height:28px;
+	background:url(../images/cro-bac.png) right -96px no-repeat;
+}
+.cro-report dl{
+	width:932px;
+	padding:8px 30px 0 38px;
+}
+.cro-report dt{
+	float:right;
+	width:623px;
+	height:266px;
+	overflow:hidden;
+}
+.cro-report dt img{
+	width:623px;
+	height:266px;
+}
+.cro-report dd{
+	float:left;
+	margin-bottom:10px;
+}
+.cro-report dd h3{
+	width:275px;
+	height:18px;
+	line-height:18px;
+	padding-top:60px;
+	overflow:hidden;
+	font-size:16px;
+	color:#313234;
+}
+.cro-report dd span{
+	padding-left:5px;
+	font-size:14px;
+	color:#7d7f82;
+}
+.cro-report .cro-right{
+	float:right;
+	line-height:30px;
+}
