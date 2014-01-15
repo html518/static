@@ -216,6 +216,7 @@
 	width:1000px;
 	background: #f7f9fa;
 	border-top:none;
+	border-bottom:1px solid #e5e5e5;
 }
 .equ-othername{
 	border-left:1px solid #e5e5e5;
@@ -227,6 +228,7 @@
 .equ-otherphoto{
 	border:1px solid #e5e5e5;
 	border-top:none;
+	height:259px;
 }
 .equ-otherpic{
 	margin-left: 35px;
