@@ -1,2 +1,172 @@
 @charset "UTF-8";
 /* 论坛 */
+.bbs-head{
+	height:10px;
+	background:white;
+}
+.bbs-footer{
+	height:10px;
+	background:white;
+}
+.bbs-member{
+	width:1000px;
+	height:1735px;
+	margin:0 auto;
+	background:#fafbfb;
+}
+.bbs-bg{
+	width:1000px;
+	height:53px;
+	padding-top:35px;
+	background:url(../images/bbs-bg.jpg) 0 0 no-repeat;
+}
+.bbs-bus{
+	width:890px;
+	height:50px;
+	margin-left:68px;
+}
+.bbs-busl{
+	float:left;
+	width:380px;
+}
+.bbs-busl span,.bbs-busr span{
+	display:block;
+	width:380px;
+	height:24px;
+	color:#de3d25;
+	font-size:19px;
+	font-weight:bold;
+	font-family:"宋体";
+	overflow:hidden;
+}
+.bbs-busr{
+	float:left;
+	position:relative;
+}
+.bbs-busr span{
+	line-height:38px;
+	height:38px;
+	width:375px;
+	margin-left:5px;
+}
+.bbs-busr em{
+	position:absolute;
+	width:55px;
+	left:410px;
+	color:#b9b9b9;
+	top:5px;
+}
+.bbs-busr a{
+	position:absolute;
+	width:45px;
+	left:465px;
+	top:5px;
+	color:#b9b9b9;
+}
+.bbs-back{
+	height:1650px;
+	width:998px;
+	background:#fafbfb;
+	border:1px solid #e3e5e7;
+	border-top:none;
+}
+.bbs-back div{
+	position:relative;
+	height:240px;
+	width:840px;
+	margin:0 auto;
+}
+.bbs-back strong{
+	position:absolute;
+	height:20px;
+	color:#424343;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:1px solid #424343;
+	top:80px;
+}
+.bbs-back div .bbs-back-more{
+	position:absolute;
+	top:75px;
+	left:80px;
+	color:#ada5a4;
+}
+.bbs-back div .bbs-back-more:hover{
+	color:#de3d25;
+	left:85px;
+}
+.bbs-back div h3{
+	position:absolute;
+	height:20px;
+	color:#424343;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:1px solid #424343;
+	top:220px;
+}
+.bbs-back .bbs-back-point{
+	height:325px;
+	width:840px;
+	margin-top:10px;
+	margin-bottom:40px;
+	border:1px solid #e6e7e8;
+}
+.bbs-back-point ul{
+	height:265px;
+	width:795px;
+	margin:0px auto;
+}
+.bbs-back-point ul li{
+	height:57px;
+	line-height:54px;
+	border-bottom:1px dashed #edecec;
+	font-size:16px;
+}
+.bbs-back-point li span{
+	float:right;
+}
+.bbs-back-point li a{
+	float:left;
+	color:#686868
+}
+.bbs-back-point li span a{
+	height:30px;
+	width:80px;
+	margin-top:15px;
+	color:white;
+	border-radius:2px;
+	line-height:30px;
+	text-align:center;
+	background:#bbbaba;
+}
+.bbs-back .bbs-back-ad{
+	display:block;
+	height:267px;
+	width:838px;
+	margin:0 auto;
+	margin-bottom:25px;
+}
+
+
+.bbs-back-ad img{
+	height:267px;
+	width:838px;
+	overflow:hidden;
+	border:1px solid #bbbcbc;
+	box-shadow: 0 0 2px 1px #bbbcbc;
+}
+.bbs-back .bbs-back-ad2{
+	height:673px;
+	width:837px;
+	display:block;
+	margin:0 auto;
+}
+.bbs-back-ad2 img{
+	height:673px;
+	width:837px;
+	overflow:hidden;
+	border:1px solid #bbbcbc;
+	box-shadow: 0 0 2px 1px #bbbcbc;
+}

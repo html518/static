@@ -1,2 +1,131 @@
 @charset "UTF-8";
 /* 图集 */
+body{
+	
+}
+.pic-head{
+	height:10px;
+	background:white;
+}
+
+.pic-bck{
+	width:1200px;
+	background:url(../images/pic-bck.jpg) 0 0 repeat-x;
+	margin:0 auto
+}
+.pic-bg{
+	width:1000px;
+	height:28px;
+	background:url(../images/pic-bg.jpg) 0 0 no-repeat;
+	margin:0 auto;
+	padding-top:35px;
+}
+.pic-bg span{
+	float:left;
+	height:24px;
+	margin-left:78px;
+	color:#de3d25;
+	font-size:19px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:4px solid #de3d25;
+}
+.pic-bg div{
+	float:right;
+	margin-right:30px;
+}
+.pic-bg div a,.pic-bg em{
+	float:left;
+	color:#c6c7c7;
+}
+.pic-atlas{
+	width:998px;
+	background:#fafbfb;
+	border:1px solid #dcdcdc;
+	border-top:none;
+	margin:0 auto;
+	padding:10px 0 43px 0;
+}
+.pic-content{
+	width:935px;
+	margin:0 auto;
+	border:1px solid #dcdcdc;
+	padding-bottom:50px;
+	overflow:hidden;
+}
+.pic-content dl{
+	position:relative;
+	height:186px;
+	border-bottom:1px solid #dfdfdf;
+	float:left
+}
+.pic-content dt{
+	float:left;
+	margin:0px 40px;
+	padding-top:20px;
+	display:inline
+	
+}
+.pic-content dt img{
+	height:139px;
+	width:207px;
+	overflow:hidden;
+}
+.pic-content dd{
+	float:left;
+	margin-top:20px;
+	width:630px;
+}
+.pic-content dd span{
+	height:40px;
+	margin-right:20px;
+	color:#d2d2d2;
+}
+.pic-content h3 a{
+	color:#303030;
+	font-size:16px;
+	line-height:20px;	
+}
+.pic-content h3 a:hover{
+	color:#e6492d;
+}
+.pic-content dd p{
+	width:355px;
+	font-size:14px;
+	line-height:20px;
+	overflow:hidden;
+	color:#55575a;
+}
+.pic-content .pic-more{
+	position:absolute;
+	right:50px;
+	top:30px;
+	color:#b5b5b5;
+}
+.pic-content .pic-more:hover{
+	color:#e6492d;
+}
+.pic-con-foot{
+	float:right;
+	margin-right:55px;
+}
+.pic-con-foot span{
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+.pic-con-btnt{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-top:5px;
+	margin-right:5px;
+	background:url(../images/pic.gif) -60px -130px no-repeat;
+}
+.pic-con-btnd{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-top:5px;
+	background:url(../images/pic.gif) 0 -130px no-repeat;
+}

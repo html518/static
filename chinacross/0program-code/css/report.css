@@ -1,2 +1,134 @@
 @charset "UTF-8";
-/* 相关报道 */
+/* 相关报道*/
+.rep-head{
+	height:50px;
+	background:#eff5fa;
+}
+.rep-wrap-con{
+	background:#eff5fa;
+}
+.rep-con-h{
+	position:absolute;
+	height:20px;
+	width:240px;
+	background:url(../images/video-h.jpg) 0 0 no-repeat;
+	left:-1px;
+	top:-20px;
+}
+.rep-con{
+	position:relative;
+	width:998px;
+	margin:0 auto;
+	border:1px solid #e3e5e7;
+	background:#fafbfb;
+	padding-bottom:90px;
+	overflow:hidden;
+}
+.rep-con-nav{
+	height:30px;
+	width:935px;
+	margin:0 auto;
+	margin-top:10px;
+	border-bottom:4px solid #bbbaba;
+}
+.rep-con-nav h3{
+	float:left;
+	height:30px;
+	line-height:30px;
+	color:#de3d25;
+	font-size:19px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:4px solid #e6492d;
+}
+.rep-con-nav span{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-right:20px;
+	background:url(../images/pic.gif) -100px -30px no-repeat;
+}
+.rep-con-nav div{
+	float:right;
+	height:30px;
+	line-height:30px;
+}
+.rep-con-nav div a,.rep-con-nav em{
+	float:left;
+	color:#c6c7c7;
+}
+.rep-con-report{
+	width:933px;
+	margin:0 auto;
+	margin-top:10px;
+	border:1px solid #dcdcdc;
+	border-bottom:none;
+	overflow:hidden;
+}
+.rep-con-stay{
+	width:930px;
+	height:155px;
+	border-bottom:1px solid #dfdfdf;
+	float:left
+}
+.rep-con-stay div{
+	width:860px;
+	margin:0 auto;
+	padding-top:30px;
+}
+.rep-con-stay .rep-con-title{
+	line-height:26px;
+	font-size:16px;
+	color:#e6492d;
+	margin-right:12px;
+}
+.rep-con-stay .rep-con-more{
+	color:#b5b5b5;
+}
+.rep-con-stay .rep-con-more:hover{
+	color:#e6492d;
+	margin-left:5px;
+}
+.rep-con-stay p a{
+	height:50px;
+	overflow:hidden;
+	line-height:26px;
+	font-size:14px;
+	color:#6a6c6e;
+}
+.rep-con-stay span{
+	float:left;
+	margin-top:10px;
+	color:#c7c7c7;
+	font-size:14px;
+	margin-right:20px;
+}
+.rep-con-foot{
+	height:60px;
+	width:933px;
+	margin:0 auto;
+	line-height:60px;
+	border:1px solid #dcdcdc;
+	border-top:none;
+}
+.rep-con-foot span{
+	float:left;
+	margin-right:10px;
+	margin-top:5px;
+	margin-left:785px;
+}
+.rep-con-btnt{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-right:5px;
+	margin-top:22px;
+	background:url(../images/pic.gif) -60px -130px no-repeat;
+}
+.rep-con-btnd{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-top:22px;
+	background:url(../images/pic.gif) 0 -130px no-repeat;
+}

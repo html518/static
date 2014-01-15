@@ -1,2 +1,145 @@
 @charset "UTF-8";
 /* 视频 */
+.video-head{
+	height:50px;
+	background:#eff5fa;
+}
+.video-wrap-con{
+	background:#eff5fa;
+	height:1135px;
+}
+.video-con-h{
+	position:absolute;
+	height:20px;
+	width:240px;
+	background:url(../images/video-h.jpg) 0 0 no-repeat;
+	left:-1px;
+	top:-20px;
+}
+.video-con{
+	position:relative;
+	width:998px;
+	height:1115px;
+	margin:0 auto;
+	border:1px solid #e3e5e7;
+	background:#fafbfb;
+}
+.video-con-nav{
+	height:30px;
+	width:935px;
+	margin:0 auto;
+	margin-top:10px;
+	border-bottom:4px solid #bbbaba;
+}
+.video-con-nav h3{
+	float:left;
+	height:30px;
+	line-height:30px;
+	color:#de3d25;
+	font-size:19px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:4px solid #e6492d;
+}
+.video-con-nav span{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-right:20px;
+	background:url(../images/pic.gif) -100px -30px no-repeat;
+}
+.video-con-nav div{
+	float:right;
+	height:30px;
+	line-height:30px;
+	margin-right:30px;
+}
+.video-con-nav div a,.video-con-nav em{
+	float:left;
+	color:#c6c7c7;
+}
+.video-con-travl{
+	height:975px;
+	width:933px;
+	margin:0 auto;
+	margin-top:10px;
+	border:1px solid #dcdcdc;
+}
+.video-con-travl .video-con-line{
+	height:600px;
+	width:933px;
+	border-bottom:1px solid #dfdfdf;
+	overflow:hidden;
+}
+.video-con-travl .nav{
+	float:left;
+	margin-left:30px;
+	margin-top:20px;
+	padding-left:5px;
+	margin-bottom:10px;
+	color:#3c3c3c;
+	font-size:16px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-left:4px solid #bbbaba;
+}
+.video-con-work,.video-con-travl .video-con-foot{
+	overflow:hidden;
+	height:530px;
+	width:880px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.video-con-work div{
+	float:left;
+	height:165px;
+	width:207px;
+	margin-bottom:20px;
+	margin-right:16px;
+}
+.video-con-work img{
+	height:139px;
+	width:207px;
+	overflow:hidden;
+}
+.video-con-work span{
+	display:block;
+	text-align:center;
+	color:#7e8082;
+	font-size:14px;
+}
+.video-con-work .video-con-last{
+	margin-right:0px;
+}
+.video-con-travl .video-con-foot{
+	padding-top:30px;
+}
+.video-con-foot img{
+	margin-right:20px;
+}
+.video-con-foot div{
+	height:25px;
+	width:850px;
+	margin-top:95px;
+	margin-left:745px;
+}
+.video-con-foot span{
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+.video-con-btnt{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-top:5px;
+	margin-right:5px;
+	background:url(../images/pic.gif) -60px -130px no-repeat;
+}
+.video-con-btnd{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-top:5px;
+	background:url(../images/pic.gif) 0 -130px no-repeat;
+}

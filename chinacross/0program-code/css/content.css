@@ -1,2 +1,122 @@
 @charset "UTF-8";
-/* 内容页 */
+/* 视频 */
+.con-head{
+	height:50px;
+	background:#eff5fa;
+}
+.con-wrap-con{
+	background:#eff5fa;
+}
+.con-con-h{
+	position:absolute;
+	height:20px;
+	width:240px;
+	background:url(../images/video-h.jpg) 0 0 no-repeat;
+	left:-1px;
+	top:-20px;
+}
+.con-con{
+	position:relative;
+	width:998px;
+	padding-bottom:43px;
+	margin:0 auto;
+	border:1px solid #e3e5e7;
+	background:#fafbfb;
+}
+.con-con-nav{
+	height:30px;
+	width:935px;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-bottom:4px solid #bbbaba;
+}
+.con-con-nav h3{
+	float:left;
+	height:30px;
+	line-height:30px;
+	color:#de3d25;
+	font-size:19px;
+	font-weight:bold;
+	font-family:"宋体";
+	border-bottom:4px solid #e6492d;
+}
+.con-con-nav span{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-right:14px;
+	background:url(../images/pic.gif) -100px -30px no-repeat;
+}
+.con-con-nav div{
+	float:right;
+	height:30px;
+	line-height:30px;
+	color:#c6c7c7;
+}
+.con-con-nav div a{
+	color:#c6c7c7;
+}
+.con-netease{
+	width:933px;
+	padding-bottom:46px;
+	border:1px solid #dcdcdc;
+	margin:0 auto;
+}
+.con-netease-face{
+	width:790px;
+	padding-top:70px;
+	margin:0 auto;
+}
+.con-netease-face h3{
+	text-align:center;
+	color:#292929;
+	font-size:20px;
+	font-family:"宋体";
+}
+.con-netease-face span{
+	color:#b5b5b5;
+	line-height:50px;
+	margin-left:455px;
+}
+.con-netease-face .con-time{
+	margin-left:15px;
+}
+.con-netease-face img{
+	display:block;
+	height:266px;
+	width:623px;
+	overflow:hidden;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+.con-netease-face p{
+	color:#585858;
+	font-size:14px;
+	line-height:30px;
+	text-indent:3em;
+}
+.con-con-foot {
+	height:25px;
+	width:666px;
+	margin:0 auto;
+	margin-top:100px;
+}
+.con-con-foot .con-btnl{
+	float:left;
+	background:url(../images/pic.gif) -130px -30px no-repeat;
+	height:25px;
+	width:25px;
+}
+.con-con-foot .con-btnr{
+	float:right;
+	background:url(../images/pic.gif) -190px -30px no-repeat;
+	height:25px;
+	width:25px;
+}
+.con-con-foot .con-first{
+	line-height:24px;
+	margin-left:265px;
+	color:#cd6060;
+}
