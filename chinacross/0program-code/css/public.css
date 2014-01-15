@@ -157,17 +157,17 @@ body {
 	background: url(../images/pub-heart-text.png) 0 0 no-repeat;
 }
 .pub-message,.pub-actives,.pub-news,.pub-href {
-	width: 928px;
+	width: 1000px;
 	margin: 0 auto;
 	margin-top: 62px;
 }
 .pub-msg-bg,.pub-act-bg,.pub-news-bg,.pub-href-bg {
-	width: 238px;
+	width: 1002px;
 	height: 21px;
-	background: url(../images/pub-icon.png) 0 0 no-repeat;
+	background: url(../images/equ-topbg.png) 0 0 no-repeat;
 }
 .pub-msg,.pub-act,.pub-ns,.pub-hf {
-	width: 100%;
+	width: 928px;
 	height: 314px;
 	padding: 0 36px 56px;
 	background: #fafbfb;
