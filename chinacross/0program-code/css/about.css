@@ -1,2 +1,492 @@
-@charset "UTF-8";
-/* 关于我们 */
+.header{
+	height:196px;
+	background:gray;
+}
+body{
+	background:#EFF5FA;
+}
+.about{
+	width:1200px;
+	margin:0 auto;
+	/*overflow: hidden;*/
+}
+.about-slider,.about-sliderbox,.about-slider img{
+	height:512px;
+	width:1200px;
+}
+.about-sliderbox{
+	position: relative;
+}
+.about-slider{
+	overflow: hidden;
+}
+.about-slider-lebac,.about-slider-ribac{
+	position:absolute;
+	display:inline-block;
+	height:58px;
+	width:56px;
+}
+.about-slider-lebac{
+	top:206px;
+	left:0;
+	background:url("../images/about-bac.png") -146px 0 no-repeat;
+}
+.about-slider-ribac{
+	top:206px;
+	left:1144px;
+	background:url("../images/about-bac.png") -235px 0 no-repeat;
+}
+.about-con{
+	width:1000px;
+	padding:43px 100px 90px 100px;
+}
+.about-tab{
+	overflow: hidden;
+	height:512px;
+}
+.about-con-bac{
+	padding-left:43px;
+	height:20px;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: -19px;
+	width: 100%;
+	background:url("../images/bac.png") 0px -392px no-repeat;
+}
+
+.about-tab ul{
+	float:left;
+	width: 163px;
+}
+.about-tab li{
+	position :relative;
+	height:36px;
+	margin-bottom: 13px;
+	padding:12px 0;
+	background-color: #fafbfb;
+	border: 1px solid #d6dce0;
+	box-shadow: 0 0 1px 1px #d6dce0;
+	cursor: pointer;
+	color: #737373;
+}
+.about-tab .abo-tab-show{
+	color:red;
+}
+.abo-tabtit-brand,.abo-tabtit-com,.abo-tabtit-team{
+	float:left;
+	display: inline;
+	width:50px;
+	height:36px;
+	margin-left: 14px;
+}
+.abo-tabtit-brand{
+	background:url("../images/about-bac.png") -16px -77px no-repeat;
+}
+.abo-tab-show .abo-tabtit-brand{
+	background:url("../images/about-bac.png") -73px -77px no-repeat;
+}
+.abo-tabtit-com{
+	background:url("../images/about-bac.png") -16px -22px no-repeat;
+}
+.abo-tab-show .abo-tabtit-com{
+	background:url("../images/about-bac.png") -74px -21px no-repeat;
+}
+.abo-tabtit-team{
+	background:url("../images/about-bac.png") -12px -141px no-repeat;
+}
+.abo-tab-show .abo-tabtit-team{
+	background:url("../images/about-bac.png") -69px -141px no-repeat;
+}
+.abo-tab-right{
+	float:right;
+	width:96px;
+	height:34px;
+}
+.about-tab li p{
+	height:17px;
+	line-height: 17px;
+	font-size:16px;
+}
+.about-tab li span{
+	display:block;
+	height:17px;
+	font-size:12px;
+}
+.about-tabcon{
+	width:666px;
+	height:479px;
+	border-top:0px;
+	padding:10px 70px 0px 70px;
+
+	font-size:14px;
+	color:#737373;
+}
+.about-tab-body{
+	float:right;
+	width:808px;
+	margin-top:19px;
+	position:relative;
+}
+.about-tabcon h2{
+	margin-bottom: 10px;
+	font-size:16px;
+	font-weight: bold;
+	color:#737373;
+
+}
+.about-tabcon p{
+	margin-top: 8px;
+	line-height:34px;
+	font-size:14px;
+	color: #737373;
+	text-indent:26px;
+	
+}
+.about-tabcon div{
+	display:none;
+	height:420px;
+	overflow: auto;
+}
+.about-tabcon .about-tabcon-brand{
+	display:block;
+}
+.about-partner{
+	height:114px;
+	margin-top:40px;	
+}
+.abo-tab-show em{
+	position:absolute;
+	left:161px;
+	top:18px;
+	z-index: 1;
+	background:url("../images/about-bac.png") 0px -361px no-repeat;
+	display:inline-block;
+	height:14px;
+	width:14px;
+}
+.about-tabem-show{
+	display:block;
+}
+.about-partner dl{
+	float: left;
+	width:207px;
+	height:89px;
+	padding:13px;
+	margin: 0 18px 0 1px;
+	border-radius: 2px;
+	border: 1px solid #d6dce0;
+	box-shadow: 0 0 2px 2px #e6e6e6;
+	background:#f5f8fa;
+}
+.abo-par-inner{
+	margin-right: -18px;
+	overflow: hidden;
+	zoom:1;
+}
+.about-partner p{
+	font-size:16px;
+	color:#646464;
+	text-align: center;
+}
+.abo-par-inner dt{
+	height:42px;
+}
+.abo-par-inner dd{
+	margin:0 auto;
+	width:64px;
+	height:21px;
+	padding:5px 13px;
+	margin-top: 14px;
+	border:2px;
+	background:#db311c;
+}
+.abo-par-inner a{
+	font-size:16px;
+	color:white;
+}
+.abo-par-inner img{
+	margin:4px 0 0 40px;
+	width:122px;
+	height:38px;
+}
+.about-review{
+	position:relative;
+	height:204px;
+	margin-top:70px;
+}
+.about-rebac{
+	position:absolute;
+	height:20px;
+	left:0;
+	top:-19px;
+	width:100%;
+	background:url("../images/about-bac.png") 0px -392px no-repeat;
+}
+.about-rebody{
+	height:188px;
+}
+.about-tehead,.about-rehead,.about-hohead{
+	height:31px;
+	margin:0 34px;
+	margin-top:15px;
+}
+
+.about-tehead h2,.about-rehead h2,.about-hohead h2{
+	float:left;
+	height:27px;
+	border-bottom:4px solid #e6492d;
+	font-size:18px;
+	font-weight: bold;
+	color:#e6492d;
+}
+.about-rehead h2{
+	width:74px;
+	padding-left: 39px;
+	background:url("../images/about-bac.png") 0 -288px no-repeat;
+}
+.about-tehead h2,.about-hohead h2{
+	width:94px;
+	padding-left:47px;
+}
+.about-hohead h2{
+	background:url("../images/about-bac.png") 0 -249px no-repeat;
+}
+.about-tehead h2{
+	background:url("../images/about-bac.png") 0 -215px no-repeat;
+}
+.about-tehead a,.about-rehead a,.about-hohead a{
+	float:right;
+	height:31px;
+	font-size: 14px;
+	color:#b5b5b5;
+	line-height: 31px;
+}
+.about-honor,.about-team{
+	position: relative;
+	margin-top:60px;
+	height:374px;
+}
+.about-hobody,.about-teambody{
+	height:355px;
+}
+.about-teambody ul{
+	position:relative;
+	height:263px;
+	overflow: hidden;
+}
+.about-teambody li{
+	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+	height:263px;
+}
+ .about-team .about-team-show{
+	display:block;
+}
+
+
+.about-teambody dl{
+	height:263px;
+	background:#f5f8fa;
+	
+}
+.about-teambody dt,.about-teambody img{
+	height:263px;
+	width:758px;
+}
+.about-teambody dt{
+	float:left;
+}
+.about-teambody dd{
+	float:right;
+	width:162px;
+	color:red;
+	font-weight: bold;
+}
+.about-moreteam strong{
+	display:inline-block;
+	margin-top:196px;
+	font-size:20px;
+}
+.about-moreteam span{
+	font-size:16px;
+}
+.about-moreteam dd h3{
+	height:24px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height:24px;
+}
+.about-moreteam dd p{
+	font-size: 14px;
+	font-weight: bold;
+	line-height:;
+}
+.about-conri,.about-conle,.about-tabcon,.about-rebody,.about-hobody,.about-teambody{  
+	border: 1px solid #e5e5e5;
+	background-color: #f5f8fa;
+	border-radius: 2px ;
+	box-shadow: #fdfefe 0 0 -1px 2px inset;
+}
+.about-contactus{
+	margin-top:50px;
+	height:250px;
+}
+.about-conle{
+	float:left;
+	width:468px;
+	height:110px;
+	padding:56px 50px;
+}
+.about-conri{
+	float:right;
+	width:418px;
+	height:222px;
+}
+.about-rebom,.about-hoimgs,.about-moreteam{
+	border-top:4px solid #bbbaba;
+	margin:-4px 34px 0 34px;
+}
+.about-moreteam{
+	padding-top:18px;
+}
+.about-hoimgs{
+	height:275px;
+	padding-top:30px;
+}
+.about-hoimgs a{
+	float:left;
+	display:inline;
+	text-align:center;
+	height:222px;
+	width:162px;
+	margin-left:42px;
+	padding:8px;
+	color:#595858;
+	background:#ffffff;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+.about-hoimgs a:hover{
+	color:red;
+	border-bottom:2px solid red;
+	-webkit-transform:scale(1.2); 
+	-o-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+}
+.about-hoimgs img{
+	width:162px;
+	height:176;
+}
+.about-hoimgs p{
+	height:40px;
+	line-height: 40px;
+	font-size:18px;	
+}
+.about-conle dt{
+	float:left;
+	height:44px;
+	width:124px;
+	margin:33px 0 33px 0;
+	padding-left: 74px;
+	line-height: 44px;
+	background:url("../images/about-tel.png") 0 0 no-repeat;
+}
+.about-contactus dd{
+	height:27px;
+	line-height: 27px;
+	font-size:14px;
+	color:#595858;
+}
+.about-contactus dt{
+	font-size:18px;
+	font-weight:bold;
+	color:red;
+}
+
+.about-conri dt{
+	height:90px;
+	padding-left: 36px;
+	line-height: 90px;
+	font-size:16px;
+}
+.about-conri dd{
+	padding-left: 88px;
+}
+.about-rebom{
+	height:144px;
+	padding-top:14px;
+}
+.about-rebom img,.about-rebom-left li{
+	height:105px;
+	width:139px;
+}
+.about-rebom-left li{
+	position:relative;
+	float:left;
+	margin-right: 20px;
+}
+.about-rebom .about-reshow{
+	display:block;
+}
+.about-rebom-left a{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	float:left;
+	height:105px;
+	width:139px;
+	line-height: 90px;
+	text-align:center;
+	font-size:16px;
+	color:white;
+	background-color:#000;
+	background-color:rgba(0,0,0,0.7);
+    background: transparent;
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7F000000', endColorstr='#7F000000');
+}
+#about-reshow{
+	display:block;
+}
+.about-rebom-left {
+	float:left;
+	height:129px;
+	width:490px;
+}
+.about-rebom-right{
+	float:right;
+	list-style-type:disc;
+	list-style-position:inside;
+	width:425px;
+	height:122px;
+	padding-top:4px;
+}
+.about-rebom-right li{
+	height:24px;
+	padding-left:20px;
+	background:url("../images/bac.png") -158px -83px no-repeat;
+}
+.about-rebom-right a{
+	overflow: hidden;
+	display:inline-block;
+    width: 425px;                   
+    text-overflow: ellipsis;        
+    -o-text-overflow: ellipsis;    
+    white-space: nowrap;
+	width:385px;
+	height:24px;
+	line-height:25px;
+	font-size:14px;
+	color:#a4a4a4;
+	
+}
+.about-rebom-right li a:hover{
+	color:#696767;
+}
