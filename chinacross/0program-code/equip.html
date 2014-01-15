@@ -11,6 +11,42 @@
 	<script src="js/base.js"></script>
 </head>
 <body>
+	<div class="header clearfix">
+		<div class="header-top clearfix">
+			<div class="header-search">
+				<div class="header-login">
+					<a href="http://lovelyjpw.blog.163.com/" tilte="登录">登录</a><span>/</span><a href="http://lovelyjpw.blog.163.com/" tilte="注册">注册</a>
+				</div>
+				<div class="header-input">
+					<input type="text" />
+				</div>
+				<div class="header-btn">
+					<a href="http://lovelyjpw.blog.163.com/" class="go">GO</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-scroll clearfix">
+			<img src="images/header1.jpg" alt="广告1" title="广告" style="display:inline"/>
+			<img src="images/header2.jpg" alt="广告2" title="广告" />
+			<img src="images/header3.jpg" alt="广告3" title="广告" />
+		</div>
+		<div class="header-nav clearfix">
+			<div class="header-nav-text">
+				<ul class="clearfix">
+					<li style="background:none;"><a href="index.html" title="首页">首页</a></li>
+					<li><a href="about.html" title="关于我们">关于我们</a></li>
+					<li><a href="brand.html" title="品牌活动">品牌活动</a></li>
+					<li><a href="cross.html" title="越野中国">越野中国</a></li>
+					<li><a href="onroad.html" title="精彩路上">精彩路上</a></li>
+					<li><a href="pupil.html" title="中国瞳孔">中国瞳孔</a></li>
+					<li><a href="public.html" title="公益活动">公益活动</a></li>
+					<li><a href="equip.html" title="装备改装">装备改装</a></li>
+					<li><a href="bbs.html" title="论坛">论坛</a></li>
+				</ul>
+				<span class="header-nav-bg"></span>
+			</div>
+		</div>
+	</div>
 	<div class="equ-con">
 		<div class="equ-outer">
 			<div class="equ-slider">
@@ -164,8 +200,35 @@
 				</li>
 			</ul>
 		</div>
-	</div>	
+	</div>
+	<div class="footer clearfix">
+		<div class="footer-text">
+			<p>Copyright&nbsp;©&nbsp;2004&nbsp;在路上公司&nbsp;版权所有</p>
+			<p>北京在路上天地豪情体育文化传播有限公司&nbsp;&nbsp;&nbsp;北京在路上传媒广告公司</p>
+			<p>电话：010-64395717/64395747&nbsp;&nbsp;&nbsp;传真：010-64395717&nbsp;&nbsp;&nbsp;
+		</div>
+		<div class="footer-img">
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国" class="footer-image"><img src="images/chinaIcon.png" alt="越野中国" title="越野中国"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国">http://chinacross.cn</a>
+			</div>
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" tilte="博看文思" class="footer-image"><img src="images/IbokanIcon.jpg" alt="博看文思" title="博看文思"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="博看文思">http://www.bkh5.com/</a>
+			</div>
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国" class="footer-image"><img src="images/chinaIcon.png" alt="越野中国" title="越野中国"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国">http://chinacross.cn</a>
+			</div>
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" tilte="博看文思" class="footer-image"><img src="images/IbokanIcon.jpg" alt="博看文思" title="博看文思"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="博看文思">http://www.bkh5.com/</a>
+			</div>
+		</div>
+	</div>
+	<div class="goTop"></div>
 	<script>
+		initHeader(7);
 		slider($(".equ-slider"), 4, {scrollLeft : 1200}, 5000, "" , $(".equ-sliderprev"), $(".equ-slidernext"));
 	</script>
 </body>

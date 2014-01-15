@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* 详情列表页 */
 *{
 	margin: 0;
@@ -12,7 +12,7 @@ body{
 }
 .det-centercon{
 	width: 1002px;
-	margin: 0 auto;
+	margin: 52px auto 0;
 }
 /***	顶部缺角样式	***/
 .det-topstyle{

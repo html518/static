@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* 荣誉墙 */
 
 
@@ -86,6 +86,7 @@
 	background:#fff;
 	position:absolute;
 	display:none;
+	z-index: 4;
 }
 .hon-content-fanye{
 	width:105px;

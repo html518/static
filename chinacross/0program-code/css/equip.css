@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* 装备与改装 */
 *{
 	margin: 0;
@@ -10,7 +10,6 @@
 	width: 1200px;
 	margin: 0 auto;
 	background: #eff5fa;
-	padding-bottom:30px;
 }
 /***	大图滚动部分	***/
 .equ-outer{

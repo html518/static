@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* reset */
-html{color:#000;background:#FFF;font-family:Microsoft YaHei,sans-serif,Arial,'����';}
+html{color:#000;background:#FFF;font-family:Microsoft YaHei,sans-serif,Arial,'ËÎÌå';}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong,i{padding:0;margin:0;font-family:Microsoft YaHei,sans-serif,Arial;font-size:12px;font-style:normal;font-weight:normal;}
 table{border-collapse:collapse;border-spacing:0;}
 fieldset,img{border:0;}
@@ -19,11 +19,183 @@ legend{color:#000;}
 input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
 input,button,select,optgroup,option{outline:none;}
 input,button,textarea,select{*font-size:100%;}
-.clear {clear:both;height:0px;overflow:hidden;} 
-body{-webkit-user-select:none;-webkit-text-size-adjust:none;-webkit-transform-style:preserve-3d;}
-*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
-/* ͨ�ò��� */
+/* 通用 */
 .clearfix{display:block;zoom:1;}
 .clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
-body .disblock{display:block;}
 
+body{
+	min-width:1200px;
+	background-color: #eff5fa;
+}
+/* 头部 */
+.header{
+	border-top: 15px solid black;
+}
+.header-top{
+	height: 40px;
+	margin-bottom: 18px; 
+}
+.header-search{
+	float: right;
+	width: 306px;
+	height: 35px;
+	margin-right: 85px;
+	padding:  5px 25px 0 45px;
+	background: url('../images/comm-search.png') no-repeat;
+	font-size: 14px;
+	line-height: 30px;
+}
+.header-login{
+	float: left;
+	color: #716b6b;
+}
+.header-input,.header-btn{
+	float: left;
+}
+.header-search a{
+	color: #716b6b;
+}
+.header-search input{
+	width: 194px;
+	height: 27px;
+	margin-left: 15px;
+	border-width: 1px;
+	line-height: 25px;
+	outline: none;
+}
+.header-search .go{
+	display: inline-block;
+	width: 31px;
+	height: 29px;
+	background-color: #9ea0a1;
+	text-align: center;
+	line-height: 29px;
+	color: white;
+}
+.header-scroll{
+	
+	text-align: center;
+	font-size: 0;
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+/*	padding-top: 100px;*/
+}
+.header-scroll img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border:1px solid white;
+	width: 998px;
+	height: 98px;
+	/*margin-top: -100px;*/
+	display: none;
+	box-shadow: 2px 2px 4px #ccc;
+}
+.header-nav{
+	height: 51px;
+	min-width: 1200px;
+	_width:1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: url(../images/comm-nav.png) repeat-x;
+}
+.header-nav-text{
+	width: 1053px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1
+}
+.header-nav ul{
+	height: 51px;
+	overflow: hidden;
+}
+.header-nav li{
+	position: relative;
+	float: left;
+	z-index: 3;
+	background: url(../images/comm-header-border.png) no-repeat;
+}
+.header-nav li a{
+	display: inline-block;
+	width: 117px;
+	height: 51px;
+	text-align: center;
+	line-height: 51px;
+	font-size: 16px;
+	color: #e1e5e4;
+	text-shadow: 1px 1px 2px black;
+
+}
+.header-nav-bg{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	display: inline-block;
+	width: 117px;
+	height: 51px;
+	z-index: 1;
+	background: url(../images/comm-header-scroll.png) no-repeat;
+}
+
+/* 底部 */
+.footer{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-bottom: 25px;
+}
+.footer-text{
+	float: left;
+}
+.footer-text p{
+	line-height: 20px;
+	color: #535250;
+	font-size: 12px;
+}
+.footer-img{
+	float: right;
+	width: 190px;
+	height: 75px;
+	overflow: hidden;
+}
+.footer-img div{
+	text-align: right;
+	height: 75px;
+}
+.footer-img div a{
+	display: block;
+	color: #e6492d;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.footer-image{
+	height: 51px;
+	overflow: hidden;
+	font-size: 0;
+}
+.footer-image img{
+	height: 51px;
+	font-size: 0;
+}
+
+/* 返回顶部 */
+.goTop{
+	position: fixed;
+	width: 62px;
+	height: 62px;
+	right: 88px;
+	bottom: 6px;
+	z-index: 999;
+	overflow: hidden;
+	display: none;
+	background: url(../images/gotop.png) 0 0 no-repeat;
+	cursor: pointer;
+	cursor: hand;
+}
+.goTop:hover{
+	background: url(../images/gotop.png) -63px 0 no-repeat;
+}
