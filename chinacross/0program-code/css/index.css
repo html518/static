@@ -1,24 +1,22 @@
 @charset "UTF-8";
 
-/* 首页 */  
-.index {
-	font-size: 14px; 
-}
-.index a {
-	font-size: 14px; 
-	color: #A4A4A4;
-	cursor: pointer;
-}
-.index a:hover {  
-	color: #51504C; 
-}
-img {
-	vertical-align: top;
-} 
+/* 首页 */ 
 .con { 
 	width: 1000px; 
 	margin: 0 auto;
 	background-color: #EFF5FA;
+	font-size: 14px; 
+} 
+.con a {
+	font-size: 14px; 
+	color: #A4A4A4;
+	cursor: pointer;
+}
+.con a:hover {  
+	color: #51504C; 
+}
+img {
+	vertical-align: top;
 }
 
 /**从1~9**/
@@ -1102,46 +1100,7 @@ img {
 	width: 430px;
 	height: 226px; 
 	margin-left: 32px; 
-}
-.ceight-pic-con li {
-	position: absolute; 
-	width: 204px;
-	height: 134px;
-	overflow: hidden;
 } 
-.ceight-pic-con li.img1 {	
-	top: 40px;
-	left: 0;
-	z-index: 0;
-	opacity: 0;
-}
-.ceight-pic-con li.img2 {
-	top: 40px;
-	left: 34px;
-	z-index: 2;
-	opacity: 1;
-}
-.ceight-pic-con li.img3 {
-	top: 20px;
-	left: 90px;
-	z-index: 3;
-	width: 255px;
-	height: 168px;
-	opacity: 1;
-}
-.ceight-pic-con li.img4 {
-	top: 40px;
-	right: 34px;
-	z-index: 2;
-	opacity: 1;
-}
-.ceight-pic-con li.img5 {
-	top: 40px;
-	right: 0;
-	z-index: 0;
-	opacity: 0;
-}
-
 .ceight-pic-con1 {
 	position: relative;
 	width: 427px;
@@ -1182,7 +1141,7 @@ img {
 	height: 95px;
 }
 .ceight-media-con2 ul {
-	float:left;
+	float: left;
 	height: 75px;
 	margin-top: 12px;
 }
