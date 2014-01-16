@@ -169,7 +169,8 @@ $(".onroad-pic-slider").bind("mouseover", function() {
 	onroadSliTimer = setTimeout(onroadSliMove, 3500)
 })
 
-/**第四块 列表tab切换**/ 
+/**第四块 线路排名、越野中国 列表tab切换**/ 
+//线路排名
 $(".cfour-line-nav li a").eq(0).css("color", "red");
 $("#cfour-line-tab2").hide();
 $("#cfour-line-tab3").hide();
@@ -215,6 +216,21 @@ $("#cfour-sharebtn").bind("click", function() {
 	$(".cfour-line-con2").show();
 }) 
 
+//越野中国
+$(".cfour-cross-nav li a").eq(0).css("color", "red");
+$("#cfour-cross-tab2").hide();
+$("#cfour-cross-tab3").hide(); 
+
+switchTab($(".cfour-cross-nav li a"), $(".cfour-cross-tab"), function(tabNum) {
+	$(".cfour-cross-nav li a").each(function(n) {
+		if(tabNum == n) {
+			$(this).css("color", "red");
+		}else {
+			$(this).css("color", "");
+		}
+	}) 
+}); 
+
 /**第四块 中国瞳孔**/ 
 var eyeIndex = 0;
 var eyeTimer = null;
@@ -227,7 +243,7 @@ function eyePicMove() {
 	eyePicMoveTo();
 
 }; 
-// 活动图片 index
+// 获得图片 index
 function getEyeIndex() {
 	eyeIndex++;
 	if(eyeIndex >= 3) {
