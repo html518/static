@@ -1,11 +1,7 @@
-@charset "UTF-8";；
+﻿@charset "UTF-8";；
 /* 精彩在路上 */
-body{font-family:Microsoft YaHei,sans-serif,Arial;}
-.onr-main{
-	width:1000px;
-	background:#eff5fa;
-	margin: 0 auto;
-}
+
+
 /*reset clearfix*/
 .cf:before,
 .cf:after {
@@ -17,6 +13,11 @@ body{font-family:Microsoft YaHei,sans-serif,Arial;}
 }
 .cf {
 	*zoom: 1;
+}
+.onr-main{
+	width:1000px;
+	background:#eff5fa;
+	margin: 0 auto;
 }
 /* onr-personwrap mod start */
 .onr-personwrap{

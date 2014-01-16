@@ -1,11 +1,6 @@
 ﻿@charset "UTF-8";
 /* 装备与改装 */
-*{
-	margin: 0;
-	padding: 0;
-	border: none;
-	text-decoration: none;
-}
+/* equip */
 .equ-con{
 	width: 1200px;
 	margin: 0 auto;
