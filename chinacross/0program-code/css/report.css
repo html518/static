@@ -1,11 +1,8 @@
 @charset "UTF-8";
 /* 相关报道*/
-.rep-head{
-	height:50px;
-	background:#eff5fa;
-}
 .rep-wrap-con{
 	background:#eff5fa;
+	margin-top: 52px;
 }
 .rep-con-h{
 	position:absolute;

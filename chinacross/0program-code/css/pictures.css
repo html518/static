@@ -1,17 +1,8 @@
 @charset "UTF-8";
 /* 图集 */
-body{
-	
-}
-.pic-head{
-	height:10px;
-	background:white;
-}
-
 .pic-bck{
 	width:1200px;
-	background:url(../images/pic-bck.jpg) 0 0 repeat-x;
-	margin:0 auto
+	margin:53px auto 0;
 }
 .pic-bg{
 	width:1000px;

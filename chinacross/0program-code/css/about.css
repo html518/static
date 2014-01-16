@@ -1,10 +1,3 @@
-.header{
-	height:196px;
-	background:gray;
-}
-body{
-	background:#EFF5FA;
-}
 .about{
 	width:1200px;
 	margin:0 auto;
@@ -38,21 +31,19 @@ body{
 }
 .about-con{
 	width:1000px;
-	padding:43px 100px 90px 100px;
+	margin: 43px auto 0;
 }
 .about-tab{
 	overflow: hidden;
-	height:512px;
 }
 .about-con-bac{
-	padding-left:43px;
 	height:20px;
 	overflow: hidden;
 	position: absolute;
 	left: 0px;
 	top: -19px;
 	width: 100%;
-	background:url("../images/bac.png") 0px -392px no-repeat;
+	background:url("../images/about-bac.png") 0px -392px no-repeat;
 }
 
 .about-tab ul{
@@ -212,7 +203,6 @@ body{
 }
 .about-review{
 	position:relative;
-	height:204px;
 	margin-top:70px;
 }
 .about-rebac{
@@ -241,12 +231,10 @@ body{
 	color:#e6492d;
 }
 .about-rehead h2{
-	width:74px;
 	padding-left: 39px;
 	background:url("../images/about-bac.png") 0 -288px no-repeat;
 }
 .about-tehead h2,.about-hohead h2{
-	width:94px;
 	padding-left:47px;
 }
 .about-hohead h2{
@@ -262,10 +250,12 @@ body{
 	color:#b5b5b5;
 	line-height: 31px;
 }
+.about-tehead a:hover,.about-rehead a:hover,.about-hohead a:hover{
+	color: #e6492d;
+}
 .about-honor,.about-team{
 	position: relative;
 	margin-top:60px;
-	height:374px;
 }
 .about-hobody,.about-teambody{
 	height:355px;
@@ -332,7 +322,6 @@ body{
 }
 .about-contactus{
 	margin-top:50px;
-	height:250px;
 }
 .about-conle{
 	float:left;
@@ -448,9 +437,9 @@ body{
 	font-size:16px;
 	color:white;
 	background-color:#000;
-	background-color:rgba(0,0,0,0.7);
-    background: transparent;
+    	background: transparent;
   	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7F000000', endColorstr='#7F000000');
+	background-color:rgba(0,0,0,0.7);
 }
 #about-reshow{
 	display:block;
@@ -485,7 +474,6 @@ body{
 	line-height:25px;
 	font-size:14px;
 	color:#a4a4a4;
-	
 }
 .about-rebom-right li a:hover{
 	color:#696767;

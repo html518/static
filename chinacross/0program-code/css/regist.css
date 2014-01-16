@@ -1,2 +1,205 @@
-@charset "UTF-8";；
+@charset "UTF-8";
 /* 志愿者信息采集 */
+.reg-warp {
+	background-color: #eff5fa;
+	padding: 50px 0 0;
+}
+.reg {
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #e5e5e5;
+	background-color: #fafbfb;
+	position: relative;
+}
+.reg-top-bg {
+	width: 240px;
+	height: 20px;
+	background: url(../images/reg_bg.gif) 0 0 no-repeat;
+	position: absolute;
+	top: -20px;
+	left: -1px;
+	z-index: 10;
+}
+.reg-head {
+	margin: 0 29px 0 36px;
+	border-bottom: 4px solid #dcdcdc;
+}
+.reg-head-title {
+	background: #fafbfb;
+	height: 24px;
+	line-height: 24px;
+	position: relative;
+	margin-top: 14px;
+}
+.reg-head-title strong{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #de3d25;
+	background: url(../images/reg_bg.gif) -381px 0 no-repeat;
+	text-indent: 28px;
+	height: 24px;
+	line-height: 24px;
+	border-bottom: 4px solid #e6492d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.reg-head-title span {
+	float: right;
+	color: #c7c7c7;
+}
+.reg-head-title span a{
+	color: #c7c7c7;
+}
+.reg-cons {
+	border: 1px solid #dcdcdc;
+	width: 933px;
+	margin: 10px auto;
+}
+.reg-cons h1 {
+	margin: 0 auto;
+	font-size: 28px;
+	font-weight: bold;
+	width: 214px;
+	height: 94px;
+	line-height: 94px;
+}
+.reg-form {
+	margin: 0 0 0 55px;
+	font-size: 14px;
+}
+.reg-form span {
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 16px;
+	font-size: 14px;
+}
+.reg-form var {
+	float: left;
+	font-size: 14px;
+	line-height: 32px;
+	margin: 0 3px;
+}
+.reg-form-text {
+	height: 32px;
+	margin: 8px 0;
+}
+.reg-form-text div {
+	float: left;
+	width: 204px;
+	height: 32px;
+	background: url(../images/reg_bg.gif) 0 -64px no-repeat;
+}
+.reg-form-text input {
+	width: 198px;
+	height: 24px;
+	font-size: 16px;
+	line-height: 24px;
+	border: none;
+	background: none;
+	outline: none;
+	margin: 4px 2px 0 4px;
+}
+.reg-form-textarea {
+	height: 118px;
+	margin: 8px 0;
+}
+.reg-form-textarea div {
+	float: left;
+	width: 756px;
+	height: 118px;
+	background: url(../images/reg_bg.gif) 0 -96px no-repeat;
+}
+.reg-form-textarea textarea {
+	width: 750px;
+	height: 112px;
+	line-height: 24px;
+	font-size: 16px;
+	margin: 3px;
+	border: 0 none;
+	resize: none;
+	outline: none;
+	overflow: hidden;
+}
+.reg-form-sel {
+	height: 32px;
+	margin: 8px 0;
+}
+.reg-form-sel select{
+	border-radius: 3px;
+	box-shadow: 0 0 7px #eee;
+	background: url(../images/reg_bg.gif) -123px -20px no-repeat;
+	border: 1px solid #dedede;
+	height: 33px;
+	line-height: 24px;
+	padding: 4px 3px 5px 14px;
+	vertical-align: middle;
+	cursor: pointer;
+	float: left;
+}
+.reg-form-year {
+	width: 116px;
+}
+.reg-form-mon {
+	width: 67px;
+}
+.reg-form-date {
+	width: 67px;
+}
+.reg-form-radio {
+	height: 32px;
+	margin: 8px 0;
+}
+.reg-form-radio input {
+	display: none;
+}
+.reg-form-radio label {
+	display: -moz-inline-block;
+	display: inline-block;
+	cursor: pointer;
+	margin: 5px 50px 0 0;
+	padding-left: 20px;
+	line-height: 17px;
+	background: url(../images/reg_bg.gif) -381px -60px no-repeat;
+ }
+.reg-form-radio label.radio-checked {
+  background-position: -381px -77px;
+}
+.reg-form-cb {
+	margin: 8px 0;
+}
+.reg-cb-cons {
+	margin-top: 8px;
+	float: left;
+}
+.reg-cb-cons div{
+	margin-top: 24px;
+}
+.reg-cb-cons input {
+	display: none;
+}
+.reg-cb-cons label {
+	display: -moz-inline-block;
+	display: inline-block;
+	cursor: pointer;
+	margin: 5px 50px 0 0;
+	padding-left: 24px;
+	line-height: 18px;
+	background: url(../images/reg_bg.gif) -381px -24px no-repeat;
+ }
+.reg-cb-cons label.cb-checked {
+  background-position: -381px -42px;
+}
+.nav-submit {
+	height: 44px;
+	width: 122px;
+	background: url(../images/reg_bg.gif) 0 -20px no-repeat;
+	margin: 32px auto 90px;
+	cursor: pointer;
+}
+.reg-notes {
+	color: #ea5656;
+	margin-bottom: 46px;
+}

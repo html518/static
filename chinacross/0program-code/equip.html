@@ -6,9 +6,6 @@
 	<link rel="icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/common.css" />
 	<link rel="stylesheet" href="css/equip.css" />
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/tween.js"></script>
-	<script src="js/base.js"></script>
 </head>
 <body>
 	<div class="header clearfix">
@@ -233,9 +230,12 @@
 		</div>
 	</div>
 	<div class="goTop"></div>
-	<script>
-		initHeader(7);
-		slider($(".equ-slider"), 4, {scrollLeft : 1200}, 5000, "" , $(".equ-sliderprev"), $(".equ-slidernext"));
-	</script>
+	
 </body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/base.js"></script>
+<script>
+	initHeader(7);
+	slider($(".equ-slider"), 4, {scrollLeft : 1200}, 5000, "" , $(".equ-sliderprev"), $(".equ-slidernext"));
+</script>
 </html>

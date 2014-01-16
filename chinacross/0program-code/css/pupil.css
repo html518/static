@@ -1,2 +1,375 @@
-@charset "UTF-8";；
+@charset "UTF-8";
 /* 中国瞳孔 */
+.pup-tit-hed{
+	position: absolute;
+	height: 20px;
+	top: -20px;
+	left: -1px;
+	overflow: hidden;
+	width: 100%;
+	background: url(../images/pup-tit-hed.gif) no-repeat;
+}
+
+/* pup top */
+.pup-wrap{
+	overflow: hidden;
+	margin-top: 35px;
+}
+.pup-top{
+	width: 980px;
+	border: 1px solid #e5e5e5;
+	padding: 10px;
+	margin: 0 auto;
+	box-shadow: 0 1px 2px 2px #cdced0;
+	background-color: #fcfcfc;
+}
+.pup-tab-pics,.pup-tab-pics div{
+	width: 550px;
+	height: 366px;
+	overflow: hidden;
+	font-size: 0;
+}
+.pup-tab-pics{
+	position: relative;
+	float: left; 
+}
+.pup-tab-pics div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.pup-tab-pics img{
+	width: 550px;
+	height: 366px;
+}
+.pup-tab-nav{
+	float: left;
+	width: 430px;
+}
+.pup-tab-nav dl{
+	width: 360px;
+	padding: 19px 35px;
+	border-bottom: 1px dotted #d8d8d8;
+}
+.pup-tab-nav dd,.pup-tab-nav dt{
+	width: 360px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.pup-tab-nav dt a{
+	color: rgb(68, 77, 88);
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.pup-tab-nav .select dt a{
+	color: #b41c01;
+
+}
+.pup-tab-nav dd a{
+	line-height: 28px;
+	color: #a4a4a4;
+}
+.pup-tab-nav dd a:hover{
+	color: #333;
+}
+.pup-top-enter{
+	float: left;
+	width: 430px;
+	padding-top: 35px;
+	overflow: hidden;
+}
+.pup-top-enter li{
+	float: left;
+	width: 135px;
+	padding: 0 38px;
+	overflow: hidden;
+	line-height: 40px;
+}
+.pup-top-enter li a{
+	color: #d82e1a;
+	font-size: 14px;
+	font-weight: bold;
+}
+.pup-top-enter span{
+	float: left;
+	height: 40px;
+	width: 83px;
+	padding-left: 12px;
+	overflow: hidden;
+	line-height: 40px;
+}
+.pup-top-enter .pup-weibo, .pup-top-enter .pup-blog{
+	width: 40px;
+	padding: 0;
+	background-image: url(../images/pup-bac.png);
+	background-repeat: no-repeat;
+}
+.pup-weibo{
+	background-position: 0 0;
+}
+.pup-blog{
+	background-position: 0 -40px;
+}
+
+/* pup earth */
+.pup-earth,.pup-well{
+	position: relative;
+	width: 937px;
+	margin: 55px auto 50px;
+	border: 1px solid #e5e5e5;
+	border-bottom-width: 2px;
+	padding: 5px 28px 18px 35px;
+	background-color: #f6f8fa;
+}
+.pup-earth-tit,.pup-earth-viewtop,.pup-well-tit{
+	position: relative;
+	height: 35px;
+	border-bottom: 4px solid #bababa;
+	line-height: 35px;
+}
+.pup-earth-tit h3,.pup-earth-viewtop h3,.pup-well-tit h3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 35px;
+	border-bottom: 4px solid #e6492d;
+	font-size: 18px;
+	font-weight: bold;
+	color: #d92927;
+}
+.pup-earth-tit h3 span,.pup-earth-viewtop h3 span,.pup-well-tit h3 span{
+	float: left;
+	width: 35px;
+	height: 35px;
+	background-image: url(../images/pup-bac.png);
+	background-repeat: no-repeat;
+}
+.pup-earth-tit h3 span{
+	background-position: 0 -80px;
+}
+.pup-earth-viewtop  h3 span{
+	background-position: 0 -115px;
+}
+.pup-well-tit h3 span{
+	background-position: 0 -145px;
+}
+.pup-earth-nav{
+	float: right;
+	text-align: right;
+}
+.pup-earth-nav a{
+	margin-left: 18px;
+	font-size: 14px;
+	color: #55575a;
+}
+.pup-earth-nav a:hover{
+	color: #d82e1a;
+}
+.pup-earth-con{
+	margin-top: 10px;
+}
+
+.pup-earth-imgtext{
+	float: left;
+	margin-bottom: 18px;
+	width: 620px;
+}
+.pup-earth-imgtext img{
+	width: 263px;
+	height: 179px;
+}
+.pup-earth-imgtext dt,.pup-earth-imgtext dd{
+	float: left;
+}
+.pup-earth-imgtext dt{
+	margin-right: 35px;
+	display: inline-block;
+}
+.pup-earth-imgtext h4,.pup-earth-imgtext ul{
+	width: 320px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.pup-earth-imgtext h4 a{
+	width: 320px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	color: #23262a;
+	font-weight: bold;
+}
+.pup-earth-imgtext ul li{
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.pup-earth-imgtext ul a{
+	color: #a5a7aa;
+}
+.pup-earth-imgtext ul a:hover{
+	color: #55575a;
+}
+.pup-earth-imgtext ul span{
+	font-weight: bold;
+	padding-right: 5px;
+}
+.pup-earth-secdl{
+	margin-bottom: 0;
+}
+.pup-earth-search,.pup-earth-view{
+	float: right;
+	width: 303px;
+}
+.pup-earth-search{
+	margin-bottom: 18px;
+}
+.pup-earth-top{
+	width: 287px;
+	height: 30px;
+	line-height: 30px;
+	padding: 6px 8px;
+	background-color: #eef0f5;
+}
+.pup-earth-ipt{
+	float: left;
+	width: 214px;
+	height: 30px;
+}
+.pup-earth-ipt input{
+	height: 30px;
+	width: 214px;
+	border:none;
+	outline: none;
+	font-size: 14px;
+	line-height: 30px\9;
+	border: 0;
+}
+.pup-earth-btn{
+	float: left;
+}
+.pup-earth-btn a{
+	display: block;
+	width: 72px;
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/pup-bac.png) -45px 0 no-repeat;
+	text-align: center;
+	color: white;
+}
+.pup-earth-upload{
+	width: 303px;
+	height: 108px;
+	margin-top: 6px;
+	padding-top: 28px;
+	background: #eef0f5;
+	text-align: center;
+}
+.pup-earth-upload img{
+	width: 70px;
+	height: 50px;
+}
+.pup-earth-upload a{
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e6492d;
+}
+.pup-earth-uploadicon{
+	width: 70px;
+	height: 50px;
+	margin: 0 auto 7px;
+	background: url(../images/pup-bac.png) -45px -40px no-repeat;
+}
+.pup-earth-view{
+	width: 260px;
+	padding: 10px 21px 3px;
+	background: #eef0f5;
+}
+.pup-more{
+	float: right;
+	color: #c2c2c2;
+	font-size: 14px;
+	height: 35px;
+	overflow: hidden;
+	line-height: 40px;
+}
+.pup-more:hover{
+	color: #d92927;
+}
+.pup-earth-view ul{
+	margin-top: 10px;
+}
+
+.pup-earth-view li{
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 26px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.pup-earth-view li a{
+	color: #a5a7aa;
+}
+.pup-earth-view li a:hover{
+	color: #55575a;
+}
+.pup-earth-view li span{
+	font-weight: bold;
+	padding-right: 5px;
+}
+.pup-well-pics{
+	margin-top: 22px;
+}
+.pup-well-pics dl{
+	float: left;
+	width: 224px;
+	height: 209px;
+	margin-left: 10px;
+	box-shadow: 0 1px 2px 2px #cdced0;
+	border: 1px solid #cdced0;
+	overflow: hidden;
+}
+.pup-well-pics a{
+	color: #a4a4a4;
+}
+.pup-well-pics a:hover{
+	color: #585b5e;
+}
+.pup-well-pics img{
+	width: 222px;
+	height: 120px;
+	border: 1px solid #fff;
+	text-align: center;
+	overflow: hidden;
+}
+.pup-well-pics dd{
+	padding: 0 20px;
+	width: 186px;
+	height: 38px;
+	line-height: 38px;
+	color: #959799;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	*width: 166px;
+}
+.pup-well-imgtit{
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.pup-well{
+	margin-bottom: 0;
+}

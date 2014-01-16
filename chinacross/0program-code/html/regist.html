@@ -5,17 +5,282 @@
 	<title>越野中国—志愿者信息采集</title>
 	<link rel="icon" href="../favicon.ico" />
 	<link rel="stylesheet" href="../css/common.css" />
-	<style>
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="../css/regist.css" />
 </head>
 <body>
-	
+	<div class="header clearfix">
+		<div class="header-top clearfix">
+			<div class="header-search">
+				<div class="header-login">
+					<a href="http://lovelyjpw.blog.163.com/" tilte="登录">登录</a><span>/</span><a href="http://lovelyjpw.blog.163.com/" tilte="注册">注册</a>
+				</div>
+				<div class="header-input">
+					<input type="text" />
+				</div>
+				<div class="header-btn">
+					<a href="http://lovelyjpw.blog.163.com/" class="go">GO</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-scroll clearfix">
+			<img src="../images/header1.jpg" alt="广告1" title="广告" style="display:inline"/>
+			<img src="../images/header2.jpg" alt="广告2" title="广告" />
+			<img src="../images/header3.jpg" alt="广告3" title="广告" />
+		</div>
+		<div class="header-nav clearfix">
+			<div class="header-nav-text">
+				<ul class="clearfix">
+					<li style="background:none;"><a href="../index.html" title="首页">首页</a></li>
+					<li><a href="../about.html" title="关于我们">关于我们</a></li>
+					<li><a href="../brand.html" title="品牌活动">品牌活动</a></li>
+					<li><a href="../cross.html" title="越野中国">越野中国</a></li>
+					<li><a href="../onroad.html" title="精彩路上">精彩路上</a></li>
+					<li><a href="../pupil.html" title="中国瞳孔">中国瞳孔</a></li>
+					<li><a href="../public.html" title="公益活动">公益活动</a></li>
+					<li><a href="../equip.html" title="装备改装">装备改装</a></li>
+					<li><a href="../bbs.html" title="论坛">论坛</a></li>
+				</ul>
+				<span class="header-nav-bg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="reg-warp">
+		<div class="reg">
+			<div class="reg-top-bg">
+			</div>
+			<div class="reg-head">
+				<div class="reg-head-title clearfix">
+					<strong>志愿者注册</strong>
+					<span>相关报道</span>
+					<span>&gt;&gt;</span>
+					<span><a href="../index.html">首页</a></span>
+					<span>您的位置：</span>
+				</div>
+			</div>
+			<div class="reg-cons">
+				<h1>志愿者信息采集</h1>
+				<div class="reg-form">
+					<form>
+						<div class="reg-form-text">
+							<span>姓名：</span>
+							<div>
+								<input type="text" maxlength="30" name="name" value="" id="regName"/>
+							</div>
+						</div>
+						<div class="reg-form-radio">
+							<span>性别：</span>
+							<input type="radio" name="sex" value="male" />
+							<label name="sex_male" for="sex_male">男</label>
+	  						<input type="radio" name="sex" value="female" />
+							<label name="sex_female" for="sex_female">女</label>
+						</div>
+						<div class="reg-form-sel">
+							<span>出生日期：</span>
+							<select id="regBirthdayYear" class="reg-form-year">
+							</select>
+							<var>年</var>
+							<select id="regBirthdayMon" class="reg-form-mon">	
+							</select>
+							<var>月</var>
+							<select id="regBirthdayDate" class="reg-form-date">
+							</select>
+							<var>日</var>
+						</div>
+						<div class="reg-form-text">
+							<span>政治面貌：</span>
+							<div>
+								<input type="text" maxlength="30" name="political" value="" />
+							</div>
+						</div>
+						<div class="reg-form-text">
+							<span>民族：</span>
+							<div>
+								<input type="text" maxlength="30" name="nation" value="" />
+							</div>
+						</div>
+						<div class="reg-form-text">
+							<span>国籍：</span>
+							<div>
+								<input type="text" maxlength="30" name="nationality" value="" />
+							</div>
+						</div>
+						<div class="reg-form-text">
+							<span>电话：</span>
+							<div>
+								<input type="text" maxlength="30" name="phone" value="" />
+							</div>
+						</div>
+						<div class="reg-form-text">
+							<span>邮箱：</span>
+							<div>
+								<input type="text" maxlength="40" name="email" value="" />
+							</div>
+						</div>
+						<div class="reg-form-textarea">
+							<span>地址：</span>
+							<div>
+								<textarea maxlength="184" name="address"></textarea>
+							</div>
+						</div>
+						<div class="reg-form-sel">
+							<span>志愿时间（何时有时间参与志愿活动）：</span>
+							<select id="regFreeYear" class="reg-form-year">	
+							</select>
+							<var>年</var>
+							<select id="regFreeMon"  class="reg-form-mon">	
+							</select>
+							<var>月</var>
+							<select id="regFreeDate"  class="reg-form-date">
+							</select>
+							<var>日</var>
+						</div>
+						<div class="reg-form-cb clearfix">
+							<span>志愿项目：</span>
+							<div class="reg-cb-cons">
+								<div>
+									<input type="checkbox" name="activity" value="jinglao">
+									<label name="activity_jinglao" for="activity_jinglao">3月25日北京周边爱老敬老</label>
+								</div>
+								<div>
+									<input type="checkbox" name="activity" value="daike">
+									<label name="activity_daike" for="activity_daike">贵州**小学招募代课教师</label>
+								</div>
+								<div>
+									<input type="checkbox" name="activity" value="zhishu">
+									<label name="activity_zhishu" for="activity_zhishu">5月1日植树活动</label>
+								</div>
+								<div>
+									<input type="checkbox" name="activity" value="huwai">
+									<label name="activity_huwai" for="activity_huwai">5月24日宝山户外节志愿者</label>
+								</div>
+							</div>
+						</div>
+						<div class="nav-submit">&nbsp;</div>
+					</form>
+					<div class="reg-notes">
+						<strong>*以上请您留下真实信息，以便我们通知您参加活动，请放心填写</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer clearfix">
+		<div class="footer-text">
+			<p>Copyright&nbsp;©&nbsp;2004&nbsp;在路上公司&nbsp;版权所有</p>
+			<p>北京在路上天地豪情体育文化传播有限公司&nbsp;&nbsp;&nbsp;北京在路上传媒广告公司</p>
+			<p>电话：010-64395717/64395747&nbsp;&nbsp;&nbsp;传真：010-64395717&nbsp;&nbsp;&nbsp;
+		</div>
+		<div class="footer-img">
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国" class="footer-image"><img src="../images/chinaIcon.png" alt="越野中国" title="越野中国"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国">http://chinacross.cn</a>
+			</div>
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" tilte="博看文思" class="footer-image"><img src="../images/IbokanIcon.jpg" alt="博看文思" title="博看文思"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="博看文思">http://www.bkh5.com/</a>
+			</div>
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国" class="footer-image"><img src="../images/chinaIcon.png" alt="越野中国" title="越野中国"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="越野中国">http://chinacross.cn</a>
+			</div>
+			<div>
+				<a href="http://lovelyjpw.blog.163.com/" tilte="博看文思" class="footer-image"><img src="../images/IbokanIcon.jpg" alt="博看文思" title="博看文思"></a>
+				<a href="http://lovelyjpw.blog.163.com/" title="博看文思">http://www.bkh5.com/</a>
+			</div>
+		</div>
+	</div>
+	<div class="goTop"></div>
 </body>
 <script src="../js/jquery-1.10.2.min.js"></script>
-<script src="../js/tween.js"></script>
 <script src="../js/base.js"></script>
 <script>
+	initHeader(0);
+	setRegDate("#regBirthdayYear","#regBirthdayMon");	// 初始化生日SELECT
+	setRegDate("#regFreeYear","#regFreeMon");			// 初始化活动日期SELECT
+	$("#regBirthdayYear").change(setRegBirthdayDays);	// 根据选择年月改变生日天数
+	$("#regBirthdayMon").change(setRegBirthdayDays);	
+	$("#regFreeYear").change(setRegFreeDays);			// 根据选择年月改变活动日期天数
+	$("#regFreeMon").change(setRegFreeDays);
+	$(".reg-form-radio label").click(changeRadio);		// 改变radio样式和checked
+	$(".reg-cb-cons label").click(changeCheckbox);		// 改变checkbox样式和checked
 	
+	// 设置生日的SELECT天数
+	function setRegBirthdayDays() {
+		setRegDays("#regBirthdayYear","#regBirthdayMon")
+	}
+	// 设置活动日期的SELECT天数
+	function setRegFreeDays() {
+		setRegDays("#regFreeYear","#regFreeMon")
+	}
+
+	// 添加SELECT的年月日
+	function setRegDate(yearTag,monthTag) {
+		setRegYears();
+		setRegMons();
+		setRegDays(yearTag,monthTag);
+	}
+	// 添加年份
+	function setRegYears() {
+		var years = "";
+		for (var i = 1900; i <= 2050; i++){
+			if (i != (new Date()).getFullYear()){
+				years += "<option>" + i + "</option>";
+			} else {
+				years += "<option selected='selected'>" + i + "</option>";
+			}
+		}
+		$(".reg-form-year").html(years);
+
+	}
+	// 添加月份
+	function setRegMons() {
+		var mons = "";
+		for (var i = 1; i <= 12; i++){
+			if (i != (new Date()).getMonth()){
+				mons += "<option>" + i + "</option>";
+			} else {
+				mons += "<option selected='selected'>" + i + "</option>"
+			}
+		}
+		$(".reg-form-mon").html(mons);
+	}
+	// 添加天数
+	function setRegDays(yearTag,monthTag) {
+		var days = "";
+		for (var i = 1; i <= getDateDays(yearTag,monthTag); i++){
+			if (i != (new Date()).getDate()){
+				days += "<option>" + i + "</option>";
+			} else {
+				days += "<option selected='selected'>" + i + "</option>";
+			}
+		}
+		$(".reg-form-date").html(days);
+	}
+	// 获取当月天数
+	function getDateDays(yearTag,monthTag) {
+		var date = new Date($(yearTag).val(),$(monthTag).val(),0);
+		return date.getDate(0);
+	}
+
+	// 设置radio样式
+	function changeRadio() {	
+		$(".reg-form-radio label").prop("class","");
+		for ( var i = 0; i < $(".reg-form-radio input").length; i++){
+			$(".reg-form-radio input").eq(i).attr("checked",false);
+		}	
+		$(this).attr("class","radio-checked");
+		$(this).prev().attr("checked","checked");
+	}
+
+	// 设置checkbox样式
+	function changeCheckbox() {	
+		if ($(this).attr("class") == "cb-checked") {
+			$(this).attr("class","");
+			$(this).prev().attr("checked",false);
+		} else {
+			$(this).attr("class","cb-checked");
+			$(this).prev().attr("checked",true);
+		}
+	}
 </script>
 </html>

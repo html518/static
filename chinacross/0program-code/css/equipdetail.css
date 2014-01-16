@@ -1,13 +1,11 @@
 @charset "UTF-8";
 /* 装备与改装二级页 */
 .edet-con{
-	height:2315px;
 	width:1200px;
 	margin:0 auto;
 	position:relative;
 }
 #edet-head{
-	height:488px;
 	width:1200px;
 	margin-bottom:80px;
 	overflow:hidden;
@@ -29,7 +27,6 @@
 }
 .edet-brank{
 	width:1000px;
-	height:520px;
 	margin:0 auto;
 	overflow:hidden;
 	
@@ -91,7 +88,7 @@
 	position:relative;
 	float:left;
 	margin-top: 21px;
-	border:1px solid #efefef;
+	border:1px solid #e0e0e0;
 	background:#f7f9fa;
 }
 .edet-brank-r{
@@ -126,6 +123,7 @@
 	border:1px solid #e4e9ee;
 	border-radius:3px;
 	box-shadow: 0 0 5px 2px rgba(235,241,246,0.5);
+	background-color: #f7f9fa;
 }
 
 .edet-refit .edet-con-nav{
@@ -356,3 +354,8 @@
 	width: 200px;
 	box-shadow: 0 0 6px #888;
 } 
+
+/*background*/
+.edet-int-t,.edet-int-f,.edet-int-r,.edet-int-show{
+	background-color: #f7f9fa;
+}

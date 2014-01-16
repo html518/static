@@ -29,7 +29,12 @@
 	top: 215px;
 	z-index: 10;
 }
+.equ-sliderprev,.equ-slidernext{
+	cursor: hand;
+	cursor: pointer;
+}
 .equ-sliderprev{
+
 	left: 0;
 	background: url("../images/equ-left.png") 0 0 no-repeat;
 }
@@ -52,7 +57,6 @@
 }
 .equ-outdoorcon{
 	width: 1000px;
-	height: 685px;
 	border: 1px solid #e3e5e7;
 	border-top: none;
 }

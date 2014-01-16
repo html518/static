@@ -73,14 +73,12 @@ body{
 	color: white;
 }
 .header-scroll{
-	
 	text-align: center;
 	font-size: 0;
 	width: 1000px;
 	height: 100px;
 	margin: 0 auto;
 	position: relative;
-/*	padding-top: 100px;*/
 }
 .header-scroll img{
 	position: absolute;
@@ -89,14 +87,12 @@ body{
 	border:1px solid white;
 	width: 998px;
 	height: 98px;
-	/*margin-top: -100px;*/
 	display: none;
 	box-shadow: 2px 2px 4px #ccc;
 }
 .header-nav{
 	height: 51px;
 	min-width: 1200px;
-	_width:1200px;
 	margin: 0 auto;
 	margin-top: 20px;
 	background: url(../images/comm-nav.png) repeat-x;

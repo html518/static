@@ -1,11 +1,8 @@
 @charset "UTF-8";
 /* 视频 */
-.con-head{
-	height:50px;
-	background:#eff5fa;
-}
 .con-wrap-con{
 	background:#eff5fa;
+	margin-top: 72px;
 }
 .con-con-h{
 	position:absolute;

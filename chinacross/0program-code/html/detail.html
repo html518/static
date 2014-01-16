@@ -6,9 +6,7 @@
 	<link rel="icon" href="../favicon.ico" />
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/detail.css" />
-	<script src="../js/jquery-1.10.2.min.js"></script>
-	<script src="../js/tween.js"></script>
-	<script src="../js/base.js"></script>
+	
 </head>
 <body>
 	<div class="header clearfix">
@@ -136,52 +134,54 @@
 	</div>
 	<div class="goTop"></div>
 	</div>
-	<script>
-		var sliderlis = document.getElementById("det-slidermod").getElementsByTagName("li");
-		var smalllis = document.getElementById("det-smallpic").getElementsByTagName("li");
-		var page = 0;
-		function next(){
-			page++;
-			if (page >= sliderlis.length-1){
-				page = sliderlis.length-1;
-			}
-			$(".det-slidermod li").css("zIndex","-10");
-			$(".det-smallpic li").css("border","2px solid #fff");
-			sliderlis[page].style.zIndex = "10"
-			smalllis[page].style.border = "2px solid red"
-		}
-		function prev(){
-			page--;
-			if (page < 0){
-				page = 0;
-			}
-			$(".det-slidermod li").css("zIndex","-10");
-			$(".det-smallpic li").css("border","2px solid #fff");
-			sliderlis[page].style.zIndex = "10"
-			smalllis[page].style.border = "2px solid red"
-		}
-		$(".det-sliderprev").click(function(){
-			prev();
-		})
-		$(".det-slidernext").click(function(){
-			next();
-		})
-		$(".det-smallprev").click(function(){
-			prev();
-		})
-		$(".det-smallnext").click(function(){
-			next();
-		})
-		$(".det-smallpic li").each(function(i){
-			$(this).click(function(){
-				window.page = i;
-				$(".det-slidermod li").css("zIndex","-10");
-				$(".det-smallpic li").css("border","2px solid #fff");
-				$(this).css("border","2px solid red")
-				sliderlis[page].style.zIndex = "10"
-			})
-		})
-		initHeader(0);
-	</script>
 </body>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/base.js"></script>
+<script>
+	var sliderlis = document.getElementById("det-slidermod").getElementsByTagName("li");
+	var smalllis = document.getElementById("det-smallpic").getElementsByTagName("li");
+	var page = 0;
+	function next(){
+		page++;
+		if (page >= sliderlis.length-1){
+			page = sliderlis.length-1;
+		}
+		$(".det-slidermod li").css("zIndex","-10");
+		$(".det-smallpic li").css("border","2px solid #fff");
+		sliderlis[page].style.zIndex = "10"
+		smalllis[page].style.border = "2px solid red"
+	}
+	function prev(){
+		page--;
+		if (page < 0){
+			page = 0;
+		}
+		$(".det-slidermod li").css("zIndex","-10");
+		$(".det-smallpic li").css("border","2px solid #fff");
+		sliderlis[page].style.zIndex = "10"
+		smalllis[page].style.border = "2px solid red"
+	}
+	$(".det-sliderprev").click(function(){
+		prev();
+	})
+	$(".det-slidernext").click(function(){
+		next();
+	})
+	$(".det-smallprev").click(function(){
+		prev();
+	})
+	$(".det-smallnext").click(function(){
+		next();
+	})
+	$(".det-smallpic li").each(function(i){
+		$(this).click(function(){
+			window.page = i;
+			$(".det-slidermod li").css("zIndex","-10");
+			$(".det-smallpic li").css("border","2px solid #fff");
+			$(this).css("border","2px solid red")
+			sliderlis[page].style.zIndex = "10"
+		})
+	})
+	initHeader(0);
+</script>
 </html>

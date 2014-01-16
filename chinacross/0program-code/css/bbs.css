@@ -1,17 +1,9 @@
 @charset "UTF-8";
 /* 论坛 */
-.bbs-head{
-	height:10px;
-	background:white;
-}
-.bbs-footer{
-	height:10px;
-	background:white;
-}
+
 .bbs-member{
 	width:1000px;
-	height:1735px;
-	margin:0 auto;
+	margin:53px auto 0;
 	background:#fafbfb;
 }
 .bbs-bg{
