@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* 志愿者信息采集 */
+/* 志愿者信息采集 by luda*/
 .reg-warp {
 	background-color: #eff5fa;
 	padding: 50px 0 0;
@@ -156,10 +156,9 @@
 	display: none;
 }
 .reg-form-radio label {
-	display: -moz-inline-block;
-	display: inline-block;
+	float: left;
 	cursor: pointer;
-	margin: 5px 50px 0 0;
+	margin: 8px 50px 0 0;
 	padding-left: 20px;
 	line-height: 17px;
 	background: url(../images/reg_bg.gif) -381px -60px no-repeat;
