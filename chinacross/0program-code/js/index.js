@@ -9,7 +9,7 @@ function coneSliMove() {
 	getConeImgIndex();
 	coneSliMoveTo(); 
 }; 
-// 活动图片 index
+// 获取图片index
 function getConeImgIndex() {
 	coneImgIndex++;
 	if(coneImgIndex >= 3) {
@@ -62,6 +62,18 @@ $(".nextbtn").bind("click", function() {
 	}
 	coneSliMoveTo();
 }) 
+
+// mouseover、mouseout事件
+$(".slider-pic").bind("mouseover", function() {
+	if(coneSliTimer) {
+		clearTimeout(coneSliTimer);
+	}
+}).bind("mouseout", function() {
+	if(coneSliTimer) {
+		clearTimeout(coneSliTimer);
+	}
+	coneSliTimer = setTimeout(coneSliMove, 3500); 
+})
 
 /**第一块 公益活动 切换**/ 
 $("#benefit-act").bind("click", function() {
@@ -128,6 +140,34 @@ function onroadSliMove() {
 	}
 	onroadSliTimer = setTimeout(onroadSliMove, 3500);
 } 
+
+// 左右 点击切换
+$(".onroad-prevbtn").bind("click",function() {
+	if(onroadSliTimer) {
+		clearTimeout(onroadSliTimer);
+	}
+	$(".onroad-pic-slider").animate({"scrollLeft": "0"}, 300);
+	onroadSliTimer = setTimeout(onroadSliMove, 3500);
+})
+$(".onroad-nextbtn").bind("click",function() {
+	if(onroadSliTimer) {
+		clearTimeout(onroadSliTimer);
+	}
+	$(".onroad-pic-slider").animate({"scrollLeft": "67"}, 300);
+	onroadSliTimer = setTimeout(onroadSliMove, 3500);
+})
+
+// mouseover、mouseout事件
+$(".onroad-pic-slider").bind("mouseover", function() {
+	if(onroadSliTimer) {
+		clearTimeout(onroadSliTimer);
+	}
+}).bind("mouseout", function() {
+	if(onroadSliTimer) {
+		clearTimeout(onroadSliTimer);
+	}
+	onroadSliTimer = setTimeout(onroadSliMove, 3500)
+})
 
 /**第四块 列表tab切换**/ 
 $(".cfour-line-nav li a").eq(0).css("color", "red");
@@ -225,6 +265,18 @@ function changeBJ() {
 		}
 	});
 } 
+
+// mouseover、mouseout事件
+$(".cfour-eye-pics").bind("mouseover", function() {
+	if(eyeTimer) {
+		clearTimeout(eyeTimer);
+	}
+}).bind("mouseout", function() {
+	if(onroadSliTimer) {
+		clearTimeout(eyeTimer);
+	}
+	eyeTimer = setTimeout(eyePicMove, 3500); 
+})
 
 /**第七块 风云榜**/ 
 $(".cseven-billboard-list li").find("span").each(function(n) {

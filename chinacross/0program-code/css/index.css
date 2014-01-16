@@ -88,6 +88,7 @@ img {
 	left: 0;
 	width: 725px;
 	height: 372px;
+	cursor: pointer;
 	opacity: 0;
 } 
 .slider-desc {
@@ -107,6 +108,7 @@ img {
 	left: 0;
 	opacity: 0;
 	margin-left: 30px;
+	cursor: pointer;
 	font-size: 20px; 
 	line-height: 56px;
 	color: #fff;
@@ -117,6 +119,7 @@ img {
 	z-index: 10;
 	width: 40px;
 	height: 40px;	
+	cursor: pointer;
 	opacity: 0.3;
 	filter:alpha(opacity=30);
 }
@@ -525,10 +528,11 @@ img {
 	text-align: center;
 }
 .onroad-slider-pic li img { 
+	overflow: hidden;
 	width: 61px;
 	height: 61px; 
 	margin-bottom: 5px;
-	overflow: hidden;
+	cursor: pointer;
 } 
 .onroad-slider-pic li a {
 	font-size: 12px;
@@ -539,11 +543,13 @@ img {
 	position: absolute;
 	top: 29px;
 	left: 0;
+	cursor: pointer;
 }
 .onroad-peo-con .onroad-nextbtn {
 	position: absolute;
 	top: 29px;
 	right: 0;
+	cursor: pointer;
 } 
 
 /***第4块 线路排名、越野中国、中国瞳孔***/
@@ -766,13 +772,13 @@ img {
 	float: left;
 	margin-top: 10px;
 }
-.cfour-eye-imgs img {
+.cfour-eye-imgs a {
 	overflow: hidden;
 	float: left; 
 	width: 131px;
 	height: 85px;	
 }
-.cfour-eye-imgs .first-img {
+.cfour-eye-imgs a.first-img {
 	float: left;
 	margin-right: 15px;
 } 
