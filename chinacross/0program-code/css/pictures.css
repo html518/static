@@ -1,17 +1,8 @@
 @charset "UTF-8";
 /* 图集 */
-body{
-	
-}
-.pic-head{
-	height:10px;
-	background:white;
-}
-
 .pic-bck{
 	width:1200px;
-	background:url(../images/pic-bck.jpg) 0 0 repeat-x;
-	margin:0 auto
+	margin:53px auto 0;
 }
 .pic-bg{
 	width:1000px;
@@ -20,22 +11,38 @@ body{
 	margin:0 auto;
 	padding-top:35px;
 }
+.pic-bg .pic-picture-bg{
+	width:937px;
+	height:26px;
+	margin:0 auto;
+	margin-left:30px;
+	border-bottom:4px solid #bbbaba;
+}
+.pic-picture-bg var{
+	position:absolute;
+	height:25px;
+	width:25px;
+	background:url(../images/pic.gif) -100px -30px no-repeat;
+}
 .pic-bg span{
 	float:left;
-	height:24px;
-	margin-left:78px;
+	height:26px;
 	color:#de3d25;
 	font-size:19px;
 	font-weight:bold;
 	font-family:"宋体";
+	padding-left:40px;
+	margin-left:0px;
 	border-bottom:4px solid #de3d25;
 }
 .pic-bg div{
-	float:right;
-	margin-right:30px;
+	float:left;
+	line-height:26px;
+}
+.pic-bg em{
+	margin-left:725px;
 }
 .pic-bg div a,.pic-bg em{
-	float:left;
 	color:#c6c7c7;
 }
 .pic-atlas{

@@ -1,17 +1,9 @@
 @charset "UTF-8";
 /* 论坛 */
-.bbs-head{
-	height:10px;
-	background:white;
-}
-.bbs-footer{
-	height:10px;
-	background:white;
-}
+
 .bbs-member{
 	width:1000px;
-	height:1735px;
-	margin:0 auto;
+	margin:53px auto 0;
 	background:#fafbfb;
 }
 .bbs-bg{
@@ -22,12 +14,21 @@
 }
 .bbs-bus{
 	width:890px;
-	height:50px;
+	height:49px;
 	margin-left:68px;
+	border-bottom:4px solid #bbbaba;
 }
 .bbs-busl{
 	float:left;
-	width:380px;
+	height:49px;
+	border-bottom:4px solid #e6492d;
+}
+.bbs-bus .bbs-busl var{
+	position:absolute;
+	height:25px;
+	width:25px;
+	margin-top:10px;
+	background:url(../images/pic.gif) -100px -30px no-repeat;
 }
 .bbs-busl span,.bbs-busr span{
 	display:block;
@@ -38,6 +39,7 @@
 	font-weight:bold;
 	font-family:"宋体";
 	overflow:hidden;
+	padding-left:25px;
 }
 .bbs-busr{
 	float:left;
@@ -46,20 +48,19 @@
 .bbs-busr span{
 	line-height:38px;
 	height:38px;
-	width:375px;
-	margin-left:5px;
+	margin-left:-20px;
 }
 .bbs-busr em{
 	position:absolute;
 	width:55px;
-	left:410px;
+	left:390px;
 	color:#b9b9b9;
 	top:5px;
 }
 .bbs-busr a{
 	position:absolute;
 	width:45px;
-	left:465px;
+	left:441px;
 	top:5px;
 	color:#b9b9b9;
 }

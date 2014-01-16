@@ -168,7 +168,6 @@ body {
 }
 .pub-msg,.pub-act,.pub-ns,.pub-hf {
 	width: 928px;
-	height: 314px;
 	padding: 0 36px 56px;
 	background: #fafbfb;
 	border: 1px solid #e5e5e5;
@@ -225,7 +224,6 @@ body {
 .pub-msg-recruit {
 	float: right;
 	width: 363px;
-	height: 185px;
 	margin-top: 22px;
 	margin-right: 5px;
 	background: #edeeef;
@@ -323,7 +321,6 @@ body {
 }
 .pub-ns {
 	width: 934px;
-	height: 326px;
 	padding: 0 33px 54px;
 }
 .pub-ns-head-text h3 span {
@@ -413,7 +410,6 @@ body {
 }
 .pub-href {
 	margin-top: 29px;
-	padding: 0 33px 0px;
 }
 .pub-hf {
 	height: 206px;

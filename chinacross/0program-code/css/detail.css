@@ -66,10 +66,11 @@ body{
 }
 /***	大图	***/
 .det-slider{
-	width: 723px;
-	height: 545px;
+	width: 721px;
+	height: 543px;
 	background: #fff;
 	box-shadow:  0px 0px 10px #999;
+	border: 1px solid #ccc;
 }
 .det-sliderprev{
 	float: left;
@@ -107,11 +108,12 @@ body{
 }
 /***	小图切换	***/
 .det-small{
-	width: 723px;
-	height: 115px;
+	width: 721px;
+	height: 113px;
 	margin-top: 18px;
 	background: #fff;
 	position: relative;
+	border: 1px solid #ccc;
 }
 .det-smallprev{
 	width: 30px;

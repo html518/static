@@ -1,24 +1,24 @@
 @charset "UTF-8";
-
-/* 首页 */  
-.index {
-	font-size: 14px; 
+.index{
+	margin-top: 25px;
 }
-.index a {
-	font-size: 14px; 
-	color: #A4A4A4;
-	cursor: pointer;
-}
-.index a:hover {  
-	color: #51504C; 
-}
-img {
-	vertical-align: top;
-} 
+/* 首页 */ 
 .con { 
 	width: 1000px; 
 	margin: 0 auto;
 	background-color: #EFF5FA;
+	font-size: 14px; 
+} 
+.con a {
+	font-size: 14px; 
+	color: #A4A4A4;
+	cursor: pointer;
+}
+.con a:hover {  
+	color: #51504C; 
+}
+img {
+	vertical-align: top;
 }
 
 /**从1~9**/
@@ -88,6 +88,7 @@ img {
 	left: 0;
 	width: 725px;
 	height: 372px;
+	cursor: pointer;
 	opacity: 0;
 } 
 .slider-desc {
@@ -107,6 +108,7 @@ img {
 	left: 0;
 	opacity: 0;
 	margin-left: 30px;
+	cursor: pointer;
 	font-size: 20px; 
 	line-height: 56px;
 	color: #fff;
@@ -117,6 +119,7 @@ img {
 	z-index: 10;
 	width: 40px;
 	height: 40px;	
+	cursor: pointer;
 	opacity: 0.3;
 	filter:alpha(opacity=30);
 }
@@ -525,10 +528,11 @@ img {
 	text-align: center;
 }
 .onroad-slider-pic li img { 
+	overflow: hidden;
 	width: 61px;
 	height: 61px; 
 	margin-bottom: 5px;
-	overflow: hidden;
+	cursor: pointer;
 } 
 .onroad-slider-pic li a {
 	font-size: 12px;
@@ -539,11 +543,13 @@ img {
 	position: absolute;
 	top: 29px;
 	left: 0;
+	cursor: pointer;
 }
 .onroad-peo-con .onroad-nextbtn {
 	position: absolute;
 	top: 29px;
 	right: 0;
+	cursor: pointer;
 } 
 
 /***第4块 线路排名、越野中国、中国瞳孔***/
@@ -766,13 +772,13 @@ img {
 	float: left;
 	margin-top: 10px;
 }
-.cfour-eye-imgs img {
+.cfour-eye-imgs a {
 	overflow: hidden;
 	float: left; 
 	width: 131px;
 	height: 85px;	
 }
-.cfour-eye-imgs .first-img {
+.cfour-eye-imgs a.first-img {
 	float: left;
 	margin-right: 15px;
 } 
@@ -1096,46 +1102,7 @@ img {
 	width: 430px;
 	height: 226px; 
 	margin-left: 32px; 
-}
-.ceight-pic-con li {
-	position: absolute; 
-	width: 204px;
-	height: 134px;
-	overflow: hidden;
 } 
-.ceight-pic-con li.img1 {	
-	top: 40px;
-	left: 0;
-	z-index: 0;
-	opacity: 0;
-}
-.ceight-pic-con li.img2 {
-	top: 40px;
-	left: 34px;
-	z-index: 2;
-	opacity: 1;
-}
-.ceight-pic-con li.img3 {
-	top: 20px;
-	left: 90px;
-	z-index: 3;
-	width: 255px;
-	height: 168px;
-	opacity: 1;
-}
-.ceight-pic-con li.img4 {
-	top: 40px;
-	right: 34px;
-	z-index: 2;
-	opacity: 1;
-}
-.ceight-pic-con li.img5 {
-	top: 40px;
-	right: 0;
-	z-index: 0;
-	opacity: 0;
-}
-
 .ceight-pic-con1 {
 	position: relative;
 	width: 427px;
@@ -1176,7 +1143,7 @@ img {
 	height: 95px;
 }
 .ceight-media-con2 ul {
-	float:left;
+	float: left;
 	height: 75px;
 	margin-top: 12px;
 }
