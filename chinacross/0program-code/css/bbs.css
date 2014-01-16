@@ -23,11 +23,11 @@
 	height:49px;
 	border-bottom:4px solid #e6492d;
 }
-.bbs-busl var{
+.bbs-bus .bbs-busl var{
 	position:absolute;
 	height:25px;
 	width:25px;
-	top:55px;
+	margin-top:10px;
 	background:url(../images/pic.gif) -100px -30px no-repeat;
 }
 .bbs-busl span,.bbs-busr span{
