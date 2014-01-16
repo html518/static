@@ -301,8 +301,15 @@ a{
 	height:20px;
 	line-height:20px;
 	padding-left:1px;
+	font-weight:bold;
 	font-size:16px;
 	overflow:hidden;
+}
+.cro-car h4 a{
+	color:#313234;
+}
+.cro-car h4 a:hover{
+	color:red;
 }
 .cro-car dd b{
 	float:left;
@@ -312,6 +319,9 @@ a{
 	font-size:14px;
 	font-weight:normal;
 	overflow:hidden;
+}
+.cro-car dd b:hover{
+	color:black;
 }
 .cro-car dd span{
 	padding-left:1px;
@@ -338,6 +348,9 @@ a{
 	line-height:40px;
 	font-size:14px;
 	overflow:hidden;
+}
+.cro-own li span:hover{
+	color:black;
 }
 .cro-own li span{
 	padding-left:5px;
@@ -381,10 +394,17 @@ a{
 	font-size:16px;
 	color:#313234;
 	padding-left:2px;
+	font-weight:bold;
+}
+.cro-challenges h4 a:hover{
+	color:red;
 }
 .cro-challenges dd span{
 	font-size:14px;
 	color:#7d7f82;
+}
+.cro-challenges dd span:hover{
+	color:black;
 }
 /* 官方活动结束 */
 /* 精彩分享 */
@@ -660,7 +680,7 @@ a{
 .cro-tab{
 	width:588px;
 	height:330px;
-	margin:0 auto;
+	margin:7px auto 0;
 	padding-top:1px;
 	border:1px solid #dad9d9;
 	font-size:14px;
@@ -717,6 +737,9 @@ a{
 	margin-left:5px;
 	color:#797677;
 	overflow:hidden;
+}
+.cro-tab-con span:hover{
+	color:black;
 }
 .cro-tab .cro-tab-con i{
 	color:#bbbbbc;
@@ -852,7 +875,7 @@ a{
 	color:#717273;
 }
 .cro-made-con h3 a:hover{
-	color:block;
+	color:black;
 }
 .cro-made-con dd p{
 	width:224px;
@@ -864,7 +887,7 @@ a{
 	color:#717273;
 }
 .cro-made-con p a:hover{
-	color:block;
+	color:black;
 }
 /* 相关报道 */
 .cro-report{
@@ -905,10 +928,16 @@ a{
 	font-size:16px;
 	color:#313234;
 }
+.cro-report dd h3 a:hover{
+	color:red;
+}
 .cro-report dd span{
 	padding-left:5px;
 	font-size:14px;
 	color:#7d7f82;
+}
+.cro-report dd span:hover{
+	color:black;
 }
 .cro-report .cro-right{
 	float:right;
