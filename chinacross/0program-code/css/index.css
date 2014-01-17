@@ -227,9 +227,6 @@ img {
 	word-wrap: break-word;
 	white-space: normal;
 } 
-.cone-info li a:hover {
-	background: #F0F4F7;
-}  
 /**公益活动**/
 .cone-benefit .cone-right-head a {
 	float: left;

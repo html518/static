@@ -9,6 +9,14 @@ function coneSliMove() {
 	getConeImgIndex();
 	coneSliMoveTo(); 
 }; 
+
+// 改变背景色
+$("#lastNews>li>a").mouseenter(function() {
+	$(this).parent().css("background" , "#F0F4F7");
+}).mouseleave(function() {
+	$(this).parent().css("background" , "");
+});
+
 // 获取图片index
 function getConeImgIndex() {
 	coneImgIndex++;
