@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/common.css" />
 3、JavaScript文件放到js文件夹里。
 4、图片放到images文件夹中。
+5、单个页面的完成版才可以上传到github上。
 
 写作注意事项：
 
