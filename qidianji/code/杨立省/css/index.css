@@ -1,0 +1,424 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+	font-family: "宋体";
+}
+ul {
+	list-style: none;
+}
+img {
+	border: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+var,em {
+	font-style: normal;
+}
+strong {
+	font-weight: normal;
+}
+.cf:before,
+.cf:after {
+	content: "";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+
+/***** 框架 ******/
+.recruitment {
+	width: 1280px;
+	height: 448px;
+	margin: 0 auto;
+	padding-top: 262px;
+	background: #fff url(../images/index-recruitment.jpg) 50% 73px no-repeat;
+	border-bottom: 1px solid #ebd19f;
+}
+.recruitment-con {
+	width: 933px;
+	margin: 0 auto;
+}
+.recruitment-cons {
+	width: 249px;
+	border: 1px solid #e7e7e7;
+	margin: 0 30px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+.recruitment-cons:hover {
+	border-color: #ef9f08;
+}
+.recruitment-more {
+	width: 161px;
+	height: 19px;
+	margin: 62px auto 0 auto;
+	
+}
+.recruitment-more a {
+	width: 161px;
+	height: 18px;
+	background: #fff url(../images/index-more.gif) 0 0 no-repeat;
+	float: left;
+}
+.investors {
+	width: 1280px;
+	height: 353px;
+	margin: 0 auto;
+	padding-top: 268px;
+	background: #ffefd2 url(../images/index-investors.jpg) 50% 70px no-repeat;
+	border-top: 1px solid #fff;
+}
+.investors-con {
+	width: 920px;
+	margin: 0 auto;
+}
+.investors-cons {
+	width: 230px;
+	display: inline;
+	float: left;
+
+	text-align: center;
+}
+.investors-more {
+	width: 161px;
+	height: 19px;
+	margin: 62px auto 0 auto;
+	
+}
+.investors-more a {
+	width: 161px;
+	height: 19px;
+	background: #ffefd2 url(../images/index-more.gif) 0 -18px no-repeat;
+	float: left;
+}
+.project {
+	width: 1280px;
+	height: 624px;
+	margin: 0 auto;
+	padding-top: 202px;
+	background: #fff url(../images/index-project.jpg) 50% 87px no-repeat;
+	border-bottom: 1px solid #ebd19f;
+}
+.project-con {
+	width: 930px;
+	height: 429px;
+	margin: 0 auto;
+}
+.project-cons,
+.project-hidden {
+	width: 250px;
+	height: 429px;
+	margin: 0 30px;
+	display: inline;
+	float: left;
+}
+.project-avatar {
+	width: 250px;
+	height: 98px;
+}
+.cons-info {
+	width: 248px;
+	height: 329px;
+	border: 1px solid #e7e7e7;
+	background: #fff;
+}
+.project-more {
+	width: 161px;
+	height: 19px;
+	margin: 62px auto 0 auto;
+	
+}
+.project-more a {
+	width: 161px;
+	height: 19px;
+	background: #fff url(../images/index-more.gif) 0 -37px no-repeat;
+	float: left;
+}
+.incubation {
+	width: 1280px;
+	height: 587px;
+	margin: 0 auto;
+	padding-top: 243px;
+	background: #ffefd2 url(../images/index-incubation.jpg) 50% 50px no-repeat;
+	border-top: 1px solid #fff;
+}
+.incubation-con {
+	width: 930px;
+	height: 429px;
+	margin: 0 auto;
+}
+.incubation-cons,
+.incubation-hidden {
+	width: 250px;
+	height: 429px;
+	margin: 0 30px;
+	display: inline;
+	float: left;
+}
+.incubation-avatar {
+	width: 250px;
+	height: 98px;
+}
+.incubation-info {
+	width: 248px;
+	height: 329px;
+	border: 1px solid #e7e7e7;
+}
+.incubation-more {
+	width: 161px;
+	height: 19px;
+	margin: 62px auto 0 auto;
+	
+}
+.incubation-more a {
+	width: 161px;
+	height: 19px;
+	background: #ffefd2 url(../images/index-more.gif) 0 -56px no-repeat;
+	float: left;
+}
+/***** recruitment *****/
+.recruitment-cons img,
+.recruitment-cons h3,
+.recruitment-cons span,
+.recruitment-cons var,
+.recruitment-cons p,
+.recruitment-cons ul {
+	float: left;
+}
+.recruitment-cons img {
+	width: 64px;
+	height: 64px;
+	margin: 14px 10px 13px 18px;
+}
+.recruitment-cons h3 {
+	width: 150px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 24px;
+	overflow: hidden;
+}
+.recruitment-cons h3 a {
+	font-size: 16px;
+	color: #333;
+}
+.recruitment-cons span,
+.recruitment-cons var {
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #969696;
+}
+.recruitment-cons var {
+	margin-left: 12px;
+}
+.recruitment-cons p {
+	width: 218px;
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	margin: 0 14px 15px 18px;
+	font-size: 12px;
+	color: #808080;
+}
+.recruitment-cons ul {
+	width: 218px;
+	border-top: 1px solid #f2f2f2;
+	margin-left: 18px;
+	padding: 8px 0 12px 0;
+}
+.recruitment-cons ul li{
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.recruitment-cons em {
+	width: 50px;
+	color: #989898;
+	float: left;
+	overflow: hidden;
+}
+.recruitment-cons strong {
+	width: 160px;
+	color: #2f2f2f;
+	float: right;
+	text-align: right;
+	overflow: hidden;
+}
+.recruitment-cons h5 {
+	width: 55px;
+	height: 55px;
+	background: url(../images/index-park.gif) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}
+
+/***** investors *****/
+.investors-cons div {
+	width: 128px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.investors-cons img {
+	width: 93px;
+	height: 95px;
+}
+.investors-cons strong a {
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #725c2b;
+}
+.investors-cons p {
+	width: 128px;
+	height: 36px;
+	line-height: 18px;
+	margin: 2px auto 0 auto;
+	overflow: hidden;
+}
+.investors-cons p a {
+	color: #8b7017;
+}
+/***** project *****/
+.project-avatar {
+	text-align: center;
+}
+.project-avatar img {
+	width: 47px;
+	height: 47px;
+}
+.project-avatar h3 { 
+	font-size: 12px;
+	font-weight: normal;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.project-avatar h3 a {
+	color: #979797;
+}
+.cons-info img,
+.cons-info h3,
+.cons-info span,
+.cons-info var,
+.cons-info p,
+.cons-info ul {
+	float: left;
+}
+.cons-info img {
+	width: 64px;
+	height: 64px;
+	margin: 14px 10px 13px 18px;
+}
+.cons-info h3 {
+	width: 150px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 24px;
+	overflow: hidden;
+}
+.cons-info h3 a {
+	font-size: 16px;
+	color: #333;
+}
+.cons-info span,
+.cons-info var {
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #969696;
+}
+.cons-info var {
+	margin-left: 12px;
+}
+.cons-info p {
+	width: 218px;
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	margin: 0 14px 15px 18px;
+	font-size: 12px;
+	color: #808080;
+}
+.cons-info ul {
+	width: 218px;
+	border-top: 1px solid #f2f2f2;
+	margin-left: 18px;
+	padding: 8px 0 12px 0;
+}
+.cons-info ul li{
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.cons-info em {
+	width: 50px;
+	color: #989898;
+	float: left;
+	overflow: hidden;
+}
+.cons-info strong {
+	width: 160px;
+	color: #2f2f2f;
+	float: right;
+	text-align: right;
+	overflow: hidden;
+}
+.cons-info h5 {
+	display: none;
+}
+.index-rate {
+	margin: 5px 14px 0 18px;
+	line-height: 24px;
+}
+.rate-outer {
+	width: 215px;
+	height: 7px;
+	background: #ededed;
+	overflow: hidden;
+	display: inline;
+	float: left;
+	margin-bottom: 16px;
+}
+.rate-inner {
+	width: 70%;
+	height: 7px;
+	background: #14ad74;
+}
+.rate-state {
+	width: 50px;
+	overflow: hidden;
+	float: left;
+	color: #555;
+}
+.rate-value {
+	width: 160px;
+	overflow: hidden;
+	float: right;
+	font-weight: bold;
+	text-align: right;
+	color: #333;
+}
+.cons-info-hidden {
+	position: relative; 
+}
+div.cons-info-hidden h5{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 331px;
+	background: #ededed url(../images/index-hidden-bg.jpg) 0 0 no-repeat;
+	display: block;
+}
