@@ -621,11 +621,14 @@
 	font-weight: normal;
 	text-align: right;
 }
+.poineerpro-editinfo table {
+	margin-top: 40px;
+}
 .poineerpro-editinfo table td  {
 	height: 78px;
 }
 .poineerpro-editinfo table .poineerpro-editinfo-prologo {
-	line-height: 78px;
+	/*line-height: 78px;*/
 }
 .poineerpro-editinfo input , .poineerpro-editprogress input {
 	width: 437px;
@@ -679,6 +682,7 @@
 }
 .poineerpro-editinfo .poineerpro-editinfo-filesub input , .poineerpro-editprogress .poineerpro-editprogress-filesub input {
 	margin-left: 24px;
+	margin-top: 23px;
 	width: 145px;
 	height: 36px;
 	background: #4b99e4;
