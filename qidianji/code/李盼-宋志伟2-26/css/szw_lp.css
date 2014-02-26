@@ -740,10 +740,8 @@ table img{margin-left:40px}
 /*prominent-investors-regist.html*/
 /*基本信息*/
 .proreg-tab{
-	width:905px;
 	background:#fff;
 	overflow:hidden;
-	padding-left:55px;
 	padding-top:40px;
 }
 .proreg-tab table td{
@@ -779,7 +777,9 @@ table img{margin-left:40px}
 .ml-5{
 	*margin-left:-5px;
 }
-
+.ml-8{
+	*margin-left:-15px;
+}
 
 /*投资目标添加内容*/
 .apply-identity .proreg-where,.apply-identity .proreg-wheres{
