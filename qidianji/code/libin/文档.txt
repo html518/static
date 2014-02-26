@@ -1,0 +1,4 @@
+联合投资者简历   25   co-financier-resume.html
+知名投资者简历   27   prominent-investors-resume.html
+
+尚未解决BUG （IE7下，select的最后的下拉背景图 不显示）

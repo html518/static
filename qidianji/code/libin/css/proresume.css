@@ -1,0 +1,573 @@
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #e9eaec;
+} 
+.proresume {
+	width: 960px;  
+	padding-bottom: 175px;
+	margin: 0 auto;
+	background: #e9eaec;
+}
+ 
+.proresume-nav {
+	width: 100%;
+	height: 85px;
+	border: 1px solid #cbcbcb;
+	border-top: none;
+	background: #fff;
+} 
+.proresume-nav li {
+	float: left;
+	width: 319px;
+	height: 80px;
+	border-right: 1px solid #cfcfcf;
+	background: #e8e8e8;
+	line-height: 80px;
+	text-align: center;
+}
+.proresume-nav .personal-nav-last {
+	border-color: transparent;
+}
+.proresume-nav h1 a {
+	color: #363636;
+	font-size: 18px;
+	font-weight: bold;
+}
+.proresume .proresume-select { /* personal-nav和subnav通过加select类名来改变选中的状态 */
+	background: #fff;
+}
+.proresume-info {
+	position: relative;
+	width: 100%;
+	height: 195px;
+	margin-top: 30px;
+	background: #fff;
+}
+.proresume-info div {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	color: #4c98ec;
+	cursor: pointer;
+} 
+.proresume-info dl {
+	position: absolute;
+	top: 40px;
+	left: 34px;
+}
+.proresume-info dl dt {
+	float: left;
+	width: 102px;
+	height: 102px; 
+	background: #e9eaec;
+}
+.proresume-info dl dt img {
+	width: 102px; 
+	height: 102px; 
+}
+.proresume-info dl dd {
+	float: left;  
+	margin-left: 20px; 
+	display: inline;
+}
+.proresume-info dl dd h3 {
+	font-size: 18px;
+	line-height: 19px;  
+}
+.proresume-info dl dd input { 
+	width: 447px; 
+	height: 36px;  
+	font-size: 16px; 
+	margin-top: 14px;   
+	padding-left: 8px;
+	border: 1px solid #ccc;   
+	outline: none;
+}
+.proresume-info dl dd p { 
+	color: #545454;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 14px;
+}
+
+.proresume-nav-three { 
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	background: #e8e8e8;
+}
+.proresume-nav-three a {
+	color: #313131;
+	padding: 22px 45px 20px 46px; 
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.proresume-nav-three a.active {
+	background: #fff;
+} 
+.proresume-left { 
+	width: 680px;
+	float: left;
+} 
+.proresume-left-head {
+	padding: 19px 0;
+	font-size: 16px; 
+}
+.proresume-left-head strong {
+	font-weight: bold;
+	margin-left: 31px;
+	float: left;
+}
+.proresume-left-head span {
+	color: #469bec; 
+	margin-right: 10px;
+	cursor: pointer;
+	float: right;
+}   
+.proresume-history-list {
+	width: 306px; 
+	height: 67px;
+	padding: 32px 0 49px 34px;
+	background: #fff;
+	float: left;
+}
+.proresume-history-list dt {
+	margin-right: 10px;
+	float: left;
+}
+.proresume-history-list dt img {
+	width: 67px;
+	height: 67px;
+}
+.proresume-history-list dd {
+	width: 220px;
+	float: left;
+}
+.proresume-history-list dd strong {
+	width: 100%;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 6px 0;
+	margin-bottom: 6px;
+	float: left;
+} 
+.proresume-history-list dd var { 
+	width: 100%;
+	line-height: 12px;
+	color: #999999;
+	font-size: 12px;  
+	margin-bottom: 6px;
+	float: left;
+} 
+.proresume-history-list dd em,.proresume-history-list dd span {
+	line-height: 12px;
+	color: #999999;
+	font-size: 12px; 
+	margin-right: 19px;
+	float: left;
+}   
+.proresume-history {
+	margin-top: 11px;  
+}
+.proresume-aim {
+	margin-top: 28px; 
+}
+.proresume-aim .proresume-left-head {
+	padding: 22px 0;
+} 
+.proresume-aim-list {
+	width: 532px;
+	padding: 0 104px 50px 44px; 
+	background: #fff;  
+	float: left;
+}
+.proresume-aim-list dl {
+	width: 532px;   
+	margin: 40px 0 0 0;
+}
+.proresume-aim-list-item {
+	width: 95px; 
+	height: 38px; 
+	color: #535353;
+	text-align: center; 
+	line-height: 38px;   
+	font-size: 12px; 
+	float: left;
+} 
+.proresume-aim-list dd {
+	float: left;
+	position: relative;
+} 
+.proresume-aim-list dd input { 
+	width: 424px;
+	height: 36px;  
+	font-size: 14px;
+	padding-left: 8px;
+	float: left;
+} 
+.proresume-aim-list dt {
+	width: 532px;
+	margin: 0 0 20px 0;
+	padding-left: 95px;
+	float: left; 
+}
+.proresume-aim-list dt div { 
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	padding: 0 9px; 
+	margin: 15px 10px 0 0; 
+	border: 1px solid #bcbcbc;
+	float: left;
+	white-space: nowrap; 
+} 
+.proresume-aim-list dt div var {
+	color: #999;float: left;
+}
+.proresume-aim-list dt div em {
+	float: left;
+}
+.proresume-aim-list dt div span { 
+	width: 7px;
+	height: 18px;
+	margin-left: 7px; float: left;
+	background: url('../images/pro-aim-del.jpg') 0 center no-repeat;
+} 
+.proresume-work,.proresume-education {
+	margin-top: 24px;
+}
+.proresume-work-list,.proresume-education-list {
+	color: #575757;
+	padding: 28px 0 39px 35px; 
+	background: #fff;
+}
+.proresume-work-list li,.proresume-education-list li {
+	height: 30px; 
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+}   
+.proresume-right {
+	width: 260px;
+	margin-top: 11px;
+	float: right;
+}
+.proresume-recommend-info { 
+	padding: 15px 22px 3px 24px;
+	background: #fff;
+} 
+.proresume-recommend-info dt { 
+	margin-right: 11px;
+	float: left;
+}
+.proresume-recommend-info dt img {
+	width: 64px;
+	height: 64px; 
+} 
+.proresume-recommend-info dd {
+	width: 130px; 
+	float: left;
+}
+.proresume-recommend-info dd strong {
+	width: 100%;
+	font-size: 16px; 
+	font-weight: bold;
+	margin: 15px 0 7px 0;
+	float: left;
+}
+.proresume-recommend-info dd var,.proresume-recommend-info dd span { 
+	color: #999999;
+	font-size: 12px;
+	margin-right: 19px;
+	float: left;
+}
+.proresume-recommend-info p {
+	color: #808080;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 13px 0 15px 0;
+	margin-bottom: 9px;
+	border-bottom: 1px solid #f2f2f2; 
+	float: left; 
+}
+.proresume-recommend-info ul {
+	width: 100%;
+	float: left;
+}
+.proresume-recommend-info ul li { 
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px; 
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.proresume-recommend-info ul li var {
+	color: #959595;
+	float: left;
+}
+.proresume-recommend-info ul li em {
+	float: right;
+}
+.proresume-recommend-info-plan {
+	font-size: 12px;
+	margin-top: 17px;
+	float: left;
+}
+.proresume-recommend-info-plan div {
+	width: 200px;
+	height: 14px;  
+	background: transparent;   
+	float:left; 
+	overflow: hidden;
+}
+.proresume-recommend-info-plan div p {
+	width: 170px;
+	height: 14px;  
+	padding: 0;
+	background: #13acb3;
+}
+.proresume-recommend-info-plan span {
+	padding: 22px 0;
+	float: left;
+}
+.proresume-recommend-info-plan var {
+	padding: 22px 0;
+	float: right;
+}
+.proresume-itemlink {
+	margin-top: 22px; 
+	text-align: center;
+}
+.proresume-itemlink a {
+	color: #ab681a;
+	font-weight: bold;
+	font-size: 16px;
+} 
+
+/*编辑按钮 隐藏 （加一个 edithide 类名）*/
+.edithide {
+	display: none;
+}
+
+/*遮盖层*/
+.proresumelayer { 
+	display: none;
+}
+.proresume-layer1 { 
+	width: 100%;
+	height: 100%; 
+	background: #747576; opacity: 0.5;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 5;
+}
+.proresume-layer2 {
+	width: 922px;   
+	padding: 0 12px 74px 28px; 
+	background: #fff; 
+	position: absolute; 
+	margin-left: -480px;
+	left: 50%;
+	top: 100px;
+	z-index: 1000;
+}  
+.closebj {
+	width: 16px;
+	height: 16px;
+	background: url('../images/edit-bj.png') 0 -16px no-repeat;
+	position: absolute;
+	top: -8px;
+	right: -8px;
+}
+.proresume-layer2 dl { 
+	margin-bottom: 35px;
+}
+.proresume-layer2 dt { 
+	font-weight: bold;
+	font-size: 16px;
+	padding: 30px 33px;
+}
+.proresume-layer2 dd {
+	width: 208px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;  
+	margin: 16px 22px 16px 0;
+	background: #c7b99e;
+	float: left;
+	position: relative;  
+}
+.proresume-layer2 dd var { 
+	width: 100%;
+	height: 100px;
+	font-size: 14px; 
+	text-align: center;
+	line-height: 60px; 
+	float: left;
+}
+.proresume-layer2 dd span {
+	width: 16px;
+	height: 16px;
+	background: url('../images/edit-bj.png') 0 0 no-repeat;
+	position: absolute;
+	right: -8px;
+	top: -8px; 
+}
+.proresume-layer2 .newdd  { 
+ 	background: #fff;
+}
+.proresume-layer2 .newdd var {  
+	width: auto;
+	height: auto; margin-left: 50px;margin-top: 23px;
+	font-size: 16px;  
+	line-height: 16px;  
+	padding-left: 18px;
+ 	background: url('../images/edit-bj.png') 0 -32px no-repeat;
+} 
+.proresume-layer2-form li {
+	width: 100%;
+	margin-bottom: 43px;
+	float: left;  
+}
+.proresume-layer2-form li span {
+	width: 84px; 
+	height: 38px;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: right;
+	margin-right: 22px;
+	float: left;
+} 
+.proresume-layer2-form li.proresume-layer2-form-first span,
+.proresume-layer2-form li.proresume-layer2-form-first .input-file,
+.proresume-layer2-form li.proresume-layer2-form-first .file-btn {
+	margin-top: 14px;
+	margin-bottom: 14px;   
+}
+.proresume-layer2-form p {   
+	float: left;  
+	position: relative;
+}
+.proresume-layer2-form li p input {
+	width: 446px;
+	height: 36px;
+	font-size: 14px; 
+	padding-left: 8px;
+	float: left;
+}
+.proresume-layer2-form li p img {
+	width: 64px;
+	height: 64px;
+	margin: 0 28px 0 19px;
+	border: 1px solid #cccccc; 
+	float: left;
+}  
+.proresume-layer2-form .file-btn {
+	width: 147px;
+	height: 38px;
+	float: left;  
+} 
+.proresume-layer2-form .file-btn {
+	color: #fff;
+	border: none;
+	background: #4b97e3; 
+}  
+.proresume-layer2-subbnt {
+	width: 232px;
+	margin: 0 auto;
+}
+.proresume-layer2-subbnt input {
+	width: 232px;
+	height: 49px;
+	font-size: 14px;
+	margin: 52px 0; 
+	border: 1px solid #4b97e5;
+	background: #4b99e4;
+} 
+
+/*上传文件 input */
+.input-file {
+	width: 145px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ccc; float:left;
+	background: #fff url('../images/input-file.gif') 5px 7px no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #8c8a8a;
+	text-indent: 38px;
+	margin-right: 22px; 
+	overflow: hidden;
+	position: relative;
+}
+.input-file-btn {
+	width: 145px;
+	height: 36px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0;
+	filter: alpha(opacity: 0);
+	font-size: 36px;
+	cursor: pointer;
+}
+ 
+/*下拉列表 select*/
+.form-select{
+	display: inline-block;
+	height: 18px;
+	border: 1px solid #ccc;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.form-select div{
+	float: left;
+	width: 100%;
+	height: 18px;	
+	overflow: hidden;
+	margin-right: -23px;
+}
+.form-select select{
+	margin-top: -2px;
+	margin-left: -2px;
+	*margin-top: -4px;
+	margin-right: -2px;
+	width: 100%;
+	background: transparent url('../images/select.jpg') no-repeat;  
+	border: none;
+	outline: none;
+	vertical-align: middle; 
+}
+div.selectMask{
+	float: left;
+	width: 21px;
+	height: 100%;
+	background: white;
+	overflow: hidden;
+} 
+
+/* 需要修改的东西 */ 
+.proresume-aim-list dl dd .form-select{
+	width: 430px;  font-size: 14px; line-height: 14px;
+}
+.proresume-aim-list dl dd .form-select select{
+	background-position: 397px center;
+	*background-position: 395px center;
+}
+.proresume-layer2-form li .form-select{
+	width: 450px;  font-size: 14px; line-height: 14px;
+}
+.proresume-layer2-form li .form-select select{  
+	background-position: 417px center;
+	*background-position: 415px center;
+} 
