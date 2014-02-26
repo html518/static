@@ -1,0 +1,413 @@
+body{
+	background:#e9eaec;
+}
+.coinfo-con{
+	width:1280px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+/******顶部标题	******/
+.coinfo-title{
+	width:962px;
+	height:85px;
+	border:1px solid #ccc;
+	border-top:none;
+	margin:0 auto;
+}
+.coinfo-title a,.coinfo-title span{
+	float:left;
+	width:320px;
+	height:85px;
+	font-size:18px;
+	text-align:center;
+	line-height:85px;
+	color:#333333;
+}
+.coinfo-title span{
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background:#fff;
+}
+/******某某的个人介绍 ******/
+.coinfo-resume{
+	width:962px;
+	height:195px;
+	margin:30px auto;
+	background:#fff;
+}
+.coinfo-resume img{
+	float:left;
+	width:102px;
+	height:102px;
+	background:#e9eaec;
+	margin:40px auto auto 34px;
+}
+.coinfo-resume dl{
+	float:left;
+	width:800px;
+	margin:40px auto auto 20px;
+	overflow:hidden;
+}
+.coinfo-resume dt{
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	width:100%;
+}
+.coinfo-resume dd{
+	float:left;
+	width:100%;
+	margin-top:13px;
+}
+.coinfo-resume input{
+	float:left;
+	width:436px;
+	height:36px;
+	line-height:36px;
+	font-size:14px;
+	padding-left:0.5em;
+	border:1px solid #ccc;
+	color:#ccc;
+}
+.coinfo-resume span{
+	float:left;
+	margin-right:10px;
+	font-size:16px;
+	color:#555555;
+}
+/******个人信息投资信息标题	******/
+.coinfo-peo-tit{
+	width:960px;
+	height:60px;
+	margin:0 auto;
+	border:1px solid #ccc;
+}
+.coinfo-peo-tit a,.coinfo-peo-tit span{
+	float:left;
+	width:163px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+	font-size:18px;
+	color:#333;
+	border-right:1px solid #ccc;
+}
+.coinfo-peo-tit span{
+	background:#fff;
+}
+/******下面的一整块	******/
+.coinfo-primary{
+	width:960px;
+	overflow:hidden;
+	padding-bottom:20px;
+	margin:0 auto;
+	border:1px soldi red;
+}
+/******左上意向投资和编辑	******/
+.coinfo-operate{
+	float:left;
+	width:680px;
+	height:60px;
+}
+.coinfo-operate span{
+	float:left;
+	line-height:60px;
+	margin-left:33px;
+	font-weight:bold;
+}
+.coinfo-operate strong{
+	float:right;
+	line-height:60px;
+	margin-right:33px;
+	color:#4b98e5;
+	cursor:pointer;
+}
+/******左边	******/
+.coinfo-left-show{
+	float:left;
+	width:680px;
+	overflow:hidden;
+	padding-bottom:20px;
+	background:#fff;
+}
+/******每一个小块和大块是一整块 外面用一个div包裹	******/
+.coinfo-investment{
+	overflow:hidden;
+	position:relative;
+}
+/******!--右上角的删除按钮--	******/
+.coinfo-investment-delete{
+	position:absolute;
+	width:16px;
+	height:16px;
+	background:url(../images/fin-investor.png) -16px 0 no-repeat;
+	right:26px;
+	top:21px;
+	display:none;
+}
+.coinfo-investment-delete:hover{
+	background:url(../images/fin-investor.png) -16px -16px no-repeat;
+}
+/******左边小块	******/
+.coinfo-present{
+	float:left;
+	width:594px;
+	margin-left:45px;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+}
+.coinfo-present-fir{
+	float:left;
+	width:297px;
+	margin-top:30px;
+}
+.coinfo-present img{
+	float:left;
+	width:64px;
+	height:64px;
+}
+.coinfo-present dl{
+	float:left;
+	margin-left:10px;
+	width:223px;
+}
+.coinfo-present dt{
+	float:left;
+	width:100%;
+	font-size:16px;
+	font-weight:bold;
+	line-height:24px;
+}
+.coinfo-present dd{
+	float:left;
+	width:100%;
+}
+.coinfo-present dd span{
+	float:left;
+	font-size:14px;
+	line-height:22px;
+	color:#999;
+}
+.coinfo-present dd strong{
+	float:left;
+	margin-left:5px;
+	font-size:16px;
+	line-height:22px;
+}
+.coinfo-present p{
+	float:left;
+	width:297px;
+	line-height:20px;
+	font-size:12px;
+	color:#808080;
+	margin:20px auto;
+}
+/******左边大块	******/
+.coinfo-man-suggest{
+	float:left;
+	width:680px;
+	margin-top:20px;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.coinfo-man-suggest strong{
+	float:left;
+	width:680px;
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	color:#555555;
+	margin-left:45px;
+}
+.coinfo-people{
+	float:left;
+	width:280px;
+	margin:25px auto auto 40px;
+}
+.coinfo-people img{
+	float:left;
+	width:102px;
+	height:102px;
+}
+.coinfo-people dl{
+	float:left;
+	width:165px;
+	margin-left:13px;
+}
+.coinfo-people dt{
+	float:left;
+	width:100%;
+	line-height:24px;
+	font-size:14px;
+	color:#333;
+	font-weight:bold;
+}
+.coinfo-people dd{
+	float:left;
+	width:100%;
+}
+.coinfo-people dd p{
+	float:left;
+	line-height:20px;
+	font-size:12px;
+	color:#555;
+}
+.coinfo-people dd span{
+	float:left;
+	line-height:20px;
+	font-size:12px;
+	color:#888;
+}
+.coinfo-already{
+	float:left;
+	width:680px;
+	overflow:hidden;
+	padding-bottom:60px;
+}
+.coinfo-already strong{
+	float:left;
+	width:680px;
+	height:80px;
+	background:#e9eaec;
+	padding-left:33px;
+	color:#333;
+	line-height:80px;
+	font-size:16px;
+}
+.coinfo-already .coinfo-present{
+	border:none;
+}
+/******右边	******/
+.coinfo-right{
+	float:right;
+	width:260px;
+	padding-bottom:20px;
+	overflow:hidden;
+}
+.coinfo-right-title{
+	float:right;
+	width:260px;
+	margin-top:-60px;
+}
+.coinfo-right-title strong{
+	float:left;
+	line-height:60px;
+	margin-left:33px;
+}
+.coinfo-recommend{
+	float:right;
+	width:260px;
+	background:#fff;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.coinfo-recommend img{
+	float:left;
+	width:64px;
+	height:64px;
+	margin-left:24px;
+	margin-top:15px;
+}
+.coinfo-recommend dl{
+	float:left;
+	width:162px;
+	margin-left:10px;
+}
+.coinfo-recommend dt{
+	float:left;
+	width:162px;
+	line-height:22px;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	margin-top:15px;
+}
+.coinfo-recommend dd{
+	float:left;
+	width:162px;
+	line-height:22px;
+	font-size:14px;
+	color:#999;
+}
+.coinfo-recommend p{
+	float:left;
+	width:218px;
+	margin-left:24px;
+	border-bottom:1px solid #f2f2f2;
+	padding-bottom:20px;
+	color:#808080;
+	line-height:20px;
+	font-size:12px;
+	margin-top:10px;
+}
+.coinfo-recommend ul{
+	float:left;
+	width:220px;
+	margin-left:24px;
+}
+.coinfo-recommend li{
+	float:left;
+	width:220px;
+	height:30px;
+}
+.coinfo-recommend li span{
+	float:left;
+	line-height:30px;
+	font-size:12px;
+	color:#999;
+}
+.coinfo-recommend li var{
+	float:right;
+	line-height:30px;
+	font-size:12px;
+	color:#333;
+	font-style:normal;
+}
+.coinfo-progress{
+	float:left;
+	margin-top:16px;
+	background:#eee;
+	position:relative;
+	width:220px;
+	height:7px;
+	margin-left:24px;
+}
+.coinfo-progress div{
+	position:absolute;
+	left:0;
+	top:0;
+	background:#12ad75;
+	width:50%;
+	height:100%;
+}
+.coinfo-in{
+	float:left;
+	width:220px;
+	height:24px;
+	margin-left:24px;
+	margin-top:15px;
+}
+.coinfo-in span{
+	float:left;
+	line-height:24px;
+	font-size:12px;
+	color:#555;
+}
+.coinfo-in strong{
+	float:right;
+	line-height:24px;
+	font-size:12px;
+	color:#333;
+}
+.coinfo-more-recommend a{
+	float:right;
+	margin-top:20px;
+	width:260px;
+	height:24px;
+	font-size:16px;
+	line-height:24px;
+	text-align:center;
+	color:#a76b13;
+}

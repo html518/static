@@ -55,6 +55,8 @@ body{font-size:12px}
 	margin-top:60px;
 	text-align:center;
 	font-weight:bold;
+	cursor: hand;
+	cursor: pointer;
 }
 .parconf-visit{
 	color:white;
@@ -69,6 +71,8 @@ body{font-size:12px}
 	border:none;
 	text-align:center;
 	font-weight:bold;
+	cursor: hand;
+	cursor: pointer;
 }
 
 /*合伙人注册页面*/

@@ -1,0 +1,589 @@
+body{
+	background:#e9eaec;
+	position:relative;
+}
+.fin-con{
+	width:964px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-bottom:143px;
+}
+.fin-con-hd{
+	width:962px;
+	height:85px;
+	border:1px solid #cccccc;
+	border-top:none;
+}
+.fin-con-hd a,.fin-con-hd span{
+	float:left;
+	width:320px;
+	height:85px;
+	text-align:center;
+	line-height:85px;
+	font-size:18px;
+	color:#333;
+	border-left:1px solid #ccc;
+}
+.fin-con-hd span{
+	border:none;
+	background:#fff;
+}
+.fin-con-hd a{
+}
+.fin-con-xxpro{
+	width:960px;
+	height:195px;
+	background:#fff;
+	margin:31px auto 0 auto;
+}
+.fin-con-xxpro img{
+	float:left;
+	width:102px;
+	height:102px;
+	margin:41px 19px auto 35px;
+}
+.fin-con-xxpro dl{
+	float:left;
+	margin:41px auto auto;
+	width:700px;
+}
+.fin-con-xxpro dl dt{
+	float:left;
+	width:100%;
+	height:22px;
+	font-size:20px;
+}
+.fin-con-xxpro dl dd{
+	float:left;
+	width:700px;
+}
+.fin-con-xxpro dl input{
+	float:left;
+	width:438px;
+	height:36px;
+	line-height:36px;
+	margin-top:13px;
+	font-size:14px;
+	color:#ababab;
+	padding-left:0.5em;
+	border:1px solid #ccc;
+}
+.fin-con-xxpro dl span{
+	float:left;
+	height:20px;
+	line-height:20px;
+	margin-right:28px;
+	margin-top:10px;
+	font-size:14px;
+	color:#555;
+}
+.fin-con-pro-them{
+	width:962px;
+	height:60px;
+	margin:30px auto auto;
+	border:1px solid #ccc;
+}
+.fin-con-pro-them a,.fin-con-pro-them span{
+	float:left;
+	width:159px;
+	height:60px;
+	border-right:1px solid #ccc;
+	text-align:center;
+	line-height:60px;
+	font-size:18px;
+	color:#333;
+}
+.fin-con-pro-them span{
+	background:#fff;
+}
+.fin-con-financ{
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.fin-con-fin-lf{
+	float:left;
+	width:680px;
+	overflow:hidden;
+}
+.fin-con-fin-func{
+	width:680px;
+	height:60px;
+}
+.fin-con-fin-now{
+	float:left;
+	margin-left:32px;
+	height:60px;
+	font-size:16px;
+	line-height:60px;
+	font-weight:bold;
+	color:#333;
+}
+.fin-con-fin-edit1,.fin-con-fin-edit2{
+	float:right;
+	margin-right:32px;
+	height:60px;
+	font-size:16px;
+	color:#4b98e5;
+	line-height:60px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.fin-con-fin-deta{
+	background:#fff;
+	overflow:hidden;
+}
+.fin-con-fin-title{
+	width:594px;
+	margin:8px auto auto;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+}
+.fin-con-fin-tit{
+	float:left;
+	width:100%;
+	height:60px;
+	font-size:14px;
+	line-height:60px;
+	font-weight:bold;
+	color:#555555;
+}
+.fin-con-fin-count{
+	float:left;
+	margin-left:-36px;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.fin-con-fin-count div{
+	float:left;
+	width:174px;
+	height:76px;
+	background:#ffedc9;
+	margin-left:36px;
+	margin-bottom:20px;
+}
+.fin-con-fin-count span{
+	float:left;
+	width:100%;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	font-size:14px;
+	color:#555555;
+}
+.fin-con-fin-list{
+	width:594px;
+	margin:35px auto auto;
+	padding-bottom:25px;
+	overflow:hidden;
+}
+.fin-con-fin-peo{
+	float:left;
+	width:100%;
+	height:26px;
+	line-height:26px;
+}
+.fin-con-fin-list dl{
+	float:left;
+	width:297px;
+	height:110px;
+	margin-top:25px;
+}
+.fin-con-fin-list dt{
+	float:left;
+	width:102px;
+	height:102px;
+	margin:4px 14px auto auto ;
+}
+.fin-con-fin-list dt img{
+	width:102px;
+	height:102px;
+}
+.fin-con-fin-list dd{
+	float:left;
+	width:175px;
+	line-height:22px;
+	overflow:hidden;
+}
+.fin-con-fin-list .fin-con-fin-name{
+	font-size:16px;
+	color:#333;
+}
+.fin-con-fin-sec{
+	font-size:14px;
+	color:#555;
+}
+.fin-con-fin-thi{
+	font-size:14px;
+	color:#888;
+}
+.fin-con-fin-ri{
+	float:right;
+	width:260px;
+	overflow:hidden;
+}
+.fin-con-rate-mod{
+	width:260px;
+	overflow:hidden;
+}
+.fin-con-rate{
+	float:left;
+	width:260px;
+	height:56px;
+	line-height:56px;
+	font-size:18px;
+	text-indent:30px;
+	color:#333;
+	font-weight:bold;
+}
+.fin-con-advance{
+	width:260px;
+	overflow:hidden;
+	padding:30px 20px;
+	background:#fff;
+}
+.fin-con-public{
+	float:left;
+	width:80px;
+	height:35px;
+	background:#eeeeee;
+	text-align:center;
+	line-height:35px;
+	font-size:15px;
+	margin-left:140px;
+}
+.fin-con-ratebar{
+	float:left;
+	width:220px;
+	height:15px;
+	background:#eee;
+	margin-top:16px;
+}
+.fin-con-ratebar div{
+	width:50%;
+	height:15px;
+	background:#12ad75;
+}
+.fin-con-syst,.fin-con-reck{
+	float:left;
+	width:220px;
+	height:58px;
+	line-height:58px;
+	font-size:14px;
+	border-bottom:1px solid #eee;
+}
+.fin-con-syst span,.fin-con-reck span{
+	float:left;
+}
+.fin-con-syst var,.fin-con-reck var{
+	font-style:normal;
+	float:right;
+}
+.fin-con-money{
+	float:left;
+	width:220px;
+	height:50px;
+	margin-top:20px;
+}
+.fin-con-money span{
+	float:left;
+	padding-left:25px;
+	color:#12ad75;
+	line-height:50px;
+	font-size:14px;
+}
+.fin-con-money var{
+	font-style:normal;
+	float:right;
+	padding-right:25px;
+	color:#12ad75;
+	line-height:50px;
+	font-size:14px;
+}
+.fin-con-secc{
+	width:260px;
+	padding:30px auto;
+	overflow:hidden;
+}
+.fin-con-secc span{
+	float:left;
+	width:220px;
+	height:58px;
+	font-size:16px;
+	font-weight:bold;
+	color:#333;
+	line-height:58px;
+	margin-top:20px;
+}
+.fin-con-method{
+	width:260px;
+	overflow:hidden;
+	background:#fff;
+}
+.fin-con-undergo,.fin-con-hatch,.fin-con-handsome{
+	float:left;
+	width:220px;
+	height:180px;
+	border-bottom:1px solid #eee;
+	margin-left:20px;
+}
+.fin-con-undergo p,.fin-con-hatch p,.fin-con-handsome p{
+	width:220px;
+	height:48px;
+	line-height:24px;
+	margin-top:20px;
+}
+.fin-con-undergo a,.fin-con-hatch a,.fin-con-handsome a{
+	float:left;
+	width:160px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	background:#4b98e5;
+	margin-left:30px;
+	margin-top:20px;
+	color:#fff;
+}
+/*******编辑投资者层*******/
+.fin-investor{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	display:none;
+}
+.fin-investor-con{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:962px;
+	padding-bottom:120px;
+	background:#fff;
+	margin:180px auto auto -481px;
+	display:none;
+}
+.fin-investor-close{
+	position:absolute;
+	right:-8px;
+	top:-8px;
+	width:16px;
+	height:16px;
+	background:url(../images/fin-investor.png) 0 -16px no-repeat;
+}
+/**删除投资者**/
+.fin-dele-investor{
+	float:left;
+	width:66px;
+	height:100px;
+	font-size:12px;
+	line-height:20px;
+	cursor:pointer;
+	margin:50px auto auto 20px;
+}
+.fin-investor-con dl{
+	float:left;
+	width:66px;
+	height:100px;
+	margin:50px 22px 30px;
+}
+.fin-investor-con dt{
+	width:66px;
+	height:66px;
+	position:relative;
+}
+.fin-investor-con dt img{
+	width:64px;
+	height:64px;
+	border:1px solid #555;
+}
+.fin-investor-con dt div{
+	position:absolute;
+	right:-8px;
+	bottom:-8px;
+	width:16px;
+	height:16px;
+	display:none;
+	background:url(../images/fin-investor.png) -16px -16px no-repeat;
+}
+.fin-investor-con dt div img{
+	width:16px;
+	height:16px;
+	border:none;
+}
+.fin-investor-con dd{
+	width:66px;
+	height:20px;
+	margin-top:10px;
+	font-size:14px;
+	text-align:center;
+	line-height:20px;
+}
+/**添加新投资者**/
+.fin-add-investor{
+	float:left;
+	width:120px;
+	height:100px;
+	margin-top:50px;
+	margin-left:30px;
+	font-size:12px;
+}
+.fin-add-investor div{
+	float:left;
+	width:16px;
+	height:16px;
+	margin:25px auto auto;
+	background:url(../images/fin-investor.png) 0 0 no-repeat;
+}
+.fin-add-investor div img{
+	width:16px;
+	height:16px;
+}
+.fin-add-investor span{
+	float:left;
+	line-height:66px;
+	margin-left:10px;
+	cursor:pointer;
+}
+/****/
+.fin-investor-info{
+	width:100%;
+	overflow:hidden;
+}
+.fin-investor-info ul{
+	width:600px;
+	padding-bottom:10px;
+}
+.fin-investor-info span{
+	float:left;
+	width:100px;
+	height:38px;
+	text-align:right;
+	line-height:38px;
+	margin-top:21px;
+	font-size:14px;
+	color:#555;
+}
+.fin-investor-info input{
+	float:left;
+	width:438px;
+	height:36px;
+	border:1px solid #333;
+	margin:21px;
+	font-size:14px;
+	padding-left:0.5em;
+}
+.fin-investor-keep{
+	width:235px;
+	height:50px;
+	background:#4894df;
+	margin:70px auto;
+}
+.fin-investor-keep input{
+	width:100%;
+	height:100%;
+	opacity:0;
+	filter:alpha(opacity=0);
+	border:none;
+}
+.fin-investor-keep span{
+	float:left;
+	width:100%;
+	height:100%;
+	line-height:50px;
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+}
+/**编辑 融资信息 层**/
+.fin-financ{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:962px;
+	padding-bottom:120px;
+	background:#fff;
+	margin:180px auto auto -481px;
+	display:none;
+}
+.fin-financ-close{
+	position:absolute;
+	right:-8px;
+	top:-8px;
+	width:16px;
+	height:16px;
+	background:url(../images/fin-investor.png) 0 -16px no-repeat;
+}
+.fin-financ ul{
+	width:700px;
+	margin:25px auto auto;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.fin-financ ul li{
+	float:left;
+	width:100%;
+	height:38px;
+	margin:21px auto;
+}
+.fin-financ ul span{
+	float:left;
+	width:80px;
+	height:38px;
+	margin-top:21px;
+	font-size:12px;
+	color:#575757;
+	text-align:right;
+	line-height:38px;
+}
+.fin-financ ul var{
+	float:left;
+	font-style:normal;
+	font-size:12px;
+	width:36px;
+	height:38px;
+	text-align:right;
+	margin-top:21px;
+	line-height:38px;
+}
+.fin-financ ul input{
+	float:left;
+	width:438px;
+	height:36px;
+	line-height:38px;
+	border:1px solid #555;
+	margin:21px auto;
+	font-size:14px;
+	padding-left:0.5em;
+}
+.fin-financ ul div label{
+	float:left;
+	width:100px;
+	height:36px;
+	text-align:left;
+	margin-left:10px;
+	font-size:12px;
+	font-style:normal;
+	margin-top:21px;
+	line-height:36px;
+}
+.fin-financ ul div input{
+	float:left;
+	margin:32px auto auto 38px;
+	width:14px;
+	height:14px;
+	border:none;
+}
+
+/****/
+/****/
+/****/
+/****/
+/****/
+/****/
+/****/
+/****/

@@ -18,6 +18,11 @@
 	line-height: 80px;
 	text-align: center;
 }
+.poineerpro-nav li a,.poineerpro-main-subnav li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
 .poineerpro-nav .poineerpro-nav-last {
 	border-color: transparent;
 }

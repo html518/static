@@ -668,6 +668,8 @@ table img{margin-left:40px}
 	font-weight:bold;
 	border:none;
 	margin:50px 0px 113px 120px;
+	cursor: pointer;
+	cursor: hand;
 }
 .apply-visit{
 	color:#595959;
@@ -676,6 +678,8 @@ table img{margin-left:40px}
 .regproj-next{
 	background:#efae2c;
 	color:#323433;
+	cursor: pointer;
+	cursor: hand;
 }
 .regproj-next,.apply-refer{
 	width:320px;

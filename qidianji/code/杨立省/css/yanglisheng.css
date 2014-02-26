@@ -136,7 +136,7 @@ li{
 	color:#aaa;
 	font-style:normal;
 }
-.changepsw-main-con button{
+.changepsw-main-con .changepsw-save{
 	width:300px;
 	height:50px;
 	margin-top:38px;
@@ -145,6 +145,7 @@ li{
 	border:none;
 	font-size:18px;
 	color:#eefaff;
+	text-align: center;
 }
 /* 修改密码结束 */
 
@@ -177,7 +178,7 @@ li{
 	line-height: 36px;
 	margin:10px 0 0 28px;
 	border: 1px solid #ccc;
-	background: #fff url(images/input-file.gif) 5px 7px no-repeat;
+	background: #fff url(../images/input-file.gif) 5px 7px no-repeat;
 	font-size: 14px;
 	font-weight: bold;
 	color: #8c8a8a;

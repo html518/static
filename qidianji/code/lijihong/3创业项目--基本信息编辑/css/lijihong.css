@@ -26,6 +26,11 @@
 	color: #333;
 	font-weight: bold;
 }
+.incubaservice-main-subnav li a,.incubaservice-nav a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
 .incubaservice .incubaservice-select { /* incubaservice-nav和subnav通过加select类名来改变选中的状态 */
 	background: #fff;
 }
@@ -118,10 +123,14 @@
 	height: 36px;
 	margin-right: 78px;
 	font-size: 12px;
-	line-height: 36px;
+	/*line-height: 36px;*/
+}
+.incubaservice-main-services-con label input,.incubaservice-main-services-con label span{
+	float: left;
+	margin-right: 3px;
 }
 .incubaservice-main-services-con div {
-	margin-top: 12px;
+/*	margin-top: 12px;*/
 	font-size: 12px;
 }
 .incubaservice-main-services-con div textarea {
@@ -152,4 +161,6 @@
 	font-size: 14px;
 	outline: none;
 	border: 0;
+	cursor: pointer;
+	cursor: hand;
 }
