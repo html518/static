@@ -1,0 +1,246 @@
+/*reset*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.select{
+	display: inline-block;
+	height: 16px;
+	border: 1px solid #ccc;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.select div{
+	float: left;
+	width: 100%;
+	height: 16px;	
+	overflow: hidden;
+	margin-right: -23px;
+}
+.select select{
+	margin-top: -2px;
+	margin-left: -2px;
+	*margin-top: -4px;
+	margin-right: -2px;
+	width: 100%;
+	background: transparent url(images/select.jpg) no-repeat;
+	border: 0;
+	outline: 0;
+	vertical-align: middle;
+	
+}
+div.selectMask{
+	float: left;
+	width: 21px;
+	height: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+/* 需要修改的东西 */
+.select{
+	width: 158px;
+}
+.select select{
+	background-position: 158px center;
+	*background-position: 158px center;
+}
+.incubapro-subme .selectMask {
+	width: 0;
+}
+/*reset结束*/
+.incubapro {
+	background: #e9eaec;
+	color: #555;
+	padding-bottom: 192px;
+}
+.incubapro h1 {
+	height: 248px;
+	line-height: 248px;
+	text-align: center;
+	background: url("../images/incubapro.jpg");
+}
+.incubapro-subme {
+	padding-top: 24px;
+	height: 60px;
+	font-size: 14px;
+	background: #e1e1e2;
+	margin-top: -2px;
+}
+.incubapro .incubapro-submenu {
+	width: 710px;
+	height: 38px;
+	margin: 0 auto;
+}
+.incubapro-sub,.incubapro-sub2 {
+	width: 88px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+}
+.incubapro-sub,.incubapro-select {
+	float: left;
+}
+.incubapro-sub2,.incubapro-select2 {
+	float: right;
+}
+.incubapro-select,.incubapro-select2 {
+	background: #fff;
+}
+
+
+.incubapro-subnav {
+	height: 120px;
+	text-align: center;
+	padding-top: 80px;
+}
+.incubapro-subnav p a {
+	display: inline-block;
+	width: 320px;
+	height: 62px;
+	border: 1px solid #ccc;
+	line-height: 62px;
+	font-size: 14px;
+	color: #555;
+}
+.incubapro-subnav .incubapro-sn {
+	border-left-width: 0px;
+}
+.incubapro-subnav p a:active {
+	background: #fff;
+}
+
+
+
+
+/**************主页内容栏**************/
+.incubapro-main {
+	padding: 54px 14px;
+	margin: 0 auto 120px;
+	width: 932px;
+	background: #fff;
+	overflow: hidden;
+}
+.incubapro-main .incubapro-main-box {
+	width: 217px;
+	height: 334px;
+	margin: 0 30px 40px;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 14px 15px 0 16px;
+	font-size: 12px;
+	color: #999;
+	display: inline;
+}
+.incubapro-main .incubapro-main-box dl {
+	overflow: hidden;
+}
+.incubapro-main dt,.incubapro-main dd {
+	float: left;
+}
+.incubapro-main dt img {
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+}
+.incubapro-main dd {
+	line-height: 20px;
+	width: 140px;
+	overflow: hidden;
+}
+.incubapro-main-box dd h3 {
+	font-size: 16px;
+	color: #333;
+	margin-top: 10px;
+}
+.incubapro-main-box p {
+	padding: 18px 0;
+	_margin-top:18px;
+	border-bottom: 1px solid #f2f2f2;
+	line-height: 20px;
+}
+.incubapro-main-box ul {
+	padding-top: 10px;
+}
+.incubapro-main-box li {
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	color: #333;
+}
+.incubapro-main-box li span {
+	float: left;
+	color: #999;
+}
+.incubapro-main-progress {
+	width: 215px;
+	height: 7px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.incubapro-main-progress div {
+	width: 100%;		/*此处为进度条进度、按百分比显示*/
+	height: 7px;
+	background: #12ad75;
+}
+.incubapro-main-complete {
+	height: 48px;
+	line-height: 24px;
+	text-align: right;
+	color: #333;
+	padding-top: 25px;
+	font-weight: bold;
+}
+.incubapro-main-complete span {
+	float: left;
+	width: 72px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background: #f16b25;
+	color: #fff;
+}
+
+
+.incubapro-main .incubapro-apply {
+	background: #ededed;
+	padding-top: 44px;
+	font-size: 14px;
+	color: #787878;
+	text-align: center;
+	height: 304px;
+}
+.incubapro-apply p {
+	height: 114px;
+	line-height: 114px;
+	text-align: center;
+	padding: 0;
+}
+.incubapro-main .incubapro-apply a {
+	width: 156px;
+	height: 40px;
+	background: #f6b81d;
+	color: #333;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+}
+.incubapro-main .incubapro-apply a {
+	_display: inline;
+}
+
+.incubapro-foot {
+	width: 100%;
+	height: 160px;
+	line-height: 160px;
+	text-align: center;
+	background: #fff;
+	float: left;
+}
+.incubapro-foot a {
+	color: #999;
+}
