@@ -46,7 +46,7 @@ body{background-color: #e9eaec;position: relative;}
 	font-size: 36px;
 	cursor: pointer;
 }
-.select{
+/*.select{
 	display: inline-block;
 	height: 16px;
 	border: 1px solid #ccc;
@@ -79,4 +79,4 @@ div.selectMask{
 	height: 100%;
 	background: white;
 	overflow: hidden;
-}
+}*/

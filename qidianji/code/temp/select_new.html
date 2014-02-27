@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="cn">
+<head>
+	<meta charset="UTF-8">
+	<title>select_new</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<style>
+	body{
+		background: #ccf;
+	}
+	.select select{
+		border: none;
+		outline: none;
+		background: transparent url(images/select.jpg) right center no-repeat;
+		height: 24px;
+		line-height: 24px;
+		font-size: 14px;
+		margin: -2px -21px 0 -2px;
+		
+	}
+	.selectInner{
+		height: 20px;
+		overflow: hidden;
+	}
+	.select{
+
+		/*display: inline-block;*/
+		float: left;
+		/*margin: 50px;*/
+		border: 1px solid #ccc;
+		padding: 8px 21px 8px 16px;
+		background: white;
+	}
+	.year select{
+		width: 73px;
+	}
+	.month select,.day select{
+		width: 53px;
+	}
+	span{
+		line-height: 36px;
+		float: left;
+	}
+
+
+	.normal select{
+		width: 420px;
+	}
+	</style>
+</head>
+<body>
+	<div class="date clearfix">
+		<div class="select year">
+			<div class="selectInner">
+				<select>
+					<option value="">9999</option>
+					<option value="">9999</option>
+					<option value="">9999</option>
+				</select>
+			</div>
+		</div>
+		<span>年</span>
+		<div class="select month">
+			<div class="selectInner">
+				<select>
+					<option value="">01</option>
+					<option value="">02</option>
+					<option value="">03</option>
+				</select>
+			</div>
+		</div>
+		<span>月</span>
+		<div class="select day">
+			<div class="selectInner">
+				<select>
+					<option value="">11</option>
+					<option value="">12</option>
+					<option value="">13</option>
+				</select>
+			</div>
+		</div>
+		<span>日</span>
+	</div>
+	
+	<div class="normal">
+		<div class="select day">
+			<div class="selectInner">
+				<select>
+					<option value="">11</option>
+					<option value="">12</option>
+					<option value="">13</option>
+				</select>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
