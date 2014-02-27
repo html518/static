@@ -256,17 +256,7 @@
 			<div class="closebj">&nbsp;</div>
 		</div>  
 	</div> 
-	<script> 
-		$(".proresume-nav li a").hover(function() {
-			$(this).parent().parent().attr({"class":"proresume-select"})
-		},function() {
-			$(this).parent().parent().attr({"class":""})
-		})
-		$(".proresume-nav-three a").hover(function() {
-			$(this).attr({"class":"active"})
-		},function() {
-			$(this).attr({"class":""})
-		})
+	<script>  
 		$(".editbtn").each(function(n) {
 			$(this).bind("click", function() {
 				$(".proresumelayer").show();

@@ -40,6 +40,9 @@ body {
 	float: left;   
 	background: #e8e8e8; 
 }
+.coresume-nav h1 a:hover {
+	background: #fff;
+}
 .coresume .coresume-select a { /* personal-nav和subnav通过加select类名来改变选中的状态 */
 	background: #fff;
 }
@@ -103,9 +106,13 @@ body {
 }
 .coresume-nav-three a {
 	color: #313131;
+	font-weight: bold;
 	padding: 22px 45px 20px 46px; 
 	border-right: 1px solid #ccc;
 	float: left;
+}
+.coresume-nav-three a:hover {
+	background: #fff;
 }
 .coresume-nav-three a.active {
 	background: #fff;
@@ -326,14 +333,14 @@ body {
 	float: left;
 } 
 .coresume-recommend-info-plan div {
-	width: 200px;
+	width: 214px;
 	height: 14px; 
 	background: transparent;   
 	float:left; 
 	overflow: hidden;
 } 
 .coresume-recommend-info-plan div p {
-	width: 76%;
+	width: 100%;
 	height: 14px;  
 	padding: 0;
 	background: #13acb3;
@@ -454,6 +461,7 @@ body {
 	width: 232px;
 	height: 49px;
 	font-size: 14px;
+	color: #fff;
 	margin: 15px 0; 
 	border: 1px solid #4b97e5;
 	background: #4b99e4;

@@ -38,6 +38,9 @@ body {
 	float: left;	
 	background: #e8e8e8; 
 }
+.proresume-nav h1 a:hover {
+	background: #fff; 
+}
 .proresume .proresume-select a { /* personal-nav和subnav通过加select类名来改变选中的状态 */
 	background: #fff;
 }
@@ -107,6 +110,9 @@ body {
 	padding: 22px 45px 20px 46px; 
 	border-right: 1px solid #ccc;
 	float: left;
+}
+.proresume-nav-three a:hover {
+	background: #fff;
 }
 .proresume-nav-three a.active {
 	background: #fff;
@@ -333,14 +339,14 @@ body {
 	float: left;
 }
 .proresume-recommend-info-plan div {
-	width: 200px;
+	width: 214px;
 	height: 14px;  
 	background: transparent;   
 	float:left; 
 	overflow: hidden;
 }
 .proresume-recommend-info-plan div p {
-	width: 80%;
+	width: 100%;
 	height: 14px;  
 	padding: 0;
 	background: #13acb3;
@@ -511,6 +517,7 @@ body {
 	width: 232px;
 	height: 49px;
 	font-size: 14px;
+	color: #fff;
 	margin: 52px 0; 
 	border: 1px solid #4b97e5;
 	background: #4b99e4;
