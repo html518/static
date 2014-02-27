@@ -1,0 +1,495 @@
+.personal {
+	width: 960px;
+	margin: 0 auto;
+}
+.personal-nav {
+	width: 100%;
+	height: 85px;
+	border: 1px solid #cbcbcb;
+	border-top: none;
+	background: #fff;
+} 
+.personal-nav li {
+	float: left;
+	width: 319px;
+	height: 80px;
+	border-right: 1px solid #cfcfcf;
+	background: #e8e8e8;
+	line-height: 80px;
+	text-align: center;
+}
+.personal-nav li a,.personal-main-subnav li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.personal-nav .personal-nav-last {
+	border-color: transparent;
+}
+.personal-nav h1 {
+	font-weight: bold;
+}
+.personal-nav h1 a,.personal-main-subnav li a {
+	font-size: 18px;
+	color: #333;
+}
+.personal .personal-select { /* personal-nav和subnav通过加select类名来改变选中的状态 */
+	background: #fff;
+}
+.personal-main-info {
+	position: relative;
+	width: 100%;
+	height: 195px;
+	margin-top: 30px;
+	background: #fff;
+}
+.personal-main-info p {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	color: #4c98ec;
+	cursor: pointer;
+} 
+.personal-main-info dl {
+	position: absolute;
+	top: 40px;
+	left: 34px;
+}
+.personal-main-info dl dt {
+	float: left;
+	width: 102px;
+	height: 102px;
+	margin-right: 20px;
+	background: #e9eaec;
+}
+.personal-main-info dl dt img {
+	width: 102px;
+	height: 102px;
+}
+.personal-main-info dl dd {
+	float: left;
+	color: #333;
+}
+.personal-main-info dl dd h3 {
+	font-weight: bold;
+}
+.personal-main-info dl dd var {
+	display: block;
+}
+.personal-main-info dl dd input {
+	float: left;
+	width: 437px;
+	height: 36px;
+	margin-top: 14px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	outline: none;
+	line-height: 36px;
+	text-indent: 9px;
+}
+.personal-main-info dl dd input:empty { /* 针对safari的input输入框光标的位置 */
+	padding-left: 0.5em;
+}
+.personal-main-info dl dd div {
+	width: 750px;
+	margin-top: 14px;
+	color: #555;
+	font-size: 14px;
+}
+.personal-main-info dl div span {
+	display: inline-block;
+	max-width: 90px;
+	*max-width: 90px;
+	height: 16px;
+	margin-right: 36px;
+	line-height: 16px;
+	overflow: hidden;
+}
+.personal-main-subnav {
+	width: 100%;
+	height: 60px;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+}
+.personal-main-subnav li {
+	float: left;
+	width: 163px;
+	height: 100%;
+	border-right: 1px solid #ccc;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+}
+.personal-main-lt {
+	float: left;
+	width: 680px;
+}
+.personal-main-rt {
+	float: right;
+	width: 260px;
+}
+.personal-main-work,.personal-main-edu,.personal-main-item,.personal-main-recruit {
+	width: 100%;
+	margin-top: 28px;
+}
+.personal-main-work ul span,.personal-main-edu ul span,.personal-editwork ul em,.personal-editedu ul em{
+	padding: 0 16px;
+}
+.personal-main-work-top h3,.personal-main-edu-top h3 {
+	float: left;
+	margin-left: 32px;
+	color: #333;
+	font-weight: bold;
+}
+.personal-main-work-top p,.personal-main-edu-top p {
+	float: right;
+	margin-right: 10px;
+	color: #4c98ec;
+	cursor: pointer;
+}
+.personal-main-work-con,.personal-main-edu-con,.personal-main-item-con,.personal-main-recruit-con {
+	margin-top: 18px;
+	padding: 28px 40px 37px 40px;
+	background: #fff;
+	color: #555;
+	font-size: 14px;
+}
+.personal-main-work-con li,.personal-main-edu-con li {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.personal-main-item h3,.personal-main-recruit h3 {
+	margin-left: 32px;
+}
+.personal-main-item .personal-main-item-con {
+	margin-top: 18px;
+	padding: 28px 20px 42px;
+}
+.personal-main-item-con p {
+	margin-left: 8px;
+	font-weight: bold;
+}
+.personal-main-item-public {
+	float: right;
+	width: 80px;
+	height: 35px;
+	background: #eee;
+	line-height: 35px;
+	text-align: center;
+}
+.personal-main-item-progress{
+	width: 100%;
+	height: 15px;
+	margin-top: 17px;
+	background: #eee;
+}
+.personal-main-item-progress div {
+	height: 15px;
+	
+	width: 70%;
+	background: #0fad73;
+}
+.personal-main-item-con ul {
+	width: 100%;
+	height: 118px;
+}
+.personal-main-item-con ul li {
+	width: 100%;
+	height: 58px;
+	border-bottom: 1px solid #eee;
+	line-height: 58px;
+}
+.personal-main-item-con li span {
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+}
+.personal-main-item-con .personal-main-item-amount {
+	width: 56%;
+	font-weight: bold;
+	text-align: right;
+}
+.personal-main-item-con a,.personal-main-recruit-bom {
+	display: inline-block;
+	width: 100%;
+	height: 51px;
+	margin-top: 28px;
+	background: #fede93;
+	text-align: center;
+	line-height: 51px;
+	color: #444444;
+	font-size: 14px;
+}
+.personal-main-recruit .personal-main-recruit-con {
+	margin-top:34px;
+	padding: 20px 17px 48px 20px;
+}
+.personal-main-recruit-con dl dt {
+	float: left;
+	width: 66px;
+	height: 66px;
+}
+.personal-main-recruit-con dl dd {
+	float: left;
+	margin-left: 10px;
+	width: 147px;
+}
+.personal-main-recruit-con dl dd strong {
+	display: inline-block;
+	height: 32px;
+	color: #333;
+	font-weight: normal;
+	line-height: 32px;
+}
+.personal-main-recruit-con dd p {
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+}
+.personal-main-recruit-con div {
+	margin-top: 5px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+.personal-main-recruit-con div strong {
+	display: inline-block;
+	height: 44px;
+	line-height: 44px;
+}
+.personal-main-recruit-con div input {
+	display: inline-block;
+	margin: 15px 0 0 135px;
+}
+.personal-main-recruit-con div a {
+	float: left;
+	margin-right: 30px;
+	height: 24px;
+	line-height: 26px;
+	white-space: nowrap;
+	color: #555555;
+	font-size: 14px;
+}
+
+.personal-editwork-wrap,.personal-editedu-wrap,.personal-editinfo-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url("../images/mask.png") 0 0 repeat;
+	display: none;
+}
+/*.personal-editedu-wrap{
+	display: block;
+}*/
+/* 弹出层--编辑工作经历 */
+.personal-editwork,.personal-editedu {
+	position: relative;
+	width: 688px;
+	margin: 110px auto;
+	padding: 56px 136px 110px 136px;
+	background: #fff;
+}
+.personal-editwork-close,.personal-editedu-close,.personal-editinfo-close {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	width: 16px;
+	height: 16px;
+	background: url("../images/int-close.png") -16px 0 no-repeat;
+}
+.personal-editwork ul,.personal-editedu ul {
+	width: 500px;
+	overflow: hidden;
+}
+.personal-editwork ul li,.personal-editedu ul li {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #545454;
+}
+.personal-editwork ul li span,.personal-editedu ul li span {
+	float: left;
+}
+.personal-editwork ul li strong,.personal-editedu ul li strong {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 6px 0 0 20px;
+	cursor: hand;
+	cursor: pointer;
+	background: url("../images/int-close.png") -32px 0 no-repeat;
+}
+.personal-editwork input {
+	margin-top: 30px;
+	width: 437px;
+	height: 36px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.personal-editwork-select,.personal-editedu-select {
+	margin-top: 30px;
+	height: 36px;
+}
+.personal-editwork-select span,.personal-editedu-select span {
+	float: left;
+	width: 34px;
+	height: 18px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 6px;
+}
+
+.personal-editwork-select1,.personal-editwork-select2{
+	float: left;
+	width: 147px;
+}
+.personal-editwork-select1 select,.personal-editwork-select2 select{
+	width: 170px;
+	background-position: 125px center;
+	margin-top: -5px;
+}
+
+.personal-editwork-add,.personal-editedu-add {
+	margin-top: 40px;
+}
+.personal-editwork-add em,.personal-editedu-add em{
+	cursor: pointer;
+	cursor: hand;
+}
+.personal-editwork-add span,.personal-editedu-add span {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url("../images/int-close.png") -48px 0 no-repeat;
+}
+.personal-editwork-add var,.personal-editedu-add var {
+	float:left;
+	font-size: 12px;
+} 
+.personal-editwork-sub,.personal-editedu-sub {
+	height: 50px;
+	margin-top: 110px;
+	text-align: center;
+}
+.personal-editwork .personal-editwork-sub input,.personal-editedu .personal-editedu-sub input {
+	width: 236px;
+	height: 50px;
+	margin-top: 0;
+	background: #4b99e4;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	cursor: hand;
+	cursor: pointer;
+}
+/* 弹出层--编辑工作经历end */
+
+.personal-editedu-sch {
+	width: 374px;
+	height: 36px;
+	margin: 30px 32px 0 0;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.personal-editedu-record {
+	width: 82px;
+	height: 36px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+
+/* 编辑个人基本信息 */
+.personal-editinfo {
+	position: relative;
+	width: 764px;
+	margin: 110px auto;
+	padding: 12px 68px 112px;
+	background: #fff;
+}
+.personal-editinfo td p {
+	/*height: 78px;
+	line-height: 78px;*/
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+	margin-right: 24px;
+}
+.personal-editinfo table td {
+	padding-bottom: 42px;
+}
+.personal-editinfo input {
+	width: 437px;
+	height: 36px;
+	/*margin-left: 24px;*/
+	outline: none;
+	border: 1px solid #ccc;
+}
+.personal-editinfo td img {
+	float: left;
+	width: 66px;
+	height: 66px;
+	margin-left: 24px;
+}
+.personal-editinfo td div {
+	float: left;
+}
+.personal-editinfo .personal-editinfo-file {
+	float: left;
+	position: relative;
+	width: 145px;
+	height: 36px;
+	margin-left: 28px;
+	margin-top: 11px;
+	border: 1px solid #ccc;
+	background: #fff url(../images/input-file.gif) 5px 7px no-repeat;
+	line-height: 36px;
+	font-size: 14px;
+	color: #8c8a8a;
+	text-indent: 38px;
+}
+.personal-editinfo-file input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 145px;
+	height: 36px;
+	opacity: 0;
+	filter: alpha(opacity: 0);
+	font-size: 36px;
+	cursor: hand;
+	cursor: pointer;
+}
+.personal-editinfo-filesub {
+	margin-top: 11px;
+	margin-left: 28px;
+}
+.personal-editinfo .personal-editinfo-filesub input {
+	width: 145px;
+	height: 36px;
+	background: #4b99e4;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+.personal-size select{
+	width: 459px;
+	background-position: 410px center;
+}
+.personal-editinfo-sub {
+	margin-top: 67px;
+	text-align: center;
+}
+.personal-editinfo .personal-editinfo-sub input {
+	width: 236px;
+	height: 50px;
+	background: #4b99e4;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}

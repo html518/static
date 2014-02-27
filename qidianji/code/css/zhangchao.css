@@ -1,10 +1,6 @@
-.pubpro-qd{
-	width:100%;
-	background:rgb(233,234,236);
-}
-.pubpro-head{
-	height:65px;
-	background:rgb(247,181,81);
+body{
+	background:#e9eaec;
+	font-family:"宋体";
 }
 .pubpro-con{
 	width:962px;
@@ -12,7 +8,6 @@
 } 
 .pubpro-item{
 	height:102px;
-	margin-top:37px;
 	padding:45px 0 53px  34px;
 	background:rgb(255,255,255);
 }
@@ -81,10 +76,9 @@
 	width:680px;
 }
 .pubpro-data{
-	height:56px;
 	margin-top:8px;
 	padding-left:33px;
-	line-height:56px;
+	line-height:60px;
 	font-family:"宋体";
 	font-size:16px;
 	color:#474748;
@@ -305,7 +299,7 @@
 	display:inline-block;
 	line-height:12px;
 	font-size:12px;
-	color:#686868;
+	color:#8e8e8e;
 	margin-bottom: 3px;
 	font-weight: bold;
 }
@@ -405,13 +399,6 @@
  .pubpro-chart-botm{
  	padding-bottom:50px;
  }
- .pubpro-chart{
-	margin-bottom:90px;
- }
- .bottom{
- 	height:40px;
- 	background:#e0b45f; 
- }
  .pubpro-intor{
  	line-height:76px;
  	margin-bottom:10px;
@@ -421,3 +408,130 @@
  	font-weight:bold;
 
  }
+
+ .proinve-wrap{
+	background:#e9eaec;
+	font-family:"宋体";
+}
+.proinve-con{
+	width:960px;
+	margin:0 auto;
+}
+.proinve-logn{
+	height:252px;
+	width:960px;
+	background:url(../images/zhangchaolog.jpg);
+}
+.proinve-minu-header{
+	background:#f2f2f2;
+	overflow: hidden;
+	border-top:2px solid #ebebec;
+	border-bottom:2px solid #ebebec;
+	padding-left: 60px;;
+}
+.minu-headerin{
+	width: 1800px;
+} 
+.minu-headerin h2{
+	line-height: 50px;
+	float: left;
+	margin-right: 182px;
+	font-size: 14px;
+	color: #787878;
+	font-weight: bold;
+}
+.proinve-contop dt,.proinve-contop dt img{
+	height: 48px;
+	width: 48px;
+}
+.proinve-contop dl{
+	float: left;
+	margin-right: 12px;
+}
+.proinve-con li{
+	padding: 21px 0 0 60px;
+	background:#fff;
+}
+.proinve-contop dt,.proinve-contop dd{
+	float:left;
+}
+.proinve-contop dd{
+	width:130px;
+}
+.proinve-contop dt{
+	margin-right: 21px;
+}
+.proinve-contop dd p{
+	line-height: 28px;
+	font-size: 14px;
+	color: #b3b3b3;
+}
+.proinve-contop dd var{
+	font-size: 12px;
+	color: #aaabac;
+}
+.proinve-contop dl,.proinve-ite dl{
+	float:left;
+}
+.pro-intry{
+	float: left;
+	width: 146px;
+	line-height: 48px;
+	text-align: center;
+	margin-right: 97px;
+	color: #c6c4c1;
+}
+.proinve-contop{
+	width:1200px;
+	margin-bottom: 22px;
+}
+.proinve-con li{
+	overflow: hidden;
+	border-bottom: 2px solid #f9f8f7;
+}
+
+.proinve-ite dt,proinve-ite dt{
+	height:64px;
+	width:64px;
+}
+.proinve-ite dl{
+	width: 64px;
+	margin: 0 84px 30px 0;
+}
+.proinve-ite dd{
+	width: 64px;
+line-height: 32px;
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+color: #615f5e;
+}
+.show{
+	display:none;
+}
+.proinve-con li:hover .proinve-ite {
+	display:block;
+
+}
+.proinve-con li:hover {
+	background: #fffcf7;
+	cursor:pointer;
+}
+.proinve-more{
+	line-height: 90px;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	color: #c2c2c3;
+	font-weight: bold;
+}
+.proinve-more a{
+	display:inline-block;
+	line-height:115px;
+	width:60px;
+	margin-bottom:100px;
+}
+
+.proinve-more a:hover{
+	cursor:pointer;
+}

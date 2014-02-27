@@ -1,0 +1,995 @@
+
+body{font-size:12px}
+.regproj,.parreg,.parconf,.apply,.members,.coconf,.coreg,.proconf,.proreg,.regprojs{
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#e9eaec;
+}
+.regproj h3,.parreg h3,.parconf h3,.apply h3,.members h3,.coconf h3,.coreg h3,.proconf h3,.proreg h3,.regprojs h3{
+	height:85px;
+	font-size:14px;
+	color:#343436;
+	line-height:115px;
+	overflow:hidden;
+	font-weight:bold
+}
+.regproj-nav{
+	width:958px;
+	height:83px;
+	border:1px solid #cbccce;
+	overflow:hidden;
+	font-family:"微软雅黑"
+}
+.regproj-nav ul{
+	width:9999px;
+	height:78px;
+	border-bottom:5px solid #fff;
+	overflow:hidden;
+}
+.regproj-nav ul li{
+	width:319px;
+	height:78px;
+	float:left;
+	border-right:1px solid #cbccce;
+	text-align:center;
+	line-height:78px;
+}
+.regproj-nav ul li .regproj-project{
+	background:#fff;
+}
+.regproj-nav ul li a{
+	font-size:18px;
+	color:#333;
+	display:block;
+}
+
+/*团队成员*/
+.members-main{
+	overflow:hidden;
+	background:#fff;
+
+}
+.members-main table td{
+	padding-top:40px
+}
+.members-main table th img{
+	border: 1px solid #ccc
+}
+.main-table{
+	color:#555;
+	margin:-10px 0 0 0 ;
+	overflow:hidden
+}
+.main-text{
+	width:437px;
+	height:36px;
+	border:1px solid #ccc;
+	text-indent:17px;
+	line-height:36px;
+	font-size:14px;
+	color:#ababab
+}
+.members-input-file {
+	width: 145px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ccc;
+	background: #fff url(../images/input-file.gif) 5px 7px no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #8c8a8a;
+	text-indent: 38px;
+	position: relative;
+	margin-left:25px
+	
+}
+.members-input-file-btn {
+	width: 145px;
+	height: 36px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0;
+	filter: alpha(opacity: 0);
+	font-size: 36px;
+	cursor: pointer;
+}
+.main-submit{
+	width:145px;
+	height:36px;
+	background:#e9eaec;
+	text-align:center;
+	line-height:36px;
+	color:#807c7c;
+	font-size:14px;
+	border:none;
+	cursor:pointer;
+
+}
+.main-shuzi{
+	color:#ababab;
+	font-weight:normal;
+	text-indent:50px;
+}
+.members-resume{
+	width:960px;
+	overflow:hidden;
+	background:url(../images/members-resume-bj.jpg) repeat-x 0 5px;
+	margin-top:59px;
+	min-height:70px;
+	
+}
+.members-down{
+	width:101px;
+	height:14px;
+	margin:0 auto;
+	font-size:14px;
+	font-weight:bold;
+	color:#888;
+	display:block;
+	background:#fff;
+	position:relative;
+	text-indent:10px
+}
+.members-down span{
+	width:11px;
+	height:6px;
+	background:url(../images/members-down-top.jpg) no-repeat;
+	position:absolute;
+	top:8px;
+	right:13px;
+}
+.members-resumemain{
+	width:960px;
+	overflow:hidden;
+}
+.members-resumemain p{
+	width:800px
+	font-size:14px;
+	color:#ababab;
+	padding:100px 0 0 67px;
+	float:left;
+	display:block
+}
+.members-resumemain p span{
+	font-size:12px;
+	color:#555;
+	display:inline;
+	margin:-5px 45px 0 0;
+	float:left
+}
+.members-select{
+	float:left;
+	height: 16px;
+	border: 1px solid #ccc;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	
+}
+.members-select div{
+	float: left;
+	width: 100%;
+	height: 16px;	
+	overflow: hidden;	
+	margin-right: -23px;
+}
+.members-select select{
+	margin-top: -2px;
+	margin-left: -2px;
+	*margin-top: -4px;
+	margin-right: -2px;
+	width: 100%;
+	background: transparent url(../images/select.jpg) no-repeat;
+	border: 0;
+	outline: 0;
+	vertical-align: middle;
+	
+}
+div.members-selectMask{
+	float: left;
+	width: 21px;
+	height: 100%;
+	background: white;
+	overflow: hidden;
+}
+table img{margin-left:40px}
+.mar-l{
+	margin-left:5px;
+}
+/* 需要修改的东西 */
+.members-select{
+	width: 122px;
+}
+.members-select select{
+	background-position: 89px center;
+	*background-position: 86px center;
+}
+.resumemain-text{
+	overflow:hidden;
+	float:left;
+	padding-left:138px;
+	padding-top:20px;
+	width:960px
+}
+.resumem-text{
+	width:437px;
+	height:36px;
+	border:1px solid #ccc;
+	text-indent:17px;
+	line-height:36px;
+	font-size:14px;
+	color:#333;
+	float:left;
+	margin-right:22px;
+	margin-bottom:10px
+
+}
+.mt-30{
+	margin-top:30px
+}
+.pl-32{
+	padding-left:32px;
+}
+.resumemain-xian{
+	width:34px;
+	float:left;
+	height:1px;
+	background:#ccc;
+	margin:19px 6px 0;
+}
+.resumemain-add{
+	width:960px;
+	line-height:20px
+	overflow:hidden;
+	color:#555;
+	padding:0px 0 50px 100px;
+	float:left;
+}
+.resumemain-add2{
+	width:960px;
+	height:20px;
+	line-height:20px
+	overflow:hidden;
+	color:#555;
+	text-indent:70px;
+}
+.members-hide{
+	width:960px;
+	overflow:hidden;
+}
+.bor-bm{
+	border-top:1px #e7e6e6 solid
+}
+.members-footdown{
+	width:960px;
+	overflow:hidden;
+	padding:100px 0 150px 0;
+}
+.footdown-left{
+	width:233px;
+	height:49px;
+	border:1px solid #cfcfcf;
+	background:#fff;
+	color:#555555;
+	font-size:14px;
+	line-height:49px;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+}
+.footdown-middle{
+	width:235px;
+	height:51px;
+	background:#4892dc;
+	color:#fff;
+	font-size:14px;
+	line-height:49px;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	border:none;
+	margin:0 93px 0 73px;
+}
+.footdown-right{
+	width:325px;
+	height:51px;
+	background:#efae2c;
+	color:#555;
+	font-size:14px;
+	line-height:49px;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	border:none
+}
+.members-resumemain-warp{
+	width:960px;
+	overflow:hidden;
+}
+/*团队成员结束*/
+.select{
+		display: inline-block;
+		height: 16px;
+		border: 1px solid #ccc;
+		padding-top: 10px;
+		padding-left: 5px;
+		padding-bottom: 10px;
+		overflow: hidden;
+	}
+	.select div{
+		float: left;
+		width: 100%;
+		height: 16px;	
+		overflow: hidden;
+		margin-right: -23px;
+	}
+	.select select{
+		margin-top: -2px;
+		margin-left: -2px;
+		*margin-top: -4px;
+		margin-right: -2px;
+		width: 100%;
+		background: transparent url(../images/select.jpg) no-repeat;
+		border: 0;
+		outline: 0;
+		vertical-align: middle;
+		
+	}
+	div.selectMask{
+		float: left;
+		width: 21px;
+		height: 100%;
+		background: white;
+		overflow: hidden;
+	}
+	
+	/* 需要修改的东西 */
+	.select{
+		width: 434px;
+		margin-bottom:40px;
+	}
+	.select select{
+		background-position: 401px center;
+		*background-position: 398px center;
+	}
+/*身份证件修改*/
+.selects{
+		display: inline-block;
+		height: 20px;
+		border: 1px solid #ccc;
+		padding-top: 10px;
+		padding-left: 5px;
+		padding-bottom: 10px;
+		overflow: hidden;
+		margin-left:20px;
+	}
+	.selects div{
+		float: left;
+		width: 100%;
+		height: 16px;	
+		overflow: hidden;
+		margin-right: -23px;
+	}
+	.selects select{
+		margin-top: -2px;
+		margin-left: -2px;
+		*margin-top: -4px;
+		margin-right: -2px;
+		width: 100%;
+		background: transparent url(../images/select.jpg) no-repeat;
+		border: 0;
+		outline: 0;
+		vertical-align: middle;
+		
+	}
+	div.selectMask{
+		float: left;
+		width: 21px;
+		height: 100%;
+		background: white;
+		overflow: hidden;
+	}
+	
+	/* 需要修改的东西 */
+	.selects{
+		width: 434px;
+	}
+	.selects select{
+		background-position: 390px center;
+		*background-position: 398px center;
+	}
+	/*身份证件修改*/
+	.selectss{
+		display: inline-block;
+		height: 20px;
+		border: 1px solid #ccc;
+		padding-top: 10px;
+		padding-left: 5px;
+		padding-bottom: 10px;
+		overflow: hidden;
+	}
+	.selectss div{
+		float: left;
+		width: 100%;
+		height: 16px;	
+		overflow: hidden;
+		margin-right: -23px;
+	}
+	.selectss select{
+		margin-top: -2px;
+		margin-left: -2px;
+		*margin-top: -4px;
+		margin-right: -2px;
+		width: 100%;
+		background: transparent url(../images/select.jpg) no-repeat;
+		border: 0;
+		outline: 0;
+		vertical-align: middle;
+		
+	}
+	div.selectss-selectMask{
+		float: left;
+		width: 30px;
+		height: 100%;
+		background: white;
+		overflow: hidden;
+	}
+	
+	.selectss{
+		width: 434px;
+	}
+	.selectss select{
+		background-position: 390px center;
+		*background-position: 398px center;
+	}
+
+
+/*logo*/
+.regproj-basic,.regproj-product{
+	background:#fff;
+	padding-top:24px;
+	overflow:hidden;
+}
+.regproj-product{
+	padding-bottom:75px;
+}
+.regproj-logo{
+	margin-left:70px;
+	overflow:hidden;
+}
+.regproj-logo em{
+	font-style:normal;
+	margin-right:60px;
+	height:66px;
+	float:left;
+	line-height:70px;
+}
+.regproj-logo img{
+	float:left;
+	height:64px;
+	width:64px;
+	overflow:hidden;
+	margin-right:30px;
+}
+.regproj-logo .sub{
+	float:left;
+	height:37px;
+	width:145px;
+	background:#4a95e1;
+	border:none;
+	color:white;
+	font-size:14px;
+	margin-top:20px;
+}
+.input-file {
+	width: 145px;
+	height: 36px;
+	line-height: 36px;
+	float:left;
+	border: 1px solid #ccc;
+	background: #fff url(../images/input-file.gif) 5px 7px no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #8c8a8a;
+	text-indent: 38px;
+	position: relative;
+	margin-top:20px;
+	margin-right:25px;
+}
+.input-file-btn {
+	width: 145px;
+	height: 36px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0;
+	filter: alpha(opacity: 0);
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.regproj-logos{
+	margin-left:-15px;
+	overflow:hidden;
+}
+.regproj-logos em{
+	font-style:normal;
+	margin-right:30px;
+	height:66px;
+	float:left;
+	line-height:70px;
+	color:#555555;
+}
+.regproj-logos img{
+	float:left;
+	height:64px;
+	width:64px;
+	overflow:hidden;
+	margin-right:40px;
+}
+.regproj-logos .sub{
+	float:left;
+	height:37px;
+	width:145px;
+	background:#e9eaec;
+	border:none;
+	color:#7e7c7d;
+	font-size:14px;
+	margin-top:20px;
+}
+/*logo*/
+
+.regproj-product .subs,.regproj-product .regproj-add{
+	float:left;
+	height:37px;
+	width:145px;
+	background:#e9eaec;
+	border:none;
+	color:#807c7c;
+	font-size:14px;
+	margin-top:20px;
+}
+.regproj-product .regproj-add{
+	line-height:36px;
+	margin-left:23px;
+	width:192px;
+	text-align:center;
+}
+.regproj-name{
+	margin-top:55px;
+}
+.regproj-name ul{
+	float:left;
+}
+.regproj-name ul li{
+	color:#555555;
+	height:40px;
+	line-height:40px;
+	margin-right:23px;
+	margin-bottom:40px;
+	text-align:right;
+	width:140px;
+}
+.regproj-write{
+	height:36px;
+	width:439px;
+	border:1px solid #cccccc;
+	text-indent:5px;
+	font-size:14px;
+	margin-bottom:40px;
+	line-height:36px;
+}
+.regproj-name .regproj-writes{
+	height:136px;
+	width:421px;
+	border:1px solid #cccccc;
+	padding-left:18px;
+	font-size:14px;
+	overflow:hidden;
+	resize:none;
+}
+.regproj-name var{
+	font-style:normal;
+	height:36px;
+	float:right;
+	margin-right:300px;
+	margin-top:13px;
+	*margin-top:-70px;
+}
+.regproj-limit{
+	margin-left:180px;
+	color:#ababab;
+	font-size:14px;
+}
+.regproj-add{
+	margin-left:35px;
+	display:block;
+	margin-top:37px;
+	color:#575759;
+	cursor:pointer;
+}
+/*点击regproj-add时需要添加的是regproj-basic模块*/
+.regproj-add a{
+	margin-right:10px;
+}
+.regproj-add a img{
+	vertical-align:top;
+	margin-top:2px;
+}
+/*信息开放度*/
+.regproj-open,.regproj-serve{
+	background:#fff;
+	overflow:hidden;
+	padding-bottom:47px;
+}
+.regproj-open div{
+	width:730px;
+	margin-left:85px;
+	margin-bottom:85px;
+}
+.regproj-open .regproj-all{
+	margin-top:47px;
+}
+
+.regproj-open span{
+	color:#585858;
+	font-size:14px;
+	margin-left:10px;
+}
+.regproj-open div p{
+	color:#afafaf;
+	font-size:14px;
+	margin-left:28px;
+}
+/*服务条款*/
+.regproj-serve input{
+	margin:47px 0px 0px 85px;
+}
+.regproj-serve span{
+	font-size:14px;
+	color:#595959;
+	font-weight:bold;
+	margin-left:10px;
+}
+.regproj-serve span strong{
+	color:#ff7d7d;
+}
+.regproj-save,.apply-refer{
+	background:#4995e0;
+	color:white;
+}
+.regproj-save,.apply-visit{
+	height:50px;
+	width:235px;
+	line-height:50px;
+	font-size:14px;
+	font-weight:bold;
+	border:none;
+	margin:50px 0px 113px 120px;
+	cursor: pointer;
+	cursor: hand;
+}
+.apply-visit{
+	color:#595959;
+	background:white;
+}
+.regproj-next{
+	background:#efae2c;
+	color:#323433;
+	cursor: pointer;
+	cursor: hand;
+}
+.regproj-next,.apply-refer{
+	width:320px;
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+	font-weight:bold;
+	border:none;
+	margin:50px 0px 113px 160px;
+}
+/*apply-release.html*/
+/*平台声明*/
+.apply-platform{
+	padding-bottom:66px;
+}
+.apply-platform,.apply-identity{
+	width:905px;
+	background:#fff;
+	overflow:hidden;
+	padding-left:55px;
+}
+.apply-identity{
+	padding-bottom:53px;
+}
+.apply-platform span{
+	line-height:80px;
+}
+.apply-platform span,.apply-platform p{
+	color:#555555;
+	font-size:14px;
+}
+.apply-platform p{
+	text-indent:40px;
+	width:840px;
+	line-height:24px;
+}
+/*身份信息*/
+.apply-identity .apply-tex{
+	width:436px; 
+	height:40px;
+	border:1px solid #cccccc;
+	font-size:14px;
+	text-indent:5px;
+	line-height:40px;
+	margin-left:22px;
+	*margin-left:15px;
+}
+.apply-identity table td{
+	color:#555555;
+}
+.apply-found{
+	margin-left:28px;
+	margin-top:25px;
+}
+.apply-company{
+	margin-left:20px;
+	color:#515153;
+	font-size:14px;
+}
+/*公司信息*/
+
+/*prominent-investors-regist.html*/
+/*基本信息*/
+.proreg-tab{
+	background:#fff;
+	overflow:hidden;
+	padding-top:40px;
+}
+.proreg-tab table td{
+	padding-bottom:40px;
+}
+/*投资历史*/
+.proreg-history{
+	width:905px;
+	background:#fff;
+	overflow:hidden;
+	padding-left:50px;
+	margin-top:60px;
+	padding-top:15px;
+	padding-bottom:20px;
+}
+.proreg-history span{
+	margin-right:22px;
+	color:#575757;
+	font-size:12px;
+	display:inline-block;
+}
+.proreg-history input{
+	margin-right:10px;
+	vertical-align:center;
+}
+.proreg-history em{
+	font-style:normal;
+	margin-right:40px;
+}
+
+/*投资目标项目行业的添加*/
+
+.ml-5{
+	*margin-left:-5px;
+}
+.ml-8{
+	*margin-left:-15px;
+}
+
+/*投资目标添加内容*/
+.apply-identity .proreg-where,.apply-identity .proreg-wheres{
+	border:1px solid #ccc;
+	height:20px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	margin:30px 10px 0px 20px;
+	cursor:pointer;
+}
+.apply-identity .proreg-wheres{
+	border:1px solid #ccc;
+	height:20px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	margin:10px 10px 0px 20px;
+}
+.apply-identity .proreg-where span,.apply-identity .proreg-wheres span{
+	color:#9b9b9b;
+	margin-left:5px;
+}
+.apply-identity .proreg-where em,.apply-identity .proreg-wheres em{
+	font-style:normal;
+	color:#545454;
+	margin-right:5px;
+}
+.apply-identity .proreg-where img,.apply-identity .proreg-wheres img{
+	margin-right:5px;
+}
+
+
+
+.regprojs-nav{
+	width:958px;
+	height:83px;
+	border:1px solid #cbccce;
+	overflow:hidden;
+	font-family:"微软雅黑"
+}
+.regprojs-nav ul{
+	width:9999px;
+	height:78px;
+	border-bottom:5px solid #fff;
+	overflow:hidden;
+}
+.regprojs-nav ul li{
+	width:481px;
+	height:78px;
+	float:left;
+	border-right:1px solid #cbccce;
+	text-align:center;
+	line-height:78px;
+}
+.regprojs-nav ul li a{
+	font-size:18px;
+	color:#333;
+	display:block;
+}
+.regprojs-nav ul li .regprojs-project{
+	background:#fff;
+}
+.parconf-last{
+	color:#555555;
+	background:white;
+}
+.parconf-last,.parconf-visit{
+	height:50px;
+	width:235px;
+	margin-right:73px;
+	font-size:14px;
+	border:none;
+	margin-top:60px;
+	text-align:center;
+	font-weight:bold;
+	cursor: hand;
+	cursor: pointer;
+}
+.parconf-visit{
+	color:white;
+	background:#4a96e2;
+}
+.parconf-auditor{
+	height:50px;
+	width:325px;
+	color:#333333;
+	font-size:14px;
+	background:#efae2c;
+	border:none;
+	text-align:center;
+	font-weight:bold;
+	cursor: hand;
+	cursor: pointer;
+}
+
+/*合伙人注册页面*/
+.regist-checkbox{
+	margin:0 8px 0 22px
+}
+.partner-regist-select{
+	height: 16px;
+	border: 1px solid #ccc;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	float:left
+}
+.partner-regist-select div{
+	float: left;
+	width: 100%;
+	height: 16px;	
+	overflow: hidden;
+	margin-right: -23px;
+}
+.partner-regist-select select{
+	margin-top: -2px;
+	margin-left: -2px;
+	*margin-top: -4px;
+	margin-right: -2px;
+	width: 100%;
+	background: transparent url(../images/select.jpg) no-repeat;
+	border: 0;
+	outline: 0;
+	vertical-align: middle;
+	
+}
+div.partner-regist-selectMask{
+	float: left;
+	width:30px;
+	height: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+/* 需要修改的东西 */
+.partner-regist-select{
+	width: 72px;
+}
+.partner-regist-select select{
+	background-position: 39px center;
+	*background-position: 36px center;
+}
+.partner-regist-year{
+	float:left;
+	width:47px;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	font-size:14px;
+	color:#333
+}
+.partner-style{
+	width:93px;
+	margin-left:20px;
+	*margin-left:30px;
+}
+.partner-regist-selects{
+	height: 16px;
+	border: 1px solid #ccc;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	float:left;
+	margin-left:20px
+}
+.partner-regist-selects div{
+	float: left;
+	width: 100%;
+	height: 16px;	
+	overflow: hidden;
+	margin-right: -23px;
+}
+.partner-regist-selects select{
+	margin-top: -2px;
+	margin-left: -2px;
+	*margin-top: -4px;
+	margin-right: -2px;
+	width: 100%;
+	background: transparent url(../images/select.jpg) no-repeat;
+	border: 0;
+	outline: 0;
+	vertical-align: middle;
+	
+}
+div.partner-regist-selectMasks{
+	float: left;
+	width:30px;
+	height: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+/* 需要修改的东西 */
+.partner-regist-selects{
+	width: 440px;
+}
+.partner-regist-selects select{
+	background-position: 407px center;
+	*background-position: 403px center;
+}
+.pb-66{
+	padding-bottom:66px;
+}
