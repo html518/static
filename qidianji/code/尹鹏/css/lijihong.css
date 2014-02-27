@@ -17,7 +17,11 @@
 	background: #e8e8e8;
 	line-height: 80px;
 	text-align: center;
-	/*font-weight: bold;*/
+}
+.personal-nav li a,.personal-main-subnav li a{
+	float: left;
+	width: 100%;
+	height: 100%;
 }
 .personal-nav .personal-nav-last {
 	border-color: transparent;
@@ -349,6 +353,10 @@
 
 .personal-editwork-add,.personal-editedu-add {
 	margin-top: 40px;
+}
+.personal-editwork-add em,.personal-editedu-add em{
+	cursor: pointer;
+	cursor: hand;
 }
 .personal-editwork-add span,.personal-editedu-add span {
 	float: left;
