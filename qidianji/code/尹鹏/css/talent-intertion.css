@@ -1,0 +1,458 @@
+@charset "utf-8";
+.int-wrap{
+	width: 963px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.int-nav{
+	width: 960px;
+	height: 85px;
+	border: 1px solid #ccc;
+	border-top: 0;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.int-nav ul{
+	margin-left: -1px;
+	height: 85px;
+	background-color: white;
+}
+.int-nav ul li{
+	float: left;
+	width: 319px;
+	height: 80px;
+	background-color: #e8e8e8;
+	border-left: 1px solid #ccc;
+}
+.int-nav ul a{
+	float: left;
+	width: 320px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+}
+.int-nav ul .selected{
+	background-color: white;
+}
+
+.int-person{
+	width: 894px;
+	padding: 37px 33px;
+	overflow: hidden;
+	margin-bottom: 31px;
+	background-color: white;
+}
+.int-person dl,.int-person dt,.int-person dd,.int-person a{
+	float: left;
+}
+.int-person dl{
+	width: 845px;
+}
+.int-person dt{
+	width: 102px;
+	margin-right: 20px;
+	display: inline;
+	background-color: #ccc;
+}
+.int-person dd{
+	width: 720px;
+	margin-bottom: 15px;
+}
+.int-person a{
+	width: 49px;
+	font-size: 16px;
+	color: #4b98e5;
+}
+.int-person dt img{
+	float: left;
+	width: 102px;
+	height: 102px;
+}
+.int-person h2{
+	float: left;
+	color: #333;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+}
+.int-person span{
+	float: left;
+	margin-left: 15px;
+	color: #555;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.int-person-inp{ 
+	width: 421px;
+	height: 20px;
+	padding: 8px 8px;
+	border: 1px solid #ccc;
+}
+.int-person-inp input{
+	width: 100%;
+	height: 20px;
+	border: none;
+	outline: none;
+}
+.int-person-desc span{
+	margin: 0 43px 0 0;
+}
+
+.int-program{}
+
+.int-pro-nav{
+	width: 960px;
+	height: 60px;
+	border: 1px solid #ccc;
+	margin-bottom: 28px;
+	background-color: #e8e8e8;
+}
+
+.int-pro-nav a{
+	float: left;
+	width: 163px;
+	height: 60px;
+	border-right: 1px solid #ccc;
+	line-height: 60px;
+	text-align: center;
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+}
+.int-pro-nav a.selected{
+	background-color: white;
+}
+.int-left{
+	float: left;
+	width: 680px;
+	margin-bottom: 126px;
+}
+.int-pro-side{
+	float: right;
+	width: 261px;
+}
+.int-pro-head{
+	margin-bottom: 18px;
+}
+.int-pro-head h2{
+	float: left;
+	margin-left: 33px;
+
+	font-weight: bold;
+	color: #333333;
+	font-size: 16px;
+	font-family: "宋体";
+}
+.int-pro-head a{
+	float: right;
+	margin-right: 11px;
+	color: #4b98e5;
+}
+
+.int-pro-con{
+	overflow: hidden;
+	background-color: white;
+	padding: 27px 33px 43px 33px;
+}
+.int-pro-con div{
+	width: 684px;
+	margin-right: -70px;
+	margin-bottom: -48px;
+	overflow: hidden;
+	*margin-bottom: 0;
+}
+.int-pro-con dl{
+	float: left;
+	width: 272px;
+	padding-top: 8px;
+	margin-right: 70px;
+	margin-bottom: 48px;
+}
+.int-pro-con dt,.int-pro-con dd{
+	float: left;
+}
+.int-pro-con dt{
+	position: relative;
+	width: 102px;
+	height: 102px;
+	margin-right: 18px;
+	display: inline;
+	background: #ccc;
+}
+.int-pro-con dt img{
+	width: 102px;
+	height: 102px;
+}
+.int-pro-con dt span{
+	position: absolute;
+	right: -8px;
+	top: -8px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/int-close.png) 0 0;
+	display: none;
+	cursor: pointer;
+	cursor: hand;
+}
+.int-pro-con dd{
+	width: 151px;
+	color: #888888;
+	font-size: 12px;
+}
+.int-pro-con dd h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: #333;
+}
+.int-pro-con dd em{
+	font-size: 14px;
+	color: #333;
+	line-height: 24px;
+}
+.int-pro-con dd span{
+	margin-right: 20px;
+	line-height: 21px;
+}
+
+.int-pro-side-main{
+	margin-bottom: 42px;
+	padding: 34px 17px; 
+	width: 227px;
+	background-color: white;
+}
+.int-pro-side-main dl{
+	padding: 0 10px 23px 8px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	margin-bottom: 24px;
+}
+.int-pro-side-main dt,.int-pro-side-main dd{
+	float: left;
+}
+.int-pro-side-main dt{
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+}
+.int-pro-side-main dt img{
+	width: 64px;
+	height: 64px;
+}
+.int-pro-side-main dd{
+	width: 132px;
+}
+.int-pro-side-main dd{
+	line-height: 20px;
+	font-size: 12px;
+	color: #808080;
+}
+.int-pro-side-main dd h3{
+	margin-top: 14px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+
+.int-pro-role{
+	font-size: 14px;
+	color: #555555;
+	font-weight: bold;
+	margin-bottom: 19px;
+}
+.int-pro-role span{
+	float: left;
+}
+.int-pro-role input{
+	float: right;
+	height: 15px;
+	width: 15px;
+}
+.int-pro-side-main li{
+	display: inline;
+	float: left;
+	margin-right: 31px;
+	color: #555;
+	font-size: 14px;
+	line-height: 24px;
+	white-space:nowrap;
+}
+.int-pro-btn {
+	margin-top: 38px;
+	text-align: center;
+}
+.int-pro-btn input{
+	width: 221px;
+	height: 51px;
+	border: none;
+	outline: none;
+	color: #43463f;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #fede93;
+	cursor: hand;
+	cursor: pointer;
+}
+.int-pro-more{
+	text-align: center;
+	margin-bottom: 134px;
+}
+.int-pro-more a{
+	color: #a76b13;	
+	font-size: 16px;
+	font-weight: bold;
+}
+.int-pro-save{
+	display: none;
+}
+
+/* 个人信息*/
+.int-work-con,.int-edu-con,.int-req-con{
+	margin-bottom: 39px;
+	padding:36px;
+	background-color: white;
+}
+.int-work-con li,.int-edu-con li{
+	font-size: 14px;
+	color: #555555;
+	line-height: 30px;
+}
+.int-work-con li span,.int-edu-con li span{
+	padding: 0 16px;
+}
+.int-work-save,.int-edu-save,.int-req-save{
+	display: none;
+}
+.int-req-con select{
+	width: 434px;
+}
+.int-req-con .select select{
+	background-position: 386px center;
+	*background-position: 383px center;
+}
+
+/* 遮罩层 */
+.int-mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url(../images/mask.png) 0 0 repeat;
+	display: none;
+
+}
+.int-form{
+	width: 960px;
+	margin: 182px auto 0;
+	opacity: 1;
+	
+}
+.int-mask form{
+	position: relative;
+	width: 824px;
+	margin: 182px auto 0;
+	background-color: white;
+	padding: 35px 68px 94px;
+	font-size: 12px;
+	font-family: "宋体";
+}
+.int-mask form em{
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/int-close.png) -16px 0 no-repeat;
+}
+.int-mask td,.int-req-con td{
+	padding-bottom: 42px;
+}
+.int-mask p,.int-req-con p{
+	text-align: right;
+	padding-right: 23px;
+}
+.int-mask img{
+	float: left;
+	width: 64px;
+	height: 64px;
+	border: 1px solid #ccc;
+	margin-right: 28px;
+}
+.input-file{
+	float: left;
+	margin-top: 11px;
+}
+.int-form-inp{
+	width: 401px;
+	height: 16px;
+	border: 1px solid #ccc;
+	padding: 10px 18px;
+}
+.int-form-inp input{
+	height: 16px;
+	width: 400px;
+	border: none;
+	outline: none;
+}
+.int-mask label{
+	float: left;
+	display: inline;
+	margin-right: 38px;
+	font-size: 14px;
+	line-height: 16px;
+}
+.int-mask label input{
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin-right: 14px;
+}
+.int-born span{
+	float: left;
+	line-height: 36px;
+	padding: 0 15px;
+}
+.int-year{
+	float: left;
+	width: 59px;
+	padding: 10px;
+	font-size: 14px;
+}
+.int-year select{
+	width: 84px; 
+	background-position: 48px center;
+	*background-position: 45px center;
+}
+.int-month,.int-day{
+	float: left;
+	width: 43px;
+	padding: 10px;
+	font-size: 14px;
+}
+.int-month select,.int-day select{
+	width: 68px;
+	background-position: 33px center;
+	*background-position: 30px center;
+}
+.int-form-btn{
+	margin-top: 37px;
+	text-align: center;
+}
+.int-form-btn input{
+	width: 240px;
+	height: 56px;
+	border: none;
+	outline: none;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	background-color: #4a96e2;
+	font-weight: bold;
+	cursor: pointer;
+	cursor: hand;
+}
