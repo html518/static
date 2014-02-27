@@ -1,3 +1,4 @@
+input{outline: none;}
 body {
 	width: 100%;
 	height: 100%;
@@ -27,14 +28,19 @@ body {
 	line-height: 80px;
 	text-align: center;
 }
-.coresume-nav .personal-nav-last {
+.coresume-nav .coresume-nav-last {
 	border-color: transparent;
 }
 .coresume-nav h1 a {
+	width: 100%;
+	height: 100%;
 	color: #363636;
+	font-weight: bold; 
 	font-size: 18px;
+	float: left;   
+	background: #e8e8e8; 
 }
-.coresume .coresume-select { /* personal-nav和subnav通过加select类名来改变选中的状态 */
+.coresume .coresume-select a { /* personal-nav和subnav通过加select类名来改变选中的状态 */
 	background: #fff;
 }
 .coresume-info {
@@ -77,11 +83,11 @@ body {
 }
 .coresume-info dl dd input {
 	width: 447px;
-	height: 36px;  
+	height: 36px;   
+	font-size: 16px;   
 	margin-top: 16px;
 	padding-left: 8px;
-	border: 1px solid #ccc;
-	outline: none;
+	border: 1px solid #ccc; 
 }
 .coresume-info dl dd p { 
 	color: #545454;
@@ -120,12 +126,17 @@ body {
 .coresume-left-head span {
 	color: #469bec; 
 	margin-right: 10px;
+	cursor: pointer;
 	float: right;
 }   
+.coresume-history div {
+	padding: 32px 0 24px 0;  
+	background: #fff;
+}
 .coresume-history-list {
 	width: 306px; 
 	height: 67px;
-	padding: 32px 0 49px 34px;
+	padding: 0 0 25px 34px;
 	background: #fff;
 	float: left;
 }
@@ -228,6 +239,7 @@ body {
 	width: 7px;
 	height: 18px;
 	margin-left: 7px; float: left;
+	cursor: pointer;
 	background: url('../images/pro-aim-del.jpg') 0 center no-repeat;
 }   
 .coresume-work,.coresume-education {
@@ -235,14 +247,19 @@ body {
 }
 .coresume-work-list,.coresume-education-list {
 	color: #575757;
-	padding: 28px 0 39px 35px; 
+	padding: 28px 30px 39px 35px; 
 	background: #fff;
 }
 .coresume-work-list li,.coresume-education-list li {
+	width: 100%;
 	height: 30px; 
 	line-height: 30px;
 	white-space: nowrap;
 	overflow: hidden;
+}  
+.coresume-work-list li var,.coresume-education-list li var,
+.coresume-work-list li span,.coresume-education-list li span {
+	margin-right: 1em;
 }   
 .coresume-right {
 	width: 260px;
@@ -316,7 +333,7 @@ body {
 	overflow: hidden;
 } 
 .coresume-recommend-info-plan div p {
-	width: 170px;
+	width: 76%;
 	height: 14px;  
 	padding: 0;
 	background: #13acb3;
@@ -367,6 +384,17 @@ body {
 	top: 100px;
 	z-index: 1000;
 } 
+.coresume-layer2-history,.coresume-layer2-aim,.coresume-layer2-work,.coresume-layer2-education {
+	width: 922px;  
+	height: 500px;
+	padding: 0 12px 74px 28px; 
+	background: #fff; 
+	position: absolute; 
+	margin-left: -480px;
+	left: 50%;
+	top: 100px;
+	z-index: 1000;
+}
 .closebj {
 	width: 16px;
 	height: 16px;

@@ -13,29 +13,32 @@ body {
  
 .proresume-nav {
 	width: 100%;
-	height: 85px;
+	height: 85px;overflow: hidden;
 	border: 1px solid #cbcbcb;
 	border-top: none;
 	background: #fff;
 } 
-.proresume-nav li {
+.proresume-nav li {                      
 	float: left;
 	width: 319px;
 	height: 80px;
 	border-right: 1px solid #cfcfcf;
-	background: #e8e8e8;
 	line-height: 80px;
 	text-align: center;
 }
-.proresume-nav .personal-nav-last {
+.proresume-nav .proresume-nav-last {
 	border-color: transparent;
 }
 .proresume-nav h1 a {
+	width: 100%;
+	height: 100%;
 	color: #363636;
 	font-size: 18px;
 	font-weight: bold;
+	float: left;	
+	background: #e8e8e8; 
 }
-.proresume .proresume-select { /* personal-nav和subnav通过加select类名来改变选中的状态 */
+.proresume .proresume-select a { /* personal-nav和subnav通过加select类名来改变选中的状态 */
 	background: #fff;
 }
 .proresume-info {
@@ -127,10 +130,14 @@ body {
 	cursor: pointer;
 	float: right;
 }   
+.proresume-history div {
+	padding: 32px 0 24px 0;  
+	background: #fff;
+}
 .proresume-history-list {
 	width: 306px; 
 	height: 67px;
-	padding: 32px 0 49px 34px;
+	padding: 0 0 25px 34px;
 	background: #fff;
 	float: left;
 }
@@ -235,6 +242,7 @@ body {
 	width: 7px;
 	height: 18px;
 	margin-left: 7px; float: left;
+	cursor: pointer;
 	background: url('../images/pro-aim-del.jpg') 0 center no-repeat;
 } 
 .proresume-work,.proresume-education {
@@ -242,14 +250,19 @@ body {
 }
 .proresume-work-list,.proresume-education-list {
 	color: #575757;
-	padding: 28px 0 39px 35px; 
+	padding: 28px 30px 39px 35px; 
 	background: #fff;
 }
 .proresume-work-list li,.proresume-education-list li {
+	width: 100%;
 	height: 30px; 
 	line-height: 30px;
 	white-space: nowrap;
 	overflow: hidden;
+}   
+.proresume-work-list li var,.proresume-education-list li var,
+.proresume-work-list li span,.proresume-education-list li span {
+	margin-right: 1em;
 }   
 .proresume-right {
 	width: 260px;
@@ -327,7 +340,7 @@ body {
 	overflow: hidden;
 }
 .proresume-recommend-info-plan div p {
-	width: 170px;
+	width: 80%;
 	height: 14px;  
 	padding: 0;
 	background: #13acb3;
@@ -378,6 +391,17 @@ body {
 	top: 100px;
 	z-index: 1000;
 }  
+.proresume-layer2-info,.proresume-layer2-aim,.proresume-layer2-work,.proresume-layer2-education {
+	width: 922px;  
+	height: 700px;
+	padding: 0 12px 74px 28px; 
+	background: #fff; 
+	position: absolute; 
+	margin-left: -480px;
+	left: 50%;
+	top: 100px;
+	z-index: 1000;
+}
 .closebj {
 	width: 16px;
 	height: 16px;
