@@ -11,6 +11,7 @@ body {
 	background: #e9eaec;
 }
  
+ /* 导航、个人信息 */
 .proresume-nav {
 	width: 100%;
 	height: 85px;overflow: hidden;
@@ -117,6 +118,8 @@ body {
 .proresume-nav-three a.active {
 	background: #fff;
 } 
+
+/* 投资历史、投资目标 */
 .proresume-left { 
 	width: 680px;
 	float: left;
@@ -251,6 +254,8 @@ body {
 	cursor: pointer;
 	background: url('../images/pro-aim-del.jpg') 0 center no-repeat;
 } 
+
+/* 工作经历、教育背景  */
 .proresume-work,.proresume-education {
 	margin-top: 24px;
 }
@@ -270,6 +275,8 @@ body {
 .proresume-work-list li span,.proresume-education-list li span {
 	margin-right: 1em;
 }   
+
+/* 推荐项目 */
 .proresume-right {
 	width: 260px;
 	margin-top: 11px;
@@ -381,7 +388,9 @@ body {
 .proresume-layer1 { 
 	width: 100%;
 	height: 100%; 
-	background: #747576; opacity: 0.5;
+	background: #747576; 
+	filter:alpha(opacity=50);
+	opacity: 0.5;
 	position: absolute;
 	top:0;
 	left:0;
@@ -397,17 +406,9 @@ body {
 	top: 100px;
 	z-index: 1000;
 }  
-.proresume-layer2-info {
+.proresume-layer2-info,.proresume-layer2-work,.proresume-layer2-education {
 	width: 922px;   
-	padding: 33px 12px 120px 28px; 
-	background: #fff; 
-	position: absolute; 
-	margin-left: -480px;
-	left: 50%;
-	top: 100px;
-	z-index: 1000;
-} 
-.proresume-layer2-info,.proresume-layer2-aim,.proresume-layer2-work,.proresume-layer2-education {  
+	padding: 33px 12px 120px 28px;  
 	background: #fff; 
 	position: absolute; 
 	margin-left: -480px;
@@ -415,9 +416,14 @@ body {
 	top: 100px;
 	z-index: 1000;
 }
+.proresume-layer2-work,.proresume-layer2-education {
+	width: 962px;   
+	padding: 0 0 120px 0; 
+} 
 .closebj {
 	width: 16px;
 	height: 16px;
+	cursor: pointer;
 	background: url('../images/edit-bj.png') 0 -16px no-repeat;
 	position: absolute;
 	top: -8px;
@@ -631,6 +637,7 @@ div.selectMask{
 	right: -8px;
 	width: 16px;
 	height: 16px;
+	cursor: pointer;
 	background: url("../images/int-close.png") -16px 0 no-repeat;
 }
 .personal-editwork ul,.personal-editedu ul {

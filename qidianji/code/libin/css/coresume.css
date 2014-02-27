@@ -11,7 +11,7 @@ body {
 	margin: 0 auto;
 	background: #e9eaec;
 }
- 
+ /* 导航、个人信息 */
 .coresume-nav {
 	width: 100%;
 	height: 85px;
@@ -117,6 +117,8 @@ body {
 .coresume-nav-three a.active {
 	background: #fff;
 } 
+
+/* 投资经历、投资目标 */
 .coresume-left { 
 	width: 680px;
 	float: left;
@@ -249,6 +251,8 @@ body {
 	cursor: pointer;
 	background: url('../images/pro-aim-del.jpg') 0 center no-repeat;
 }   
+
+/* 工作经历、教育背景 */
 .coresume-work,.coresume-education {
 	margin-top: 24px;
 }
@@ -268,6 +272,8 @@ body {
 .coresume-work-list li span,.coresume-education-list li span {
 	margin-right: 1em;
 }   
+
+/* 推荐项目 */
 .coresume-right {
 	width: 260px;
 	margin-top: 11px;
@@ -375,7 +381,7 @@ body {
 .coresume-layer1 { 
 	width: 100%;
 	height: 100%; 
-	background: #747576; opacity: 0.5;
+	background: #747576; opacity: 0.5; filter:alpha(opacity=50);
 	position: absolute;
 	top:0;
 	left:0;
@@ -390,11 +396,9 @@ body {
 	left: 50%;
 	top: 100px;
 	z-index: 1000;
-} 
-.coresume-layer2-history {
-	width: 922px;     
 }  
-.coresume-layer2-history,.coresume-layer2-aim,.coresume-layer2-work,.coresume-layer2-education { 
+.coresume-layer2-history,.coresume-layer2-work,.coresume-layer2-education { 
+	width: 922px;   
 	padding: 0 12px 74px 28px; 
 	background: #fff; 
 	position: absolute; 
@@ -402,10 +406,15 @@ body {
 	left: 50%;
 	top: 100px;
 	z-index: 1000;
+} 
+.coresume-layer2-work,.coresume-layer2-education {
+	width: 962px;
+	padding: 0 0 74px 0; 
 }
 .closebj {
 	width: 16px;
 	height: 16px;
+	cursor: pointer;
 	background: url('../images/edit-bj.png') 0 -16px no-repeat;
 	position: absolute;
 	top: -8px;
@@ -611,6 +620,7 @@ div.selectMask{
 	right: -8px;
 	width: 16px;
 	height: 16px;
+	cursor: pointer;
 	background: url("../images/int-close.png") -16px 0 no-repeat;
 }
 .personal-editwork ul,.personal-editedu ul {

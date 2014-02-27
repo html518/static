@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>27 知名投资者 投资者 简历 proresume</title>
+	<title>知名投资者-投资者简历 proresume</title>
 	<meta name="Description" content="">
 	<link type="text/css" rel="stylesheet" href="css/proresume.css" />
 	<link type="text/css" rel="stylesheet" href="css/common.css" />
@@ -57,7 +57,7 @@
 				</div> 
 			</div> 
 			<div class="proresume-aim clearfix">
-				<p class="proresume-left-head clearfix"><strong>投资目标</strong><span class="editbtn">编辑</span></p>
+				<p class="proresume-left-head clearfix"><strong>投资目标</strong><span class="">编辑/保存</span></p>
 				<div class="proresume-aim-list clearfix">
 					<dl class="clearfix">
 						<dt>
@@ -281,12 +281,8 @@
 				</ul>
 				<div class="proresume-layer2-subbnt"><input id="savebtn" type="submit" value="保存" /></div>
 			</form>
-		</div>  
-		<div class="proresume-layer2-aim clearfix">
-			<div class="closebj">&nbsp;</div>
-		</div>  
-		<div class="proresume-layer2-work clearfix">
-			<div class="closebj">&nbsp;</div>
+		</div>   
+		<div class="proresume-layer2-work clearfix"> 
 			<form class="personal-editwork">
 				<div class="personal-editwork-close"></div>
 				<ul>
@@ -329,8 +325,7 @@
 				</div>
 			</form>
 		</div>  
-		<div class="proresume-layer2-education clearfix">
-			<div class="closebj">&nbsp;</div>
+		<div class="proresume-layer2-education clearfix"> 
 			<form class="personal-editedu">
 				<div class="personal-editedu-close"></div>
 				<ul>
@@ -387,24 +382,19 @@
 				if(n == 1) {
 					hiddenLayer();
 					$(".proresume-layer2").show();
-				}
+				} 
 				if(n == 2) {
-					hiddenLayer();
-					$(".proresume-layer2-aim").show(); 
-				}
-				if(n == 3) {
 					hiddenLayer();
 					$(".proresume-layer2-work").show(); 
 				}
-				if(n == 4) {
+				if(n == 3) {
 					hiddenLayer();;
 					$(".proresume-layer2-education").show(); 
 				}
 			})
 		}) 
 		function hiddenLayer() {
-			$(".proresume-layer2").hide();
-			$(".proresume-layer2-aim").hide();
+			$(".proresume-layer2").hide(); 
 			$(".proresume-layer2-work").hide();
 			$(".proresume-layer2-education").hide();
 			$(".proresume-layer2-info").hide();
@@ -416,13 +406,14 @@
 		$(".closebj").bind("click", function() {
 			$(".proresumelayer").hide();
 		})
+		$(".personal-editedu-close").bind("click", function() {
+			$(".proresumelayer").hide();
+		}) 
+		$(".personal-editwork-close").bind("click", function() {
+			$(".proresumelayer").hide();
+		})	 
 		$(".delbtn").each(function(n) {
 			$(this).bind("click", function() { 
-				$(this).parent().remove();
-			})
-		})
-		$(".wipebtn").each(function(n) {
-			$(this).bind("click", function() {
 				$(this).parent().remove();
 			})
 		})

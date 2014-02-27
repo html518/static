@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>23 投资信息 联合投资者 简历 coresume</title>
+	<title>投资信息-投资者简历 coresume</title>
 	<meta name="Description" content="">
 	<link type="text/css" rel="stylesheet" href="css/coresume.css" />
 	<link type="text/css" rel="stylesheet" href="css/common.css" />
@@ -78,7 +78,7 @@
 				</ul> 
 			</div>
 			<div class="coresume-aim clearfix">
-				<p class="coresume-left-head clearfix"><strong>投资目标</strong><span class="editbtn">编辑</span></p>
+				<p class="coresume-left-head clearfix"><strong>投资目标</strong><span class="">编辑/保存</span></p>
 				<div class="coresume-aim-list clearfix">
 					<dl class="clearfix">
 						<dt>
@@ -281,8 +281,7 @@
 				<div class="coresume-layer2-subbnt"><input id="savebtn" type="submit" value="保存" /></div>
 			</form>
 		</div>  
-		<div class="coresume-layer2-work clearfix">
-			<div class="closebj">&nbsp;</div>
+		<div class="coresume-layer2-work clearfix"> 
 			<form class="personal-editwork">
 				<div class="personal-editwork-close"></div>
 				<ul>
@@ -324,12 +323,8 @@
 					<input type="submit" value="保存" />
 				</div>
 			</form>
-		</div>  
-		<div class="coresume-layer2-aim clearfix">
-			<div class="closebj">&nbsp;</div>
-		</div>  
-		<div class="coresume-layer2-education clearfix">
-			<div class="closebj">&nbsp;</div>
+		</div>   
+		<div class="coresume-layer2-education clearfix"> 
 			<form class="personal-editedu">
 				<div class="personal-editedu-close"></div>
 				<ul>
@@ -390,12 +385,8 @@
 				if(n == 2) {
 					hiddenLayer();
 					$(".coresume-layer2-work").show(); 
-				}
+				} 
 				if(n == 3) {
-					hiddenLayer();
-					$(".coresume-layer2-aim").show(); 
-				}
-				if(n == 4) {
 					hiddenLayer();;
 					$(".coresume-layer2-education").show(); 
 				}
@@ -404,8 +395,7 @@
 		function hiddenLayer() {
 			$(".coresume-layer2").hide();
 			$(".coresume-layer2-history").hide();
-			$(".coresume-layer2-work").hide();
-			$(".coresume-layer2-aim").hide();
+			$(".coresume-layer2-work").hide(); 
 			$(".coresume-layer2-education").hide();
 		}
 		$(".newdd var").bind("click", function() {
@@ -414,12 +404,13 @@
 		}) 
 		$(".closebj").bind("click", function() {
 			$(".coresumelayer").hide();
-		})	
-		$(".wipebtn").each(function(n) {
-			$(this).bind("click", function() {
-				$(this).parent().remove();
-			})
 		})
+		$(".personal-editedu-close").bind("click", function() {
+			$(".coresumelayer").hide();
+		})	
+		$(".personal-editwork-close").bind("click", function() {
+			$(".coresumelayer").hide();
+		})	
 	</script>
 </body>
 </html> 
