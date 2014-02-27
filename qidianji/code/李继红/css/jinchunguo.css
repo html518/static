@@ -992,141 +992,6 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 .recruit-main-rt-con strong a  {
 	color: #fff;
 }
-.investor {
-	width: 960px;
-	margin: 0 auto;
-	padding-top: 37px;
-}
-.investor-info {
-	position: relative;
-	width: 100%;
-	height: 195px;
-	background: #fff;
-}
-.investor-info dl {
-	position: absolute;
-	top: 40px;
-	left: 34px;
-}
-.investor-info dl dt {
-	float: left;
-	width: 102px;
-	height: 102px;
-	background: #e9eaec;
-}
-.investor-info dl dt img {
-	width: 102px;
-	height: 102px;
-}
-.investor-info dl dd {
-	float: left;
-	margin-left: 20px;
-}
-.investor-info dl dd h3 {
-	font-size: 18px;
-	font-weight: bold;
-	color: #333;
-}
-.investor-info dl dd var {
-	display: block;
-}
-.investor-info dl dd input {
-	width: 429px;
-	height: 36px;
-	margin-top: 14px;
-	padding-left: 8px;
-	border: 1px solid #ccc;
-	font-size: 12px;
-	outline: none;
-}
-.investor-info dl dd div {
-	width: 750px;
-	margin-top: 14px;
-	color: #555;
-	font-size: 14px;
-}
-.investor-info dl div span {
-	display: inline-block;
-	max-width: 90px;
-	*max-width: 90px;
-	height: 16px;
-	margin-right: 36px;
-	line-height: 16px;
-	overflow: hidden;
-}
-.investor-subnav {
-	width: 100%;
-	height: 60px;
-	margin-top: 9px;
-	border: 1px solid #ccc;
-}
-.investor-subnav a {
-	display: inline-block;
-	width: 163px;
-	height: 100%;
-	border-right: 1px solid #ccc;
-	background: #fff;
-	line-height: 60px;
-	text-align: center;
-	font-weight: bold;
-	color: #333;
-}
-.investor-invest {
-	width: 100%;
-	margin-top: 50px;
-}
-.investor-invest h3 {
-	margin-left: 32px;
-	font-weight: bold;
-	color: #333;
-}
-.investor-invest-con {
-	margin-top: 18px;
-	background: #fff;
-	font-size: 14px;
-}
-.investor-invest-con-top,.investor-invest-con-bom {
-	padding: 40px 0 50px 45px;
-}
-.investor-invest-con-top p {
-	color: #888;
-}
-.investor-invest-con-top ul {
-	margin: 0 0 0 45px;
-	color: #333;
-}
-.investor-invest-con-top ul li {
-	float: left;
-	width: 64px;
-	height: 120px;
-	margin: 15px 30px 0;
-	text-align: center;
-}
-.investor-invest-con-top li span {
-	display: inline-block;
-	margin-top: 6px;
-	height: 26px;
-	line-height: 26px;
-}
-.investor-invest-con .investor-invest-con-bom {
-	border-top: 1px solid #eee;
-}
-.investor-invest-con-bom p {
-	float: left;
-	color: #888;
-}
-.investor-invest-con-bom ul {
-	float: left;
-	margin: -8px 0 0 38px;
-	color: #555;
-}
-.investor-invest-con-bom ul li {
-	height: 30px;
-	line-height: 30px;
-}
-.investor-invest-con-bom span{
-	padding: 0 15px;
-}
 .incubaservice {
 	width: 960px;
 	margin: 0 auto;
@@ -1293,45 +1158,45 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	cursor: pointer;
 	cursor: hand;
 }
-.cooper {
+.cooper,.investor {
 	width: 960px;
 	margin: 0 auto;
 	padding-top: 37px;
 }
-.cooper-info {
+.cooper-info,.investor-info {
 	position: relative;
 	width: 100%;
 	height: 195px;
 	background: #fff;
 }
-.cooper-info dl {
+.cooper-info dl,.investor-info dl {
 	position: absolute;
 	top: 40px;
 	left: 34px;
 }
-.cooper-info dl dt {
+.cooper-info dl dt,.investor-info dl dt {
 	float: left;
 	width: 102px;
 	height: 102px;
 	background: #e9eaec;
 }
-.cooper-info dl dt img {
+.cooper-info dl dt img,.investor-info dl dt img {
 	width: 102px;
 	height: 102px;
 }
-.cooper-info dl dd h3 {
+.cooper-info dl dd h3,.investor-info dl dd h3 {
 	font-size: 18px;
 	font-weight: bold;
 	color: #333;
 }
-.cooper-info dl dd var {
+.cooper-info dl dd var,.investor-info dl dd var {
 	display: block;
 }
-.cooper-info dl dd {
+.cooper-info dl dd,.investor-info dl dd {
 	float: left;
 	margin-left: 20px;
 }
-.cooper-info dl dd input {
+.cooper-info dl dd input,.investor-info dl dd input {
 	width: 429px;
 	height: 36px;
 	margin-top: 14px;
@@ -1340,13 +1205,13 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	font-size: 12px;
 	outline: none;
 }
-.cooper-info dl dd div {
+.cooper-info dl dd div,.investor-info dl dd div {
 	width: 750px;
 	margin-top: 14px;
 	color: #555;
 	font-size: 14px;
 }
-.cooper-info dl div span {
+.cooper-info dl div span,.investor-info dl div span {
 	display: inline-block;
 	max-width: 90px;
 	*max-width: 90px;
@@ -1355,13 +1220,13 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	line-height: 16px;
 	overflow: hidden;
 }
-.cooper-subnav {
+.cooper-subnav,.investor-subnav {
 	width: 100%;
 	height: 60px;
 	margin-top: 9px;
 	border: 1px solid #ccc;
 }
-.cooper-subnav a {
+.cooper-subnav a,.investor-subnav a {
 	display: inline-block;
 	width: 163px;
 	height: 100%;
@@ -1372,60 +1237,60 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	font-weight: bold;
 	color: #333;
 }
-.cooper-invest {
+.cooper-invest,.investor-invest {
 	width: 100%;
 	margin-top: 50px;
 }
-.cooper-invest h3 {
+.cooper-invest h3,.investor-invest h3  {
 	margin-left: 32px;
 	color: #333;
 	font-weight: bold;
 }
-.cooper-invest-con {
+.cooper-invest-con,.investor-invest-con {
 	margin-top: 18px;
 	background: #fff;
 	font-size: 14px;
 }
-.cooper-invest-con-top,.cooper-invest-con-bom {
+.cooper-invest-con-top,.cooper-invest-con-bom,.investor-invest-con-top,.investor-invest-con-bom {
 	padding: 40px 0 50px 45px;
 }
-.cooper-invest-con-top p {
+.cooper-invest-con-top p,.investor-invest-con-top p {
 	color: #888;
 }
-.cooper-invest-con-top ul {
+.cooper-invest-con-top ul,.investor-invest-con-top ul {
 	margin: 0 0 0 45px;
 	color: #333;
 }
-.cooper-invest-con-top ul li {
+.cooper-invest-con-top ul li,.investor-invest-con-top ul li {
 	float: left;
 	width: 64px;
 	height: 120px;
 	margin: 15px 30px 0;
 	text-align: center;
 }
-.cooper-invest-con-top li span {
+.cooper-invest-con-top li span,.investor-invest-con-top li span {
 	display: inline-block;
 	margin-top: 6px;
 	height: 26px;
 	line-height: 26px;
 }
-.cooper-invest-con .cooper-invest-con-bom {
+.cooper-invest-con .cooper-invest-con-bom,.investor-invest-con .investor-invest-con-bom {
 	border-top: 1px solid #eee;
 }
-.cooper-invest-con-bom p {
+.cooper-invest-con-bom p,.investor-invest-con-bom p {
 	float: left;
 	color: #888;
 }
-.cooper-invest-con-bom ul {
+.cooper-invest-con-bom ul,.investor-invest-con-bom ul {
 	float: left;
 	margin: -8px 0 0 38px;
 	color: #555;
 }
-.cooper-invest-con-bom ul li {
+.cooper-invest-con-bom ul li,.investor-invest-con-bom ul li {
 	height: 30px;
 	line-height: 30px;
 }
-.cooper-invest-con-bom span{
+.cooper-invest-con-bom span,.investor-invest-con-bom span{
 	padding: 0 15px;
 }
 .entre {
