@@ -204,8 +204,51 @@
 			<form>
 				<ul class="coresume-layer2-form clearfix">
 					<li class="coresume-layer2-form-first">
-						<span>项目logo</span>
+						<span>头像</span>
 						<p>	
+							<img src="images/1.jpg" />
+							<div class="input-file">
+								<var>选择文件</var>
+								<input class="input-file-btn" type="file" name="" value="" />
+							</div> 
+							<input class="file-btn" type="button" value="上传文件" />
+						</p>
+					</li>
+					<li><span>姓名</span><p><input type="text" /></p></li>
+					<li>
+						<span>所在地</span>
+						<p>
+							<div class="form-select" id="btn">
+								<div>
+									<select>
+										<option>北京</option>
+										<option>北京</option>
+										<option>北京</option>
+										<option>北京</option> 
+									</select> 
+								</div>
+								<div class="selectMask"></div>
+							</div>
+						</p>
+					</li>
+					<li><span>擅长领域</span><p><input type="text" /></p></li> 
+				</ul>
+				<div class="coresume-layer2-subbnt"><input id="savebtn" type="submit" value="保存" /></div>
+			</form>
+		</div>
+		<div class="coresume-layer2-history clearfix">
+			<div class="closebj">&nbsp;</div>
+			<dl class="clearfix">
+				<dt>投资历史</dt>
+				<dd><var>项目1</var><span class="delbtn">&nbsp;</span></dd>
+				<dd><var>项目2</var><span class="delbtn">&nbsp;</span></dd>
+				<dd class="newdd"><var>&nbsp;添加新项目</var></dd>
+			</dl>
+			<form>
+				<ul class="coresume-layer2-form clearfix">
+					<li class="coresume-layer2-form-first">
+						<span>项目logo</span>
+						<p>
 							<img src="images/1.jpg" />
 							<div class="input-file">
 								<var>选择文件</var>
@@ -217,7 +260,7 @@
 					<li><span>项目名称</span><p><input type="text" placeholder="如：奇点 腾讯" /></p></li>
 					<li>
 						<span>投资阶段</span>
-						<p>
+						<p> 
 							<div class="form-select" id="btn">
 								<div>
 									<select>
@@ -237,18 +280,99 @@
 				</ul>
 				<div class="coresume-layer2-subbnt"><input id="savebtn" type="submit" value="保存" /></div>
 			</form>
-		</div>
-		<div class="coresume-layer2-history clearfix">
-			<div class="closebj">&nbsp;</div>
 		</div>  
 		<div class="coresume-layer2-work clearfix">
 			<div class="closebj">&nbsp;</div>
+			<form class="personal-editwork">
+				<div class="personal-editwork-close"></div>
+				<ul>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+				</ul>
+				<input type="text" placeholder="公司" />
+				<input type="text" placeholder="职位" />
+				<div class="personal-editwork-select">
+					<div class="select personal-editwork-select1" id="btn">
+						<div>
+							<select>
+								<option value="">入职年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+					<span></span>
+					<div class="select personal-editwork-select2" id="btn">
+						<div>
+							<select>
+								<option value="">离职年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="personal-editwork-add clearfix">
+					<span></span>
+					<var>添加新工作经历</var>
+				</div>
+				<div class="personal-editwork-sub">
+					<input type="submit" value="保存" />
+				</div>
+			</form>
 		</div>  
 		<div class="coresume-layer2-aim clearfix">
 			<div class="closebj">&nbsp;</div>
 		</div>  
 		<div class="coresume-layer2-education clearfix">
 			<div class="closebj">&nbsp;</div>
+			<form class="personal-editedu">
+				<div class="personal-editedu-close"></div>
+				<ul>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+				</ul>
+				<div>
+					<input type="text" placeholder="院校" class="personal-editedu-sch" />
+					<input type="text" placeholder="学历" class="personal-editedu-record" />
+				</div>
+				<div class="personal-editedu-select">
+					<div class="select personal-editwork-select1" id="btn">
+						<div>
+							<select>
+								<option value="">入学年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+					<span></span>
+					<div class="select personal-editwork-select2" id="btn">
+						<div>
+							<select>
+								<option value="">离学年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="personal-editedu-add clearfix">
+					<span></span>
+					<var>添加新工作经历</var>
+				</div>
+				<div class="personal-editedu-sub">
+					<input type="submit" value="保存" />
+				</div>
+			</form>
 		</div>  
 	</div> 
 	<script>   
@@ -284,9 +408,10 @@
 			$(".coresume-layer2-aim").hide();
 			$(".coresume-layer2-education").hide();
 		}
-		$(".newdd").bind("click", function() {
-			$("<dd>项目3</dd>").insertBefore($(this)); 
-		})
+		$(".newdd var").bind("click", function() {
+			$("<dd><var>项目3</var><span class='delbtn'>&nbsp;</span></dd>").insertBefore($(this).parent());
+			$(".delbtn").bind("click", function() { $(this).parent().remove(); }); 
+		}) 
 		$(".closebj").bind("click", function() {
 			$(".coresumelayer").hide();
 		})	

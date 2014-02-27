@@ -341,7 +341,7 @@ body {
 .proresume-recommend-info-plan div {
 	width: 214px;
 	height: 14px;  
-	background: transparent;   
+	background: #eee;   
 	float:left; 
 	overflow: hidden;
 }
@@ -397,10 +397,17 @@ body {
 	top: 100px;
 	z-index: 1000;
 }  
-.proresume-layer2-info,.proresume-layer2-aim,.proresume-layer2-work,.proresume-layer2-education {
-	width: 922px;  
-	height: 700px;
-	padding: 0 12px 74px 28px; 
+.proresume-layer2-info {
+	width: 922px;   
+	padding: 33px 12px 120px 28px; 
+	background: #fff; 
+	position: absolute; 
+	margin-left: -480px;
+	left: 50%;
+	top: 100px;
+	z-index: 1000;
+} 
+.proresume-layer2-info,.proresume-layer2-aim,.proresume-layer2-work,.proresume-layer2-education {  
 	background: #fff; 
 	position: absolute; 
 	margin-left: -480px;
@@ -415,6 +422,7 @@ body {
 	position: absolute;
 	top: -8px;
 	right: -8px;
+	z-index: 1000;
 }
 .proresume-layer2 dl { 
 	margin-bottom: 35px;
@@ -455,10 +463,13 @@ body {
 }
 .proresume-layer2 .newdd var {  
 	width: auto;
-	height: auto; margin-left: 50px;margin-top: 23px;
+	height: auto; 
+	margin-left: 50px;
+	margin-top: 23px;
 	font-size: 16px;  
 	line-height: 16px;  
 	padding-left: 18px;
+	cursor: pointer;
  	background: url('../images/edit-bj.png') 0 -32px no-repeat;
 } 
 .proresume-layer2-form li {
@@ -523,6 +534,8 @@ body {
 	background: #4b99e4;
 } 
 
+
+/* 引用卢达 css */
 /*上传文件 input */
 .input-file {
 	width: 145px;
@@ -602,3 +615,118 @@ div.selectMask{
 	background-position: 417px center;
 	*background-position: 415px center;
 } 
+
+/* 引用 李继红 CSS */
+/* 弹出层--编辑工作经历 */
+.personal-editwork,.personal-editedu {
+	position: relative;
+	width: 688px;
+	margin: 0 auto;
+	padding: 56px 136px 110px 136px;
+	background: #fff;
+}
+.personal-editwork-close,.personal-editedu-close,.personal-editinfo-close {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	width: 16px;
+	height: 16px;
+	background: url("../images/int-close.png") -16px 0 no-repeat;
+}
+.personal-editwork ul,.personal-editedu ul {
+	width: 500px;
+	overflow: hidden;
+}
+.personal-editwork ul li,.personal-editedu ul li {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #545454;
+}
+.personal-editwork ul li span,.personal-editedu ul li span {
+	float: left;
+}
+.personal-editwork ul li strong,.personal-editedu ul li strong {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 6px 0 0 20px;
+	cursor: hand;
+	cursor: pointer;
+	background: url("../images/int-close.png") -32px 0 no-repeat;
+}
+.personal-editwork input {
+	margin-top: 30px;
+	width: 437px;
+	height: 36px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.personal-editwork-select,.personal-editedu-select {
+	margin-top: 30px;
+	height: 36px;
+}
+.personal-editwork-select span,.personal-editedu-select span {
+	float: left;
+	width: 34px;
+	height: 18px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 6px;
+}
+
+.personal-editwork-select1,.personal-editwork-select2{
+	float: left;
+	width: 147px;
+}
+.personal-editwork-select1 select,.personal-editwork-select2 select{
+	width: 170px;
+	background-position: 125px center;
+	margin-top: -5px;
+}
+
+.personal-editwork-add,.personal-editedu-add {
+	margin-top: 40px;
+}
+.personal-editwork-add span,.personal-editedu-add span {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url("../images/int-close.png") -48px 0 no-repeat;
+}
+.personal-editwork-add var,.personal-editedu-add var {
+	float:left;
+	font-size: 12px;
+} 
+.personal-editwork-sub,.personal-editedu-sub {
+	height: 50px;
+	margin-top: 110px;
+	text-align: center;
+}
+.personal-editwork .personal-editwork-sub input,.personal-editedu .personal-editedu-sub input {
+	width: 236px;
+	height: 50px;
+	margin-top: 0;
+	background: #4b99e4;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	cursor: hand;
+	cursor: pointer;
+}
+/* 弹出层--编辑工作经历end */
+.personal-editedu-sch {
+	width: 374px;
+	height: 36px;
+	margin: 30px 32px 0 0;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.personal-editedu-record {
+	width: 82px;
+	height: 36px;
+	outline: none;
+	border: 1px solid #ccc;
+}
