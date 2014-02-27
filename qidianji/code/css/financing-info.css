@@ -59,14 +59,16 @@ body{
 }
 .fin-con-xxpro dl input{
 	float:left;
-	width:438px;
-	height:36px;
-	line-height:36px;
 	margin-top:13px;
-	font-size:14px;
-	color:#ababab;
-	padding-left:0.5em;
-	border:1px solid #ccc;
+	width:438px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .fin-con-xxpro dl span{
 	float:left;
@@ -127,7 +129,6 @@ body{
 	font-size:16px;
 	color:#4b98e5;
 	line-height:60px;
-	font-weight:bold;
 	cursor:pointer;
 }
 .fin-con-fin-deta{
@@ -183,6 +184,9 @@ body{
 	width:100%;
 	height:26px;
 	line-height:26px;
+	font-size:14px;
+	color:#555;
+	font-weight:bold;
 }
 .fin-con-fin-list dl{
 	float:left;
@@ -208,7 +212,11 @@ body{
 }
 .fin-con-fin-list .fin-con-fin-name{
 	font-size:16px;
+}
+.fin-con-fin-name a{
+	font-size:14px;
 	color:#333;
+	font-weight:bold;
 }
 .fin-con-fin-sec{
 	font-size:14px;
@@ -315,6 +323,7 @@ body{
 	color:#333;
 	line-height:58px;
 	margin-top:20px;
+	text-indent:30px;
 }
 .fin-con-method{
 	width:260px;
@@ -373,6 +382,7 @@ body{
 	top:-8px;
 	width:16px;
 	height:16px;
+	cursor:pointer;
 	background:url(../images/fin-investor.png) 0 -16px no-repeat;
 }
 /**删除投资者**/
@@ -437,6 +447,7 @@ body{
 	width:16px;
 	height:16px;
 	margin:25px auto auto;
+	cursor:pointer;
 	background:url(../images/fin-investor.png) 0 0 no-repeat;
 }
 .fin-add-investor div img{
@@ -480,24 +491,17 @@ body{
 .fin-investor-keep{
 	width:235px;
 	height:50px;
-	background:#4894df;
 	margin:70px auto;
 }
 .fin-investor-keep input{
 	width:100%;
 	height:100%;
-	opacity:0;
-	filter:alpha(opacity=0);
 	border:none;
-}
-.fin-investor-keep span{
-	float:left;
-	width:100%;
-	height:100%;
 	line-height:50px;
 	text-align:center;
 	font-size:16px;
 	color:#fff;
+	background:#4894df;
 }
 /**编辑 融资信息 层**/
 .fin-financ{
@@ -516,6 +520,7 @@ body{
 	top:-8px;
 	width:16px;
 	height:16px;
+	cursor:pointer;
 	background:url(../images/fin-investor.png) 0 -16px no-repeat;
 }
 .fin-financ ul{
