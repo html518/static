@@ -96,6 +96,7 @@ a{
 	width:584px;
 	margin-left:26px;
 	margin-bottom:14px;
+	border:1px solid #ccc;
 	outline:none;
 }
 .feed-details .txt-con{
@@ -104,6 +105,7 @@ a{
 	margin-top:14px;
 	margin-left:80px;
 	padding:10px 0 0 18px;
+	border:1px solid #ccc;
 	resize:none;
 	outline:none;
 }
