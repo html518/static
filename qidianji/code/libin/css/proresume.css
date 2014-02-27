@@ -1,3 +1,7 @@
+input {
+	border: 1px solid #ccc;
+	outline: none;
+}
 body {
 	width: 100%;
 	height: 100%;
@@ -222,7 +226,7 @@ body {
 	width: 424px;
 	height: 36px;  
 	font-size: 14px;
-	padding-left: 8px;
+	padding-left: 8px;  
 	float: left;
 } 
 .proresume-aim-list dt {
@@ -661,6 +665,9 @@ div.selectMask{
 	cursor: hand;
 	cursor: pointer;
 	background: url("../images/int-close.png") -32px 0 no-repeat;
+}
+.personal-editwork ul li em,.personal-editedu ul li em {
+	 margin: 0 1em;
 }
 .personal-editwork input {
 	margin-top: 30px;

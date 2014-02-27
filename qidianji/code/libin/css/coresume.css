@@ -1,4 +1,7 @@
-input{outline: none;}
+input{
+	border: 1px solid #ccc;
+	outline: none;
+}
 body {
 	width: 100%;
 	height: 100%;
