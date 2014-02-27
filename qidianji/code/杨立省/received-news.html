@@ -9,9 +9,6 @@
 </head>
 <body>
 	<div class="news-wrap">
-		<div class="changepsw-head">
-			<a href="" title=""><img src="images/changepsw-logo.png" alt="logo"/></a>
-		</div>
 		<div class="news-con">
 			<div class="news-con-head">
 				<div class="news-con-head-main">
@@ -28,45 +25,45 @@
 			</div>
 			<div class="news-con-body cf">
 				<div class="news-con-body-nav">
-					<a href="received-news.html" title="收到的消息">收到的消息</a>
+					<a href="received-news.html" title="收到的消息" class="news-nav">收到的消息</a>
 					<a href="send-message.html" title="发出的消息">发出的消息</a>
 				</div>
-				<div class="news-con-body-main">
+				<div class="news-con-body-main" id="news-click">
 					<h2>收到的消息</h2>
 					<dl class="cf">
 						<dt><a href="#" title="收件人头像"><img src="images/news-pic.jpg" alt="收件人头像"/></a></dt>
-						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="" title="">删除</a><a href="" title="">屏蔽消息</a></i></b></span></h3></dd>
+						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="#" title="删除">删除</a><a href="#" title="屏蔽消息">屏蔽消息</a></i></b></span></h3></dd>
 						<dd><p>消息标题金马迎春，红包送福！</p></dd>
 					</dl>
 					<dl class="cf">
 						<dt><a href="#" title="收件人头像"><img src="images/news-pic.jpg" alt="收件人头像"/></a></dt>
-						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="" title="">删除</a><a href="" title="">屏蔽消息</a></i></b></span></h3></dd>
+						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="#" title="删除">删除</a><a href="#" title="屏蔽消息">屏蔽消息</a></i></b></span></h3></dd>
 						<dd><p>消息标题金马迎春，红包送福！</p></dd>
 					</dl>
 					<dl class="cf">
 						<dt><a href="#" title="收件人头像"><img src="images/news-pic.jpg" alt="收件人头像"/></a></dt>
-						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="" title="">删除</a><a href="" title="">屏蔽消息</a></i></b></span></h3></dd>
+						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="#" title="删除">删除</a><a href="#" title="屏蔽消息">屏蔽消息</a></i></b></span></h3></dd>
 						<dd><p>消息标题金马迎春，红包送福！</p></dd>
 					</dl>
 					<dl class="cf">
 						<dt><a href="#" title="收件人头像"><img src="images/news-pic.jpg" alt="收件人头像"/></a></dt>
-						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="" title="">删除</a><a href="" title="">屏蔽消息</a></i></b></span></h3></dd>
+						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="#" title="删除">删除</a><a href="#" title="屏蔽消息">屏蔽消息</a></i></b></span></h3></dd>
 						<dd><p>消息标题金马迎春，红包送福！</p></dd>
 					</dl>
 					<dl class="cf">
 						<dt><a href="#" title="收件人头像"><img src="images/news-pic.jpg" alt="收件人头像"/></a></dt>
-						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="" title="">删除</a><a href="" title="">屏蔽消息</a></i></b></span></h3></dd>
+						<dd><h3 class="cf"><strong>发件人名称</strong><span><em>2013-1-14</em><i>19:35</i><b><i><a href="#" title="删除">删除</a><a href="#" title="屏蔽消息">屏蔽消息</a></i></b></span></h3></dd>
 						<dd><p>消息标题金马迎春，红包送福！</p></dd>
 					</dl>
 					<div>
 						<span>首页</span>
 						<i class="news-unclick">上一页</i>
-						<a href="#" title="">1</a>
-						<a href="#" title="">2</a>
-						<a href="#" title="">3</a>
-						<a href="#" title="">4</a>
+						<a href="#" title="1">1</a>
+						<a href="#" title="2">2</a>
+						<a href="#" title="3">3</a>
+						<a href="#" title="4" class="news-now">4</a>
 						<b>...</b>
-						<a href="#" title="">15</a>
+						<a href="#" title="15">15</a>
 						<i>下一页</i>
 						<span>共15页</span>
 					</div>
@@ -75,4 +72,21 @@
 		</div>
 	</div>
 </body>
+<script>
+	var news_click = document.getElementById("news-click");
+	var news_bs = news_click.getElementsByTagName("b");
+	for (var i = 0; i < news_bs.length; i ++){
+		news_bs[i].index = i;
+		news_bs[i].onclick = function(){
+			var news_disblock = news_bs[this.index].getElementsByTagName("i")[0];
+			news_disblock.className = "disblock";
+			var news_dels = news_disblock.getElementsByTagName("a");
+			for (var j = 0; j < news_dels.length; j ++){
+				news_dels[j].onclick = function(){
+					news_disblock.style.display = "none";
+				}
+			}
+		}
+	}
+</script>
 </html>

@@ -32,17 +32,6 @@ li{
 .changepsw-wrap{
 	background:#e9eaec;
 }
-.changepsw-head{
-	height:51px;
-	padding-left:135px;
-	margin-bottom:28px;
-	background:linear-gradient(to bottom,#eac04a 0%,#f9bf53 100%);
-}
-.changepsw-head img{
-	width:54px;
-	height:28px;
-	margin-top:13px;
-}
 .changepsw-body{
 	width:960px;
 	min-height:660px;
@@ -197,15 +186,6 @@ li{
 	font-size: 36px;
 	cursor: pointer;
 }
-/*.account-content .changepsw-main-con .account-pic input{
-	float:left;
-	margin:10px 0 0 28px;
-	width:145px;
-	height:36px;
-}
-.account-content .file{
-	width:150px;
-}*/
 /* 发出的消息 */
 
 /* 账户设置结束 */
@@ -239,10 +219,12 @@ li{
 	padding-top:25px;
 	margin:0 auto;
 }
-.role-con li button{
+.role-con li a{
 	float:left;
 	width:242px;
 	height:60px;
+	line-height:60px;
+	text-align:center;
 	border:none;
 	background:#4988cb;
 	color:#e6e2e3;
@@ -291,13 +273,13 @@ li{
 	font-size:16px;
 	margin-right:18px;
 }
-.findpsw-form legend input{
+.findpsw-form legend .findpsw-input{
 	width:288px;
 	height:36px;
 	padding-left:12px;
 	font-size:14px;
 }
-.findpsw-form button{
+.findpsw-form .findpsw-sunmit{
 	width:302px;
 	height:52px;
 	margin:40px 0 20px 52px;
@@ -345,7 +327,7 @@ li{
 	border:1px solid #ccc;
 	overflow:hidden;
 }
-.reg-form legend input{
+.reg-form .reg-input{
 	float:left;
 	width:288px;
 	padding-left:12px;
@@ -353,7 +335,7 @@ li{
 	height:36px;
 	border:none;
 }
-.reg-form button{
+.reg-form .reg-submit{
 	width:300px;
 	height:50px;
 	margin-top:30px;
@@ -424,6 +406,9 @@ li{
 	font-size:14px;
 	font-weight:bold;
 }
+.news-con-body-nav .news-nav{
+	background:#f4f4f4;
+}
 .news-con-body-main{
 	float:right;
 	width:750px;
@@ -490,6 +475,8 @@ li{
 	background:url(../images/news-select.jpg) 0 0 no-repeat;
 	right:0;
 	top:5px;
+	cursor:hand;
+	cursor:pointer;
 }
 .news-con-body-main dd span b:hover{
 	background:url(../images/news-select.jpg) 0 -6px no-repeat;
@@ -503,6 +490,10 @@ li{
 	border:1px solid #ededed;
 	background:#f6f6f6;
 	overflow:hidden;
+	display:none;
+}
+.news-con-body-main .disblock{
+	display:block;
 }
 .news-con-body-main b i a{
 	display:block;
@@ -554,7 +545,7 @@ li{
 	margin-right:14px;
 	border:1px solid #f2f2f2;
 }
-.news-con-body-main div a:hover{
+.news-con-body-main .news-now{
 	border-color:#f7be53;
 	color:#ce8c1c;
 }
@@ -564,4 +555,6 @@ li{
 	height:24px;
 	line-height:24px;
 	margin:0 7px 0 -5px;
+	color:#8b8b8b;
+	letter-spacing:3px;
 }
