@@ -135,6 +135,8 @@ li{
 	font-size:18px;
 	color:#eefaff;
 	text-align: center;
+	cursor:hand;
+	cursor:pointer;
 }
 /* 修改密码结束 */
 
@@ -186,7 +188,6 @@ li{
 	font-size: 36px;
 	cursor: pointer;
 }
-/* 发出的消息 */
 
 /* 账户设置结束 */
 
@@ -278,6 +279,7 @@ li{
 	height:36px;
 	padding-left:12px;
 	font-size:14px;
+	border:1px solid #ccc;
 }
 .findpsw-form .findpsw-sunmit{
 	width:302px;
@@ -287,6 +289,8 @@ li{
 	background:#4a97e5;
 	font-size:18px;
 	color:#fff;
+	cursor:hand;
+	cursor:pointer;
 }
 .findpsw-form p{
 	margin-left:52px;
@@ -345,6 +349,8 @@ li{
 	font-size:18px;
 	font-weight:bold;
 	color:#d9e9ff;
+	cursor:hand;
+	cursor:pointer;
 }
 .reg-form p{
 	width:300px;
