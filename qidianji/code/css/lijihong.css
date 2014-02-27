@@ -1,6 +1,7 @@
 .personal {
 	width: 960px;
 	margin: 0 auto;
+	margin-bottom: 187px;
 }
 .personal-nav {
 	width: 100%;
@@ -110,6 +111,7 @@
 	height: 60px;
 	margin-top: 30px;
 	border: 1px solid #ccc;
+	background: #e8e8e8;
 }
 .personal-main-subnav li {
 	float: left;
@@ -162,6 +164,7 @@
 }
 .personal-main-item h3,.personal-main-recruit h3 {
 	margin-left: 32px;
+	font-weight: bold;
 }
 .personal-main-item .personal-main-item-con {
 	margin-top: 18px;
@@ -221,6 +224,7 @@
 	line-height: 51px;
 	color: #444444;
 	font-size: 14px;
+	font-weight: bold;
 }
 .personal-main-recruit .personal-main-recruit-con {
 	margin-top:34px;
@@ -299,10 +303,12 @@
 	width: 16px;
 	height: 16px;
 	background: url("../images/int-close.png") -16px 0 no-repeat;
+	cursor: pointer;
 }
 .personal-editwork ul,.personal-editedu ul {
 	width: 500px;
 	overflow: hidden;
+	font-size: 14px;
 }
 .personal-editwork ul li,.personal-editedu ul li {
 	width: 100%;
@@ -324,9 +330,11 @@
 }
 .personal-editwork input {
 	margin-top: 30px;
-	width: 437px;
+	padding-left: 20px;
+	width: 417px;
 	height: 36px;
 	border: 1px solid #ccc;
+	font-size: 14px;
 	outline: none;
 }
 .personal-editwork-select,.personal-editedu-select {
@@ -349,6 +357,8 @@
 	width: 170px;
 	background-position: 125px center;
 	margin-top: -5px;
+	font-size: 14px;
+	color: #aaa;
 }
 
 .personal-editwork-add,.personal-editedu-add {
@@ -390,16 +400,20 @@
 /* 弹出层--编辑工作经历end */
 
 .personal-editedu-sch {
-	width: 374px;
+	padding-left: 20px;
+	width: 354px;
 	height: 36px;
 	margin: 30px 32px 0 0;
 	outline: none;
+	font-size: 14px;
 	border: 1px solid #ccc;
 }
 .personal-editedu-record {
-	width: 82px;
+	padding-left: 22px;
+	width: 60px;
 	height: 36px;
 	outline: none;
+	font-size: 14px;
 	border: 1px solid #ccc;
 }
 

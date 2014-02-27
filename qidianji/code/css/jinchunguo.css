@@ -1,6 +1,7 @@
 .poineerpro {
 	width: 960px;
 	margin: 0 auto;
+	margin-bottom: 141px;
 }
 .poineerpro-nav {
 	width: 100%;
@@ -106,6 +107,7 @@
 	height: 60px;
 	margin-top: 30px;
 	border: 1px solid #ccc;
+	background: #e8e8e8;
 }
 .poineerpro-main-subnav li {
 	float: left;
@@ -128,6 +130,7 @@
 	float: right;
 	margin-right: 10px;
 	color: #4c98ec;
+	cursor: pointer;
 }
 .poineerpro-main-product-top , .poineerpro-main-team-top , .poineerpro-main-progress-top {
 	margin-bottom: 19px;
@@ -201,8 +204,11 @@
 	height: 22px;
 	line-height: 22px;
 	font-weight: bold;
-	color: #333;
 	overflow: hidden;
+	color: #333;
+}
+.poineerpro-main-team-con span a {
+	color: #333;
 }
 .poineerpro-main-team .poineerpro-main-team-con var {
 	color: #555;
@@ -423,6 +429,7 @@
 	height: 16px;
 	background: #ccc;
 	background: url('../images/edit-bj.png') 0 -16px no-repeat;
+	cursor: pointer;
 }
 .poineerpro-editteam input , .poineerpro-editproduct input {
 	margin-top: 40px;
@@ -482,6 +489,7 @@
 	width: 16px;
 	height: 16px;
 	background: url('../images/edit-bj.png') 0 0 no-repeat;
+	cursor: pointer;
 }
 .poineerpro-editteam-pics strong , .poineerpro-editproduct-pics strong {
 	position: relative;
@@ -493,6 +501,7 @@
 	background: url('../images/input-file.gif') 5px 5px no-repeat;
 	border: 1px solid #ccc;
 	text-align: center;
+	cursor: pointer;
 }
 .poineerpro-editteam-pics .poineerpro-editteam-addmember {
 	background: none;
@@ -528,6 +537,7 @@
 	width: 16px;
 	height: 16px;
 	background: url('../images/edit-bj.png') 0 -32px no-repeat;
+	cursor: pointer;
 }
 .poineerpro-editprogress-add-btn em {
 	margin-left: 0;
@@ -538,6 +548,7 @@
 	float: left;
 	margin: 0;
 	font-size: 12px;
+	cursor: pointer;
 }
 .poineerpro-editprogress table {
 	margin-top: 40px;
@@ -650,6 +661,7 @@
 	font-size: 14px;
 	color: #8c8a8a;
 	text-indent: 38px;
+	cursor: pointer;
 }
 .poineerpro-editinfo-file input , .poineerpro-editprogress-file input{
 	position: absolute;
@@ -674,6 +686,7 @@
 	background: #4b99e4;
 	color: #fff;
 	border: 0;
+	cursor: pointer;
 }
 .poineerpro-editinfo-sub , .poineerpro-editprogress-sub , .poineerpro-editproduct-save , .poineerpro-editteam-save {
 	margin-top: 67px;
@@ -688,6 +701,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	border: 0;
+	cursor: pointer;
 }
 .poineerpro-editinfo-select , .poineerpro-editprogress-select {
 	display: inline-block;
@@ -746,6 +760,7 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 .recruit {
 	width: 960px;
 	margin: 0 auto;
+	margin-bottom: 199px;
 }
 .recruit-nav {
 	width: 100%;
@@ -841,6 +856,7 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	border: 1px solid #ccc;
 	width: 100%;
 	height: 60px;
+	background: #e8e8e8;
 }
 .recruit-main-subnav li {
 	float: left;
@@ -865,6 +881,7 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	float: right;
 	margin-right: 10px;
 	color: #4c98ec;
+	cursor: pointer;
 }
 .recruit-main-recruiting , .recruit-main-recruited {
 	margin-top: 28px;
@@ -914,6 +931,8 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 .recruit-main-recruiting-con dd span , .recruit-main-recruited-con dd span {
 	height: 22px;
 	line-height: 22px;
+}
+.recruit-main-recruiting-con dd span a, .recruit-main-recruited-con dd span a {
 	font-weight: bold;
 	color: #333;
 }
@@ -1092,6 +1111,7 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	height: 60px;
 	margin-top: 30px;
 	border: 1px solid #ccc;
+	background: #e8e8e8;
 }
 .incubaservice-main-subnav li {
 	float: left;
@@ -1122,6 +1142,9 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 .incubaservice-main-services-con label input,.incubaservice-main-services-con label span{
 	float: left;
 	margin-right: 3px;
+}
+.incubaservice-main-services-con label span {
+	margin-top: -2px;
 }
 .incubaservice-main-services-con div {
 /*	margin-top: 12px;*/
@@ -1162,6 +1185,15 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	width: 960px;
 	margin: 0 auto;
 	padding-top: 37px;
+}
+.cooper {
+	margin-bottom: 93px;
+}
+.investor {
+	margin-bottom: 135px;
+}
+.incubaservice {
+	margin-bottom: 218px;
 }
 .cooper-info,.investor-info {
 	position: relative;
@@ -1225,6 +1257,7 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	height: 60px;
 	margin-top: 9px;
 	border: 1px solid #ccc;
+	background: #e8e8e8;
 }
 .cooper-subnav a,.investor-subnav a {
 	display: inline-block;
@@ -1297,7 +1330,9 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	width: 960px;
 	margin: 0 auto;
 	padding-top: 37px;
+	margin-bottom: 163px;
 }
+
 .entre-info {
 	position: relative;
 	width: 100%;
@@ -1360,6 +1395,7 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	height: 60px;
 	margin-top: 9px;
 	border: 1px solid #ccc;
+	background: #e8e8e8;
 }
 .entre-subnav a {
 	display: inline-block;
@@ -1507,7 +1543,7 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 	font-weight: bold;
 	color: #555;
 }
-.entre-main-recruit-con div a {
+.entre-main-recruit-con div span {
 	display: inline-block;
 	margin-right: 30px;
 	height: 24px;
