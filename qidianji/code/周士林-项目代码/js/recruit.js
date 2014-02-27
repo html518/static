@@ -11,10 +11,10 @@ var recValues = document.getElementById("rec-values"),
 	recBtns = recCon.getElementsByTagName("a");
 
 recMore1.onclick = function (){
-	recLocation.style.height = (recLocation.style.height == (40 + "px")) ?  (80 + "px") : (40 + "px");	
+	recLocation.style.height = (recLocation.style.height == (40 + "px")) ?  ("auto") : (40 + "px");	
 }
 recMore2.onclick = function (){
-	recTrade.style.height = (recTrade.style.height == (40 + "px")) ?  (80 + "px") : (40 + "px");
+	recTrade.style.height = (recTrade.style.height == (40 + "px")) ?  ("auto") : (40 + "px");
 }
 
 for (var i = 0; i < recLi.length; i++) {

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>27 知名投资者 投资者 简历 proresume</title>
+	<title>知名投资者-投资者简历 proresume</title>
 	<meta name="Description" content="">
 	<link type="text/css" rel="stylesheet" href="css/proresume.css" />
 	<link type="text/css" rel="stylesheet" href="css/common.css" />
@@ -12,7 +12,7 @@
 	<div class="proresume clearfix">
 		<ul class="proresume-nav clearfix">
 			<li><h1><a href="#">创业</a></h1></li>
-			<li><h1><a href="#">投资</a></h1></li>
+			<li class="proresume-select"><h1><a href="#">投资</a></h1></li>
 			<li class="proresume-nav-last"><h1><a href="#">人才</a></h1></li>
 		</ul> 
 		<div class="proresume-info">
@@ -30,7 +30,7 @@
 			</dl>
 		</div>
 		<h3 class="proresume-nav-three clearfix">
-			<a href="">个人信息</a><a href="">投资信息</a>
+			<a class="active" href="">个人信息</a><a href="">投资信息</a>
 		</h3>
 		<div class="proresume-left clearfix">
 			<div class="proresume-history clearfix">
@@ -53,20 +53,11 @@
 							<em>股份比例</em>
 							<span>投资金额</span>
 						</dd>
-					</dl>
-					<dl class="proresume-history-list clearfix">
-						<dt><img src="images/1.jpg" /></dt>
-						<dd>
-							<strong>基因科技</strong>
-							<var>天使轮投资</var>
-							<em>股份比例</em>
-							<span>投资金额</span>
-						</dd>
 					</dl> 
 				</div> 
 			</div> 
 			<div class="proresume-aim clearfix">
-				<p class="proresume-left-head clearfix"><strong>投资目标</strong><span class="editbtn">编辑</span></p>
+				<p class="proresume-left-head clearfix"><strong>投资目标</strong><span class="">编辑/保存</span></p>
 				<div class="proresume-aim-list clearfix">
 					<dl class="clearfix">
 						<dt>
@@ -205,6 +196,8 @@
 			<div class="proresume-itemlink"><a href="">更多推荐项目</a></div>
 		</div>
 	</div>
+
+	<!--弹出层-->
 	<div class="proresumelayer">
 		<div class="proresume-layer1 clearfix"></div>  
 		<div class="proresume-layer2 clearfix">
@@ -254,28 +247,131 @@
 		</div>
 		<div class="proresume-layer2-info clearfix">
 			<div class="closebj">&nbsp;</div>
+			<form>
+				<ul class="proresume-layer2-form clearfix">
+					<li class="proresume-layer2-form-first">
+						<span>头像</span>
+						<p>	
+							<img src="images/1.jpg" />
+							<div class="input-file">
+								<var>选择文件</var>
+								<input class="input-file-btn" type="file" name="" value="" />
+							</div> 
+							<input class="file-btn" type="button" value="上传文件" />
+						</p>
+					</li>
+					<li><span>姓名</span><p><input type="text" /></p></li>
+					<li>
+						<span>所在地</span>
+						<p>
+							<div class="form-select" id="btn">
+								<div>
+									<select>
+										<option>北京</option>
+										<option>北京</option>
+										<option>北京</option>
+										<option>北京</option> 
+									</select> 
+								</div>
+								<div class="selectMask"></div>
+							</div>
+						</p>
+					</li>
+					<li><span>擅长领域</span><p><input type="text" /></p></li> 
+				</ul>
+				<div class="proresume-layer2-subbnt"><input id="savebtn" type="submit" value="保存" /></div>
+			</form>
+		</div>   
+		<div class="proresume-layer2-work clearfix"> 
+			<form class="personal-editwork">
+				<div class="personal-editwork-close"></div>
+				<ul>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+					<li class="clearfix"><span>北京奇点时空投资管理有限公司<em>/</em>UI设计师<em>/</em>5年</span><strong></strong></li>
+				</ul>
+				<input type="text" placeholder="公司" />
+				<input type="text" placeholder="职位" />
+				<div class="personal-editwork-select">
+					<div class="select personal-editwork-select1" id="btn">
+						<div>
+							<select>
+								<option value="">入职年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+					<span></span>
+					<div class="select personal-editwork-select2" id="btn">
+						<div>
+							<select>
+								<option value="">离职年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="personal-editwork-add clearfix">
+					<span></span>
+					<var>添加新工作经历</var>
+				</div>
+				<div class="personal-editwork-sub">
+					<input type="submit" value="保存" />
+				</div>
+			</form>
 		</div>  
-		<div class="proresume-layer2-aim clearfix">
-			<div class="closebj">&nbsp;</div>
-		</div>  
-		<div class="proresume-layer2-work clearfix">
-			<div class="closebj">&nbsp;</div>
-		</div>  
-		<div class="proresume-layer2-education clearfix">
-			<div class="closebj">&nbsp;</div>
+		<div class="proresume-layer2-education clearfix"> 
+			<form class="personal-editedu">
+				<div class="personal-editedu-close"></div>
+				<ul>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+					<li class="clearfix"><span>学历<em>/</em>毕业院校<em>/</em>2012.10月-2013.06</span><strong></strong></li>
+				</ul>
+				<div>
+					<input type="text" placeholder="院校" class="personal-editedu-sch" />
+					<input type="text" placeholder="学历" class="personal-editedu-record" />
+				</div>
+				<div class="personal-editedu-select">
+					<div class="select personal-editwork-select1" id="btn">
+						<div>
+							<select>
+								<option value="">入学年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+					<span></span>
+					<div class="select personal-editwork-select2" id="btn">
+						<div>
+							<select>
+								<option value="">离学年份</option>
+								<option value="">1992</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="personal-editedu-add clearfix">
+					<span></span>
+					<var>添加新工作经历</var>
+				</div>
+				<div class="personal-editedu-sub">
+					<input type="submit" value="保存" />
+				</div>
+			</form>
 		</div>  
 	</div> 
-	<script> 
-		$(".proresume-nav li a").hover(function() {
-			$(this).parent().parent().attr({"class":"proresume-select"})
-		},function() {
-			$(this).parent().parent().attr({"class":""})
-		})
-		$(".proresume-nav-three a").hover(function() {
-			$(this).attr({"class":"active"})
-		},function() {
-			$(this).attr({"class":""})
-		})
+	<script>  
 		$(".editbtn").each(function(n) {
 			$(this).bind("click", function() {
 				$(".proresumelayer").show();
@@ -286,42 +382,38 @@
 				if(n == 1) {
 					hiddenLayer();
 					$(".proresume-layer2").show();
-				}
+				} 
 				if(n == 2) {
-					hiddenLayer();
-					$(".proresume-layer2-aim").show(); 
-				}
-				if(n == 3) {
 					hiddenLayer();
 					$(".proresume-layer2-work").show(); 
 				}
-				if(n == 4) {
+				if(n == 3) {
 					hiddenLayer();;
 					$(".proresume-layer2-education").show(); 
 				}
 			})
 		}) 
 		function hiddenLayer() {
-			$(".proresume-layer2").hide();
-			$(".proresume-layer2-aim").hide();
+			$(".proresume-layer2").hide(); 
 			$(".proresume-layer2-work").hide();
 			$(".proresume-layer2-education").hide();
 			$(".proresume-layer2-info").hide();
 		}
-		$(".newdd").bind("click", function() {
-			$("<dd><var>项目3</var><span class='delbtn'>&nbsp;</span></dd>").insertBefore($(this));
+		$(".newdd var").bind("click", function() {
+			$("<dd><var>项目3</var><span class='delbtn'>&nbsp;</span></dd>").insertBefore($(this).parent());
 			$(".delbtn").bind("click", function() { $(this).parent().remove(); }); 
 		})
 		$(".closebj").bind("click", function() {
 			$(".proresumelayer").hide();
 		})
+		$(".personal-editedu-close").bind("click", function() {
+			$(".proresumelayer").hide();
+		}) 
+		$(".personal-editwork-close").bind("click", function() {
+			$(".proresumelayer").hide();
+		})	 
 		$(".delbtn").each(function(n) {
 			$(this).bind("click", function() { 
-				$(this).parent().remove();
-			})
-		})
-		$(".wipebtn").each(function(n) {
-			$(this).bind("click", function() {
 				$(this).parent().remove();
 			})
 		})

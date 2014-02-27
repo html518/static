@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="cn">
+<head>
+	<meta charset="UTF-8">
+	<title>header</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/header.css" />
+</head>
+<body>
+	<div class="com-header clearfix">
+		<!-- 状态修改是为com-header-main添加类名 未登录状态，不添加类名
+			登录状态，添加com-login类名，
+			个人中心添加com-person类名 -->
+		<div class="com-header-main">
+			<div class="com-logo">
+				<img src="images/icon.png" alt="logo">
+			</div>
+			<ul>
+				<!-- 被选中状态的li的类名改为selected -->
+				<li class="selected"><a href="" title="首页">首页</a></li>
+				<li><a href="" title="投资项目">投资项目</a></li>
+				<li><a href="" title="创业招募">创业招募</a></li>
+				<li><a href="" title="创业人才">创业人才 </a></li>
+				<li><a href="" title="孵化项目">孵化项目</a></li>
+			</ul>
+			<div class="com-header-search">
+				<input type="text" placeholder="搜索">
+				<a href="#"></a>
+			</div>
+			<div class="com-header-userinfor">
+				<div class="com-header-onlogin">
+					<div class="com-header-message">
+						<span></span>
+						<a href="" title="消息">消息</a>
+						<em></em>
+					</div>
+					<div class="com-header-user">
+						<img src="images/com-userface.jpg" alt="">
+						<em></em>
+					</div>
+					<div class="com-header-personal">
+						<span></span>
+						<a href="" title="个人中心">个人中心</a>
+						<em></em>
+					</div>
+				</div>
+				<div class="com-header-unlogin">
+					<a href="#" title="注册">注册</a>
+					<em></em>
+					<a href="#" title="登录">登录</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
