@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset='utf-8' />
+	<title> role </title>
+	<meta name="Description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/yanglisheng.css"/>
+</head>
+<body>
+	<div class="role-wrap">
+		<div class="role-con">
+			<h2>选择角色</h2>
+			<ul>
+				<li>
+					<div>
+						<a href="#" title="创业人才"><span>创业人才</span></a><p>创业路上 寻找梦想 改变世界</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<a href="#" title="发起项目"><span>发起项目</span></a><p>创业引导 孵化助推 融资招募</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<a href="#" title="知名投资人"><span>知名投资人</span></a><p>意见领袖 企业伯乐 推动变革</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<a href="#" title="联合投资人"><span>联合投资人</span></a><p>重点孵化 联合投资 联合创业</p>
+					</div>
+				</li>
+			</ul>
+			<div class="role-load" id ="role-load">
+				<p>稍后进行角色注册，<a href="#" title="进入浏览">进入浏览</a></p>
+			</div>
+		</div>
+	</div>
+	<script>
+		var btns = document.getElementsByTagName("button");
+		var role_load = document.getElementById("role-load");
+		for (var i = 0; i < btns.length; i ++){
+			btns[i].onclick = function(){
+				role_load.style.display = "block";
+			}
+		}
+	</script>
+</body>
+</html>

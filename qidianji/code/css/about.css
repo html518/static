@@ -1,0 +1,255 @@
+body{
+	background:#e9eaec;
+}
+.cf:before,
+.cf:after {
+    content:" "; 
+    display:table; 
+}
+.cf:after {
+    clear:both;
+}
+.cf {
+    *zoom:1;
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+/*关于我们页面*/
+.about-main{
+	min-height:792px;
+	width:965px;
+	background:#fff;
+	margin:0 auto;
+}
+.about-nav{
+	height:62px;
+}
+.about-nav a{
+	float:left;
+	height:62px;
+	width:190px;
+	line-height:62px;
+	text-align:center;
+	font-size:18px;
+	background:#e8e8e8;
+	border:1px solid #dad9d9;
+}
+.about-nav .select{
+	background:white;
+	border-color:transparent;
+}
+.about-details{
+	margin-top:40px;
+	padding:0 46px 118px 35px;
+}
+.about-vision{
+	margin:52px 0;
+}
+.about-introduce h3,.about-vision h3,.about-connectus h3{
+	color:#333;
+	font-size:16px;
+	margin-left:15px;
+	margin-bottom:4px;
+}
+.about-connectus p a{
+	color:blue;
+}
+.about-introduce p,.about-vision p{
+	color:#333;
+	font-size:14px;
+	line-height:30px;
+	text-align:left;
+	text-indent:40px;
+}
+.about-connectus p{
+	color:#333;
+	font-size:14px;
+	line-height:30px;
+	text-align:left;
+	text-indent:14px;
+}
+/*意见反馈页面*/
+.feed-details{
+	margin-top:40px;
+	padding-left:50px; 
+	padding-right:239px;
+}
+.feed-details h3{
+	font-size:16px;
+	color:#333;
+	margin-bottom:42px;
+}
+.feed-details form{
+	padding-left:8px;
+	font-size:14px;
+	color:#333;
+}
+.feed-details span{
+	margin-left:26px;
+	vertical-align:middle;
+}
+.feed-details .txt-title{
+	height:38px;
+	width:584px;
+	margin-left:26px;
+	margin-bottom:14px;
+	outline:none;
+	border: 1px solid #ccc;
+}
+.feed-details .txt-con{
+	height:200px;
+	width:566px;
+	margin-top:14px;
+	margin-left:80px;
+	padding:10px 0 0 18px;
+	resize:none;
+	outline:none;
+	border: 1px solid #ccc;
+}
+.feed-details p{
+	font-size:14px;
+	color:#333;
+}
+.feed-details .feed-reset,.feed-details .feed-sub{
+	height:50px;
+	width:128px;
+	line-height:50px;
+	text-align:center;
+	background:#f4f5f6;
+	color:#9f9d9d;
+	border:1px solid #ccc;
+	float:right;
+	cursor:pointer;
+}
+.feed-details .feed-sub{
+	margin-left:24px;
+	background:#4a96e1;
+	color:white;
+	border:none;
+}
+.feed-details div{
+	margin-top:40px;
+}
+/*合作伙伴 页面*/
+.media-details{
+	width:962px;
+	height:670px;
+	margin-top:30px;
+}
+.media-details .left-banner{
+	width:190px;
+	height:134px;
+	float:left;
+	overflow:hidden;
+}
+.media-details .left-banner a{
+	float:left;
+	height:45px;
+	width:190px;
+	line-height:45px;
+	overflow:hidden;
+	text-align:center;
+	color:#555;
+	font-size:14px;
+	background:#f4f4f4;
+	border-bottom:1px solid #e9eaec;
+}
+.media-details .left-banner .show{
+	background:white;
+}
+.media-details .right-banner{
+	float:left;
+	width:670px;
+	padding:36px 50px 0 50px;
+}
+.media-details .right-banner a{
+	height:64px;
+	width:100px;
+	margin-bottom:26px;
+	margin-right:11px;
+	overflow:hidden;
+	float:left;
+	display:inline;
+}
+.media-details .right-banner img{
+	height:62px;
+	width:98px;
+	border:1px solid #ccc;
+	float:left;
+	display:inline;
+}
+/*用户帮助页面*/
+.helpst-details,.service-details{
+	margin-top:30px;
+}
+.helpst-details .helpst-list,.service-details .helpst-list{
+	height:180px;
+	width:190px;
+	overflow:hidden;
+	float:left;
+}
+.helpst-details .helpst-list a,.service-details .helpst-list a{
+	height:45px;
+	width:190px;
+	float:left;
+	display:inline;
+	line-height:45px;
+	text-align:center;
+	color:#555;
+	font-size:14px;
+	border-bottom:1px solid #e9eaec;
+	background:#f4f4f4;
+}
+.helpst-details .helpst-list .show,.service-details .helpst-list .show{
+	background:#fff;
+}
+.helpst-details .helpst-con,.service-details .helpst-con{
+	width:714px;
+	float:left;
+	background:#fff;
+	padding:23px 32px 68px 26px;
+}
+.helpst-con h3,.service-details .helpst-con h3{
+	font-size:16px;
+	color:#363636;
+	margin-bottom:30px;
+} 
+.helpst-con strong,.service-details .helpst-con strong{
+	font-size:14px;
+	color:#353535;
+	margin-bottom:8px;
+	display:block;
+}
+.helpst-con p,.service-details .helpst-con p{
+	font-size:14px;
+	line-height:30px;
+	text-align:left;
+	text-indent:22px;
+	color:black;
+}
+.about-main .statement{
+	margin-top:54px;
+}
+.about-main .statement .statement-con{
+	margin-left:62px;
+	display:inline;
+	color:#545454;
+	font-weight:bold;
+}
+.about-main .statement .statement-foot{
+	margin-top:18px;
+	margin-right:114px;
+	float:right;
+	color:#545454;
+	font-weight:bold;
+}
+/* 服务条款页面*/
+.service-details .helpst-list{
+	height:90px;
+	overflow:hidden;
+}
+.service-main{
+	background:#e9eaec;
+}

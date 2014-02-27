@@ -1,0 +1,19 @@
+@charset "utf-8";
+.com-footer{
+	height: 38px;
+	min-width: 963px;
+	background-color: #e0b45f;
+}
+
+.com-footer-main{
+	width: 963px;
+	height: 38px;
+	margin: 0 auto;
+	line-height: 38px;
+}
+.com-footer-main a{
+	margin-right: 28px;
+	font-size: 14px;
+	color: #67470a;
+	line-height: 38px;
+}
