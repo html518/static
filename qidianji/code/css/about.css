@@ -1,3 +1,7 @@
+*{
+	margin:0;
+	padding:0;
+}
 body{
 	background:#e9eaec;
 }
@@ -23,20 +27,21 @@ a{
 	background:#fff;
 	margin:0 auto;
 }
-.about-nav{
-	height:62px;
+ .about-main .about-nav{
+	height:64px;
+	overflow:hidden;
 }
-.about-nav a{
+.about-main .about-nav a{
 	float:left;
 	height:62px;
-	width:190px;
+	width:191px;
 	line-height:62px;
 	text-align:center;
 	font-size:18px;
 	background:#e8e8e8;
 	border:1px solid #dad9d9;
 }
-.about-nav .select{
+.about-main .about-nav .select{
 	background:white;
 	border-color:transparent;
 }
@@ -96,7 +101,6 @@ a{
 	margin-left:26px;
 	margin-bottom:14px;
 	outline:none;
-	border: 1px solid #ccc;
 }
 .feed-details .txt-con{
 	height:200px;
@@ -106,7 +110,6 @@ a{
 	padding:10px 0 0 18px;
 	resize:none;
 	outline:none;
-	border: 1px solid #ccc;
 }
 .feed-details p{
 	font-size:14px;
@@ -162,6 +165,8 @@ a{
 .media-details .right-banner{
 	float:left;
 	width:670px;
+	min-height:670px;
+	background:#fff;
 	padding:36px 50px 0 50px;
 }
 .media-details .right-banner a{
