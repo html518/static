@@ -181,6 +181,7 @@ div.selectMask{
 	height: 7px;
 	overflow: hidden;
 	margin-top: 10px;
+	background:#eee;
 }
 .incubapro-main-progress div {
 	width: 100%;		/*此处为进度条进度、按百分比显示*/
