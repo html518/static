@@ -1,7 +1,19 @@
-input {
-	border: 1px solid #ccc;
-	outline: none;
+@charset "utf-8";  
+a {
+	color: black;
+	cursor: pointer;
 }
+input{
+	width: 401px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	height: 28px;
+	line-height: 28px;
+	/*******vertical-align: top;********/
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
+} 
 body {
 	width: 100%;
 	height: 100%;
@@ -14,8 +26,7 @@ body {
 	margin: 0 auto;
 	background: #e9eaec;
 }
- 
- /* µ¼º½¡¢¸öÈËÐÅÏ¢ */
+  
 .proresume-nav {
 	width: 100%;
 	height: 85px;overflow: hidden;
@@ -46,7 +57,7 @@ body {
 .proresume-nav h1 a:hover {
 	background: #fff; 
 }
-.proresume .proresume-select a { /* personal-navºÍsubnavÍ¨¹ý¼ÓselectÀàÃûÀ´¸Ä±äÑ¡ÖÐµÄ×´Ì¬ */
+.proresume .proresume-select a { 
 	background: #fff;
 }
 .proresume-info {
@@ -84,6 +95,8 @@ body {
 	display: inline;
 }
 .proresume-info dl dd h3 {
+	color: #333333;
+	font-weight: bold;
 	font-size: 18px;
 	line-height: 19px;  
 }
@@ -96,11 +109,14 @@ body {
 	border: 1px solid #ccc;   
 	outline: none;
 }
-.proresume-info dl dd p { 
+.proresume-info dl dd p {  
+	margin-top: 12px;
+}
+.proresume-info dl dd p span { 
 	color: #545454;
 	font-size: 14px;
-	line-height: 14px;
-	margin-top: 14px;
+	line-height: 14px; 
+	margin-right: 20px;
 }
 
 .proresume-nav-three { 
@@ -111,7 +127,8 @@ body {
 	background: #e8e8e8;
 }
 .proresume-nav-three a {
-	color: #313131;
+	color: #333333;
+	font-size: 18px;
 	padding: 22px 45px 20px 46px; 
 	border-right: 1px solid #ccc;
 	float: left;
@@ -122,23 +139,26 @@ body {
 .proresume-nav-three a.active {
 	background: #fff;
 } 
-
-/* Í¶×ÊÀúÊ·¡¢Í¶×ÊÄ¿±ê */
+ 
 .proresume-left { 
 	width: 680px;
 	float: left;
 } 
-.proresume-left-head {
+.proresume-left-head {  
 	padding: 19px 0;
 	font-size: 16px; 
 }
 .proresume-left-head strong {
+	color: #333333;
+	font-size: 16px;
 	font-weight: bold;
 	margin-left: 31px;
 	float: left;
 }
 .proresume-left-head span {
 	color: #469bec; 
+	font-size: 16px;
+	line-height: 22px;
 	margin-right: 10px;
 	cursor: pointer;
 	float: right;
@@ -167,6 +187,7 @@ body {
 	float: left;
 }
 .proresume-history-list dd strong {
+	color: #333333;
 	width: 100%;
 	font-weight: bold;
 	font-size: 16px;
@@ -191,10 +212,10 @@ body {
 	float: left;
 }   
 .proresume-history {
-	margin-top: 11px;  
+	margin-top: 4px;  
 }
 .proresume-aim {
-	margin-top: 28px; 
+	margin-top: 26px; 
 }
 .proresume-aim .proresume-left-head {
 	padding: 22px 0;
@@ -223,10 +244,10 @@ body {
 	position: relative;
 } 
 .proresume-aim-list dd input { 
-	width: 424px;
+	width: 418px;
 	height: 36px;  
 	font-size: 14px;
-	padding-left: 8px;  
+	padding-left: 16px;  
 	float: left;
 } 
 .proresume-aim-list dt {
@@ -240,7 +261,7 @@ body {
 	line-height: 18px;
 	font-size: 12px;
 	padding: 0 9px; 
-	margin: 15px 10px 0 0; 
+	margin: 0 10px 0 0; 
 	border: 1px solid #bcbcbc;
 	float: left;
 	white-space: nowrap; 
@@ -249,7 +270,11 @@ body {
 	color: #999;float: left;
 }
 .proresume-aim-list dt div em {
+	color: #555;
 	float: left;
+}
+.proresume-aim-list dd select {
+	color: #333; 
 }
 .proresume-aim-list dt div span { 
 	width: 7px;
@@ -259,9 +284,8 @@ body {
 	background: url('../images/pro-aim-del.jpg') 0 center no-repeat;
 } 
 
-/* ¹¤×÷¾­Àú¡¢½ÌÓý±³¾°  */
 .proresume-work,.proresume-education {
-	margin-top: 24px;
+	margin-top: 18px;
 }
 .proresume-work-list,.proresume-education-list {
 	color: #575757;
@@ -273,17 +297,17 @@ body {
 	height: 30px; 
 	line-height: 30px;
 	white-space: nowrap;
-	overflow: hidden;
+	overflow: hidden; 
+	text-overflow: ellipsis;
 }   
 .proresume-work-list li var,.proresume-education-list li var,
 .proresume-work-list li span,.proresume-education-list li span {
-	margin-right: 1em;
+	margin-right: 1em; float: left; line-height: 30px;
 }   
 
-/* ÍÆ¼öÏîÄ¿ */
 .proresume-right {
 	width: 260px;
-	margin-top: 11px;
+	margin-top: 4px;
 	float: right;
 }
 .proresume-recommend-info { 
@@ -304,6 +328,7 @@ body {
 }
 .proresume-recommend-info dd strong {
 	width: 100%;
+	color: #333333;
 	font-size: 16px; 
 	font-weight: bold;
 	margin: 15px 0 7px 0;
@@ -312,6 +337,7 @@ body {
 .proresume-recommend-info dd var,.proresume-recommend-info dd span { 
 	color: #999999;
 	font-size: 12px;
+	line-height: 12px;
 	margin-right: 19px;
 	float: left;
 }
@@ -338,11 +364,14 @@ body {
 	overflow: hidden;
 }
 .proresume-recommend-info ul li var {
+	width: 130px;
 	color: #959595;
-	float: left;
+	float: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;  
 }
 .proresume-recommend-info ul li em {
-	float: right;
+	width: 80px;
+	color: #333333;
+	float: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;    
 }
 .proresume-recommend-info-plan {
 	font-size: 12px;
@@ -363,10 +392,12 @@ body {
 	background: #13acb3;
 }
 .proresume-recommend-info-plan span {
+	color: #333333;
 	padding: 22px 0;
 	float: left;
 }
 .proresume-recommend-info-plan var {
+	color: #333333;
 	padding: 22px 0;
 	float: right;
 }
@@ -379,8 +410,7 @@ body {
 	font-weight: bold;
 	font-size: 16px;
 } 
-
-/*±à¼­°´Å¥ Òþ²Ø £¨¼ÓÒ»¸ö edithide ÀàÃû£©*/
+ 
 .edithide {
 	display: none;
 }
@@ -421,7 +451,7 @@ body {
 	float: left;
 }
 .proresume-person-edt table input,.proresume-history-edt table input{
-	width: 437px;
+	width: 434px;
 	height: 36px;
 	border: 1px solid #ccc;
 	outline: none;
@@ -473,12 +503,13 @@ body {
 	background-color: 	#4a96e2;
 	cursor: pointer;
 }
-.proresume-person-edt-close,.proresume-history-edt-close{
+.proresume-person-edt-close,.proresume-history-edt-close,.personal-editedu-close,.personal-editwork-close{
 	position: absolute;
 	top: -8px;
 	right: -8px;
 	width: 16px;
 	height: 16px;
+	cursor: pointer;
 	background: url(../images/int-close.png) -16px 0 no-repeat;
 }
 
@@ -524,6 +555,7 @@ body {
 	position: absolute;
 	top: -8px;
 	right: -8px;
+	cursor: pointer;
 	background: url(../images/int-close.png) 0 0 no-repeat;
 	white-space: nowrap;
 }
@@ -531,8 +563,7 @@ body {
 	background-color: white;
 	color: #555555;
 	font-size: 12px;
-	cursor: pointer;
-
+	cursor: pointer; 
 }
 .proresume-history-edt-add em{
 	display: inline-block;
@@ -540,4 +571,19 @@ body {
 	width: 16px;
 	height: 60px;
 	background: url(../images/int-close.png) -48px center no-repeat;
+}  
+
+.personal-editwork .personal-editwork-select span,.personal-editedu-wrap .personal-editedu-select span { 
+	margin: 0 6px 0 21px;
+	*margin: 0 6px;
+	/****************	margin: 0 6px;;  *************/
+} 
+.personal-editwork-select .personal-editwork-select1 select,
+.personal-editwork-select .personal-editwork-select2 select,
+.personal-editedu-wrap .personal-editwork-select1 select,
+.personal-editedu-wrap .personal-editwork-select2 select{
+	width: 145px;    
+} 
+.personal-editwork-wrap ul li span,.personal-editedu-wrap ul li span {
+	line-height: 30px;
 }
