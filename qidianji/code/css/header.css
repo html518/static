@@ -152,6 +152,9 @@ div.com-header-getmeg span{
 .com-header-menu a{
 	font-size: 12px;
 }
+.com-header-menu ul li {
+	padding: 0 13px;
+}
 .com-menu-top{
 	height: 6px;
 	overflow: hidden;
