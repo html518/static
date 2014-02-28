@@ -560,57 +560,6 @@
 	margin: 5px 20px;
 	color: #aaa;
 }
-.poineerpro-editteam .select , .poineerpro-editinfo .select , .poineerpro-editprogress .select {
-	display: inline-block;
-	margin-top: 40px;
-	margin-right: 10px;	
-	height: 16px;
-	border: 1px solid #ccc;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	overflow: hidden;
-}
-.poineerpro-editinfo .select , .poineerpro-editprogress .select {
-	margin-top: 0;
-}
-.poineerpro-editteam .select div , .poineerpro-editinfo .select div , .poineerpro-editprogress .select div {
-	float: left;
-	width: 100%;
-	height: 16px;	
-	overflow: hidden;
-	margin-right: -23px;
-}
-.poineerpro-editteam .select select , .poineerpro-editinfo .select select , .poineerpro-editprogress .select select  {
-	margin-top: -2px;
-	margin-left: -2px;
-	*margin-top: -4px;
-	margin-right: -2px;
-	width: 100%;
-	border: 0;
-	outline: 0;
-	vertical-align: middle;
-	
-}
-.poineerpro-editteam div.selectMask , .poineerpro-editinfo div.selectMask , .poineerpro-editprogress div.selectMask {
-	float: left;
-	width: 21px;
-	height: 100%;
-	background: white;
-	overflow: hidden;
-}
-.poineerpro-editteam .select {
-	width: 442px;
-}
-.poineerpro-editinfo .select {
-	width: 437px;
-}
-.poineerpro-editteam .select select , .poineerpro-editinfo .select select , .poineerpro-editprogress .select select {
-	background-position: 401px center;
-	*background-position: 398px center;
-}
-
-
 .poineerpro-editinfo , .poineerpro-editprogress {
 	position: relative;
 	width: 764px;
@@ -666,6 +615,11 @@
 	text-indent: 38px;
 	cursor: pointer;
 }
+.poineerpro-editinfo .poineerpro-editinfo-file span , .poineerpro-editprogress .poineerpro-editprogress-file span {
+	display: block;
+	height:36px;
+	line-height: 36px;
+}
 .poineerpro-editinfo-file input , .poineerpro-editprogress-file input{
 	position: absolute;
 	top: 0;
@@ -705,50 +659,6 @@
 	font-weight: bold;
 	border: 0;
 	cursor: pointer;
-}
-.poineerpro-editinfo-select , .poineerpro-editprogress-select {
-	display: inline-block;
-	width: 432px;
-	height: 16px;
-	border: 1px solid #ccc;
-	margin-left: 24px;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	overflow: hidden;
-}
-.poineerpro-editinfo-select div , .poineerpro-editprogress-select div {
-	float: left;
-	width: 100%;
-	height: 16px;	
-	overflow: hidden;
-	margin-right: -23px;
-}
-.poineerpro-editinfo-select select , .poineerpro-editprogress-select select {
-	margin-top: -2px;
-	margin-left: -2px;
-	*margin-top: -4px;
-	margin-right: -2px;
-	width: 100%;
-	background: transparent url(images/select.jpg) no-repeat;
-	border: 0;
-	outline: 0;
-	vertical-align: middle;
-}
-div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
-	float: left;
-	width: 21px;
-	height: 100%;
-	background: white;
-	overflow: hidden;
-}
-.poineerpro-editinfo .select select{
-	background-position: 401px center;
-	*background-position: 398px center;
-}
-.poineerpro-editprogress .select select{
-	background-position: 401px center;
-	*background-position: 398px center;
 }
 .poineerpro-editprogress textarea {
 	margin-top: 50px;
@@ -1565,4 +1475,19 @@ div.poineerpro-editinfo-selectMask , div.poineerpro-editprogress-selectMask {
 }
 .entre-main-work-con span{
 	padding: 0 15px;
+}
+.poineerpro-editteam-select select,.poineerpro-editteam-select1 select {
+	width: 423px;
+}
+.poineerpro-editteam-select1 {
+	margin-top: 40px;
+}
+.poineerpro-editprogress-select1 select {
+	width: 60px;
+}
+.poineerpro-editprogress-select2 {
+	margin-left: 10px;
+}
+.poineerpro-editprogress-select2 select {
+	width: 80px;
 }

@@ -34,7 +34,7 @@
 	font-size: 18px;
 	color: #333;
 }
-.personal .personal-select { /* personal-nav和subnav通过加select类名来改变选中的状态 */
+.personal .personal-select { 
 	background: #fff;
 }
 .personal-main-info {
@@ -283,9 +283,7 @@
 	background: url("../images/mask.png") 0 0 repeat;
 	display: none;
 }
-/*.personal-editedu-wrap{
-	display: block;
-}*/
+
 /* 弹出层--编辑工作经历 */
 .personal-editwork,.personal-editedu {
 	position: relative;
@@ -346,21 +344,13 @@
 	width: 34px;
 	height: 18px;
 	border-top: 1px solid #ccc;
-	margin: 11px 6px 0 28px;
+	margin: 22px 6px 0 8px;
 }
 
-.personal-editwork-select1,.personal-editwork-select2{
+.personal-editwork-select1 select {
 	float: left;
 	width: 147px;
 }
-.personal-editwork-select1 select,.personal-editwork-select2 select{
-	width: 170px;
-	background-position: 125px center;
-	margin-top: -5px;
-	font-size: 14px;
-	color: #aaa;
-}
-
 .personal-editwork-add,.personal-editedu-add {
 	margin-top: 40px;
 }
@@ -498,9 +488,8 @@
 	border: none;
 	outline: none;
 }
-.personal-size select{
-	width: 459px;
-	background-position: 410px center;
+.personal-editinfo-select1 select{
+	width: 423px;
 }
 .personal-editinfo-sub {
 	margin-top: 67px;
