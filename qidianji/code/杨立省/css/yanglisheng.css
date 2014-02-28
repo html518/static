@@ -26,6 +26,9 @@ img{
 li{
 	list-style:none;
 }
+input{
+	border:0;
+}
 /* reset end */
 
 /* change-password.html */
