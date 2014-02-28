@@ -574,6 +574,8 @@ body {
 }  
 
 .personal-editwork .personal-editwork-select span,.personal-editedu-wrap .personal-editedu-select span { 
+	border: none;
+	border-bottom: 1px solid #ccc;
 	margin: 0 6px 0 21px;
 	*margin: 0 6px;
 	/****************	margin: 0 6px;;  *************/
