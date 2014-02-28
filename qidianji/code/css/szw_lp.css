@@ -449,17 +449,17 @@ table img{margin-left:40px}
 	overflow:hidden;
 	width:480px;
 	float:left;
+
 	
 }
-.dian{width:100px;overflow:hidden;float:left;}
+.regproj-name{	position:relative;}
+.dian{width:100px;overflow:hidden;float:left; position:absolute; z-index:9989;right:220px;top:10px}
 .dian var{
 	font-style:normal;
-	margin-top:13px;
-	*margin-top:-70px;
 	display:blcok;
 	width:100px;
 	float:left;
-	margin-bottom:50px
+	margin-bottom:65px
 	
 	
 }
