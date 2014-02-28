@@ -327,12 +327,15 @@
 .int-work-save,.int-edu-save,.int-req-save{
 	display: none;
 }
-.int-req-con select{
+/*.int-req-con select{
 	width: 434px;
 }
 .int-req-con .select select{
 	background-position: 386px center;
 	*background-position: 383px center;
+}*/
+.int-req-select select{
+	width: 420px;
 }
 
 /* 遮罩层 */
