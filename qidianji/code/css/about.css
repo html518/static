@@ -89,15 +89,20 @@ a{
 }
 .feed-details span{
 	margin-left:26px;
+	margin-right:26px;
+	float:left;
 	vertical-align:middle;
 }
-.feed-details .txt-title{
-	height:38px;
-	width:584px;
-	margin-left:26px;
-	margin-bottom:14px;
-	border:1px solid #ccc;
-	outline:none;
+.feed-details .feed-txt{
+	width: 582px;
+	height: 36px;
+	
+	border: 1px solid #ccc;
+	line-height: 36px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .feed-details .txt-con{
 	height:200px;

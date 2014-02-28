@@ -3,7 +3,7 @@
 	min-width: 953px;
 	height: 65px;
 	background: url(../images/com-head-bac.jpg) repeat-x;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .com-header-main{
 	width: 953px;
@@ -19,7 +19,7 @@
 }
 
 
-.com-header-main ul{
+.com-header-nav{
 	float: left;
 	display: inline;
 	margin-left: 23px; 
@@ -27,11 +27,11 @@
 	height: 65px;
 	overflow: hidden;
 }
-.com-header-main li{
+.com-header-nav li{
 	float: left;
 	height: 65px;
 }
-.com-header-main li a{
+.com-header-nav li a{
 	display: inline-block;
 	padding: 0 21px;
 	font-size: 16px;
@@ -39,7 +39,7 @@
 	color: #9b6405;
 	line-height: 65px;
 }
-.com-header-main li a:hover,.com-header-main li.selected a{
+.com-header-nav li a:hover,.com-header-nav li.selected a{
 	background-color: #ffcd59;
 }
 
@@ -49,24 +49,24 @@
 	height: 22px;
 	margin-top: 19px;
 	padding: 2px 0 2px 5px;
-	*padding-top: 4px;
-	*padding-bottom: 0;
 	border: 1px solid #ca9720;     
 	background-color: white;
 }
 .com-header-search input{
 	float: left;
 	width: 129px;
-	_width: 127px;
 	height: 22px;
-	*height: 18px;
+/*	*height: 20px;*/
+	line-height: 22px;
 	outline: none;
 	border: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .com-header-search a{
 	/*display: inline-block;*/
 	float: left;
-	padding-left: 5px;
+	padding-left: 3px;
 	width: 20px;
 	height: 22px;
 	overflow: hidden;
@@ -88,7 +88,7 @@
 	height: 28px;
 	padding-left: 13px;
 }
-.com-header-onlogin div{
+.com-header-message,.com-header-user,.com-header-personal{
 	float: left;
 	height: 28px;
 	padding-left: 4px;
@@ -122,6 +122,9 @@ div.com-header-getmeg span{
 .com-header-personal span{
 	background-position: 0 -85px;
 }
+.com-header-user{
+	position: relative;
+}
 .com-header-user img{
 	float: left;
 	display: inline;
@@ -129,7 +132,44 @@ div.com-header-getmeg span{
 	height: 26px;
 	border: 1px solid #e4b74d;
 }
-
+.com-header-menu{
+	position: absolute;
+	display: block;
+	height: auto;
+	/*overflow: hidden;*/
+	left: -186px;
+	top: 40px;
+	
+}
+.com-menu-main{
+	border: 1px solid #ccc;
+	border-top: 0px;
+	overflow: hidden;
+	background: #f6f6f6;
+	font-size: 12px;
+	text-align: center;
+}
+.com-header-menu a{
+	font-size: 12px;
+}
+.com-header-menu ul li {
+	padding: 0 13px;
+}
+.com-menu-top{
+	height: 6px;
+	overflow: hidden;
+}
+.com-header-menu dl{
+	float: left;
+}
+.com-header-menu dt{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #888888;
+	font-size: 12px;
+	border-bottom: 1px solid #ededed;
+}
 .com-header-unlogin .com-header-userinfor{
 	margin-left: 17px;
 }

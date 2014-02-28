@@ -11,11 +11,13 @@
 	.select select{
 		border: none;
 		outline: none;
-		background: transparent url(images/select.jpg) 0 center no-repeat;
+		background: transparent url(images/select.jpg) right center no-repeat;
 		height: 24px;
 		line-height: 24px;
 		font-size: 14px;
 		margin: -2px -21px 0 -2px;
+		*margin-right: 0px;
+		*background: none;
 		
 	}
 	.selectInner{
@@ -30,6 +32,7 @@
 		border: 1px solid #ccc;
 		padding: 8px 21px 8px 16px;
 		background: white;
+		*padding-right: 0;
 	}
 	.year select{
 		width: 73px;
@@ -83,7 +86,7 @@
 	</div>
 	
 	<div class="normal">
-		<div class="select day">
+		<div class="select">
 			<div class="selectInner">
 				<select>
 					<option value="">11</option>
