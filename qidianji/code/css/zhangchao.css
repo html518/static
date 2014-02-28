@@ -435,8 +435,8 @@ body{
 .proinve-minu-header{
 	background:#f2f2f2;
 	overflow: hidden;
-	border-top:2px solid #ebebec;
-	border-bottom:2px solid #ebebec;
+	border-top:1px solid #ebebec;
+	border-bottom:1px solid #ebebec;
 	padding-left: 60px;;
 }
 .minu-headerin{
@@ -497,7 +497,7 @@ body{
 }
 .proinve-con li{
 	overflow: hidden;
-	border-bottom: 2px solid #f9f8f7;
+	border-bottom: 1px solid #f9f8f7;
 }
 
 .proinve-ite dt,proinve-ite dt{
