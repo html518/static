@@ -62,13 +62,16 @@ body{font-size:12px}
 	overflow:hidden
 }
 .main-text{
-	width:437px;
-	height:36px;
-	border:1px solid #ccc;
-	text-indent:17px;
-	line-height:36px;
-	font-size:14px;
-	color:#ababab
+	width: 401px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
+
 }
 .members-input-file {
 	width: 145px;
@@ -582,13 +585,29 @@ table img{margin-left:40px}
 	width:140px;
 }
 .regproj-write{
-	height:36px;
+	/*height:36px;
 	width:439px;
 	border:1px solid #cccccc;
 	text-indent:5px;
 	font-size:14px;
 	margin-bottom:40px;
 	line-height:36px;
+*/
+
+	width: 401px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
+	margin-bottom:40px;
+}
+
+.mm{
+	margin-bottom:30px;
 }
 .regproj-name .regproj-writes{
 	height:136px;
@@ -597,7 +616,7 @@ table img{margin-left:40px}
 	font-size:14px;
 	overflow:hidden;
 	resize:none;
-	text-indent:5px;
+	text-indent:18px;
 	line-height:20px;
 }
 .regproj-name var{
@@ -729,12 +748,25 @@ table img{margin-left:40px}
 }
 /*身份信息*/
 .apply-identity .apply-tex{
-	width:436px; 
+	/*width:436px; 
 	height:35px;
 	border:1px solid #cccccc;
 	font-size:14px;
 	text-indent:5px;
 	line-height:40px;
+	margin-left:22px;
+	*margin-left:15px;*/
+
+
+	width: 401px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 	margin-left:22px;
 	*margin-left:15px;
 }
