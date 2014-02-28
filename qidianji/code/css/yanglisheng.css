@@ -35,7 +35,7 @@ li{
 .changepsw-body{
 	width:960px;
 	min-height:660px;
-	margin:0 auto;
+	margin:36px auto 153px;
 }
 .changepsw-nav{
 	float:left;
@@ -93,7 +93,8 @@ li{
 .changepsw-main-con legend i{
 	float:left;
 	width:300px;
-	height:36px;
+	height:28px;
+	padding-top:8px;
 	margin-top:11px;
 	border:1px solid #ccc;
 	overflow:hidden;
@@ -101,10 +102,12 @@ li{
 .changepsw-main-con legend input{
 	float:left;
 	width:288px;
+	height:20px;
+	line-height:20px;
 	padding-left:12px;
 	font-size:14px;
-	height:36px;
 	border:none;
+	outline:none;
 }
 .changepsw-main-con .changepsw-lasti{
 	width:115px;
@@ -120,6 +123,7 @@ li{
 }
 .changepsw-main-con legend a{
 	font-size:14px;
+	color:#1b5fcc;
 }
 .changepsw-main-con legend em{
 	color:#aaa;
@@ -174,7 +178,11 @@ li{
 	font-weight: bold;
 	color: #8c8a8a;
 	text-indent: 38px;
-	position: relative;
+	position: relative;	
+}
+.input-file var{
+	cursor:pointer;
+	cursor:hand;
 }
 .input-file-btn {
 	width: 145px;
@@ -187,16 +195,18 @@ li{
 	filter: alpha(opacity: 0);
 	font-size: 36px;
 	cursor: pointer;
+	cursor:hand;
 }
 
 /* 账户设置结束 */
 
 /* select-role.html */
 .role-wrap{
-	min-height:800px;
+	min-height:896px;
+	background:#fff;
 }
 .role-con{
-	margin-top:5px;
+	padding-top:33px;
 }
 .role-con ul{
 	margin-bottom:89px;
@@ -255,9 +265,17 @@ li{
 	text-align:center;
 	overflow:hidden;
 }
+.role-load a{
+	color:#0a62b9;
+}
 /* 设置角色结束 */
 
 /* to-find-password.html */
+.findpsw-con{
+	min-height:895px;
+	padding-top:33px;
+	background:#fff;
+}
 .findpsw-con h2{
 	margin-bottom:48px;
 	color:#8f8f8f;
@@ -271,22 +289,41 @@ li{
 	line-height:38px;
 }
 .findpsw-form legend span{
-	font-size:16px;
+	float:left;
+	width:32px;
+	height:38px;
+	<line-height:38></line-height:38>px;
+	text-align:right;
 	margin-right:18px;
+	font-size:16px;
+	color:#040404;
+	overflow:hidden;
+}
+.findpsw-form legend i{
+	float:left;
+	width:300px;
+	height:28px;
+	padding-top:8px;
+	border:1px solid #ccc;
+	overflow:hidden;
 }
 .findpsw-form legend .findpsw-input{
+	float:left;
 	width:288px;
-	height:36px;
+	height:20px;
+	line-height:20px;
 	padding-left:12px;
 	font-size:14px;
-	border:1px solid #ccc;
+	border:none;
+	outline:none;
 }
 .findpsw-form .findpsw-sunmit{
-	width:302px;
-	height:52px;
+	float:left;
+	width:300px;
+	height:50px;
 	margin:40px 0 20px 52px;
 	border:none;
-	background:#4a97e5;
+	background:#4b97e3;
 	font-size:18px;
 	color:#fff;
 	cursor:hand;
@@ -298,9 +335,17 @@ li{
 	line-height:16px;
 	color:#676767;
 }
+.findpsw-form p a{
+	color:#2367b2;
+}
 /* 找回密码结束 */
  
 /* regist.html */
+.reg-con{
+	padding-top:33px;
+	background:#fff;
+	min-height:896px;
+}
 .reg-con h2{
 	letter-spacing:4px;
 	margin-bottom:36px;
@@ -317,6 +362,7 @@ li{
 	float:left;
 	width:64px;
 	height:60px;
+	line-height:60px;
 	text-align:right;
 	margin-right:18px;
 	font-size:16px;
@@ -326,7 +372,8 @@ li{
 .reg-form legend i{
 	float:left;
 	width:300px;
-	height:36px;
+	height:28px;
+	padding-top:8px;
 	margin-top:11px;
 	border:1px solid #ccc;
 	overflow:hidden;
@@ -334,18 +381,20 @@ li{
 .reg-form .reg-input{
 	float:left;
 	width:288px;
+	height:20px;
+	line-height:20px;
 	padding-left:12px;
 	font-size:14px;
-	height:36px;
 	border:none;
+	outline:none;
 }
 .reg-form .reg-submit{
+	float:left;
 	width:300px;
 	height:50px;
-	margin-top:30px;
-	margin-left:84px;
-	background:#4b97e3;
+	margin:30px 0 28px 84px;
 	border:none;
+	background:#4b97e3;
 	font-size:18px;
 	font-weight:bold;
 	color:#d9e9ff;
@@ -353,24 +402,27 @@ li{
 	cursor:pointer;
 }
 .reg-form p{
+	float:left;
 	width:300px;
 	height:20px;
 	line-height:20px;
-	margin:26px 0 0 84px;
+	margin-left:84px;
 	text-align:center;
 	font-size:14px;
 	color:#717171;
+}
+.reg-form p a{
+	color:#0000ee;
 }
 /* 注册结束 */
 
 /* received-news.html */
 .news-wrap{
 	background:#e9eaec;
-	min-height:865px;
 }
 .news-con{
 	width:960px;
-	margin:0 auto;
+	margin:0 auto 34px;
 }
 .news-con-head{
 	width:959px;
@@ -420,7 +472,7 @@ li{
 	width:750px;
 	padding-top:12px;
 	background:#fff;
-	min-height:658px;
+	min-height:670px;
 }
 .news-con-body-main h2{
 	width:706px;
@@ -432,14 +484,14 @@ li{
 	border-bottom:1px solid #e6e6e6;
 }
 .news-con-body-main dl{
-	height:77px;
+	min-height:77px;
 	padding:23px 0 0 33px;
 	border-bottom:1px solid #f5f4f2;
 }
 .news-con-body-main dt{
 	float:left;
 	width:58px;
-	height:58px;
+	height:100%;
 	margin-right:15px;
 	overflow:hidden;
 }
@@ -513,7 +565,6 @@ li{
 	border-bottom:1px solid #ededed;
 }
 .news-con-body-main dd p{
-	height:16px;
 	line-height:16px;
 	font-size:14px;
 }
@@ -524,7 +575,7 @@ li{
 	line-height:24px;
 	font-size:12px;
 }
-.news-con-body-main div span{
+.news-con-body-main div a span{
 	float:left;
 	width:38px;
 	color:#878787；
@@ -541,7 +592,7 @@ li{
 .news-con-body-main div .news-unclick{
 	color:#d2d2d2;
 }
-.news-con-body-main div a{
+.news-con-body-main div var{
 	float:left;
 	width:22px;
 	height:22px;

@@ -12,16 +12,16 @@
 		<div class="reg-con">
 			<h2>注册</h2>
 			<div class="reg-form">
-				<form method="post" action="">
+				<form method="post" class="cf" action="">
 					<fieldset>
 						<legend>
-							<span>邮箱</span><i><input class="reg-input"type="text" name="" placeholder="建议使用常用邮箱"/></i>
+							<span>邮箱</span><i><input class="reg-input" type="text" name="" placeholder="建议使用常用邮箱"/></i>
 						</legend>
 						<legend>
-							<span>密码</span><i><input class="reg-input"type="password" name="" placeholder="数字加字母组合"/></i>
+							<span>密码</span><i><input class="reg-input" type="password" name="" placeholder="数字加字母组合"/></i>
 						</legend>
 						<legend>
-							<span>确认密码</span><i><input class="reg-input"type="password" name="" placeholder="数字加字母组合"/></i>
+							<span>确认密码</span><i><input class="reg-input" type="password" name="" placeholder="数字加字母组合"/></i>
 						</legend>
 						<input type="submit" class="reg-submit" value="创建账户"/>
 						<p><span>我已经有账号，</span><a href="#" title="注册">登录</a></p>
@@ -29,15 +29,7 @@
 				</form>
 			</div>
 		</div>
-	</div>
-	<script>
-		var btns = document.getElementsByTagName("button");
-		var role_load = document.getElementById("role-load");
-		for (var i = 0; i < btns.length; i ++){
-			btns[i].onclick = function(){
-				role_load.style.display = "block";
-			}
-		}
-	</script>
+	</div>	
 </body>
+<script src="js/com-input.js"></script>
 </html>
