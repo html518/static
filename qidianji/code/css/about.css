@@ -90,14 +90,15 @@ a{
 .feed-details span{
 	margin-left:26px;
 	margin-right:26px;
+	margin-top:12px;
 	float:left;
 	vertical-align:middle;
 }
 .feed-details .feed-txt{
-	width: 582px;
+	width: 570px;
 	height: 36px;
-	
 	border: 1px solid #ccc;
+	padding-left:12px;
 	line-height: 36px;
 	vertical-align: top;
 	outline: none;
