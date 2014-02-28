@@ -34,7 +34,7 @@
 	color: black;
 	font-size: 18px;
 }
-.int-nav ul .selected{
+.int-nav ul .selected,.int-nav ul a:hover{
 	background-color: white;
 }
 
@@ -123,7 +123,7 @@
 	font-size: 18px;
 	font-weight: bold;
 }
-.int-pro-nav a.selected{
+.int-pro-nav a.selected,.int-pro-nav a:hover{
 	background-color: white;
 }
 .int-left{
@@ -267,11 +267,11 @@
 .int-pro-role span{
 	float: left;
 }
-.int-pro-role input{
+/*.int-pro-role input{
 	float: right;
 	height: 15px;
 	width: 15px;
-}
+}*/
 .int-pro-side-main li{
 	display: inline;
 	float: left;
@@ -327,12 +327,15 @@
 .int-work-save,.int-edu-save,.int-req-save{
 	display: none;
 }
-.int-req-con select{
+/*.int-req-con select{
 	width: 434px;
 }
 .int-req-con .select select{
 	background-position: 386px center;
 	*background-position: 383px center;
+}*/
+.int-req-select select{
+	width: 420px;
 }
 
 /* 遮罩层 */
@@ -368,6 +371,8 @@
 	width: 16px;
 	height: 16px;
 	background: url(../images/int-close.png) -16px 0 no-repeat;
+	cursor: pointer;
+	cursor: hand;
 }
 .int-mask td,.int-req-con td{
 	padding-bottom: 42px;
@@ -389,16 +394,16 @@
 }
 .int-form-inp{
 	width: 401px;
-	height: 16px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
 	border: 1px solid #ccc;
-	padding: 10px 18px;
-}
-.int-form-inp input{
-	height: 16px;
-	width: 400px;
-	border: none;
+	line-height: 28px;
+	vertical-align: top;
 	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
+
 .int-mask label{
 	float: left;
 	display: inline;
@@ -417,27 +422,11 @@
 	line-height: 36px;
 	padding: 0 15px;
 }
-.int-year{
-	float: left;
-	width: 59px;
-	padding: 10px;
-	font-size: 14px;
-}
 .int-year select{
-	width: 84px; 
-	background-position: 48px center;
-	*background-position: 45px center;
-}
-.int-month,.int-day{
-	float: left;
-	width: 43px;
-	padding: 10px;
-	font-size: 14px;
+	width: 73px;
 }
 .int-month select,.int-day select{
-	width: 68px;
-	background-position: 33px center;
-	*background-position: 30px center;
+	width: 53px;
 }
 .int-form-btn{
 	margin-top: 37px;

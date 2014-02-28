@@ -280,6 +280,7 @@ table img{margin-left:40px}
 	text-align:center;
 	font-weight:bold;
 	float:left;
+	cursor:pointer;
 }
 .footdown-middle{
 	width:235px;
@@ -293,6 +294,7 @@ table img{margin-left:40px}
 	float:left;
 	border:none;
 	margin:0 93px 0 73px;
+	cursor:pointer;
 }
 .footdown-right{
 	width:325px;
@@ -304,7 +306,8 @@ table img{margin-left:40px}
 	text-align:center;
 	font-weight:bold;
 	float:left;
-	border:none
+	border:none;
+	cursor:pointer;
 }
 .members-resumemain-warp{
 	width:960px;
@@ -484,6 +487,7 @@ table img{margin-left:40px}
 	color:white;
 	font-size:14px;
 	margin-top:20px;
+	cursor:pointer;
 }
 .input-file {
 	width: 145px;
@@ -499,6 +503,7 @@ table img{margin-left:40px}
 	position: relative;
 	margin-top:20px;
 	margin-right:25px;
+	cursor:pointer;
 }
 .input-file-btn {
 	width: 145px;
@@ -553,6 +558,7 @@ table img{margin-left:40px}
 	color:#807c7c;
 	font-size:14px;
 	margin-top:20px;
+	cursor:pointer;
 }
 .regproj-product .regproj-add{
 	line-height:36px;
@@ -692,6 +698,7 @@ table img{margin-left:40px}
 	font-weight:bold;
 	border:none;
 	margin:50px 0px 113px 160px;
+	cursor:pointer;
 }
 /*apply-release.html*/
 /*平台声明*/

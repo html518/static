@@ -21,22 +21,23 @@ a{
 	min-height:792px;
 	width:965px;
 	background:#fff;
-	margin:0 auto;
+	margin:23px auto 75px;
 }
-.about-nav{
-	height:62px;
+ .about-main .about-nav{
+	height:64px;
+	overflow:hidden;
 }
-.about-nav a{
+.about-main .about-nav a{
 	float:left;
 	height:62px;
-	width:190px;
+	width:191px;
 	line-height:62px;
 	text-align:center;
 	font-size:18px;
 	background:#e8e8e8;
 	border:1px solid #dad9d9;
 }
-.about-nav .select{
+.about-main .about-nav .selected{
 	background:white;
 	border-color:transparent;
 }
@@ -95,8 +96,8 @@ a{
 	width:584px;
 	margin-left:26px;
 	margin-bottom:14px;
+	border:1px solid #ccc;
 	outline:none;
-	border: 1px solid #ccc;
 }
 .feed-details .txt-con{
 	height:200px;
@@ -104,9 +105,9 @@ a{
 	margin-top:14px;
 	margin-left:80px;
 	padding:10px 0 0 18px;
+	border:1px solid #ccc;
 	resize:none;
 	outline:none;
-	border: 1px solid #ccc;
 }
 .feed-details p{
 	font-size:14px;
@@ -162,6 +163,8 @@ a{
 .media-details .right-banner{
 	float:left;
 	width:670px;
+	min-height:670px;
+	background:#fff;
 	padding:36px 50px 0 50px;
 }
 .media-details .right-banner a{
@@ -209,7 +212,7 @@ a{
 	width:714px;
 	float:left;
 	background:#fff;
-	padding:23px 32px 68px 26px;
+	padding:23px 32px 50px 26px;
 }
 .helpst-con h3,.service-details .helpst-con h3{
 	font-size:16px;

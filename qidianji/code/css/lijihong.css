@@ -1,6 +1,7 @@
 .personal {
 	width: 960px;
 	margin: 0 auto;
+	margin-bottom: 187px;
 }
 .personal-nav {
 	width: 100%;
@@ -78,17 +79,15 @@
 }
 .personal-main-info dl dd input {
 	float: left;
-	width: 437px;
-	height: 36px;
+	width: 421px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	line-height: 28px;
 	margin-top: 14px;
 	border: 1px solid #ccc;
-	font-size: 14px;
 	outline: none;
-	line-height: 36px;
-	text-indent: 9px;
-}
-.personal-main-info dl dd input:empty { /* 针对safari的input输入框光标的位置 */
-	padding-left: 0.5em;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .personal-main-info dl dd div {
 	width: 750px;
@@ -110,6 +109,7 @@
 	height: 60px;
 	margin-top: 30px;
 	border: 1px solid #ccc;
+	background: #e8e8e8;
 }
 .personal-main-subnav li {
 	float: left;
@@ -162,6 +162,7 @@
 }
 .personal-main-item h3,.personal-main-recruit h3 {
 	margin-left: 32px;
+	font-weight: bold;
 }
 .personal-main-item .personal-main-item-con {
 	margin-top: 18px;
@@ -221,6 +222,7 @@
 	line-height: 51px;
 	color: #444444;
 	font-size: 14px;
+	font-weight: bold;
 }
 .personal-main-recruit .personal-main-recruit-con {
 	margin-top:34px;
@@ -299,10 +301,12 @@
 	width: 16px;
 	height: 16px;
 	background: url("../images/int-close.png") -16px 0 no-repeat;
+	cursor: pointer;
 }
 .personal-editwork ul,.personal-editedu ul {
 	width: 500px;
 	overflow: hidden;
+	font-size: 14px;
 }
 .personal-editwork ul li,.personal-editedu ul li {
 	width: 100%;
@@ -324,10 +328,14 @@
 }
 .personal-editwork input {
 	margin-top: 30px;
-	width: 437px;
-	height: 36px;
+	width: 417px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	line-height: 28px;
 	border: 1px solid #ccc;
 	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .personal-editwork-select,.personal-editedu-select {
 	margin-top: 30px;
@@ -337,8 +345,8 @@
 	float: left;
 	width: 34px;
 	height: 18px;
-	border-bottom: 1px solid #ccc;
-	margin: 0 6px;
+	border-top: 1px solid #ccc;
+	margin: 11px 6px 0 28px;
 }
 
 .personal-editwork-select1,.personal-editwork-select2{
@@ -349,6 +357,8 @@
 	width: 170px;
 	background-position: 125px center;
 	margin-top: -5px;
+	font-size: 14px;
+	color: #aaa;
 }
 
 .personal-editwork-add,.personal-editedu-add {
@@ -390,17 +400,28 @@
 /* 弹出层--编辑工作经历end */
 
 .personal-editedu-sch {
-	width: 374px;
-	height: 36px;
 	margin: 30px 32px 0 0;
-	outline: none;
+	width: 318px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
 	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .personal-editedu-record {
-	width: 82px;
-	height: 36px;
-	outline: none;
+	margin: 30px 32px 0 0;
+	width: 44px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
 	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 
 /* 编辑个人基本信息 */

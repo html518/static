@@ -33,13 +33,19 @@ body{
 	line-height: 16px;
 	font-size:18px;
 	font-family:"微软雅黑";
-	color:#5b5c5c;
+	color:#333333;
 }
 .pubpro-item dd input{
-	height:34px;
-	width:439px;
+	width: 439px;
 	margin:14px 0;
-	border:2px solid #eeeeee;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	height: 28px;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .pubpro-item ul{
 	height:18px;
@@ -50,21 +56,23 @@ body{
 	margin-right:27px;
 	line-height:18px;
 	font-size:18px;
-	color:#b3b3b3;
+	color:#555555;
+	font-family:"宋体";
 }
 .pubpro-item-new{
 	height:60px;
 	margin-top:10px;
-	border:2px solid #e8e8e8;
+	background:#e8e8e8;
+	border: 1px solid #ccc;
 }
 .pubpro-item-new h3{
 	height:60px;
 	width:160px;
-	padding-left:44px;
-	color:#5b5c5c;
-	border-right:2px solid #e4e4e4;
+	color:#333333;
+	border-right:1px solid #ccc;
+	text-align:center;
 	line-height:60px;
-	font-size:16px;
+	font-size:18px;
 	font-family:"微软雅黑";
 	background:rgb(255,255,255);
 }
@@ -81,7 +89,7 @@ body{
 	line-height:60px;
 	font-family:"宋体";
 	font-size:16px;
-	color:#474748;
+	color:#333333;
 	font-weight: bold;
 }
 .pubpro-pro-img{
@@ -124,7 +132,7 @@ body{
 	margin-bottom:25px;
 	font-size:14px;
 	text-indent: 2em;
-	color:#606060;
+	color:#333333;
 }
 .pubpro-fing{
 	float:right;
@@ -164,13 +172,13 @@ body{
 }
 .pubpro-financing li span{
 	float:left; 
-	color:#a1a1a1;
+	color:#555555;
 
 
 }
 .pubpro-financing li strong{
 	float:right; 
-	color:#717171;
+	color:#333333;
 	font-weight:bold;
 
 }
@@ -200,7 +208,7 @@ body{
 .pubpro-fina-bot dt{
 	height:50px;
 	line-height:50px;
-	color:#8e8e8e;
+	color:#555555;
 	font-size:16px;
 	font-weight:bold;
 	
@@ -209,7 +217,7 @@ body{
 	float:left;
 	height:26px;
 	margin-right:32px;
-	color:#a1a1a1;
+	color:#555555;
 	font-size:16px;
 }
 .pubpro-fina-bot dl{
@@ -254,7 +262,7 @@ body{
 	color:#a19989;
 }
 .pubpro-fin-top li span{
-	 color:#464440;
+	 color:#333333;
 	 font-weight:bold;
 }
 .pubpro-din-mid div{
@@ -287,7 +295,9 @@ body{
 	font-size:14px;
 	color:#606060;
 	font-weight: bold;
-	
+}
+.pubpro-in-pbtop p a,.pubpro-ori-info-top p a{
+	color:#333333;
 }
 .pubpro-in-pbtop p{
 	margin-bottom: 7px;
@@ -299,14 +309,14 @@ body{
 	display:inline-block;
 	line-height:12px;
 	font-size:12px;
-	color:#8e8e8e;
+	color:#555555;
 	margin-bottom: 3px;
 	font-weight: bold;
 }
 .pubpro-in-pbbtm p,.pubpro-ori-info-btm p{
 	font-size:12px;
 	line-height:22px;
-	color:#cacaca;
+	color:#888888;
 }
 .pubpro-in-pb{
 	width:617px;
@@ -361,14 +371,14 @@ body{
 }
  .pubpro-chart span{
  	font-size:16px;
- 	color:#7b7b7b;	
+ 	color:#555555;	
  	font-weight:bold;
  }
  .pubpro-chart var{
  	display:inline-block;
  	margin-left: 23px;
  	font-size:12px;
- 	color:#606060;
+ 	color:#333333;
  }
  .pubpro-chart p{
  	line-height:16px;
@@ -464,11 +474,11 @@ body{
 .proinve-contop dd p{
 	line-height: 28px;
 	font-size: 14px;
-	color: #b3b3b3;
+	color: #555555;
 }
 .proinve-contop dd var{
 	font-size: 12px;
-	color: #aaabac;
+	color: #555555;
 }
 .proinve-contop dl,.proinve-ite dl{
 	float:left;
@@ -479,7 +489,7 @@ body{
 	line-height: 48px;
 	text-align: center;
 	margin-right: 97px;
-	color: #c6c4c1;
+	color: #555555;
 }
 .proinve-contop{
 	width:1200px;
@@ -504,7 +514,9 @@ line-height: 32px;
 font-size: 12px;
 font-weight: bold;
 text-align: center;
-color: #615f5e;
+}
+.proinve-ite dd a{
+	color: #615f5e;
 }
 .show{
 	display:none;
@@ -515,7 +527,6 @@ color: #615f5e;
 }
 .proinve-con li:hover {
 	background: #fffcf7;
-	cursor:pointer;
 }
 .proinve-more{
 	line-height: 90px;
@@ -533,5 +544,8 @@ color: #615f5e;
 }
 
 .proinve-more a:hover{
+	cursor:pointer;
+}
+.proinve-con li a:hover{
 	cursor:pointer;
 }

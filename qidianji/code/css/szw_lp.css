@@ -62,13 +62,16 @@ body{font-size:12px}
 	overflow:hidden
 }
 .main-text{
-	width:437px;
-	height:36px;
-	border:1px solid #ccc;
-	text-indent:17px;
-	line-height:36px;
-	font-size:14px;
-	color:#ababab
+	width: 401px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
+
 }
 .members-input-file {
 	width: 145px;
@@ -280,6 +283,7 @@ table img{margin-left:40px}
 	text-align:center;
 	font-weight:bold;
 	float:left;
+	cursor:pointer;
 }
 .footdown-middle{
 	width:235px;
@@ -293,6 +297,7 @@ table img{margin-left:40px}
 	float:left;
 	border:none;
 	margin:0 93px 0 73px;
+	cursor:pointer;
 }
 .footdown-right{
 	width:325px;
@@ -304,7 +309,8 @@ table img{margin-left:40px}
 	text-align:center;
 	font-weight:bold;
 	float:left;
-	border:none
+	border:none;
+	cursor:pointer;
 }
 .members-resumemain-warp{
 	width:960px;
@@ -361,9 +367,9 @@ table img{margin-left:40px}
 		display: inline-block;
 		height: 20px;
 		border: 1px solid #ccc;
-		padding-top: 10px;
+		padding-top: 8px;
 		padding-left: 5px;
-		padding-bottom: 10px;
+		padding-bottom: 8px;
 		overflow: hidden;
 		margin-left:20px;
 	}
@@ -484,6 +490,7 @@ table img{margin-left:40px}
 	color:white;
 	font-size:14px;
 	margin-top:20px;
+	cursor:pointer;
 }
 .input-file {
 	width: 145px;
@@ -499,6 +506,7 @@ table img{margin-left:40px}
 	position: relative;
 	margin-top:20px;
 	margin-right:25px;
+	cursor:pointer;
 }
 .input-file-btn {
 	width: 145px;
@@ -553,6 +561,7 @@ table img{margin-left:40px}
 	color:#807c7c;
 	font-size:14px;
 	margin-top:20px;
+	cursor:pointer;
 }
 .regproj-product .regproj-add{
 	line-height:36px;
@@ -576,22 +585,39 @@ table img{margin-left:40px}
 	width:140px;
 }
 .regproj-write{
-	height:36px;
+	/*height:36px;
 	width:439px;
 	border:1px solid #cccccc;
 	text-indent:5px;
 	font-size:14px;
 	margin-bottom:40px;
 	line-height:36px;
+*/
+
+	width: 401px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
+	margin-bottom:40px;
+}
+
+.mm{
+	margin-bottom:30px;
 }
 .regproj-name .regproj-writes{
 	height:136px;
-	width:421px;
+	width:436px;
 	border:1px solid #cccccc;
-	padding-left:18px;
 	font-size:14px;
 	overflow:hidden;
 	resize:none;
+	text-indent:18px;
+	line-height:20px;
 }
 .regproj-name var{
 	font-style:normal;
@@ -619,7 +645,6 @@ table img{margin-left:40px}
 }
 .regproj-add a img{
 	vertical-align:top;
-	margin-top:2px;
 }
 /*信息开放度*/
 .regproj-open,.regproj-serve{
@@ -631,6 +656,7 @@ table img{margin-left:40px}
 	width:730px;
 	margin-left:85px;
 	margin-bottom:85px;
+
 }
 .regproj-open .regproj-all{
 	margin-top:47px;
@@ -656,7 +682,7 @@ table img{margin-left:40px}
 	font-weight:bold;
 	margin-left:10px;
 }
-.regproj-serve span strong{
+.regproj-serve span a{
 	color:#ff7d7d;
 }
 .regproj-save,.apply-refer{
@@ -692,6 +718,7 @@ table img{margin-left:40px}
 	font-weight:bold;
 	border:none;
 	margin:50px 0px 113px 160px;
+	cursor:pointer;
 }
 /*apply-release.html*/
 /*平台声明*/
@@ -721,15 +748,30 @@ table img{margin-left:40px}
 }
 /*身份信息*/
 .apply-identity .apply-tex{
-	width:436px; 
-	height:40px;
+	/*width:436px; 
+	height:35px;
 	border:1px solid #cccccc;
 	font-size:14px;
 	text-indent:5px;
 	line-height:40px;
 	margin-left:22px;
+	*margin-left:15px;*/
+
+
+	width: 401px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
+	margin-left:22px;
 	*margin-left:15px;
 }
+.apply-identity table{
+	}
 .apply-identity table td{
 	color:#555555;
 }
@@ -768,15 +810,21 @@ table img{margin-left:40px}
 	margin-right:22px;
 	color:#575757;
 	font-size:12px;
-	display:inline-block;
+	float:left;
+}
+.proreg-history label{
+	float:left;
 }
 .proreg-history input{
 	margin-right:10px;
 	vertical-align:center;
+	float:left;
 }
 .proreg-history em{
 	font-style:normal;
 	margin-right:40px;
+	float:left;
+	margin-top:-2px;
 }
 
 /*投资目标项目行业的添加*/
@@ -885,8 +933,10 @@ table img{margin-left:40px}
 
 /*合伙人注册页面*/
 .regist-checkbox{
-	margin:0 8px 0 22px
+	float:left;
+	margin:0 8px 0 20px
 }
+.aaa{float:left;font-size:14px;margin-top:-4px}
 .partner-regist-select{
 	height: 16px;
 	border: 1px solid #ccc;
@@ -992,4 +1042,7 @@ div.partner-regist-selectMasks{
 }
 .pb-66{
 	padding-bottom:66px;
+}
+.pad-bo{
+	padding-bottom:110px;
 }

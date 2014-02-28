@@ -63,12 +63,14 @@ body{
 .coinfo-resume input{
 	float:left;
 	width:436px;
-	height:36px;
-	line-height:36px;
-	font-size:14px;
-	padding-left:0.5em;
-	border:1px solid #ccc;
-	color:#ccc;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .coinfo-resume span{
 	float:left;
@@ -110,13 +112,13 @@ body{
 	width:680px;
 	height:60px;
 }
-.coinfo-operate span{
+.coinfo-operate strong{
 	float:left;
 	line-height:60px;
 	margin-left:33px;
 	font-weight:bold;
 }
-.coinfo-operate strong{
+.coinfo-operate span{
 	float:right;
 	line-height:60px;
 	margin-right:33px;
@@ -145,6 +147,7 @@ body{
 	right:26px;
 	top:21px;
 	display:none;
+	cursor:pointer;
 }
 .coinfo-investment-delete:hover{
 	background:url(../images/fin-investor.png) -16px -16px no-repeat;
@@ -175,9 +178,12 @@ body{
 .coinfo-present dt{
 	float:left;
 	width:100%;
+}
+.coinfo-present dt a{
 	font-size:16px;
 	font-weight:bold;
 	line-height:24px;
+	color:#333;
 }
 .coinfo-present dd{
 	float:left;
@@ -220,6 +226,7 @@ body{
 	font-size:14px;
 	color:#555555;
 	margin-left:45px;
+	font-weight:bold;
 }
 .coinfo-people{
 	float:left;
@@ -239,6 +246,8 @@ body{
 .coinfo-people dt{
 	float:left;
 	width:100%;
+}
+.coinfo-people dt a{
 	line-height:24px;
 	font-size:14px;
 	color:#333;
@@ -264,7 +273,6 @@ body{
 	float:left;
 	width:680px;
 	overflow:hidden;
-	padding-bottom:60px;
 }
 .coinfo-already strong{
 	float:left;
@@ -275,6 +283,7 @@ body{
 	color:#333;
 	line-height:80px;
 	font-size:16px;
+	font-weight:bold;
 }
 .coinfo-already .coinfo-present{
 	border:none;
@@ -318,11 +327,13 @@ body{
 .coinfo-recommend dt{
 	float:left;
 	width:162px;
+	margin-top:15px;
+}
+.coinfo-recommend dt a{
 	line-height:22px;
 	font-size:16px;
 	color:#333;
 	font-weight:bold;
-	margin-top:15px;
 }
 .coinfo-recommend dd{
 	float:left;
