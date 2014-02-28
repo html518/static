@@ -1,6 +1,6 @@
 @charset "utf-8";  
 a {
-	color: black;
+	color: #333333;
 	cursor: pointer;
 }
 input{
@@ -482,13 +482,7 @@ body {
 	border: none;
 	outline: none;
 	cursor: pointer;
-}
-.proresume-person-edt-select{
-	width: 437px;
-	height: 36px;
-	border: 1px solid #ccc;
-	outline: none;
-}
+} 
 .proresume-form-save{
 	margin-top: 16px;
 	text-align: center;
@@ -575,54 +569,24 @@ body {
 
 .personal-editwork .personal-editwork-select span,.personal-editedu-wrap .personal-editedu-select span { 
 	border: none;
-	border-bottom: 1px solid #ccc;
-	margin: 0 6px 0 21px;
-	*margin: 0 6px;
-	/****************	margin: 0 6px;;  *************/
+	border-bottom: 1px solid #ccc; 
+	margin: 0 6px; 
 } 
+
+/***/
 .personal-editwork-select .personal-editwork-select1 select,
 .personal-editwork-select .personal-editwork-select2 select,
-.personal-editedu-wrap .personal-editwork-select1 select,
-.personal-editedu-wrap .personal-editwork-select2 select{
+.personal-editedu-wrap .personal-editedu-select1 select,
+.personal-editedu-wrap .personal-editedu-select2 select{
 	width: 145px;    
 } 
 .personal-editwork-wrap ul li span,.personal-editedu-wrap ul li span {
 	line-height: 30px;
 }
 
-.select select{
-	border: none;
-	outline: none;
-	background: transparent url("../images/select.jpg") right center no-repeat;
-	height: 24px;
-	line-height: 24px;
-	font-size: 14px;
-	margin: -2px -21px 0 -2px;
-	
+.proresume-aim-select1 select,.proresume-aim-select2 select,.proresume-aim-select3 select {
+	width: 420px;
 }
-.selectInner{
-	height: 20px;
-	overflow: hidden;
-}
-.select{
-
-	/*display: inline-block;*/
-	float: left;
-	/*margin: 50px;*/
-	border: 1px solid #ccc;
-	padding: 8px 21px 8px 16px;
-	background: white;
-}
-.year select{
-	width: 73px;
-}
-.month select,.day select{
-	width: 53px;
-}
-span{
-	line-height: 36px;
-	float: left;
-} 
-.normal select{
+.proresume-person-edt-select1 select,.proresume-history-edt-select1 select {
 	width: 420px;
 }
