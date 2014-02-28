@@ -79,17 +79,15 @@
 }
 .personal-main-info dl dd input {
 	float: left;
-	width: 437px;
-	height: 36px;
+	width: 421px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	line-height: 28px;
 	margin-top: 14px;
 	border: 1px solid #ccc;
-	font-size: 14px;
 	outline: none;
-	line-height: 36px;
-	text-indent: 9px;
-}
-.personal-main-info dl dd input:empty { /* 针对safari的input输入框光标的位置 */
-	padding-left: 0.5em;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .personal-main-info dl dd div {
 	width: 750px;
@@ -330,12 +328,14 @@
 }
 .personal-editwork input {
 	margin-top: 30px;
-	padding-left: 20px;
 	width: 417px;
-	height: 36px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	line-height: 28px;
 	border: 1px solid #ccc;
-	font-size: 14px;
 	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
 }
 .personal-editwork-select,.personal-editedu-select {
 	margin-top: 30px;
@@ -345,8 +345,8 @@
 	float: left;
 	width: 34px;
 	height: 18px;
-	border-bottom: 1px solid #ccc;
-	margin: 0 6px;
+	border-top: 1px solid #ccc;
+	margin: 11px 6px 0 28px;
 }
 
 .personal-editwork-select1,.personal-editwork-select2{
@@ -400,21 +400,28 @@
 /* 弹出层--编辑工作经历end */
 
 .personal-editedu-sch {
-	padding-left: 20px;
-	width: 354px;
-	height: 36px;
 	margin: 30px 32px 0 0;
+	width: 318px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
 	outline: none;
 	font-size: 14px;
-	border: 1px solid #ccc;
+	font-family: "宋体";
 }
 .personal-editedu-record {
-	padding-left: 22px;
-	width: 60px;
-	height: 36px;
+	margin: 30px 32px 0 0;
+	width: 44px;
+	height: 28px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	line-height: 28px;
+	vertical-align: top;
 	outline: none;
 	font-size: 14px;
-	border: 1px solid #ccc;
+	font-family: "宋体";
 }
 
 /* 编辑个人基本信息 */
