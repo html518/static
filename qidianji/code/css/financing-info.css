@@ -153,6 +153,7 @@ body{
 .fin-con-fin-count{
 	float:left;
 	margin-left:-36px;
+	*min-width:110%;
 	overflow:hidden;
 	padding-bottom:20px;
 }
