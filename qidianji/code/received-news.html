@@ -72,21 +72,14 @@
 		</div>
 	</div>
 </body>
+<script src="js/jquery.js"></script>
 <script>
-	var news_click = document.getElementById("news-click");
-	var news_bs = news_click.getElementsByTagName("b");
-	for (var i = 0; i < news_bs.length; i ++){
-		news_bs[i].index = i;
-		news_bs[i].onclick = function(){
-			var news_disblock = news_bs[this.index].getElementsByTagName("i")[0];
-			news_disblock.className = "disblock";
-			var news_dels = news_disblock.getElementsByTagName("a");
-			for (var j = 0; j < news_dels.length; j ++){
-				news_dels[j].onclick = function(){
-					news_disblock.style.display = "none";
-				}
-			}
-		}
-	}
+	$("#news-click b").click(function(){
+	event.stopPropagation();
+	$(this).children().show();
+});
+$("html").click(function(){
+	$("#news-click b i").hide();
+})
 </script>
 </html>
