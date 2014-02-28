@@ -445,14 +445,25 @@ table img{margin-left:40px}
 	text-indent:18px;
 	line-height:20px;
 }
-.regproj-name var{
+.regproj-name-input{
+	overflow:hidden;
+	width:480px;
+	float:left;
+	
+}
+.dian{width:100px;overflow:hidden;float:left;}
+.dian var{
 	font-style:normal;
-	height:36px;
-	float:right;
-	margin-right:300px;
 	margin-top:13px;
 	*margin-top:-70px;
+	display:blcok;
+	width:100px;
+	float:left;
+	margin-bottom:50px
+	
+	
 }
+
 .regproj-limit{
 	margin-left:180px;
 	color:#ababab;
@@ -650,7 +661,9 @@ table img{margin-left:40px}
 	font-style:normal;
 	margin-right:40px;
 	float:left;
-	margin-top:-2px;
+	margin-top:-4px;
+	font-size:14px;
+	*margin-top:-2px;
 }
 
 /*投资目标项目行业的添加*/
@@ -762,7 +775,7 @@ table img{margin-left:40px}
 	float:left;
 	margin:0 8px 0 20px
 }
-.aaa{float:left;font-size:14px;margin-top:-4px}
+.aaa{float:left;font-size:14px;margin-top:-4px;*margin-top:-2px}
 
 .partner-regist-year{
 	float:left;
@@ -785,9 +798,22 @@ table img{margin-left:40px}
 .pad-bo{
 	padding-bottom:110px;
 }
-.selectwidth select{
-	width:418px;
+.select-54 select{
+	width:54px;
 }
-.memberwidth select{
-	width:102px
+.select-75 select{
+	width:75px;
+}
+.select-102 select{
+	width:102px;
+}
+.select-132 select{
+	width:132px;
+}
+.select-423 select{
+	width:423px;
+	*width:410px;	
+}
+.select-423{
+	*width:420px	
 }
