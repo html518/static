@@ -39,9 +39,9 @@
 		</div>
 	</div>
 	<script>
-		var btns = document.getElementsByTagName("button");
+		var btns = document.getElementsByTagName("a");
 		var role_load = document.getElementById("role-load");
-		for (var i = 0; i < btns.length; i ++){
+		for (var i = 0; i < btns.length-1; i ++){
 			btns[i].onclick = function(){
 				role_load.style.display = "block";
 			}
