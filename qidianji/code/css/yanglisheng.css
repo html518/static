@@ -26,6 +26,9 @@ img{
 li{
 	list-style:none;
 }
+input{
+	border:0;
+}
 /* reset end */
 
 /* change-password.html */
@@ -485,15 +488,17 @@ li{
 }
 .news-con-body-main dl{
 	min-height:77px;
-	padding:23px 0 0 33px;
+	padding:23px 0 10px 33px;
 	border-bottom:1px solid #f5f4f2;
 }
 .news-con-body-main dt{
 	float:left;
 	width:58px;
 	height:100%;
-	margin-right:15px;
 	overflow:hidden;
+}
+.news-con-body-main dd{
+	padding-left:75px;
 }
 .news-con-body-main dt img{
 	width:56px;
