@@ -163,54 +163,13 @@ body{font-size:12px}
 	margin:-5px 45px 0 0;
 	float:left
 }
-.members-select{
-	float:left;
-	height: 16px;
-	border: 1px solid #ccc;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	overflow: hidden;
-	
-}
-.members-select div{
-	float: left;
-	width: 100%;
-	height: 16px;	
-	overflow: hidden;	
-	margin-right: -23px;
-}
-.members-select select{
-	margin-top: -2px;
-	margin-left: -2px;
-	*margin-top: -4px;
-	margin-right: -2px;
-	width: 100%;
-	background: transparent url(../images/select.jpg) no-repeat;
-	border: 0;
-	outline: 0;
-	vertical-align: middle;
-	
-}
-div.members-selectMask{
-	float: left;
-	width: 21px;
-	height: 100%;
-	background: white;
-	overflow: hidden;
-}
+
+
 table img{margin-left:40px}
 .mar-l{
 	margin-left:5px;
 }
-/* 需要修改的东西 */
-.members-select{
-	width: 122px;
-}
-.members-select select{
-	background-position: 89px center;
-	*background-position: 86px center;
-}
+
 .resumemain-text{
 	overflow:hidden;
 	float:left;
@@ -317,141 +276,8 @@ table img{margin-left:40px}
 	overflow:hidden;
 }
 /*团队成员结束*/
-.select{
-		display: inline-block;
-		height: 16px;
-		border: 1px solid #ccc;
-		padding-top: 10px;
-		padding-left: 5px;
-		padding-bottom: 10px;
-		overflow: hidden;
-	}
-	.select div{
-		float: left;
-		width: 100%;
-		height: 16px;	
-		overflow: hidden;
-		margin-right: -23px;
-	}
-	.select select{
-		margin-top: -2px;
-		margin-left: -2px;
-		*margin-top: -4px;
-		margin-right: -2px;
-		width: 100%;
-		background: transparent url(../images/select.jpg) no-repeat;
-		border: 0;
-		outline: 0;
-		vertical-align: middle;
-		
-	}
-	div.selectMask{
-		float: left;
-		width: 21px;
-		height: 100%;
-		background: white;
-		overflow: hidden;
-	}
-	
-	/* 需要修改的东西 */
-	.select{
-		width: 434px;
-		margin-bottom:40px;
-	}
-	.select select{
-		background-position: 401px center;
-		*background-position: 398px center;
-	}
+
 /*身份证件修改*/
-.selects{
-		display: inline-block;
-		height: 20px;
-		border: 1px solid #ccc;
-		padding-top: 8px;
-		padding-left: 5px;
-		padding-bottom: 8px;
-		overflow: hidden;
-		margin-left:20px;
-	}
-	.selects div{
-		float: left;
-		width: 100%;
-		height: 16px;	
-		overflow: hidden;
-		margin-right: -23px;
-	}
-	.selects select{
-		margin-top: -2px;
-		margin-left: -2px;
-		*margin-top: -4px;
-		margin-right: -2px;
-		width: 100%;
-		background: transparent url(../images/select.jpg) no-repeat;
-		border: 0;
-		outline: 0;
-		vertical-align: middle;
-		
-	}
-	div.selectMask{
-		float: left;
-		width: 21px;
-		height: 100%;
-		background: white;
-		overflow: hidden;
-	}
-	
-	/* 需要修改的东西 */
-	.selects{
-		width: 434px;
-	}
-	.selects select{
-		background-position: 390px center;
-		*background-position: 398px center;
-	}
-	/*身份证件修改*/
-	.selectss{
-		display: inline-block;
-		height: 20px;
-		border: 1px solid #ccc;
-		padding-top: 10px;
-		padding-left: 5px;
-		padding-bottom: 10px;
-		overflow: hidden;
-	}
-	.selectss div{
-		float: left;
-		width: 100%;
-		height: 16px;	
-		overflow: hidden;
-		margin-right: -23px;
-	}
-	.selectss select{
-		margin-top: -2px;
-		margin-left: -2px;
-		*margin-top: -4px;
-		margin-right: -2px;
-		width: 100%;
-		background: transparent url(../images/select.jpg) no-repeat;
-		border: 0;
-		outline: 0;
-		vertical-align: middle;
-		
-	}
-	div.selectss-selectMask{
-		float: left;
-		width: 30px;
-		height: 100%;
-		background: white;
-		overflow: hidden;
-	}
-	
-	.selectss{
-		width: 434px;
-	}
-	.selectss select{
-		background-position: 390px center;
-		*background-position: 398px center;
-	}
 
 
 /*logo*/
@@ -937,50 +763,7 @@ table img{margin-left:40px}
 	margin:0 8px 0 20px
 }
 .aaa{float:left;font-size:14px;margin-top:-4px}
-.partner-regist-select{
-	height: 16px;
-	border: 1px solid #ccc;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	overflow: hidden;
-	float:left
-}
-.partner-regist-select div{
-	float: left;
-	width: 100%;
-	height: 16px;	
-	overflow: hidden;
-	margin-right: -23px;
-}
-.partner-regist-select select{
-	margin-top: -2px;
-	margin-left: -2px;
-	*margin-top: -4px;
-	margin-right: -2px;
-	width: 100%;
-	background: transparent url(../images/select.jpg) no-repeat;
-	border: 0;
-	outline: 0;
-	vertical-align: middle;
-	
-}
-div.partner-regist-selectMask{
-	float: left;
-	width:30px;
-	height: 100%;
-	background: white;
-	overflow: hidden;
-}
 
-/* 需要修改的东西 */
-.partner-regist-select{
-	width: 72px;
-}
-.partner-regist-select select{
-	background-position: 39px center;
-	*background-position: 36px center;
-}
 .partner-regist-year{
 	float:left;
 	width:47px;
@@ -995,54 +778,16 @@ div.partner-regist-selectMask{
 	margin-left:20px;
 	*margin-left:30px;
 }
-.partner-regist-selects{
-	height: 16px;
-	border: 1px solid #ccc;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	overflow: hidden;
-	float:left;
-	margin-left:20px
-}
-.partner-regist-selects div{
-	float: left;
-	width: 100%;
-	height: 16px;	
-	overflow: hidden;
-	margin-right: -23px;
-}
-.partner-regist-selects select{
-	margin-top: -2px;
-	margin-left: -2px;
-	*margin-top: -4px;
-	margin-right: -2px;
-	width: 100%;
-	background: transparent url(../images/select.jpg) no-repeat;
-	border: 0;
-	outline: 0;
-	vertical-align: middle;
-	
-}
-div.partner-regist-selectMasks{
-	float: left;
-	width:30px;
-	height: 100%;
-	background: white;
-	overflow: hidden;
-}
 
-/* 需要修改的东西 */
-.partner-regist-selects{
-	width: 440px;
-}
-.partner-regist-selects select{
-	background-position: 407px center;
-	*background-position: 403px center;
-}
 .pb-66{
 	padding-bottom:66px;
 }
 .pad-bo{
 	padding-bottom:110px;
+}
+.selectwidth select{
+	width:418px;
+}
+.memberwidth select{
+	width:102px
 }
