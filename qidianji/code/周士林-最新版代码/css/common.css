@@ -54,11 +54,13 @@ body{background-color: #e9eaec;position: relative;}
 	line-height: 24px;
 	font-size: 14px;
 	margin: -2px -21px 0 -2px;
-	
+	*margin-right: 0px;
+	*background: none;
 }
 .selectInner{
 	height: 20px;
 	overflow: hidden;
+	
 }
 .select{
 
@@ -68,4 +70,5 @@ body{background-color: #e9eaec;position: relative;}
 	border: 1px solid #ccc;
 	padding: 8px 21px 8px 16px;
 	background: white;
+	*padding-right: 0;
 }
