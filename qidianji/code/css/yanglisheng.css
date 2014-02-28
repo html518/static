@@ -1,4 +1,4 @@
-/* reset */
+﻿/* reset */
 *{
 	margin:0;
 	padding:0;
@@ -284,7 +284,7 @@ input{
 	color:#8f8f8f;
 }
 .findpsw-form{
-	width:360px;
+	width:368px;
 	margin:0 auto;
 }
 .findpsw-form legend{
@@ -324,7 +324,7 @@ input{
 	float:left;
 	width:300px;
 	height:50px;
-	margin:40px 0 20px 52px;
+	margin:40px 0 20px 58px;
 	border:none;
 	background:#4b97e3;
 	font-size:18px;
@@ -333,7 +333,8 @@ input{
 	cursor:pointer;
 }
 .findpsw-form p{
-	margin-left:52px;
+	float:left;	
+	margin-left:58px;
 	font-size:12px;
 	line-height:16px;
 	color:#676767;
@@ -354,7 +355,7 @@ input{
 	margin-bottom:36px;
 }
 .reg-form{
-	width:385px;
+	width:398px;
 	margin:0 auto;
 }
 .reg-form legend{
@@ -395,7 +396,7 @@ input{
 	float:left;
 	width:300px;
 	height:50px;
-	margin:30px 0 28px 84px;
+	margin:30px 0 28px 90px;
 	border:none;
 	background:#4b97e3;
 	font-size:18px;
