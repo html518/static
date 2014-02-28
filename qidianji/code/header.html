@@ -35,33 +35,8 @@
 						<em></em>
 					</div>
 					<div class="com-header-user">
-						<img src="images/com-userface.jpg" alt="">
+						<a href=""><img src="images/com-userface.jpg" alt=""></a>
 						<em></em>
-						<div class="com-header-menu">
-							<div class="com-menu-top"></div>
-							<div class="com-menu-main">
-								<dl class="com-menu-prop">
-									<dt>创业项目:</dt>
-									<dd>
-										<ul>
-											<li><a href="#">项目名称</a></li>
-										</ul>
-									</dd>
-									<dd class="com-menu-add"><a href="#"><strong>+</strong>添加新项目</a></dd>
-								</dl>
-								<dl class="com-menu-user">
-									<dt><a href="#">帐户名</a></dt>
-									<dd><a href="#"><strong>+</strong>添加角色</a></dd>
-									<dd>
-										<ul>
-											<li><a href="#">账户设置</a></li>
-											<li><a href="#">退出登录</a></li>
-										</ul>
-									</dd>
-								</dl>
-							</div>
-							
-						</div>
 					</div>
 					<div class="com-header-personal">
 						<span></span>
@@ -75,7 +50,76 @@
 					<a href="#" title="登录">登录</a>
 				</div>
 			</div>
+			<div class="com-header-menu">
+				<div class="com-menu-top"></div>
+				<div class="com-menu-main">
+					<dl class="com-menu-prop">
+						<dt>创业项目:</dt>
+						<dd class="com-mune-list">
+							<ul>
+								<li><a href="#">项目名称</a></li>
+								<li><a href="#">项目名称</a></li>
+								<li><a href="#">项目名称</a></li>
+							</ul>
+						</dd>
+						<dd class="com-menu-add"><a href="#"><strong>+</strong>添加新项目</a></dd>
+					</dl>
+					<dl class="com-menu-user">
+						<dt><a href="#">帐户名</a></dt>
+						<dd class="com-menu-add"><a href="#"><strong>+</strong>添加角色</a></dd>
+						<dd>
+							<ul>
+								<li><a href="#">账户设置</a></li>
+								<li><a href="#">退出登录</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
+<script src="js/jquery-1.7.2.js"></script>
+<script>
+	$(function(){
+		$(".com-header-user em").click(function(event) {
+			event.stopPropagation();
+			$(".com-header-menu").show();
+		});
+		$("html").click(function(){
+			$(".com-header-menu").hide();
+		})
+	})
+		
+
+if ($.browser.version == "7.0" || $.browser.version == "8.0" || $.browser.version == "9.0" ) {
+	// alert($.browser.version)
+	for(var i = 0; i < $("input[placeholder]").length; i++){
+		$("input[placeholder]").eq(i).bind({
+				focus : function(){
+					
+						if($(this).val() == $(this).prop("placeholder")){
+							$(this).val("");
+							$(this).css("color","#000");
+						}	
+				},
+				blur : function(){
+					
+						if(!$(this).val() && 
+							$(this).val() != $(this).prop("placeholder")){
+							$(this).val($(this).prop("placeholder"))
+							$(this).css("color","#ccc");
+						}
+				}
+			}
+		);
+		if(!$("input[placeholder]").eq(i).val() && 
+			$("input[placeholder]").eq(i).val() != $("input[placeholder]").eq(i).prop("placeholder")){
+			$("input[placeholder]").eq(i).val($("input[placeholder]").eq(i).prop("placeholder"))
+		}
+		$("input[placeholder]").eq(i).css("color","#ccc");
+	}
+
+};
+</script>
 </html>

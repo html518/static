@@ -10,6 +10,7 @@
 	height: 65px;
 	margin: 0 auto;
 	padding-left: 9px;
+	position: relative;
 }
 
 .com-logo{
@@ -132,14 +133,28 @@ div.com-header-getmeg span{
 	height: 26px;
 	border: 1px solid #e4b74d;
 }
+
+.com-header-unlogin .com-header-userinfor{
+	margin-left: 17px;
+}
+.com-header-userinfor .com-header-unlogin em{
+	float: left;
+	width: 2px;
+	height: 17px;
+	margin: 5px 9px 5px 9px;
+	background-color: #d28d25;
+	overflow: hidden;
+}
+
+/*mune*/
 .com-header-menu{
 	position: absolute;
 	display: block;
 	height: auto;
-	/*overflow: hidden;*/
-	left: -186px;
-	top: 40px;
-	
+	overflow: hidden;
+	right: 0;
+	top: 59px;
+	display: none;
 }
 .com-menu-main{
 	border: 1px solid #ccc;
@@ -153,35 +168,67 @@ div.com-header-getmeg span{
 	font-size: 12px;
 }
 .com-header-menu ul li {
-	padding: 0 13px;
+	padding: 13px 13px 0;
+}
+.com-mune-list a{
+	padding: 13px 13px 0;
+	color: #555555;
 }
 .com-menu-top{
 	height: 6px;
 	overflow: hidden;
+	background: url(../images/menu.png) right 0 no-repeat;
 }
 .com-header-menu dl{
 	float: left;
+	display: block;
+	height: 100%;
 }
 .com-header-menu dt{
 	height: 35px;
 	line-height: 35px;
 	text-align: center;
 	color: #888888;
+	padding: 0 13px;
 	font-size: 12px;
-	border-bottom: 1px solid #ededed;
 }
-.com-header-unlogin .com-header-userinfor{
-	margin-left: 17px;
+.com-menu-prop dt{
+	font-weight: bold;
 }
-.com-header-userinfor .com-header-unlogin em{
-	float: left;
-	width: 2px;
-	height: 17px;
-	margin: 5px 9px 5px 9px;
-	background-color: #d28d25;
-	overflow: hidden;
+.com-menu-user dt a{
+	color: #555555;
 }
-
+.com-menu-main ul{
+	border-top: 1px solid #ededed;
+}
+.com-menu-prop{
+	border-right: 1px solid #ededed;
+}
+.com-menu-user{
+	border-left: 1px solid #ededed;
+	margin-left: -1px;
+	background-color: white;
+}
+.com-menu-user li a{
+	color: #888888;
+}
+.com-menu-add{
+	line-height: 36px;
+	text-align: left;
+	padding: 0 14px;
+}
+.com-menu-add strong{
+	font-weight: bold;
+}
+.com-menu-prop .com-menu-add a{
+	color: #cf8e08;
+}
+.com-menu-user .com-menu-add{
+	border-top: 1px solid #ededed;
+}
+.com-menu-user .com-menu-add a{
+	color: #4c93e1;
+}
 /* 切换 */
 /* 未登录 */
 .com-header-onlogin{
