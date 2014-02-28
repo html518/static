@@ -587,3 +587,41 @@ body {
 .personal-editwork-wrap ul li span,.personal-editedu-wrap ul li span {
 	line-height: 30px;
 }
+
+/*****select****/
+.select select{
+	border: none;
+	outline: none;
+	background: transparent url("../images/select.jpg") right center no-repeat;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	margin: -2px -21px 0 -2px;
+	
+}
+.selectInner{
+	height: 20px;
+	overflow: hidden;
+}
+.select{
+
+	/*display: inline-block;*/
+	float: left;
+	/*margin: 50px;*/
+	border: 1px solid #ccc;
+	padding: 8px 21px 8px 16px;
+	background: white;
+}
+.year select{
+	width: 73px;
+}
+.month select,.day select{
+	width: 53px;
+}
+span{
+	line-height: 36px;
+	float: left;
+} 
+.normal select{
+	width: 420px;
+}
