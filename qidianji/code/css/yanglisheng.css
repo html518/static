@@ -572,6 +572,7 @@ input{
 .news-con-body-main dd p{
 	line-height:16px;
 	font-size:14px;
+	padding-right: 27px;
 }
 .news-con-body-main div{
 	width:430px;
