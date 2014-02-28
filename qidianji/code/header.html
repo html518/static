@@ -11,11 +11,11 @@
 		<!-- 状态修改是为com-header-main添加类名 未登录状态，不添加类名
 			登录状态，添加com-login类名，
 			个人中心添加com-person类名 -->
-		<div class="com-header-main">
+		<div class="com-header-main com-login">
 			<div class="com-logo">
 				<img src="images/icon.png" alt="logo">
 			</div>
-			<ul>
+			<ul class="com-header-nav">
 				<!-- 被选中状态的li的类名改为selected -->
 				<li class="selected"><a href="" title="首页">首页</a></li>
 				<li><a href="" title="投资项目">投资项目</a></li>
@@ -37,6 +37,31 @@
 					<div class="com-header-user">
 						<img src="images/com-userface.jpg" alt="">
 						<em></em>
+						<div class="com-header-menu">
+							<div class="com-menu-top"></div>
+							<div class="com-menu-main">
+								<dl class="com-menu-prop">
+									<dt>创业项目:</dt>
+									<dd>
+										<ul>
+											<li><a href="#">项目名称</a></li>
+										</ul>
+									</dd>
+									<dd class="com-menu-add"><a href="#"><strong>+</strong>添加新项目</a></dd>
+								</dl>
+								<dl class="com-menu-user">
+									<dt><a href="#">帐户名</a></dt>
+									<dd><a href="#"><strong>+</strong>添加角色</a></dd>
+									<dd>
+										<ul>
+											<li><a href="#">账户设置</a></li>
+											<li><a href="#">退出登录</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							
+						</div>
 					</div>
 					<div class="com-header-personal">
 						<span></span>
