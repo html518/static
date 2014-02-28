@@ -46,37 +46,26 @@ body{background-color: #e9eaec;position: relative;}
 	font-size: 36px;
 	cursor: pointer;
 }
-/*.select{
-	display: inline-block;
-	height: 16px;
-	border: 1px solid #ccc;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	overflow: hidden;
-}
-.select div{
-	float: left;
-	width: 100%;
-	height: 18px;	
-	overflow: hidden;
-	margin-right: -23px;
-}
 .select select{
-	margin-top: -2px;
-	margin-left: -2px;
-	*margin-top: -4px;
-	margin-right: -2px;
-	width: 100%;
-	background: transparent url(../images/select.jpg) no-repeat;
-	border: 0;
-	outline: 0;
-	vertical-align: middle;
+	border: none;
+	outline: none;
+	background: transparent url(../images/select.jpg) right center no-repeat;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	margin: -2px -21px 0 -2px;
+	
 }
-div.selectMask{
-	float: left;
-	width: 21px;
-	height: 100%;
-	background: white;
+.selectInner{
+	height: 20px;
 	overflow: hidden;
-}*/
+}
+.select{
+
+	/*display: inline-block;*/
+	float: left;
+	/*margin: 50px;*/
+	border: 1px solid #ccc;
+	padding: 8px 21px 8px 16px;
+	background: white;
+}
