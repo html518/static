@@ -5,54 +5,51 @@
 	list-style: none;
 	text-decoration: none;
 }
-.select{
-	display: inline-block;
-	height: 16px;
-	border: 1px solid #ccc;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	overflow: hidden;
-}
-.select div{
-	float: left;
-	width: 100%;
-	height: 16px;	
-	overflow: hidden;
-	margin-right: -23px;
-}
 .select select{
-	margin-top: -2px;
-	margin-left: -2px;
-	*margin-top: -4px;
-	margin-right: -2px;
-	width: 100%;
-	background: transparent url(images/select.jpg) no-repeat;
-	border: 0;
-	outline: 0;
-	vertical-align: middle;
+	border: none;
+	outline: none;
+	background: transparent url(../images/select.jpg) right center no-repeat;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	margin: -2px -21px 0 -2px;
 	
 }
-div.selectMask{
-	float: left;
-	width: 21px;
-	height: 100%;
-	background: white;
+.selectInner{
+	height: 20px;
 	overflow: hidden;
 }
-
-/* 需要修改的东西 */
 .select{
-	width: 158px;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 8px 21px 8px 16px;
+	background: white;
 }
-.select select{
-	background-position: 158px center;
-	*background-position: 158px center;
+.year select{
+	width: 73px;
+}
+.month select,.day select{
+	width: 53px;
+}
+span{
+	line-height: 36px;
+	float: left;
+}
+
+.normal select{
+	width: 149px;
+}
+/*reset结束*/
+.incubapro-subme .incubapro-right {
+	float: right;
 }
 .incubapro-subme .selectMask {
 	width: 0;
 }
-/*reset结束*/
+
+.incubapro .select select {
+	cursor: pointer;
+}
 .incubapro {
 	background: #e9eaec;
 	color: #555;
@@ -171,10 +168,12 @@ div.selectMask{
 	height: 30px;
 	text-align: right;
 	color: #333;
+	line-height: 30px;
 }
 .incubapro-main-box li span {
 	float: left;
 	color: #999;
+	line-height: 30px;
 }
 .incubapro-main-progress {
 	width: 215px;
