@@ -5,14 +5,42 @@ body{font-size:12px}
 	margin:0 auto;
 	overflow:hidden;
 	background:#e9eaec;
+	font-family:"宋体"
 }
-.regproj h3,.parreg h3,.parconf h3,.apply h3,.members h3,.coconf h3,.coreg h3,.proconf h3,.proreg h3,.regprojs h3{
+.parreg h3,.parconf h3,.apply h3,.coconf h3,.coreg h3,.proconf h3,.proreg h3{
 	height:85px;
 	font-size:14px;
 	color:#343436;
 	line-height:115px;
 	overflow:hidden;
 	font-weight:bold
+}
+.members h3{
+	height:77px;
+	font-size:14px;
+	color:#343436;
+	line-height:115px;
+	overflow:hidden;
+	font-weight:bold;
+	line-height:100px;
+}
+.regprojs h3{
+	height:77px;
+	font-size:14px;
+	color:#343436;
+	line-height:115px;
+	overflow:hidden;
+	font-weight:bold;
+	line-height:100px;
+}
+.regproj h3{
+	height:77px;
+	font-size:14px;
+	color:#343436;
+	line-height:115px;
+	overflow:hidden;
+	font-weight:bold;
+	line-height:100px;
 }
 .regproj-nav{
 	width:958px;
@@ -149,7 +177,7 @@ body{font-size:12px}
 	overflow:hidden;
 }
 .members-resumemain p{
-	width:800px
+	width:800px;
 	font-size:14px;
 	color:#ababab;
 	padding:100px 0 0 67px;
@@ -168,8 +196,18 @@ body{font-size:12px}
 table img{margin-left:40px}
 .mar-l{
 	margin-left:5px;
+	
+	height:7px;
+	width:10px;
+	display:inline-block;
 }
-
+#marl{
+	background:url(../images/com-bac.png) 0 0 no-repeat;	
+}
+#proregwheres:hover #marl{
+	background:url(../images/com-bac.png) -15px 0 no-repeat;
+	
+}
 .resumemain-text{
 	overflow:hidden;
 	float:left;
@@ -281,10 +319,15 @@ table img{margin-left:40px}
 
 
 /*logo*/
-.regproj-basic,.regproj-product{
+.regproj-product{
 	background:#fff;
-	padding-top:24px;
+	padding-top:33px;
 	overflow:hidden;
+}
+.regproj-basic{
+	background:#fff;
+	overflow:hidden;
+	padding-bottom:40px;	
 }
 .regproj-product{
 	padding-bottom:75px;
@@ -292,13 +335,15 @@ table img{margin-left:40px}
 .regproj-logo{
 	margin-left:70px;
 	overflow:hidden;
+	
 }
 .regproj-logo em{
 	font-style:normal;
-	margin-right:60px;
+	margin-right:50px;
 	height:66px;
 	float:left;
 	line-height:70px;
+	margin-left:5px;
 }
 .regproj-logo img{
 	float:left;
@@ -408,7 +453,7 @@ table img{margin-left:40px}
 	margin-right:23px;
 	margin-bottom:40px;
 	text-align:right;
-	width:140px;
+	width:115px;
 }
 .regproj-write{
 	/*height:36px;
@@ -453,7 +498,7 @@ table img{margin-left:40px}
 	
 }
 .regproj-name{	position:relative;}
-.dian{width:100px;overflow:hidden;float:left; position:absolute; z-index:9989;right:220px;top:10px}
+.dian{width:100px;overflow:hidden;float:left; position:absolute; z-index:9989;right:260px;top:10px}
 .dian var{
 	font-style:normal;
 	display:blcok;
@@ -465,7 +510,7 @@ table img{margin-left:40px}
 }
 
 .regproj-limit{
-	margin-left:180px;
+	margin-left:152px;
 	color:#ababab;
 	font-size:14px;
 }
@@ -487,7 +532,7 @@ table img{margin-left:40px}
 .regproj-open,.regproj-serve{
 	background:#fff;
 	overflow:hidden;
-	padding-bottom:47px;
+	padding-bottom:14px;
 }
 .regproj-open div{
 	width:730px;
@@ -508,6 +553,7 @@ table img{margin-left:40px}
 	color:#afafaf;
 	font-size:14px;
 	margin-left:28px;
+	margin-top:8px
 }
 /*服务条款*/
 .regproj-serve input{
@@ -684,6 +730,9 @@ table img{margin-left:40px}
 	margin-top:10px;
 	margin:30px 10px 0px 20px;
 	cursor:pointer;
+}
+#proregwheres:hover{
+	border:1px solid #ff6600;
 }
 .apply-identity .proreg-wheres{
 	border:1px solid #ccc;
