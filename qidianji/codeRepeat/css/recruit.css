@@ -1,0 +1,374 @@
+﻿
+body {
+	background: #e9eaec;
+}
+.rec-menu {
+	font-family: "宋体";	
+}
+/**************创业招募筛选栏开始****************/
+.rec-menu,.rec-attr {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 14px;
+	background: #fff;
+}
+/*************用户已选中导航开始*************/
+.rec-selected {
+	width: 940px;
+	padding-left: 20px;
+	background: #f2f2f2;
+}
+.rec-selected,.rec-selected .rec-subnav {
+	line-height: 52px;
+}
+.rec-values {
+	float: right;
+	width: 830px;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.rec-values li {
+	padding-left: 8px;
+	border: 1px solid #bcbcbc;
+	margin: 0 6px;
+	margin-top: 16px;
+}
+.rec-values li,.rec-values li a {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	color: #999;
+	font-size: 12px;
+	white-space:nowrap;
+	cursor: default;
+	background-color: #fff;
+}
+.rec-values span,.rec-values strong,.rec-values b {
+	float: left;
+	font-weight: normal;
+}
+.rec-values strong {
+	color: #555;
+	margin-left: 7px;
+}
+.rec-values b {
+	width: 9px;
+	height: 9px;
+	background: url("../images/abc.png") 1px 1px no-repeat;
+	margin: 5px;
+	cursor: pointer;
+}
+/***********用户已选中导航结束**************/
+.rec-menu,.rec-attr .rec-attrs,.rec-selected {
+	overflow: hidden;
+}
+.rec-attr .rec-attrs {
+	padding-left: 30px; 
+	border-top: 1px solid #e5e5e5;
+	height: 40px;
+}
+.rec-subnav,.rec-attr ul li,.rec-more {
+	float: left;
+	line-height: 40px;
+	color: #333;
+}
+.rec-subnav {	
+	float: left;
+	width: 106px;
+	color: #555;
+	font-weight: bold; 
+}
+.rec-more {
+	float: right;
+	width: 100px;
+	height: 40px;
+	color: #b4b0b0;
+	text-decoration: none;
+}
+.rec-attr ul {
+	float: left;
+	width: 700px;
+}
+.rec-attr ul li {
+	width: 92px;
+	height: 40px;
+	margin-left: 8px;
+	font-size: 14px;
+}
+.rec-attr ul li a {
+	color: #333;
+}
+.rec-attr ul li a:hover {
+	color: #ff6600;
+}
+/**************创业招募筛选栏结束****************/
+
+/**************创业招募内容部分开始****************/
+/**************内容部分未展开开始***************/
+.rec-summary,.rec-sum-actuality,.rec-sum-mil,.rec-sum-team,.rec-sum-recruit{
+	width: 960px;
+	float: left;
+	overflow: hidden;
+	border-bottom: 1px solid #f8f4e9;
+}
+.rec-content {
+	width: 960px;
+	margin: 30px auto 0; 
+	overflow: hidden;
+}
+.rec-content-head {
+	width: 960px;
+	height: 52px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	background: #f2f2f2;
+}
+.rec-content-head a {
+	float: left;
+	width: 112px;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+	color: #333;
+	border-right: 1px solid #e5e5e5;
+}
+.rec-active {
+	background: #fff;
+}
+.rec-content-head a:active {
+	color: #ff6600;
+	background: #fff;
+	margin-bottom: -1px;
+}
+.rec-content ul li {
+	width: 960px;
+	height: 79px;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+	overflow: hidden;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	float: left;
+	font-size: 14px;
+}
+.rec-content ul .rec-con-tit {
+	overflow: hidden;
+	width: 700px;
+	float: left;
+	margin-left: 24px;
+	display: inline;
+	margin-bottom: 25px;
+}
+.rec-content ul .rec-con-tit dt {
+	float: left;
+	width: 72px;
+	height: 72px;
+	margin: 6px;
+	margin-right: 16px;
+}
+.rec-con-tit dt img {
+	width: 72px;
+	height: 72px;
+}
+.rec-content ul .rec-con-tit dd {
+	float: left;
+	line-height: 22px;
+	width: 500px;
+	font-size: 12px;
+	color: #888;
+	font-family: "宋体";
+}
+.rec-content ul .rec-con-tit dd h3 {
+	font-size: 14px;
+	color: #333;
+	height: 24px;
+	overflow: hidden;
+	font-weight: bold;
+	font-family: "宋体";
+	margin-top: 2px;
+}
+.rec-content ul .rec-con-tit dd p {
+	color: #555;
+	height: 24px;
+	overflow: hidden;
+	font-family: "宋体";
+}
+.rec-register {
+	float: right;
+	width: 152px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	background: #4b99e4;
+	color: #fff;
+	margin-right: 70px;
+	display: none;
+}
+.rec-excpro {
+	background: #f7b81d;
+}
+/*******************内容部分未展开结束******************/
+/*******************内容部分展开开始******************/
+/*产品简介开始*/
+.rec-summary {
+	border-top: 1px solid #fbf4e7;
+	_border-top: 0;
+}
+.rec-summary .rec-sum {
+	height: 112px;
+}
+.rec-sum h3,.rec-sum p {
+	float: left;
+}
+.rec-sum h3 {
+	width: 140px;
+	height: 84px;
+	line-height: 84px;
+	text-align: center;
+	color: #797876;
+}
+.rec-sum-mil h3 {
+	height: 184px;
+}
+.rec-sum p {
+	width: 680px;
+	line-height: 24px;
+	margin-top: 30px;
+}
+.rec-summary-img {
+	width: 796px;
+	height: 200px;
+	margin: 0 auto;
+}
+.rec-summary-img img {
+	margin: 0 18px;
+	width: 224px;
+	height: 158px;
+}
+/*产品简介结束*/
+/*融资状态开始*/
+.rec-sum-actuality {
+	line-height: 70px;
+}
+.rec-sum-actuality h3,.rec-sum-actuality p {
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	margin-top: 0;
+}
+/*融资状态结束*/
+/*项目里程开始*/
+.rec-sum-time {
+	width: 740px;
+	line-height: 24px;
+	margin-top: 30px;
+	float: left;
+	margin-bottom: 30px;
+}
+.rec-sum-t,.rec-sum-time span {
+	float: left;
+}
+.rec-sum-t {
+	width: 105px;
+	color: #7a7977;
+	text-align: right;
+	margin-right: 14px;
+}
+.rec-sum-revpar {
+	float: left;
+	margin-bottom: 30px;
+}
+.rec-sum-revpar p {
+	width: 642px;
+	margin-top: 0;
+}
+.rec-sum-mil span {
+	float: left;
+}
+/*项目里程结束*/
+/*核心团队开始*/
+.rec-sum-team dl {
+	width: 800px;
+	margin-top: 30px;
+	float: left;
+	overflow: hidden;
+}
+.rec-sum-team dl dt,.rec-sum-team dl dd {
+	float: left;
+}
+.rec-sum-team dl dt {
+	float: left;
+	margin-right: 16px;
+}
+.rec-sum-team dl dd {
+	float: left;
+	width: 686px;
+}
+.rec-sum-text {
+	margin-top: 15px;
+	font-size: 12px;
+	color: #888;
+}
+.rec-sum-team dt img {
+	width: 72px;
+	height: 72px;
+	overflow: hidden;
+}
+.rec-sum-team h3 {
+	height: 200px;
+}
+/*核心团队结束*/
+/*招募开始*/
+.rec-sum-recruit {
+	padding-bottom: 35px;
+}
+.rec-sum-recruit p {
+	width: 460px;
+	float: left;
+}
+.rec-sum-recruit div {
+	float: right;
+	margin-top: 26px;
+	margin-right: 190px;
+}
+.rec-sum-recruit div strong {
+	margin-left: 25px;
+	font-size: 16px;
+	color: #333;
+}
+.rec-sum-recruit p span {
+	margin-right: 25px;
+	color: #777;
+}
+/*招募结束*/
+/*发布时间开始*/
+.rec-sum-timer {
+	width: 960px;
+	float: left;
+	height: 120px;
+	line-height: 120px;
+}
+.rec-sum-timer span {
+	float: right;
+	margin-right: 130px;
+}
+.rec-sum-mil,.rec-sum-team {
+	padding-bottom: 30px;
+}
+/*发布时间结束*/
+
+/*******************内容部分展开结束******************/
+/**************创业招募内容部分结束****************/
+
+/******************底部开始****************/
+.rec-foot {
+	width: 960px;
+	height: 154px;
+	margin: 0 auto;
+	line-height: 154px;
+	text-align: center;
+}
+.rec-foot a {
+	color: #888;
+}
+/******************底部结束******************/

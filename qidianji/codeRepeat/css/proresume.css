@@ -1,0 +1,592 @@
+@charset "utf-8";  
+a {
+	color: #333333;
+	cursor: pointer;
+}
+input{
+	width: 401px;
+	padding: 4px 18px 4px 18px;
+	border: 1px solid #ccc;
+	height: 28px;
+	line-height: 28px;
+	/*******vertical-align: top;********/
+	outline: none;
+	font-size: 14px;
+	font-family: "宋体";
+} 
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #e9eaec;
+} 
+.proresume {
+	width: 960px;  
+	padding-bottom: 175px;
+	margin: 0 auto;
+	background: #e9eaec;
+}
+  
+.proresume-nav {
+	width: 100%;
+	height: 85px;overflow: hidden;
+	border: 1px solid #cbcbcb;
+	border-top: none;
+	background: #fff;
+} 
+.proresume-nav li {                      
+	float: left;
+	width: 319px;
+	height: 80px;
+	border-right: 1px solid #cfcfcf;
+	line-height: 80px;
+	text-align: center;
+}
+.proresume-nav .proresume-nav-last {
+	border-color: transparent;
+}
+.proresume-nav h1 a {
+	width: 100%;
+	height: 100%;
+	color: #363636;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;	
+	background: #e8e8e8; 
+}
+.proresume-nav h1 a:hover {
+	background: #fff; 
+}
+.proresume .proresume-select a { 
+	background: #fff;
+}
+.proresume-info {
+	position: relative;
+	width: 100%;
+	height: 195px;
+	margin-top: 30px;
+	background: #fff;
+}
+.proresume-info div {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	color: #4c98ec;
+	cursor: pointer;
+} 
+.proresume-info dl {
+	position: absolute;
+	top: 40px;
+	left: 34px;
+}
+.proresume-info dl dt {
+	float: left;
+	width: 102px;
+	height: 102px; 
+	background: #e9eaec;
+}
+.proresume-info dl dt img {
+	width: 102px; 
+	height: 102px; 
+}
+.proresume-info dl dd {
+	float: left;  
+	margin-left: 20px; 
+	display: inline;
+}
+.proresume-info dl dd h3 {
+	color: #333333;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 19px;  
+}
+.proresume-info dl dd input { 
+	width: 447px; 
+	height: 36px;  
+	font-size: 16px; 
+	margin-top: 14px;   
+	padding-left: 8px;
+	border: 1px solid #ccc;   
+	outline: none;
+}
+.proresume-info dl dd p {  
+	margin-top: 12px;
+}
+.proresume-info dl dd p span { 
+	color: #545454;
+	font-size: 14px;
+	line-height: 14px; 
+	margin-right: 20px;
+}
+
+.proresume-nav-three { 
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	background: #e8e8e8;
+}
+.proresume-nav-three a {
+	color: #333333;
+	font-size: 18px;
+	padding: 22px 45px 20px 46px; 
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.proresume-nav-three a:hover {
+	background: #fff;
+}
+.proresume-nav-three a.active {
+	background: #fff;
+} 
+ 
+.proresume-left { 
+	width: 680px;
+	float: left;
+} 
+.proresume-left-head {  
+	padding: 19px 0;
+	font-size: 16px; 
+}
+.proresume-left-head strong {
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 31px;
+	float: left;
+}
+.proresume-left-head span {
+	color: #469bec; 
+	font-size: 16px;
+	line-height: 22px;
+	margin-right: 10px;
+	cursor: pointer;
+	float: right;
+}   
+.proresume-history div {
+	padding: 32px 0 24px 0;  
+	background: #fff;
+}
+.proresume-history-list {
+	width: 306px; 
+	height: 67px;
+	padding: 0 0 25px 34px;
+	background: #fff;
+	float: left;
+}
+.proresume-history-list dt {
+	margin-right: 10px;
+	float: left;
+}
+.proresume-history-list dt img {
+	width: 67px;
+	height: 67px;
+}
+.proresume-history-list dd {
+	width: 220px;
+	float: left;
+}
+.proresume-history-list dd strong {
+	color: #333333;
+	width: 100%;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 6px 0;
+	margin-bottom: 6px;
+	float: left;
+} 
+.proresume-history-list dd var { 
+	width: 100%;
+	line-height: 12px;
+	color: #999999;
+	font-size: 12px;  
+	margin-bottom: 6px;
+	float: left;
+} 
+.proresume-history-list dd em,.proresume-history-list dd span {
+	line-height: 12px;
+	color: #999999;
+	font-size: 12px; 
+	margin-right: 19px;
+	float: left;
+}   
+.proresume-history {
+	margin-top: 4px;  
+}
+.proresume-aim {
+	margin-top: 26px; 
+}
+.proresume-aim .proresume-left-head {
+	padding: 22px 0;
+} 
+.proresume-aim-list {
+	width: 532px;
+	padding: 0 104px 50px 44px; 
+	background: #fff;  
+	float: left;
+}
+.proresume-aim-list dl {
+	width: 532px;   
+	margin: 40px 0 0 0;
+}
+.proresume-aim-list-item {
+	width: 95px; 
+	height: 38px; 
+	color: #535353;
+	text-align: center; 
+	line-height: 38px;   
+	font-size: 12px; 
+	float: left;
+} 
+.proresume-aim-list dd {
+	float: left;
+	position: relative;
+} 
+.proresume-aim-list dd input { 
+	width: 418px;
+	height: 36px;  
+	font-size: 14px;
+	padding-left: 16px;  
+	float: left;
+} 
+.proresume-aim-list dt {
+	width: 532px;
+	margin: 0 0 20px 0;
+	padding-left: 95px;
+	float: left; 
+}
+.proresume-aim-list dt div { 
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	padding: 0 9px; 
+	margin: 0 10px 0 0; 
+	border: 1px solid #bcbcbc;
+	float: left;
+	white-space: nowrap; 
+} 
+.proresume-aim-list dt div var {
+	color: #999;float: left;
+}
+.proresume-aim-list dt div em {
+	color: #555;
+	float: left;
+}
+.proresume-aim-list dd select {
+	color: #333; 
+}
+.proresume-aim-list dt div span { 
+	width: 7px;
+	height: 18px;
+	margin-left: 7px; float: left;
+	cursor: pointer;
+	background: url('../images/pro-aim-del.jpg') 0 center no-repeat;
+} 
+
+.proresume-work,.proresume-education {
+	margin-top: 18px;
+}
+.proresume-work-list,.proresume-education-list {
+	color: #575757;
+	padding: 28px 30px 39px 35px; 
+	background: #fff;
+}
+.proresume-work-list li,.proresume-education-list li {
+	width: 100%;
+	height: 30px; 
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}   
+.proresume-work-list li var,.proresume-education-list li var,
+.proresume-work-list li span,.proresume-education-list li span {
+	margin-right: 1em; float: left; line-height: 30px;
+}   
+
+.proresume-right {
+	width: 260px;
+	margin-top: 4px;
+	float: right;
+}
+.proresume-recommend-info { 
+	padding: 15px 22px 3px 24px;
+	background: #fff;
+} 
+.proresume-recommend-info dt { 
+	margin-right: 11px;
+	float: left;
+}
+.proresume-recommend-info dt img {
+	width: 64px;
+	height: 64px; 
+} 
+.proresume-recommend-info dd {
+	width: 130px; 
+	float: left;
+}
+.proresume-recommend-info dd strong {
+	width: 100%;
+	color: #333333;
+	font-size: 16px; 
+	font-weight: bold;
+	margin: 15px 0 7px 0;
+	float: left;
+}
+.proresume-recommend-info dd var,.proresume-recommend-info dd span { 
+	color: #999999;
+	font-size: 12px;
+	line-height: 12px;
+	margin-right: 19px;
+	float: left;
+}
+.proresume-recommend-info p {
+	color: #808080;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 13px 0 15px 0;
+	margin-bottom: 9px;
+	border-bottom: 1px solid #f2f2f2; 
+	float: left; 
+}
+.proresume-recommend-info ul {
+	width: 100%;
+	float: left;
+}
+.proresume-recommend-info ul li { 
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px; 
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.proresume-recommend-info ul li var {
+	width: 130px;
+	color: #959595;
+	float: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;  
+}
+.proresume-recommend-info ul li em {
+	width: 80px;
+	color: #333333;
+	float: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;    
+}
+.proresume-recommend-info-plan {
+	font-size: 12px;
+	margin-top: 17px;
+	float: left;
+}
+.proresume-recommend-info-plan div {
+	width: 214px;
+	height: 14px;  
+	background: #eee;   
+	float:left; 
+	overflow: hidden;
+}
+.proresume-recommend-info-plan div p {
+	width: 100%;
+	height: 14px;  
+	padding: 0;
+	background: #13acb3;
+}
+.proresume-recommend-info-plan span {
+	color: #333333;
+	padding: 22px 0;
+	float: left;
+}
+.proresume-recommend-info-plan var {
+	color: #333333;
+	padding: 22px 0;
+	float: right;
+}
+.proresume-itemlink {
+	margin-top: 22px; 
+	text-align: center;
+}
+.proresume-itemlink a {
+	color: #ab681a;
+	font-weight: bold;
+	font-size: 16px;
+} 
+ 
+.edithide {
+	display: none;
+}
+
+/*遮罩层*/
+.proresume-person-edt,.proresume-history-edt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	padding-top: 182px;
+	background: url(../images/mask.png) 0 0 repeat;
+	display: none;
+}
+
+.proresume-person-edt form{
+	width: 828px;
+	margin: 0 auto;
+	padding: 36px 66px 134px;
+	background-color: white;
+	position: relative;
+}
+.proresume-person-edt td,.proresume-history-edt td{
+	padding-bottom: 41px;
+}
+.proresume-person-edt td p,.proresume-history-edt td p{
+	text-align: right;
+	font-size: 12px;
+	color: #555555;
+	padding-right: 24px;
+}
+.proresume-person-edt td img,.proresume-history-edt td img{
+	width: 64px;
+	height: 64px;
+	border: 1px solid #ccc;
+	margin-left: 19px;
+	float: left;
+}
+.proresume-person-edt table input,.proresume-history-edt table input{
+	width: 434px;
+	height: 36px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.proresume-person-edt .input-file,.proresume-person-edt .proresume-upload,.proresume-history-edt .input-file,.proresume-history-edt .proresume-upload{
+	margin-top: 11px;
+}
+.proresume-person-edt .input-file input,.proresume-history-edt .input-file input{
+	width: 145px;
+	cursor: pointer;
+}
+.proresume-person-edt .input-file,.proresume-history-edt .input-file{
+	float: left;
+	margin-left: 27px;
+	display: inline; 
+	cursor: pointer;
+}
+.proresume-person-edt .proresume-upload,.proresume-history-edt .proresume-upload{
+	width: 145px;
+	height: 38px;
+	background-color: #4b97e3;
+	color: white;
+	font-size: 14px;
+	line-height: 36px;
+	float: left;
+	display: inline;
+	margin-left: 43px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+} 
+.proresume-form-save{
+	margin-top: 16px;
+	text-align: center;
+}
+.proresume-form-save input{
+	width: 240px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-color: 	#4a96e2;
+	cursor: pointer;
+}
+.proresume-person-edt-close,.proresume-history-edt-close,.personal-editedu-close,.personal-editwork-close{
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	background: url(../images/int-close.png) -16px 0 no-repeat;
+}
+
+/*投资历史*/
+/* .proresume-history-edt{
+ 	display: block;
+ }*/
+.proresume-history-edt form{
+	width: 890px;
+	margin: 0 auto;
+	padding: 30px 35px 125px;
+	background-color: white;
+	position: relative;
+}
+.proresume-history-edt h2{
+	margin-left: 37px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+.proresume-history-edt ul{
+	margin-bottom: 52px;
+}
+.proresume-history-edt ul li{
+	float: left;
+	display: inline;
+	width: 207px;
+	height: 60px;
+	margin-right: 22px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+	background-color: #c7b99e;
+	position: relative;
+	line-height:60px;
+	font-size: 14px;
+	font-weight:bold;
+}
+.proresume-history-edt ul li span{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	cursor: pointer;
+	background: url(../images/int-close.png) 0 0 no-repeat;
+	white-space: nowrap;
+}
+.proresume-history-edt .proresume-history-edt-add{
+	background-color: white;
+	color: #555555;
+	font-size: 12px;
+	cursor: pointer; 
+}
+.proresume-history-edt-add em{
+	display: inline-block;
+	margin-top: 8px;
+	width: 16px;
+	height: 60px;
+	background: url(../images/int-close.png) -48px center no-repeat;
+}  
+
+.personal-editwork .personal-editwork-select span,.personal-editedu-wrap .personal-editedu-select span { 
+	border: none;
+	border-bottom: 1px solid #ccc; 
+	margin: 0 6px; 
+} 
+
+/***/
+.personal-editwork-select .personal-editwork-select1 select,
+.personal-editwork-select .personal-editwork-select2 select,
+.personal-editedu-wrap .personal-editedu-select1 select,
+.personal-editedu-wrap .personal-editedu-select2 select{
+	width: 145px;    
+} 
+.personal-editwork-wrap ul li span,.personal-editedu-wrap ul li span {
+	line-height: 30px;
+}
+
+.proresume-aim-select1 select,.proresume-aim-select2 select,.proresume-aim-select3 select {
+	width: 420px;
+}
+.proresume-person-edt-select1 select,.proresume-history-edt-select1 select {
+	width: 420px;
+}
