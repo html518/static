@@ -39,6 +39,12 @@ body {
 .rec-values li:active {
 	border: 1px solid #dd1c0a;
 }
+.rec-values li:hover b {
+	background: url("../images/com-bac.png") -14px 1px no-repeat;
+}
+.rec-values li:active b {
+	background: url("../images/com-bac.png") -29px 1px no-repeat;
+}
 .rec-values li,.rec-values li a {
 	float: left;
 	height: 20px;
@@ -58,10 +64,17 @@ body {
 .rec-values b {
 	width: 9px;
 	height: 9px;
-	background: url("../images/abc.jpg") 1px 1px no-repeat;
+	background: url("../images/com-bac.png") 1px 1px no-repeat;
 	margin: 6px;
 	cursor: pointer;
 }
+/*.rec-values b:hover {
+	background: url("../images/com-bac.png") -14px 1px no-repeat;
+}
+.rec-values b:active {
+	background: url("../images/com-bac.png") -29px 1px no-repeat;
+}*/
+
 /***********用户已选中导航结束**************/
 .rec-menu,.rec-attr .rec-attrs,.rec-selected {
 	overflow: hidden;
@@ -154,9 +167,21 @@ body {
 .rec-content-head a:hover {
 	color: #fc6202;
 }
+.rec-content-head a span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url("../images/com-bac.png") 0 -10px no-repeat;
+}
+.rec-content-head a:hover span {
+	background: url("../images/com-bac.png") -15px -10px no-repeat;
+}
 .rec-content-head .rec-active {
 	background: #fff;
 	color: #fc6202;
+}
+.rec-content-head .rec-active span {
+	background: url("../images/com-bac.png") -15px -10px no-repeat;
 }
 .rec-content-head a:active {
 	color: #ff6600;

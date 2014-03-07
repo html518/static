@@ -15,11 +15,9 @@ $("#rec-more2").click(function (){
 })
 
 $("#rec-con li").mouseover(function (){
-	console.log($("#rec-con li").index(this))
 	$("#rec-con .rec-register").eq($("#rec-con li").index(this)).show();
 })
 $("#rec-con li").mouseout(function (){
-	console.log($("#rec-con li").index(this))
 	$("#rec-con .rec-register").eq($("#rec-con li").index(this)).hide();
 })
 
