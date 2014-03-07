@@ -204,6 +204,10 @@ body{
 .fin-con-fin-list dt img{
 	width:102px;
 	height:102px;
+	border:1px solid #fff;
+}
+.fin-con-fin-list dt img:hover{
+	border:1px solid #f8aa28;
 }
 .fin-con-fin-list dd{
 	float:left;

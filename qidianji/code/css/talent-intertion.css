@@ -183,9 +183,13 @@
 	display: inline;
 	background: #ccc;
 }
+.int-pro-con dt img:hover{
+	border:1px solid #fac750;
+}
 .int-pro-con dt img{
 	width: 102px;
 	height: 102px;
+	border:1px solid #fff;
 }
 .int-pro-con dt span{
 	position: absolute;
@@ -296,6 +300,9 @@
 	background-color: #fede93;
 	cursor: hand;
 	cursor: pointer;
+}
+.int-pro-btn input:active{
+	border:2px solid #fac750;
 }
 .int-pro-more{
 	text-align: center;

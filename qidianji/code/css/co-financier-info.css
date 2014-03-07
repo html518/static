@@ -165,11 +165,18 @@ body{
 	width:297px;
 	margin-top:30px;
 }
-.coinfo-present img{
+/*.coinfo-present a{
+	
 	float:left;
+}*/
+.coinfo-present img{
+	
 	width:64px;
 	height:64px;
 }
+/*.coinfo-present img:hover{
+	border:1px solid #fab11e;
+}*/
 .coinfo-present dl{
 	float:left;
 	margin-left:10px;

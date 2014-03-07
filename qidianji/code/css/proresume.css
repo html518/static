@@ -181,6 +181,10 @@ body {
 .proresume-history-list dt img {
 	width: 67px;
 	height: 67px;
+	border:1px solid #fff;
+}
+.proresume-history-list dt img:hover{
+	border:1px solid #f8a61d;
 }
 .proresume-history-list dd {
 	width: 220px;
@@ -321,7 +325,11 @@ body {
 .proresume-recommend-info dt img {
 	width: 64px;
 	height: 64px; 
-} 
+	border:1px solid #fff;
+}
+.proresume-recommend-info dt img:hover{
+	border:1px solid #F8A61D;
+}
 .proresume-recommend-info dd {
 	width: 130px; 
 	float: left;

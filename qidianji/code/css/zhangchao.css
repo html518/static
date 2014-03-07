@@ -336,8 +336,12 @@ body{
 	margin:15px 0 5px 0;
 }
 .pubpro-ori-info dt img{
-	height:73px;
-	width:73px;
+	height:72px;
+	width:72px;
+	border:1px solid #fff;
+}
+.pubpro-ori-info dt img:hover{
+	border:1px solid #fbb019;
 }
 .pubpro-ori-info dt{
 	height:73px;
@@ -450,9 +454,13 @@ body{
 	color: #787878;
 	font-weight: bold;
 }
-.proinve-contop dt,.proinve-contop dt img{
+.proinve-contop dt img{
 	height: 48px;
 	width: 48px;
+	border:1px solid #fff;
+}
+.proinve-contop dt img:hover{
+	border:1px solid #f9ae15;
 }
 .proinve-contop dl{
 	float: left;
@@ -500,9 +508,13 @@ body{
 	border-bottom: 1px solid #f9f8f7;
 }
 
-.proinve-ite dt,proinve-ite dt{
+.proinve-ite dt img{
 	height:64px;
 	width:64px;
+	border:1px solid #fff;
+}
+.proinve-ite dt img:hover{
+	border:1px solid #f9ae15;
 }
 .proinve-ite dl{
 	width: 64px;

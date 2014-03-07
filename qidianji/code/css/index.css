@@ -199,6 +199,10 @@ strong {
 	width: 64px;
 	height: 64px;
 	margin: 14px 10px 13px 18px;
+	border:1px solid #fff;
+}
+.recruitment-cons img:hover{
+	border:1px solid #fbb425;
 }
 .recruitment-cons h3 {
 	width: 150px;

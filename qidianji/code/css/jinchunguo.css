@@ -234,7 +234,12 @@
 	width: 72px;
 	height: 72px;
 	vertical-align: top;
+	border:1px solid #fff;
 }
+.poineerpro-main-team-con dt img:hover {
+	border:1px solid #f7b01f;
+}
+
 .poineerpro-main-progress-con {
 	padding-top: 24px;
 }
@@ -882,6 +887,14 @@
 	width: 72px;
 	height: 72px;
 	vertical-align: top;
+	border:1px solid #fff;
+}
+
+.recruit-main-recruiting-con dt img:hover{
+	border:1px solid #faad12;
+}
+.recruit-main-recruited-con dt img:hover{
+	border:1px solid #faad12;
 }
 .recruit-main-recruited-con div dl {
 	margin: 19px 0;

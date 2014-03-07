@@ -498,6 +498,9 @@ input{
 	height:100%;
 	overflow:hidden;
 }
+.news-con-body-main dt img:hover{
+	border:1px solid #f8a419;
+}
 .news-con-body-main dd{
 	padding-left:75px;
 }
