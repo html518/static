@@ -11,6 +11,7 @@ ul {
 }
 img {
 	border: none;
+	vertical-align: top;
 }
 a {
 	color: #000;
@@ -54,9 +55,14 @@ strong {
 	display: inline;
 	float: left;
 	position: relative;
+
 }
 .recruitment-cons:hover {
-	border-color: #ef9f08;
+	border-color: #e7e6e6;
+	box-shadow: 0 0 2px 0 #ccc;
+}
+.recruitment-cons:active {
+	border-color: #eea00d;
 }
 .recruitment-more {
 	width: 161px;
@@ -66,8 +72,8 @@ strong {
 }
 .recruitment-more a {
 	width: 161px;
-	height: 18px;
-	background: #fff url(../images/index-more.gif) 0 0 no-repeat;
+	height: 19px;
+	background: #fff url(../images/index-head-text-bg.png) 0 -200px no-repeat;
 	float: left;
 }
 .investors {
@@ -91,14 +97,14 @@ strong {
 }
 .investors-more {
 	width: 161px;
-	height: 19px;
+	height: 20px;
 	margin: 62px auto 0 auto;
 	
 }
 .investors-more a {
 	width: 161px;
-	height: 19px;
-	background: #ffefd2 url(../images/index-more.gif) 0 -18px no-repeat;
+	height: 20px;
+	background: #ffefd2 url(../images/index-head-text-bg.png) 0 -219px no-repeat;
 	float: left;
 }
 .project {
@@ -113,6 +119,7 @@ strong {
 	width: 930px;
 	height: 429px;
 	margin: 0 auto;
+
 }
 .project-cons,
 .project-hidden {
@@ -132,16 +139,22 @@ strong {
 	border: 1px solid #e7e7e7;
 	background: #fff;
 }
+.cons-info:hover {
+	box-shadow: 0 0 3px 0 #ccc;
+}
+.cons-info:active {
+	border-color: #eea00d;
+}
 .project-more {
 	width: 161px;
-	height: 19px;
+	height: 20px;
 	margin: 62px auto 0 auto;
 	
 }
 .project-more a {
 	width: 161px;
-	height: 19px;
-	background: #fff url(../images/index-more.gif) 0 -37px no-repeat;
+	height: 20px;
+	background: #fff url(../images/index-head-text-bg.png) 0 -239px no-repeat;
 	float: left;
 }
 .incubation {
@@ -176,15 +189,27 @@ strong {
 }
 .incubation-more {
 	width: 161px;
-	height: 19px;
+	height: 20px;
 	margin: 62px auto 0 auto;
 	
 }
 .incubation-more a {
 	width: 161px;
-	height: 19px;
-	background: #ffefd2 url(../images/index-more.gif) 0 -56px no-repeat;
+	height: 20px;
+	background: #ffefd2 url(../images/index-head-text-bg.png) 0 -259px no-repeat;
 	float: left;
+}
+.recruitment-more a:hover {
+	background-position: 0 -280px;
+}
+.investors-more a:hover {
+	background-position: 0 -299px;
+}
+.project-more a:hover {
+	background-position: 0 -319px;
+}
+.incubation-more a:hover {
+	background-position: 0 -339px;
 }
 /***** recruitment *****/
 .recruitment-cons img,
@@ -259,8 +284,8 @@ strong {
 	height: 55px;
 	background: url(../images/index-park.gif) 0 0 no-repeat;
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: -1px;
+	right: -1px;
 	z-index: 100;
 }
 
@@ -269,10 +294,23 @@ strong {
 	width: 128px;
 	margin: 0 auto;
 	overflow: hidden;
+	position: relative;
 }
 .investors-cons img {
-	width: 93px;
-	height: 95px;
+	width: 100px;
+	height: 100px;
+}
+.investors-mask {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 14px;
+	z-index: 10;
+	background:url(../images/index-head-text-bg.png) 0 0 no-repeat;
+}
+.investors-mask:hover {
+	background-position: 0 -100px;
 }
 .investors-cons strong a {
 	line-height: 28px;
@@ -293,10 +331,37 @@ strong {
 /***** project *****/
 .project-avatar {
 	text-align: center;
+	position:relative;
 }
 .project-avatar img {
-	width: 47px;
-	height: 47px;
+	width: 48px;
+	height: 48px;
+}
+.project-mask {
+	width: 50px;
+	height: 50px;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	z-index: 10;
+	margin-left: -25px;
+	background:url(../images/index-head-text-bg.png) -150px 0 no-repeat;
+}
+.project-mask:hover {
+	background-position: -150px -50px;
+}
+.incubation-mask {
+	width: 50px;
+	height: 50px;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	z-index: 10;
+	margin-left: -25px;
+	background:url(../images/index-head-text-bg.png) -100px 0 no-repeat;
+}
+.incubation-mask:hover {
+	background-position: -100px -50px;
 }
 .project-avatar h3 { 
 	font-size: 12px;
@@ -415,8 +480,8 @@ strong {
 }
 div.cons-info-hidden h5{
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: -1px;
+	left: -1px;
 	width: 250px;
 	height: 331px;
 	background: #ededed url(../images/index-hidden-bg.jpg) 0 0 no-repeat;
