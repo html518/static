@@ -80,10 +80,10 @@
 }
 .poineerpro-main-info dl dd input {
 	float: left;
-	width: 393px;
+	width: 413px;
 	margin-top: 14px;
 	height: 28px;
-	padding: 4px 18px 4px 18px;
+	padding: 4px 8px 4px 8px;
 	border: 1px solid #ccc;
 	line-height: 28px;
 	vertical-align: top;
@@ -363,14 +363,17 @@
 .poineerpro-financing-con a {
 	float: left;
 	width: 100%;
-	height: 51px;
+	height: 49px;
 	background: #fede93;
 	text-align: center;
-	line-height: 51px;
+	line-height: 49px;
 	color: #444;
 	font-weight: bold;
+	border: 1px solid #fede93;
 }
-
+.poineerpro-financing-con a:hover {
+	border: 1px solid #fbbc29;
+}
 .poineerpro-recruit-con {
 	background: #fff;
 	height: 341px;
@@ -403,12 +406,19 @@
 .poineerpro-recruit-regist {
 	display: block;
 	width: 100%;
-	height: 51px;
-	line-height:51px;
+	height: 49px;
+	line-height: 49px;
 	background: #4b99e4;
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
+	border: 1px solid transparent;
+}
+.poineerpro-recruit-regist:hover {
+	border: 1px solid #2275c9;
+}
+.poineerpro-recruit-regist:active {
+	background: #2f82d4;
 }
 .poineerpro-editteam-wrap , .poineerpro-editproduct-wrap , .poineerpro-editinfo-wrap , .poineerpro-editprogress-wrap {
 	display: none;
@@ -432,8 +442,11 @@
 	width: 16px;
 	height: 16px;
 	background: #ccc;
-	background: url('../images/edit-bj.png') 0 -16px no-repeat;
+	background: url("../images/com-bac.png") 0 -30px  no-repeat;
 	cursor: pointer;
+}
+.poineerpro-editteam-close:hover , .poineerpro-editproduct-close:hover , .poineerpro-editinfo-close:hover , .poineerpro-editprogress-close:hover {
+	background: url("../images/com-bac.png") -30px -30px  no-repeat;
 }
 .poineerpro-editteam input , .poineerpro-editproduct input {
 	margin-top: 40px;
@@ -486,6 +499,9 @@
 	position: relative;
 	margin: 40px 46px 0 0;
 }
+.poineerpro-editteam-pics span:hover var , .poineerpro-editproduct-pics span:hover var {
+	background: url('../images/com-bac.png') -30px -30px no-repeat;
+}
 .poineerpro-editteam-pics var , .poineerpro-editproduct-pics var {
 	position: absolute;
 	right: -8px;
@@ -493,7 +509,7 @@
 	z-index: 2;
 	width: 16px;
 	height: 16px;
-	background: url('../images/edit-bj.png') 0 0 no-repeat;
+	background: url('../images/com-bac.png') 0 -30px no-repeat;
 	cursor: pointer;
 }
 .poineerpro-editteam-pics strong , .poineerpro-editproduct-pics strong {
@@ -525,13 +541,23 @@
 .poineerpro-editteam-pics .poineerpro-editteam-addmember , 
 .poineerpro-editprogress-add-btn {
 	margin-top: 63px;
-	width: 146px;
+	width: 95px;
 	height: 16px;
 	line-height: 16px;
+}
+.poineerpro-editteam-pics .poineerpro-editteam-addmember:hover span{
+	text-decoration: underline;
 }
 .poineerpro-editprogress-add-btn {
 	display: block;
 	margin: 20px 0 30px;
+	width: 115px;
+}
+.poineerpro-editprogress-add-btn:hover span {
+	text-decoration: underline;
+}
+.poineerpro-editprogress-add-btn:hover em {
+	background: url("../images/com-bac.png") -30px -60px no-repeat;
 }
 .poineerpro-editprogress-date {
 	padding-bottom: 30px;
@@ -542,8 +568,12 @@
 	margin-left: 10px;
 	width: 16px;
 	height: 16px;
-	background: url('../images/edit-bj.png') 0 -32px no-repeat;
+	background: url("../images/com-bac.png") 0 -60px no-repeat;
 	cursor: pointer;
+}
+.poineerpro-editteam-pics .poineerpro-editteam-addmember:hover em ,
+.poineerpro-editprogress-add-btn:hover em {
+	background: url("../images/com-bac.png") -30px -60px no-repeat;
 }
 .poineerpro-editprogress-add-btn em {
 	margin-left: 0;
@@ -990,21 +1020,25 @@
 .incubaservice-main-info dl dt img {
 	width: 102px;
 	height: 102px;
+	border: 1px solid #eee;
 }
 .incubaservice-main-info dl dd {
 	float: left;
 	color: #333;
 }
 .incubaservice-main-info dl dd h3 {
+	font-size: 16px;
 	font-weight: bold;
+	font-family: "宋体";
+	color: #333;
 }
 .incubaservice-main-info dl dd var {
 	display: block;
 }
 .incubaservice-main-info dl dd input {
-	width: 421px;
+	width: 413px;
 	height: 28px;
-	padding: 4px 18px 4px 18px;
+	padding: 4px 8px 4px 8px;
 	line-height: 28px;
 	margin-top: 14px;
 	border: 1px solid #ccc;
@@ -1091,7 +1125,7 @@
 }
 .incubaservice-main-services-sub input {
 	width: 235px;
-	height: 51px;
+	height: 49px;
 	margin-top: 72px;
 	background: #4b99e4;
 	color: #fff;
@@ -1101,6 +1135,13 @@
 	border: 0;
 	cursor: pointer;
 	cursor: hand;
+	border: 1px solid transparent;
+}
+.incubaservice-main-services-sub input:hover {
+	border: 1px solid #2275c9;
+}
+.incubaservice-main-services-sub input:active {
+	background: #2f82d4;
 }
 .cooper,.investor {
 	width: 960px;
@@ -1136,9 +1177,11 @@
 .cooper-info dl dt img,.investor-info dl dt img {
 	width: 102px;
 	height: 102px;
+	border: 1px solid #eee;
 }
 .cooper-info dl dd h3,.investor-info dl dd h3 {
-	font-size: 18px;
+	font-size: 16px;
+	font-family: "宋体";
 	font-weight: bold;
 	color: #333;
 }
@@ -1150,11 +1193,11 @@
 	margin-left: 20px;
 }
 .cooper-info dl dd input,.investor-info dl dd input {
-	width: 413px;
+	width: 421px;
 	height: 28px;
 	line-height: 28px;
 	margin-top: 14px;
-	padding: 4px 18px 4px 18px;
+	padding: 4px 8px 4px 8px;
 	border: 1px solid #ccc;
 	font-size: 14px;
 	font-family: "宋体";
@@ -1429,7 +1472,7 @@
 .entre-main-progress-con a,.entre-main-recruit-bom {
 	display: inline-block;
 	width: 100%;
-	height: 50px;
+	height: 48px;
 	margin-top: 40px;
 	background: #4b98e8;
 	text-align: center;
@@ -1437,6 +1480,13 @@
 	color: #fff;
 	font-size: 14px;
 	font-weight: bold;
+	border: 1px solid transparent;
+}
+.entre-main-progress-con a:hover , .entre-main-recruit-bom:hover {
+	border: 1px solid #2275c9;
+}
+.entre-main-progress-con a:active , .entre-main-recruit-bom:active {
+	background: #2f82d4;
 }
 .entre-main-recruit-bom{
 	margin-top: 7px;
