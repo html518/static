@@ -85,11 +85,15 @@ body {
 	width: 102px;
 	height: 102px; 
 	background: #e9eaec;
+	overflow: hidden;
 }
 .proresume-info dl dt img {
 	width: 102px; 
-	height: 102px; 
+	height: 102px; vertical-align: top;
 }
+.proresume-info dl dt img:hover { 
+	border: 1px solid #eee;
+} 
 .proresume-info dl dd {
 	float: left;  
 	margin-left: 20px; 
@@ -551,6 +555,13 @@ body {
 	cursor: pointer;
 	background: url(../images/int-close.png) -16px 0 no-repeat;
 }
+.proresume-person-edt-close:hover,
+.proresume-history-edt-close:hover,
+.personal-editedu-close:hover,
+.personal-editwork-close:hover{ 
+	background: url("../images/com-bac.png") -30px -30px no-repeat; 
+}
+
 
 /*投资历史*/
 /* .proresume-history-edt{
