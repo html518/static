@@ -41,6 +41,10 @@ body{
 	width:102px;
 	height:102px;
 	margin:41px 19px auto 35px;
+	border: 1px solid #fff;
+}
+.fin-con-xxpro img:hover{
+	border: 1px solid #eea823;
 }
 .fin-con-xxpro dl{
 	float:left;
@@ -155,7 +159,8 @@ body{
 	margin-left:-36px;
 	*min-width:110%;
 	overflow:hidden;
-	padding-bottom:20px;
+	padding-bottom:11px;
+	margin-top: 3px;
 }
 .fin-con-fin-count div{
 	float:left;
@@ -204,6 +209,10 @@ body{
 .fin-con-fin-list dt img{
 	width:102px;
 	height:102px;
+	border: 1px solid #fff;
+}
+.fin-con-fin-list dt img:hover{
+	border: 1px solid #eea823;
 }
 .fin-con-fin-list dd{
 	float:left;
@@ -249,7 +258,7 @@ body{
 .fin-con-advance{
 	width:260px;
 	overflow:hidden;
-	padding:30px 20px;
+	padding:30px 20px 33px;
 	background:#fff;
 }
 .fin-con-public{
@@ -267,7 +276,7 @@ body{
 	width:220px;
 	height:15px;
 	background:#eee;
-	margin-top:16px;
+	margin-top:18px;
 }
 .fin-con-ratebar div{
 	width:50%;
@@ -334,15 +343,32 @@ body{
 .fin-con-undergo,.fin-con-hatch,.fin-con-handsome{
 	float:left;
 	width:220px;
-	height:180px;
 	border-bottom:1px solid #eee;
 	margin-left:20px;
 }
+.fin-con-undergo{
+	height:170px;
+}
+.fin-con-hatch{
+	height:178px;
+}
+.fin-con-handsome{
+	height:180px;
+}
 .fin-con-undergo p,.fin-con-hatch p,.fin-con-handsome p{
 	width:220px;
-	height:48px;
 	line-height:24px;
+	font-size: 14px;
+	color: #555;
+}
+.fin-con-undergo p{
+	margin-top:38px;
+}
+.fin-con-hatch p{
 	margin-top:20px;
+}
+.fin-con-handsome p{
+	margin-top:27px;
 }
 .fin-con-undergo a,.fin-con-hatch a,.fin-con-handsome a{
 	float:left;
@@ -352,8 +378,16 @@ body{
 	line-height:50px;
 	background:#4b98e5;
 	margin-left:30px;
-	margin-top:20px;
 	color:#fff;
+}
+.fin-con-undergo a{
+	margin-top:21px;
+}
+.fin-con-hatch a{
+	margin-top:25px;
+}
+.fin-con-handsome a{
+	margin-top:19px;
 }
 /*******编辑投资者层*******/
 .fin-investor{
@@ -411,6 +445,9 @@ body{
 	width:64px;
 	height:64px;
 	border:1px solid #555;
+}
+.fin-investor-con dt img:hover{
+	border: 1px solid #eea823;
 }
 .fin-investor-con dt div{
 	position:absolute;

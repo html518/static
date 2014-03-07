@@ -42,6 +42,10 @@ body{
 	height:102px;
 	background:#e9eaec;
 	margin:40px auto auto 34px;
+	border: 1px solid #fff;
+}
+.coinfo-resume img:hover{
+	border:1px solid #eea823;
 }
 .coinfo-resume dl{
 	float:left;
@@ -169,11 +173,15 @@ body{
 	float:left;
 	width:64px;
 	height:64px;
+	border: 1px solid #fff;
+}
+.coinfo-present img:hover{
+	border: 1px solid #eea823;
 }
 .coinfo-present dl{
 	float:left;
 	margin-left:10px;
-	width:223px;
+	width:221px;
 }
 .coinfo-present dt{
 	float:left;
@@ -207,7 +215,7 @@ body{
 	line-height:20px;
 	font-size:12px;
 	color:#808080;
-	margin:20px auto;
+	margin:18px auto;
 }
 /******左边大块	******/
 .coinfo-man-suggest{
@@ -221,8 +229,8 @@ body{
 .coinfo-man-suggest strong{
 	float:left;
 	width:680px;
-	height:20px;
-	line-height:20px;
+	height:26px;
+	line-height:26px;
 	font-size:14px;
 	color:#555555;
 	margin-left:45px;
@@ -237,10 +245,14 @@ body{
 	float:left;
 	width:102px;
 	height:102px;
+	border: 1px solid #fff;
+}
+.coinfo-people img:hover{
+	border: 1px solid #eea823;
 }
 .coinfo-people dl{
 	float:left;
-	width:165px;
+	width:163px;
 	margin-left:13px;
 }
 .coinfo-people dt{
@@ -317,12 +329,17 @@ body{
 	width:64px;
 	height:64px;
 	margin-left:24px;
-	margin-top:15px;
+	margin-top:13px;
+	border: 1px solid #fff;
+}
+.coinfo-recommend img:hover{
+	border: 1px solid #eea823;
 }
 .coinfo-recommend dl{
 	float:left;
 	width:162px;
-	margin-left:10px;
+	margin-left:8px;
+	margin-top: 11px;
 }
 .coinfo-recommend dt{
 	float:left;
@@ -378,7 +395,7 @@ body{
 }
 .coinfo-progress{
 	float:left;
-	margin-top:16px;
+	margin-top:3px;
 	background:#eee;
 	position:relative;
 	width:220px;
