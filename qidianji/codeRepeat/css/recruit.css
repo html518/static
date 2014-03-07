@@ -1,21 +1,21 @@
-﻿
+
 body {
 	background: #e9eaec;
 }
-.rec-menu {
+.rec-menu,.rec-content,.rec-foot {
 	font-family: "宋体";	
 }
 /**************创业招募筛选栏开始****************/
 .rec-menu,.rec-attr {
 	width: 960px;
 	margin: 0 auto;
-	font-size: 14px;
+	font-size: 16px;
 	background: #fff;
 }
 /*************用户已选中导航开始*************/
 .rec-selected {
 	width: 940px;
-	padding-left: 20px;
+	padding-left: 26px;
 	background: #f2f2f2;
 }
 .rec-selected,.rec-selected .rec-subnav {
@@ -30,8 +30,14 @@ body {
 .rec-values li {
 	padding-left: 8px;
 	border: 1px solid #bcbcbc;
-	margin: 0 6px;
+	margin: 0 5px;
 	margin-top: 16px;
+}
+.rec-values li:hover {
+	border: 1px solid #ff6901;
+}
+.rec-values li:active {
+	border: 1px solid #dd1c0a;
 }
 .rec-values li,.rec-values li a {
 	float: left;
@@ -41,7 +47,6 @@ body {
 	font-size: 12px;
 	white-space:nowrap;
 	cursor: default;
-	background-color: #fff;
 }
 .rec-values span,.rec-values strong,.rec-values b {
 	float: left;
@@ -49,13 +54,12 @@ body {
 }
 .rec-values strong {
 	color: #555;
-	margin-left: 7px;
 }
 .rec-values b {
 	width: 9px;
 	height: 9px;
-	background: url("../images/abc.png") 1px 1px no-repeat;
-	margin: 5px;
+	background: url("../images/abc.jpg") 1px 1px no-repeat;
+	margin: 6px;
 	cursor: pointer;
 }
 /***********用户已选中导航结束**************/
@@ -63,7 +67,7 @@ body {
 	overflow: hidden;
 }
 .rec-attr .rec-attrs {
-	padding-left: 30px; 
+	padding-left: 33px; 
 	border-top: 1px solid #e5e5e5;
 	height: 40px;
 }
@@ -85,15 +89,30 @@ body {
 	color: #b4b0b0;
 	text-decoration: none;
 }
+.rec-more:hover {
+	color: #525252;
+}
+.rec-more:active {
+	color: #555;
+	font-weight: bold;
+}
 .rec-attr ul {
 	float: left;
 	width: 700px;
 }
 .rec-attr ul li {
 	width: 92px;
-	height: 40px;
+	height: 28px;
 	margin-left: 8px;
 	font-size: 14px;
+	padding-left: 12px;
+}
+.rec-attr ul li a:hover {
+	color: #fb6506;
+}
+.rec-attr ul li a:active {
+	color: #ff6700;
+	font-weight: bold;
 }
 .rec-attr ul li a {
 	color: #333;
@@ -118,7 +137,7 @@ body {
 }
 .rec-content-head {
 	width: 960px;
-	height: 52px;
+	height: 49px;
 	border-top: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5;
 	background: #f2f2f2;
@@ -126,14 +145,18 @@ body {
 .rec-content-head a {
 	float: left;
 	width: 112px;
-	height: 53px;
-	line-height: 53px;
+	height: 50px;
+	line-height: 50px;
 	text-align: center;
 	color: #333;
 	border-right: 1px solid #e5e5e5;
 }
-.rec-active {
+.rec-content-head a:hover {
+	color: #fc6202;
+}
+.rec-content-head .rec-active {
 	background: #fff;
+	color: #fc6202;
 }
 .rec-content-head a:active {
 	color: #ff6600;
@@ -146,16 +169,19 @@ body {
 	border-bottom: 1px solid #eee;
 	background: #fff;
 	overflow: hidden;
-	padding-top: 24px;
+	padding-top: 28px;
 	padding-bottom: 24px;
 	float: left;
 	font-size: 14px;
 }
+.rec-content ul li:hover {
+	background: #fffcf7;
+}
 .rec-content ul .rec-con-tit {
 	overflow: hidden;
-	width: 700px;
+	width: 690px;
 	float: left;
-	margin-left: 24px;
+	margin-left: 33px;
 	display: inline;
 	margin-bottom: 25px;
 }
@@ -163,8 +189,7 @@ body {
 	float: left;
 	width: 72px;
 	height: 72px;
-	margin: 6px;
-	margin-right: 16px;
+	margin: 4px 18px 6px 0;
 }
 .rec-con-tit dt img {
 	width: 72px;
@@ -172,26 +197,21 @@ body {
 }
 .rec-content ul .rec-con-tit dd {
 	float: left;
-	line-height: 22px;
+	line-height: 24px;
 	width: 500px;
 	font-size: 12px;
 	color: #888;
-	font-family: "宋体";
 }
 .rec-content ul .rec-con-tit dd h3 {
 	font-size: 14px;
 	color: #333;
 	height: 24px;
 	overflow: hidden;
-	font-weight: bold;
-	font-family: "宋体";
-	margin-top: 2px;
 }
 .rec-content ul .rec-con-tit dd p {
 	color: #555;
 	height: 24px;
 	overflow: hidden;
-	font-family: "宋体";
 }
 .rec-register {
 	float: right;
@@ -199,14 +219,39 @@ body {
 	height: 52px;
 	line-height: 52px;
 	text-align: center;
-	background: #4b99e4;
 	color: #fff;
-	margin-right: 70px;
+	margin-right: 77px;
 	display: none;
+	border: 1px solid #4b99e4;
+	background: #4b99e4;
 }
+/******************************/
+#rec-con .rec-register:hover {
+	border: 1px solid #2475c7;
+}
+/*#rec-con .rec-register:active {
+	background: #3082d4;
+}*/
+#rec-con .rec-excpro:hover {
+	border: 1px solid #d19900;
+}
+/*#rec-con .rec-excpro:active {
+	background: #eaaa0c;
+}*/
+/******************************/
 .rec-excpro {
+	border: 1px solid #f7b81d;
 	background: #f7b81d;
 }
+.rec-con .rec-register:hover {
+	border: 1px solid #2475c7;
+	background: #3082d4;
+}
+.rec-con .rec-excpro:hover {
+	border: 1px solid #d19900;
+	background: #eaaa0c;
+}
+
 /*******************内容部分未展开结束******************/
 /*******************内容部分展开开始******************/
 /*产品简介开始*/
@@ -221,18 +266,18 @@ body {
 	float: left;
 }
 .rec-sum h3 {
-	width: 140px;
-	height: 84px;
-	line-height: 84px;
-	text-align: center;
+	width: 79px;
+	height: 82px;
+	line-height: 76px;
 	color: #797876;
+	padding-left: 38px;
 }
 .rec-sum-mil h3 {
 	height: 184px;
 }
 .rec-sum p {
 	width: 680px;
-	line-height: 24px;
+	line-height: 22px;
 	margin-top: 30px;
 }
 .rec-summary-img {
@@ -252,8 +297,9 @@ body {
 }
 .rec-sum-actuality h3,.rec-sum-actuality p {
 	float: left;
-	height: 70px;
-	line-height: 70px;
+	height: 60px;
+	padding-bottom: 10px;
+	line-height: 60px;
 	margin-top: 0;
 }
 /*融资状态结束*/
@@ -261,9 +307,9 @@ body {
 .rec-sum-time {
 	width: 740px;
 	line-height: 24px;
-	margin-top: 30px;
+	margin-top: 27px;
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 27px;
 }
 .rec-sum-t,.rec-sum-time span {
 	float: left;
@@ -350,7 +396,7 @@ body {
 }
 .rec-sum-timer span {
 	float: right;
-	margin-right: 130px;
+	margin-right: 98px;
 }
 .rec-sum-mil,.rec-sum-team {
 	padding-bottom: 30px;
@@ -367,8 +413,9 @@ body {
 	margin: 0 auto;
 	line-height: 154px;
 	text-align: center;
+	margin-bottom: 46px;
 }
 .rec-foot a {
-	color: #888;
+	color: #9d6c0f;
 }
 /******************底部结束******************/
