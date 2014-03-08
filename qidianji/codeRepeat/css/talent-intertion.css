@@ -1,4 +1,7 @@
 @charset "utf-8";
+body{
+	font-family: "宋体";
+}
 .int-wrap{
 	width: 963px;
 	overflow: hidden;
@@ -56,6 +59,7 @@
 	margin-right: 20px;
 	display: inline;
 	background-color: #ccc;
+	border: 1px solid  #eee;
 }
 .int-person dd{
 	width: 720px;
@@ -75,8 +79,9 @@
 	float: left;
 	color: #333;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 18px;
+	font-family: "宋体";
 }
 .int-person span{
 	float: left;
@@ -87,9 +92,9 @@
 }
 
 .int-person-inp{ 
-	width: 401px;
+	width: 421px;
 	height: 28px;
-	padding: 4px 18px 4px 18px;
+	padding: 4px 8px 4px 8px;
 	border: 1px solid #ccc;
 	line-height: 28px;
 	vertical-align: top;
@@ -114,7 +119,7 @@
 
 .int-pro-nav a{
 	float: left;
-	width: 163px;
+	width: 162px;
 	height: 60px;
 	border-right: 1px solid #ccc;
 	line-height: 60px;
@@ -193,10 +198,13 @@
 	top: -8px;
 	width: 16px;
 	height: 16px;
-	background: url(../images/int-close.png) 0 0;
+	background: url(../images/int-close.png) 0 0 no-repeat;
 	display: none;
 	cursor: pointer;
 	cursor: hand;
+}
+.int-pro-con dt span:hover{
+	background: url(../images/com-bac.png) -60px -30px no-repeat;
 }
 .int-pro-con dd{
 	width: 151px;
@@ -221,13 +229,13 @@
 
 .int-pro-side-main{
 	margin-bottom: 42px;
-	padding: 34px 17px; 
+	padding: 32px 17px 34px; 
 	width: 227px;
 	background-color: white;
 }
 .int-pro-side-main dl{
 	padding: 0 10px 23px 8px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #eee;
 	overflow: hidden;
 	margin-bottom: 24px;
 }
@@ -262,7 +270,7 @@
 	font-size: 14px;
 	color: #555555;
 	font-weight: bold;
-	margin-bottom: 19px;
+	margin-bottom: 14px;
 }
 .int-pro-role span{
 	float: left;
@@ -282,7 +290,7 @@
 	white-space:nowrap;
 }
 .int-pro-btn {
-	margin-top: 38px;
+	margin-top: 32px;
 	text-align: center;
 }
 .int-pro-btn input{
@@ -296,6 +304,13 @@
 	background-color: #fede93;
 	cursor: hand;
 	cursor: pointer;
+	border: 1px solid transparent;
+}
+.int-pro-btn input:hover{
+	border: 1px solid #fbbc29;
+}
+.int-pro-btn input:active{
+	background-color: #fbca58;
 }
 .int-pro-more{
 	text-align: center;
@@ -313,8 +328,11 @@
 /* 个人信息*/
 .int-work-con,.int-edu-con,.int-req-con{
 	margin-bottom: 39px;
-	padding:36px;
+	padding: 28px 36px 38px;
 	background-color: white;
+}
+.int-req-con{
+	padding: 47px 62px 28px;
 }
 .int-work-con li,.int-edu-con li{
 	font-size: 14px;
@@ -328,6 +346,10 @@
 .int-work-save,.int-edu-save,.int-req-save{
 	display: none;
 }
+.int-req-con p{
+	font-size: 12px;
+	color: #555;
+}
 /*.int-req-con select{
 	width: 434px;
 }
@@ -336,7 +358,7 @@
 	*background-position: 383px center;
 }*/
 .int-req-select select{
-	width: 420px;
+	width: 425px;
 }
 
 /* 遮罩层 */
@@ -375,19 +397,25 @@
 	cursor: pointer;
 	cursor: hand;
 }
+.int-mask form em:hover{
+	background: url(../images/com-bac.png) -30px -30px no-repeat;
+}
 .int-mask td,.int-req-con td{
-	padding-bottom: 42px;
+	padding-bottom: 47px;
 }
 .int-mask p,.int-req-con p{
 	text-align: right;
 	padding-right: 23px;
+	font-size: 12px;
+	color: #555;
 }
 .int-mask img{
 	float: left;
 	width: 64px;
 	height: 64px;
-	border: 1px solid #ccc;
+	border: 1px solid #eee;
 	margin-right: 28px;
+	margin-left: 18px;
 }
 .input-file{
 	float: left;
@@ -396,7 +424,7 @@
 .int-form-inp{
 	width: 401px;
 	height: 28px;
-	padding: 4px 18px 4px 18px;
+	padding: 4px 8px 4px 8px;
 	border: 1px solid #ccc;
 	line-height: 28px;
 	vertical-align: top;
@@ -411,6 +439,7 @@
 	margin-right: 38px;
 	font-size: 14px;
 	line-height: 16px;
+	color: #333;
 }
 .int-mask label input{
 	float: left;
@@ -445,4 +474,11 @@
 	font-weight: bold;
 	cursor: pointer;
 	cursor: hand;
+	border: 1px solid white;
+}
+.int-form-btn input:hover{
+	border: 1px solid #2275c9
+}
+.int-form-btn input:active{
+	background-color: #2f82d4;
 }
