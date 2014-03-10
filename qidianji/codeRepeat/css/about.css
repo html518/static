@@ -150,6 +150,13 @@ a{
 	color:white;
 	border:none;
 }
+.feed-details .feed-sub:hover{
+	border:1px solid #2275c9;
+}
+.feed-details .feed-sub:active{
+	border:1px solid #2275c9;
+	background:#2f82d4;
+}
 .feed-details div{
 	margin-top:40px;
 }
