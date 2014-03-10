@@ -97,12 +97,12 @@
 							<dd>创业技能</dd>
 							<dd>股权收益</dd>	
 						</dl>
-						<dl>
+						<dl  class="clearfix">
 							<dt>团队角色</dt>
 							<dd>协同要求</dd>
 							<dd>创业技能</dd>
 							<dd>股权收益</dd>
-						</dl class="clearfix">
+						</dl>
 						<a href="select-role.html">注册成为创业人</a>
 					</div>
 				</div>
@@ -503,4 +503,14 @@
 	</div>
 	
 </body>
+<script>
+	$(function(){
+		$(".pubpro-pro-more img").click(function(event){
+			if(event.target.tagName == "IMG"){
+				$(event.target).parent().parent().siblings().children("img").attr("src",$(event.target).attr("src"));
+				$(event.target).addClass('selected').siblings().removeClass('selected');
+			}
+		})
+	})
+</script>
 </html>

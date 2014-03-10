@@ -172,8 +172,8 @@
 }
 .poineerpro-main-product-con-smlpic img {
 	margin: 0 15px;
-	width: 100px;
-	height: 64px;
+	width: 69px;
+	height: 44px;
 	vertical-align: top;
 }
 .poineerpro-main-product-con-desc p , .poineerpro-main-progress-con p {
@@ -263,8 +263,8 @@
 }
 .poineerpro-main-progress-con td img {
 	margin: 30px 14px;
-	width: 100px;
-	height: 63px;
+	width: 69px;
+	height: 44px;
 	vertical-align: top;
 }
 .poineerpro-main-progress-con td .poineerpro-main-progress-con-bigpic {
@@ -273,8 +273,10 @@
 	margin: 0;
 }
 .poineerpro-main-progress-con-smlpics {
-	padding-left: 17px;
 	text-align: center;
+}
+.poineerpro-main-progress-con-smlpics a:nth-child(1){
+	margin-left: -40px;
 }
 .poineerpro-main-progress-con p {
 	margin-left: -3em;
@@ -1268,6 +1270,10 @@
 	margin: 15px 30px 0;
 	text-align: center;
 }
+.cooper-invest-con-top ul li img,.investor-invest-con-top ul li img{
+	width: 64px;
+	height: 64px;
+}
 .cooper-invest-con-top li span,.investor-invest-con-top li span {
 	display: inline-block;
 	margin-top: 6px;
@@ -1569,4 +1575,7 @@
 }
 .entre-main-recruit .entre-main-recruit-con .entre-main-recruit-last{
 	border-bottom: 0px;
+}
+.poineerpro-main-progress-con td img.selected,.poineerpro-main-product-con-smlpic img.selected{
+	border: 2px solid #f0a00b;
 }

@@ -29,7 +29,7 @@
 						<li>
 							<div class="proinve-contop clearfix">
 								<dl class="clearfix">
-									<dt><a href="coresume.html"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
+									<dt><a href="javascript:;"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
 									<dd>
 										<p>姓名</p>
 										<var>机构名称/个人</var>
@@ -75,7 +75,7 @@
 						<li>
 							<div class="proinve-contop clearfix">
 								<dl class="clearfix">
-									<dt><a href="coresume.html"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
+									<dt><a href="javascript:;"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
 									<dd>
 										<p>姓名</p>
 										<var>机构名称/个人</var>
@@ -121,7 +121,7 @@
 						<li>
 							<div class="proinve-contop clearfix">
 								<dl class="clearfix">
-									<dt><a href="coresume.html"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
+									<dt><a href="javascript:;"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
 									<dd>
 										<p>姓名</p>
 										<var>机构名称/个人</var>
@@ -167,7 +167,7 @@
 						<li>
 							<div class="proinve-contop clearfix">
 								<dl class="clearfix">
-									<dt><a href="coresume.html"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
+									<dt><a href="javascript:;"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
 									<dd>
 										<p>姓名</p>
 										<var>机构名称/个人</var>
@@ -213,7 +213,7 @@
 						<li>
 							<div class="proinve-contop clearfix">
 								<dl class="clearfix">
-									<dt><a href="coresume.html"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
+									<dt><a href="javascript:;"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
 									<dd>
 										<p>姓名</p>
 										<var>机构名称/个人</var>
@@ -259,7 +259,7 @@
 						<li>
 							<div class="proinve-contop clearfix">
 								<dl class="clearfix">
-									<dt><a href="coresume.html"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
+									<dt><a href="javascript:;"><img src="images/zhangxhaot.jpg" alt=""></a></dt>
 									<dd>
 										<p>姓名</p>
 										<var>机构名称/个人</var>
@@ -310,4 +310,12 @@
 	
 	<div class="proinve-more"><a>更多></a></div>
 </body>
+<script>
+$(function(){
+	$(".proinve-contop dt img").click(function(event) {
+		var ind = $(".proinve-contop dt img").index($(event.target));
+		$(".proinve-ite").hide().eq(ind).show();
+	});
+})
+</script>
 </html>

@@ -294,9 +294,16 @@ body {
 } 
 .proresume-aim-list dt div:hover {  
 	border: 1px solid #ff6600; 
+	background-position: -15px 5px;
+} 
+.proresume-aim-list dt div:hover span{  
+	background-position: -15px 5px;
 } 
 .proresume-aim-list dt div:active {  
 	border: 1px solid #df1b01; 
+} 
+.proresume-aim-list dt div:active span{  
+	background-position: -30px 5px;
 } 
 .proresume-aim-list dt div var {
 	color: #999;float: left;

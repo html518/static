@@ -245,6 +245,10 @@
 	margin-left: 10px;
 	width: 147px;
 }
+.personal-main-recruit-con dl dt img{
+	width: 64px;
+	height: 64px;
+}
 .personal-main-recruit-con dl dd strong {
 	display: inline-block;
 	height: 32px;

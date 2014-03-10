@@ -55,9 +55,10 @@ body{
 }
 .coinfo-resume dt{
 	float:left;
-	font-size:18px;
+	font-size:16px;
 	font-weight:bold;
 	width:100%;
+	font-family: "宋体";
 }
 .coinfo-resume dd{
 	float:left;
@@ -68,7 +69,7 @@ body{
 	float:left;
 	width:436px;
 	height: 28px;
-	padding: 4px 18px 4px 18px;
+	padding: 4px 8px 4px 8px;
 	border: 1px solid #ccc;
 	line-height: 28px;
 	vertical-align: top;

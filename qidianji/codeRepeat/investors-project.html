@@ -330,4 +330,14 @@
 		<div class="bottom"></div>
 	</div>
 </body>
+<script>
+	$(function(){
+		$(".pubpro-pro-more img").click(function(event){
+			if(event.target.tagName == "IMG"){
+				$(event.target).parent().parent().siblings().children("img").attr("src",$(event.target).attr("src"));
+				$(event.target).addClass('selected').siblings().removeClass('selected');
+			}
+		})
+	})
+</script>
 </html>

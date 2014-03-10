@@ -49,11 +49,13 @@
 					</div>
 					<div class="poineerpro-main-product-con clearfix">
 						<div class="poineerpro-main-product-con-pic">
-							<div class="poineerpro-main-product-con-bigpic"><a href="#"><img src="images/poineerpro_tmp_1.jpg" alt="" title="" /></a></div>
+							<div class="poineerpro-main-product-con-bigpic"><img src="images/poineerpro_tmp_1.jpg" alt="" title=""/></div>
 							<div class="poineerpro-main-product-con-smlpic">
-								<a href="#"><img src="images/poineerpro_tmp_2.jpg" alt="" title="" /></a>
-								<a href="#"><img src="images/poineerpro_tmp_2.jpg" alt="" title="" /></a>
-								<a href="#"><img src="images/poineerpro_tmp_2.jpg" alt="" title="" /></a>
+								<a href="javascript:;"><img src="images/poineerpro_tmp_21.jpg" alt="" title=""  class="selected"/></a>
+								<a href="javascript:;"><img src="images/poineerpro_tmp_22.jpg" alt="" title="" /></a>
+								<a href="javascript:;"><img src="images/poineerpro_tmp_23.jpg" alt="" title="" /></a>
+								<a href="javascript:;"><img src="images/poineerpro_tmp_24.jpg" alt="" title="" /></a>
+								<a href="javascript:;"><img src="images/poineerpro_tmp_25.jpg" alt="" title="" /></a>
 							</div>
 						</div>
 						<div class="poineerpro-main-product-con-desc">
@@ -165,9 +167,11 @@
 							<tr>
 								<th></th>
 								<td class="poineerpro-main-progress-con-smlpics">
-									<a href="#"><img src="images/poineerpro_tmp_2.jpg" /></a>
-									<a href="#"><img src="images/poineerpro_tmp_2.jpg" /></a>
-									<a href="#"><img src="images/poineerpro_tmp_2.jpg" /></a>
+									<a href="javascript:;"><img src="images/poineerpro_tmp_21.jpg"  class="selected"/></a>
+									<a href="javascript:;"><img src="images/poineerpro_tmp_22.jpg" /></a>
+									<a href="javascript:;"><img src="images/poineerpro_tmp_23.jpg" /></a>
+									<a href="javascript:;"><img src="images/poineerpro_tmp_24.jpg" /></a>
+									<a href="javascript:;"><img src="images/poineerpro_tmp_25.jpg" /></a>
 								</td>
 							</tr>
 							<tr>
@@ -491,6 +495,9 @@
 		</div>
 	</div>
 	<script>
+	$(function(){
+
+
 		// 编辑团队信息
 		$(".poineerpro-main-team-top p").click(function () {
 			$(".poineerpro-editteam-wrap").css({"display": "block","height": document.body.offsetHeight});
@@ -522,6 +529,22 @@
 		$(".poineerpro-editprogress-close").click(function () {
 			$(".poineerpro-editprogress-wrap").css("display", "none");
 		});
+	})
+	$(function(){
+		$(".poineerpro-main-progress-con-smlpics img").click(function(event){
+			// console.log(event.target)
+			if(event.target.tagName == "IMG"){
+				$(".poineerpro-main-progress-con-bigpic").attr("src",$(event.target).attr("src"));
+				$(event.target).addClass('selected').parent().siblings().children('img').removeClass('selected');
+			}
+		})
+		$(".poineerpro-main-product-con-smlpic img").click(function(event) {
+			if(event.target.tagName == "IMG"){
+				$(".poineerpro-main-product-con-bigpic img").attr("src",$(event.target).attr("src"));
+				$(event.target).addClass('selected').parent().siblings().children('img').removeClass('selected');
+			}
+		});
+	})
 	</script>
 </body>
 </html>

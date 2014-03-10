@@ -98,7 +98,7 @@
 	height:287px;
 	margin:0 auto;
 }
-.pubpro-pro-img{
+.pubpro-pro-img,.pubpro-pro-img img{
 	width:433px;
 	height:287px;
 }
@@ -545,10 +545,10 @@ text-align: center;
 .show{
 	display:none;
 }
-.proinve-con li:hover .proinve-ite {
+/*.proinve-con li:hover .proinve-ite {
 	display:block;
 
-}
+}*/
 .proinve-con li:hover {
 	background: #fffcf7;
 }
