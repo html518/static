@@ -144,6 +144,14 @@ input{
 	text-align: center;
 	cursor:hand;
 	cursor:pointer;
+
+}
+.changepsw-main-con .changepsw-save:hover{
+	border: 1px solid #2275c9;
+}
+.changepsw-main-con .changepsw-save:active{
+	border: 1px solid #2275c9;
+	background-color: #2f82d4;
 }
 /* 修改密码结束 */
 
