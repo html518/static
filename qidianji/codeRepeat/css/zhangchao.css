@@ -466,6 +466,13 @@
 	color: #555;
 	font-weight: bold;
 }
+.minu-headerin h2 span{
+	display:inline-block;
+	height:14px;
+	width:14px;
+	background:url(../images/zhangchao1.jpg);
+	cursor:pointer;
+}
 .proinve-contop dt,.proinve-contop dt img{
 	height: 48px;
 	width: 48px;
