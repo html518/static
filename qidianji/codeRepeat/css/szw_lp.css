@@ -208,6 +208,10 @@ table img{margin-left:40px}
 	background:url(../images/com-bac.png) -15px 0 no-repeat;
 	
 }
+#proregwheres:active #marl{
+	background:url(../images/com-bac.png) -30px 0 no-repeat;
+	
+}
 .resumemain-text{
 	overflow:hidden;
 	float:left;
@@ -296,6 +300,13 @@ table img{margin-left:40px}
 	margin:0 93px 0 73px;
 	cursor:pointer;
 }
+.footdown-middle:hover{
+	border:1px solid #2275c9;
+}
+.footdown-middle:active{
+	border:1px solid #2275c9;
+	background:#2f82d4;
+}
 .footdown-right{
 	width:325px;
 	height:51px;
@@ -308,6 +319,13 @@ table img{margin-left:40px}
 	float:left;
 	border:none;
 	cursor:pointer;
+}
+.footdown-right:hover{
+	border:1px solid #d49803;
+}
+.footdown-right:active{
+	border:1px solid #d49803;
+	background:#eaaa0b;
 }
 .members-resumemain-warp{
 	width:960px;
@@ -362,6 +380,13 @@ table img{margin-left:40px}
 	font-size:14px;
 	margin-top:20px;
 	cursor:pointer;
+}
+.regproj-logo .sub:hover{
+	border:1px solid #2275c9;
+}
+.regproj-logo .sub:active{
+	border:1px solid #2275c9;
+	background:#2f82d4;
 }
 .input-file {
 	width: 145px;
@@ -521,9 +546,23 @@ table img{margin-left:40px}
 	color:#575759;
 	cursor:pointer;
 }
+.regproj-add:hover{
+	text-decoration:underline;
+}
+.regproj-add:hover a{
+	background:url(../images/com-bac.png) -30px -60px no-repeat;
+}
 /*点击regproj-add时需要添加的是regproj-basic模块*/
 .regproj-add a{
 	margin-right:10px;
+	background:url(../images/com-bac.png) 0 -60px no-repeat;
+	display:inline-block;
+	height: 16px;
+	width:16px;
+	vertical-align:top;   
+}
+.regproj-add a:hover{
+	background:url(../images/com-bac.png) -30px -60px no-repeat;
 }
 .regproj-add a img{
 	vertical-align:top;
@@ -578,10 +617,17 @@ table img{margin-left:40px}
 	line-height:50px;
 	font-size:14px;
 	font-weight:bold;
-	border:none;
+	border:1px solid #e9eaec;
 	margin:50px 0px 113px 120px;
 	cursor: pointer;
 	cursor: hand;
+}
+.regproj-save:hover{
+	border:1px solid #2275c9;
+}
+.regproj-save:active{
+	border:1px solid #2275c9;
+	background:#2f82d4;
 }
 .apply-visit{
 	color:#595959;
@@ -599,9 +645,23 @@ table img{margin-left:40px}
 	line-height:50px;
 	font-size:14px;
 	font-weight:bold;
-	border:none;
+	border:1px solid #e9eaec;
 	margin:50px 0px 113px 160px;
 	cursor:pointer;
+}
+.regproj-next:hover{
+	border:1px solid #d49803;
+}
+.regproj-next:active{
+	border:1px solid #d49803;
+	background:#eaaa0b;
+}
+.apply-refer:hover{
+	border:1px solid #2275c9;
+}
+.apply-refer:active{
+	border:1px solid #d49803;
+	background:#2f82d4;
 }
 /*apply-release.html*/
 /*平台声明*/
@@ -730,9 +790,13 @@ table img{margin-left:40px}
 	margin-top:10px;
 	margin:30px 10px 0px 20px;
 	cursor:pointer;
+	line-height:20px;
 }
 #proregwheres:hover{
 	border:1px solid #ff6600;
+}
+#proregwheres:active{
+	border:1px solid #df1b01;
 }
 .apply-identity .proreg-wheres{
 	border:1px solid #ccc;
@@ -806,6 +870,13 @@ table img{margin-left:40px}
 	color:white;
 	background:#4a96e2;
 }
+.parconf-visit:hover{
+	border:1px solid #2275c9;
+}
+.parconf-visit:active{
+	border:1px solid #2275c9;
+	background:#2f82d4;
+}
 .parconf-auditor{
 	height:50px;
 	width:325px;
@@ -818,7 +889,13 @@ table img{margin-left:40px}
 	cursor: hand;
 	cursor: pointer;
 }
-
+.parconf-auditor:hover{
+	border:1px solid #d49803
+}
+.parconf-auditor:active{
+	border:1px solid #d49803;
+	background:#eaaa0b;
+}
 /*合伙人注册页面*/
 .regist-checkbox{
 	float:left;
